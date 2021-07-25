@@ -20,6 +20,7 @@ Demais diretrizes sobre a organização da wiki constam no Moodle Aprender 3.
 |Matrícula | Aluno |
 | -- | -- |
 | 18/0149687  | Daniel Porto de Souza |
+| 16/0037522  | Nilo Mendonça de Brito Júnior |
 
 
 ## Sobre  
