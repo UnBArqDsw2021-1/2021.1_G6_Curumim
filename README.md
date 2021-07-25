@@ -19,6 +19,7 @@ Demais diretrizes sobre a organização da wiki constam no Moodle Aprender 3.
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
+| 16/0114705  | Bruno Alves Félix |
 | 18/0149687  | Daniel Porto de Souza |
 | 16/0037522  | Nilo Mendonça de Brito Júnior |
 
