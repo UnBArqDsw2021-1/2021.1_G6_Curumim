@@ -24,7 +24,7 @@ Demais diretrizes sobre a organização da wiki constam no Moodle Aprender 3.
 | 18/0015834  | Eliseu Kadesh Rosa Assunção Júnior
 | 18/0145088  | Gabriel Bonifácio Perez Nunes |
 | 16/0037522  | Nilo Mendonça de Brito Júnior |
-
+| 17/0142329  | Francisco Emanoel Ferreira da Penha|
 
 ## Sobre  
 
