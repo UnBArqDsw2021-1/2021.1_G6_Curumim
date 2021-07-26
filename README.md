@@ -27,6 +27,7 @@ Demais diretrizes sobre a organização da wiki constam no Moodle Aprender 3.
 | 16/0037522  | Nilo Mendonça de Brito Júnior |
 | 17/0142329  | Francisco Emanoel Ferreira da Penha|
 | 16/0015006  | Mateus Oliveira Patrício |
+| 19/0105381  | Edson de Araújo Soares |
 
 ## Sobre  
 
