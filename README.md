@@ -21,6 +21,7 @@ Demais diretrizes sobre a organização da wiki constam no Moodle Aprender 3.
 | -- | -- |
 | 16/0114705  | Bruno Alves Félix |
 | 18/0149687  | Daniel Porto de Souza |
+| 16/0119006  | Enzo Gabriel Guedes Queiroz Saraiva |
 | 18/0015834  | Eliseu Kadesh Rosa Assunção Júnior
 | 18/0145088  | Gabriel Bonifácio Perez Nunes |
 | 16/0037522  | Nilo Mendonça de Brito Júnior |
