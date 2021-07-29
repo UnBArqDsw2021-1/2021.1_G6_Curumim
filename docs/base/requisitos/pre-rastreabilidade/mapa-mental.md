@@ -1,50 +1,60 @@
-# Mapa mental
-### Histórico de versão
+## Introdução
+&emsp;&emsp;O Mapa mental é uma ferramenta que busca auxiliar na visualização e sistematização das conexões e relações entre conceitos e ideias. Sendo extremamente útil na transmissão de informações, dados e conhecimentos.
+&emsp;&emsp;O objetivo principal do Mapa mental é realçar as ideias centrais e mostrar as conexões existentes entre essas ideias e os objetivos secundários, que também possuem importância na construção geral da ideia proposta.
+&emsp;&emsp;O grupo buscou utilizar o recurso do Mapa mental visando obter um apanhado geral das funcionalidades que cada membro achasse interessante para a aplicação e, com isso, organizar e definir o escopo do projeto.
+
+## Visão do grupo
+![Mapa Mental](../../../assets/imagens/mapa-mental/versao-grupo.jpg)
+<center>[Figura 1: Mapa mental do grupo](../../../assets/imagens/brainstorming/brainstorming.png)</center>
+
+## Visões individuais
+#### Mapa Mental - [Bruno Alves](https://github.com/Bruno-Felix)
+![Mapa Mental](../../../assets/imagens/mapa-mental/bruno.jpg)
+<center>[Figura 2: Mapa mental do Bruno Alves](../../../assets/imagens/brainstorming/brainstorming.png)</center>
+
+#### Mapa Mental - [Daniel Porto](https://github.com/DanielPortods)
+![Mapa Mental](../../../assets/imagens/mapa-mental/daniel.png)
+<center>[Figura 3: Mapa mental do Daniel Porto](../../../assets/imagens/brainstorming/brainstorming.png)</center>
+
+#### Mapa Mental - [Edson de Araújo](https://github.com/edsondearaujo)
+![Mapa Mental](../../../assets/imagens/mapa-mental/edson.png)
+<center>[Figura 4: Mapa mental do Edson de Araújo](../../../assets/imagens/brainstorming/brainstorming.png)</center>
+
+#### Mapa Mental - [Eliseu Kadesh](https://github.com/eliseukadesh67)
+![Mapa Mental](../../../assets/imagens/mapa-mental/kadesh.jpg)
+<center>[Figura 5: Mapa mental do Eliseu Kadesh](../../../assets/imagens/brainstorming/brainstorming.png)</center>
+
+#### Mapa Mental - [Enzo Gabriel](https://github.com/enzoggqs)
+![Mapa Mental](../../../assets/imagens/mapa-mental/enzo.png)
+<center>[Figura 6: Mapa mental do Enzo Gabriel](../../../assets/imagens/brainstorming/brainstorming.png)</center>
+
+#### Mapa Mental - [Francisco Emanoel](https://github.com/francisco1code)
+![Mapa Mental](../../../assets/imagens/mapa-mental/francisco.gif)
+<center>[Figura 7: Mapa mental do Francisco Emanoel](../../../assets/imagens/brainstorming/brainstorming.png)</center>
+
+#### Mapa Mental - [Gabriel Bonifácio](https://github.com/gabrielbpn)
+![Mapa Mental](../../../assets/imagens/mapa-mental/gabriel.jpg)
+<center>[Figura 8: Mapa mental do Gabriel Bonifácio](../../../assets/imagens/brainstorming/brainstorming.png)</center>
+
+#### Mapa Mental - [João Pedro](https://github.com/Joao-Pedro-Moura)
+![Mapa Mental](../../../assets/imagens/mapa-mental/joao.png)
+<center>[Figura 9: Mapa mental do João Pedro](../../../assets/imagens/brainstorming/brainstorming.png)</center>
+
+#### Mapa Mental - [Mateus Oliveira](https://github.com/omateusp)
+![Mapa Mental](../../../assets/imagens/mapa-mental/mateus.jpg)
+<center>[Figura 10: Mapa mental do Mateus Oliveira](../../../assets/imagens/brainstorming/brainstorming.png)</center>
+
+#### Mapa Mental - [Nilo Mendonça](https://github.com/NiloMendonca)
+![Mapa Mental](../../../assets/imagens/mapa-mental/nilo.jpg)
+<center>[Figura 11: Mapa mental do Nilo Mendonça](../../../assets/imagens/brainstorming/brainstorming.png)</center>
+
+## Referências
+> Videoaulas e materiais complementares presentes no moodle da disciplina Arquitetura e Desenho de Software. Disponível em <https://aprender3.unb.br/course/view.php?id=8603>. Acesso em: 27 jul. 2021.
+> LCM TREINAMENTO. Mapa mental: pra que serve?. Disponível em <https://lcmtreinamento.com.br/mapa-mental-para-que-serve/>. Acesso em: 27 jul. 2021.
+
+## Versionamento
 | Data | Autor(es) | Descrição | Versão |
 | -- | -- | -- | -- |
-| 27/07/2021  | Nilo Mendonça de Brito Júnior | Adição da introdução, do Mapa mental individual(Nilo Mendonça) e das referências | 0.1 |
-| 28/07/2021  | Nilo Mendonça de Brito Júnior | Adição dos mapas mentais individuais(Bruno Alves, Daniel Porto, Edson de Araújo, Eliseu Kadesh, Enzo Gabriel, Francisco Emanoel, Gabriel Bonifácio, João Pedro e Mateus Oliveira) | 0.2 |
-
-### Introdução
-O Mapa mental é uma ferramenta que busca auxiliar na visualização e sistematização das conexões e relações entre conceitos e ideias. Sendo extremamente útil na transmissão de informações, dados e conhecimentos.
-
-O objetivo principal do Mapa mental é realçar as ideias centrais e mostrar as conexões existentes entre essas ideias e os objetivos secundários, que também possuem importância na construção geral da ideia proposta.
-
-O grupo buscou utilizar o recurso do Mapa mental visando obter um apanhado geral das funcionalidades que cada membro achasse interessante para a aplicação e, com isso, organizar e definir o escopo do projeto.
-
-### Visões individuais
-#### Mapa Mental - Bruno Alves
-![Mapa Mental](../../../assets/imagens/mapa-mental/bruno.jpg)
-
-#### Mapa Mental - Daniel Porto
-![Mapa Mental](../../../assets/imagens/mapa-mental/daniel.png)
-
-#### Mapa Mental - Edson de Araújo
-![Mapa Mental](../../../assets/imagens/mapa-mental/edson.png)
-
-#### Mapa Mental - Eliseu Kadesh
-![Mapa Mental](../../../assets/imagens/mapa-mental/kadesh.jpg)
-
-#### Mapa Mental - Enzo Gabriel
-![Mapa Mental](../../../assets/imagens/mapa-mental/enzo.png)
-
-#### Mapa Mental - Francisco Emanoel
-![Mapa Mental](../../../assets/imagens/mapa-mental/francisco.gif)
-
-#### Mapa Mental - Gabriel Bonifácio
-![Mapa Mental](../../../assets/imagens/mapa-mental/gabriel.jpg)
-
-#### Mapa Mental - João Pedro
-![Mapa Mental](../../../assets/imagens/mapa-mental/joao.png)
-
-#### Mapa Mental - Mateus Oliveira
-![Mapa Mental](../../../assets/imagens/mapa-mental/mateus.jpg)
-
-#### Mapa Mental - Nilo Mendonça
-![Mapa Mental](../../../assets/imagens/mapa-mental/nilo.jpg)
-
-### Visão do grupo
-
-### Referências
-- Videoaulas e materiais complementares presentes no moodle da disciplina Arquitetura e Desenho de Software. Disponível em https://aprender3.unb.br/course/view.php?id=8603. Acesso em: 27 jul. 2021.
-- LCM TREINAMENTO. Mapa mental: pra que serve?. Disponível em https://lcmtreinamento.com.br/mapa-mental-para-que-serve/ . Acesso em: 27 jul. 2021.
+| 27/07/2021  | [Nilo Mendonça](https://github.com/NiloMendonca) | Adição da introdução, do Mapa mental individual(Nilo Mendonça) e das referências | 0.1 |
+| 28/07/2021  | [Nilo Mendonça](https://github.com/NiloMendonca) | Adição dos mapas mentais individuais(Bruno Alves, Daniel Porto, Edson de Araújo, Eliseu Kadesh, Enzo Gabriel, Francisco Emanoel, Gabriel Bonifácio, João Pedro e Mateus Oliveira) | 0.2 |
+| 29/07/2021  | [Nilo Mendonça](https://github.com/NiloMendonca) | Adição da visão final do grupo | 0.3 |
