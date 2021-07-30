@@ -119,5 +119,5 @@ O objetivo principal da criação das personas foi justamente para ter um auxíl
 ## Versionamento
 | Versão | Data | Modificação | Autor |
 |--|--|--|--|
-|0.1|28/07/2021| Criação das personas | Todos os participantes |
+|0.1|28/07/2021| Criação das personas | Bruno Félix, Daniel Porto, Edson Souza, Enzo Gabriel, Francisco Ferreira, Gabriel Bonifácio, Mateus Oliveiro e Nilo Mendonça |
 |1.0|29/07/2021| Abertura de Documento | Gabriel Bonifácio |
