@@ -1,5 +1,5 @@
 ## Introdução
-&emsp;&emsp;O MoSCoW é uma técnica de priorização utilizada para definir a prioridade dos requisitos presentes no projeto. As classificações dadas por Must, Should, Could e Would, que juntas formam o acrônimo MoSCow.
+&emsp;&emsp;O MoSCoW é uma técnica de priorização utilizada para definir a prioridade dos requisitos presentes no projeto. As classificações são dadas por Must, Should, Could e Would, que juntas formam o acrônimo MoSCoW.
 
 * Must: Deve ter este requisito para atender às necessidades de negócios.
 * Should: Deve ter este requisito, se possível, mas o sucesso do projeto não depende dele.
@@ -7,9 +7,9 @@
 * Would: Gostaria de ter esse requisito mais tarde, mas a entrega não será desta vez.
 
 ## Metodologia
-Para a classificaçãos das prioridades dos requisitos não funcionais, os 10 integrantes do grupo fizeram um debate utilizando a plataforma Microsoft Teams e chegaram a um consenso quanto as prioridades de desenvolvimento de cada requisito.
+Para a classificação das prioridades dos requisitos não funcionais, os 10 integrantes do grupo fizeram um debate utilizando a plataforma Microsoft Teams e chegaram a um consenso quanto as prioridades de desenvolvimento de cada requisito.
 
-## 3. Requisitos Funcionais
+## Requisitos Funcionais
 | Identificação | Requisito | Prioridade |
 |:-:|--|--|
 | **REQB_01** | Ter sistema de comunicação entre responsáveis e professores. | Should |
@@ -29,5 +29,5 @@ Para a classificaçãos das prioridades dos requisitos não funcionais, os 10 in
 
 | Versão | Data | Modificação | Autor | 
 |--|--|--|--|
-| 0.1 | 29/07/2021 | Reunião para decidir a priorização | Bruno Félix, Daniel Porto, Edson de Araújo, Eliseu Kadesh, Enzo Gabriel, Francisco Emanoel, João Pedro, Mateus Oliveira e Nilo Mendonça |
+| 0.1 | 29/07/2021 | Reunião para decidir a priorização dos requisitos | Bruno Félix, Daniel Porto, Edson de Araújo, Eliseu Kadesh, Enzo Gabriel, Francisco Emanoel, João Pedro, Mateus Oliveira e Nilo Mendonça |
 | 1.0 | 30/07/2021 | Abertura do documento | Enzo Gabriel |
