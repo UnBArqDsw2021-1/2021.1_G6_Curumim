@@ -1,6 +1,5 @@
 ## Introdução
 &emsp;&emsp;
-
 Uma persona é um personagem fictício, arquétipo hipotético de um grupo de usuários reais, criada para descrever um usuário típico (Cooper et al., 2007; Pruitt e Adlin, 2006; Cooper, 1999). 
 É utilizada principalmente para representar um grupo de usuários finais durante discussões de design, mantendo todos focados no mesmo alvo.
 
@@ -15,18 +14,13 @@ Fizemos a divisão dessas personas em alguns elementos caractéristicos:
 ## Objetivo
 
 &emsp;&emsp;
-
 O objetivo principal da criação das personas foi justamente para ter um auxílio na hora de usar a técnica de introspecção para elicitar requisitos e criação dos storyboards.
 
 &emsp;&emsp;
-
 ## Personas
+
 &emsp;&emsp;
-
 ### 1. Suzana (administradora):
-
-<br>
-
 #### Perfil:
 -  Suzana;
 - 44 anos;
@@ -52,8 +46,6 @@ O objetivo principal da criação das personas foi justamente para ter um auxíl
 
 ### 2. Poliana (professora):
 
-<br>
-
 #### Perfil:
 - Poliana;
 - 28 anos;
@@ -75,8 +67,6 @@ O objetivo principal da criação das personas foi justamente para ter um auxíl
 <br>
 
 ### 3. Gustavo (responsável):
-
-<br>
 
 #### Perfil:
 - Gustavo;
@@ -103,7 +93,6 @@ O objetivo principal da criação das personas foi justamente para ter um auxíl
 <br>
 
 ### 1. Joaquim (anti-persona)
-
 #### Perfil:
 - Joaquim
 - 70 anos;
