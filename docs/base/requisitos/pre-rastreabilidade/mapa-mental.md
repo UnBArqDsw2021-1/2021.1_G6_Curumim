@@ -1,6 +1,8 @@
 ## Introdução
 &emsp;&emsp;O Mapa mental é uma ferramenta que busca auxiliar na visualização e sistematização das conexões e relações entre conceitos e ideias. Sendo extremamente útil na transmissão de informações, dados e conhecimentos.
+
 &emsp;&emsp;O objetivo principal do Mapa mental é realçar as ideias centrais e mostrar as conexões existentes entre essas ideias e os objetivos secundários, que também possuem importância na construção geral da ideia proposta.
+
 &emsp;&emsp;O grupo buscou utilizar o recurso do Mapa mental visando obter um apanhado geral das funcionalidades que cada membro achasse interessante para a aplicação e, com isso, organizar e definir o escopo do projeto.
 
 ## Visão do grupo
