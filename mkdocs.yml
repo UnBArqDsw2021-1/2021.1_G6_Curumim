@@ -16,7 +16,9 @@ nav:
                 - Requisitos:
                         - Elicitação:
                                 - Brainstorming: base/requisitos/elicitacao/brainstorming.md
-                                - Stroy Boards: base/requisitos/elicitacao/story-boards.md
+                                - Personas: base/requisitos/elicitacao/personas.md
+                                - Story Boards: base/requisitos/elicitacao/story-boards.md
+                                - Introspecção: base/requisitos/elicitacao/introspeccao.md
                         - Priorização:
                                 - MoSCoW: base/requisitos/priorizacao/moscow.md
                                 - First Things First: base/requisitos/priorizacao/first-things-first.md
