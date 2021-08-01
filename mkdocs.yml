@@ -1,4 +1,4 @@
-site_name: My docs
+site_name: Curumim
 
 extra_css: 
         - assets/stylesheets/extra.css
@@ -12,7 +12,7 @@ nav:
         - Base:
                 - Design Sprint:
                         - Documento de Design Sprint: base/design-sprint/doc-design-sprint.md
-                        - Protótipos: base/design-sprint/prototipos.md
+                        - Prototipação: base/design-sprint/prototipos.md
                 - Requisitos:
                         - Elicitação:
                                 - Brainstorming: base/requisitos/elicitacao/brainstorming.md
