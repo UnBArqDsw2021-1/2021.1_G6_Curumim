@@ -7,26 +7,30 @@
 | Atividade | Tarefa |
 |--|--|
 | Preparação |Definir tarefas para o participante executar<br> Definir o perfil do participante e recrutá-lo<br>Criar protótipo de alta fidelidade para executar as tarefas |
-| Coleta de dados & Interpretação | O participante deve executar as tarefas propostas interagindo com o protótipo de alta fidelidade, mediado pelo avaliador<br> O avaliador deve listar os problemas encontrados<br>|
+| Coleta de dados & Interpretação | O participante deve executar as tarefas propostas interagindo com o protótipo de alta fidelidade, através da plataforma [Usability Hub](https://usabilityhub.com/)<br> O avaliador deve listar os problemas encontrados<br>|
 | Consolidação dos resultados<br> | Priorizar a correção dos problemas não resolvidos e sugerir correções<br> |
 | Relato dos resultados<br> | Relatar os problemas encontrados e as sugestões de correção<br> |
 
 ### Preparação
 
 #### Tarefas:
-- Para perfil de administrador: registrar uma criança e atribui-la a uma turma.
-- Para perfil de professor: lançar presença de uma turma.
-- Para perfil de pai: verificar as atividades da criaça.
+- Para perfil de administrador: Cadastrar uma turma, matricular um aluno e cadastrar um evento.
+- Para perfil de professor: Cadastrar atividade, lançar presença e abrir conversa com um responsável.
+- Para perfil de pai: Verificar as atividades da criança, conversar com um professor e acessar perfil do centro educacional.
   
 #### Perfil do Participante:
-&emsp;&emsp;Levando em consideração tudo o que foi levantando nas etapas anteriores, o participante deve se enquadrar nos perfis que foram descritos nas [Personas](../requisitos/elicitacao/personas.md).
+&emsp;&emsp;Levando em consideração tudo o que foi levantando nas etapas anteriores, o participante deve se enquadrar nos perfis que foram descritos nas [personas](../requisitos/elicitacao/personas.md).
 
 #### Protótipo de alta fidelidade:
 
+O protótipo de alta fidelidade será desenvolvio na plataforma [Figma](https://www.figma.com/).
+
+
+
 ### Coleta e Interpretação de Dados
-&emsp;&emsp;A coleta de dados será feita por um avaliador que estará responsável por auxiliar o participante ineração com o protótipo.<br>
-&emsp;&emsp;O avaliador ele pode começar a interpretar os dados da experiência de uso enquanto observa a atuação do participante.<br>
-&emsp;&emsp;Além disso foi elaborado o seguinte roteiro de perguntas que serão feitas ao término da avaliação para auxiliar o avalaiador na coleta e interpretação de dados:
+&emsp;&emsp;A coleta de dados será feita através da plataforma [Usability Hub](https://usabilityhub.com/) a partir da interação de possíveis usuários com o protótipo.<br>
+&emsp;&emsp;O avaliador pode começar a interpretar os dados da experiência de uso a partir dos cliques e tempo dos participantes para realizar as tarefas no protótipo.<br>
+&emsp;&emsp;Além disso foi elaborado o seguinte roteiro de perguntas que serão feitas por meio de um form ao término das tarefas para auxiliar o avalaiador na coleta e interpretação de dados:
 
 | Número | Pergunta | Opções de resposta |
 |:-:|:----------|-------------------|
@@ -41,8 +45,8 @@
 
 &emsp;&emsp;Nessa etapa o avaliador documentará:
 
-- O perfil do avaliador e do participante;
-- As tarefas executadas pelo participante;
+- O perfil dos participantes;
+- As tarefas executadas pelos participantes;
 - As respostas para o roteiro de perguntas;
 - Uma lista dos problemas de usabilidade ainda não contemplados, indicando: onde ocorreu, descrição e justificativa do problema e sugestões de correção;
 
@@ -53,3 +57,4 @@
 | Versão | Data | Modificação | Autor |
 |--|--|--|--|
 |1.0|30/07/2021| Abertura do documento | Daniel Porto |
+|1.1|04/08/2021| Atualização do documento para a utilização do Usability Hub | Mateus O. Patrício |
