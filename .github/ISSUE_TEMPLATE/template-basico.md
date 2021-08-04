@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 ### Descrição:
-Descrição da Issue.
+Descrição do Issue.
 
 ### Tarefas:
 - [] Tarefa a ser feita;
