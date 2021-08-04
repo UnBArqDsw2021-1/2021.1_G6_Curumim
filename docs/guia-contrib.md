@@ -1,5 +1,5 @@
 ## O que fazer antes de começar a contribuir?
-&emsp;&emsp;É de estrema importância que, antes de começar a comtribuir, conheça bem o projeto e seus padrões. Por isso, é aconselhado que realize os seguintes passos:
+&emsp;&emsp;É de suma importância que, antes de começar a comtribuir, conheça bem o projeto e seus padrões. Por isso, é aconselhado que realize os seguintes passos:
 
 - Acesse o repositório do [Projeto Curumim no GitHub;](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim)
 - Navegue pela [GitHub Page](https://unbarqdsw2021-1.github.io/2021.1_G6_Curumim/) do projeto e explore mais sobre seus fundamentos e propósitos;
@@ -25,3 +25,4 @@
 | Versão | Data | Modificação | Autor |
 |:-:|--|--|--|
 |1.0|03/08/2021| Abertura do documento | Daniel Porto |
+|1.1|04/08/2021| Correções de ortografia e digitação | Daniel Porto |
