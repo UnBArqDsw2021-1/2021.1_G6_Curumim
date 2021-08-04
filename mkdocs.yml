@@ -9,7 +9,9 @@ theme:
 
 nav:
         - Home: index.md
-        - Guia de Contribuição: guia-contrib.md
+        - Contribuição: 
+                - Guia de Contribuição: guia-contrib.md
+                - Políticas de Contribuição: politicas.md
         - Base:
                 - Design Sprint:
                         - Documento de Design Sprint: base/design-sprint/doc-design-sprint.md
