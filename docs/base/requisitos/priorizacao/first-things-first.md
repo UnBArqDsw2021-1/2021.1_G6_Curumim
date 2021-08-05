@@ -28,7 +28,7 @@
 | RF_14 | Professor poder notificar responsáveis com observações.                         | 7                  | 5                 | 29          | 6,93%   | 7              | 8,28%   | 3              | 6,67%   | 0,463      |
 |         | TOTAL                                                                           | 102                | 71,5              | 418,5       | 10,00%  | 84,5           | 100,00% | 45             | 100,00% |            |
 
-
+## Versionamento
 
 | Versão | Data | Modificação | Autor | 
 |--|--|--|--|
