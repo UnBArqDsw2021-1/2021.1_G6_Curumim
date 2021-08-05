@@ -9,11 +9,11 @@
 
 ## Metodologia
 
-&emsp;&emsp;Para a classificação das prioridades dos requisitos não funcionais, os 10 integrantes do grupo fizeram um debate utilizando a plataforma Microsoft Teams e chegaram a um consenso quanto as prioridades de desenvolvimento de cada requisito.
+&emsp;&emsp;Para a classificação das prioridades dos requisitos funcionais, os 10 integrantes do grupo fizeram um debate utilizando a plataforma Microsoft Teams e chegaram a um consenso quanto as prioridades de desenvolvimento de cada requisito.
 
 ## Requisitos Funcionais
 
-&emsp;&emsp;A seguir, a tabela com as priorizações escolhidas dos requisitos pelo método MoSCoW:
+&emsp;&emsp;A seguir, a tabela com as priorizações escolhidas dos requisitos funcionais pelo método MoSCoW:
 
 | Identificação | Requisito                                                                       | Prioridade |
 | :-----------: | ------------------------------------------------------------------------------- | ---------- |
@@ -32,9 +32,13 @@
 |   **RF_13**   | Professor poder lançar presença.                                                | Won't      |
 |   **RF_14**   | Professor poder notificar responsáveis com observações.                         | Should     |
 
+[link para a tabela completa no excel](https://docs.google.com/spreadsheets/d/1VO7EnKcoZ7DF_uIbGJHg4b3MkhtVpMwE/edit#gid=667435397)
+
 ## Bibliografia
 
 > - Railsware Product Academy. MoSCoW prioritization for your product backlog. Youtube, 19 de Setembro de 2019. Disponível em: <https://www.youtube.com/watch?v=DzruAbBhY0Q>. Acesso em: 03 de Agosto de 2021.
+
+## Versionamento
 
 | Versão | Data       | Modificação                                       | Autor                                                                                                                                                      |
 | ------ | ---------- | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
