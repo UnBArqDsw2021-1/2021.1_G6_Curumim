@@ -11,20 +11,20 @@
 
 ID | Requisitos | Benefício relativo | Penalidade relativa | Custo relativo | Risco Relativo | Prioridade |
 |--|--|--|--|--|--|--|
-| RF_01 | Ter sistema de comunicação entre responsáveis e professores.                    | 6,5	|   5   |  8  | 4 | 0,364 |
-| RF_02 | Ter sistema de comunicação entre responsáveis e administradores da instituição. | 4,5	  |   3   |  8  | 5 | 0,209 |
-| RF_03 | Responsáveis receberem notificações sobre novas atividades.                     |  7	|   2   |  4  | 5 | 0,302 |
-| RF_04 | Responsáveis receberem notificações sobre entrada e saída da crianças.          |  6  |   2   | 8,5 | 7 | 0,268 |
+| RF_01 | Ter sistema de comunicação entre responsáveis e professores.                    | 6,5 |   5   |  8  | 4 | 0,364 |
+| RF_02 | Ter sistema de comunicação entre responsáveis e administradores da instituição. | 4,5 |   3   |  8  | 5 | 0,209 |
+| RF_03 | Responsáveis receberem notificações sobre novas atividades.                     |  7 |   2   |  4  | 5 | 0,302 |
+| RF_04 | Responsáveis receberem notificações sobre entrada e saída da crianças.          |  6 |   2   | 8,5 | 7 | 0,268 |
 | RF_05 | Responsáveis receberem notificações sobre novos eventos.                        |  6  |  1,5  |  4  | 5 | 0,249 |
-| RF_06 | Administrador poder criar e configurar turmas.                                  |  9	|   9   |  6  | 1 | 1,153 |
-| RF_07 | Administrador poder registras as crianças.                                      |  9  |   9   |  4  | 1 | 1,546 |
-| RF_08 | Administrador poder registrar os professores.                                   |  9  |   9   |  4  | 1 | 1,546 |
-| RF_09 | Administrador poder criar e configurar eventos.                                 |  7	|   3   |  6  | 3 | 0,399 |
-| RF_10 | Poder disponibilizar relatórios gerais.                                         |  6	|   3   |  6  | 4 | 0,314 |
-| RF_11 | Responsáveis terem acesso as informações e dados de suas crianças.              |  9	|   9   |  7  | 1 | 1,023 |
-| RF_12 | Professor poder registrar e gerenciar atividades.                               |  9	|   8   |  6  | 1 | 1,076 |
-| RF_13 | Professor poder lançar presença.                                                |  7	|   3   |  6  | 4 | 0,344 |
-| RF_14 | Professor poder notificar responsáveis com observações.                         |  7	|   5   |  7  | 3 | 0,463 |
+| RF_06 | Administrador poder criar e configurar turmas.                                  |  9 |   9   |  6  | 1 | 1,153 |
+| RF_07 | Administrador poder registras as crianças.                                      |  9 |   9   |  4  | 1 | 1,546 |
+| RF_08 | Administrador poder registrar os professores.                                   |  9 |   9   |  4  | 1 | 1,546 |
+| RF_09 | Administrador poder criar e configurar eventos.                                 |  7 |   3   |  6  | 3 | 0,399 |
+| RF_10 | Poder disponibilizar relatórios gerais.                                         |  6 |   3   |  6  | 4 | 0,314 |
+| RF_11 | Responsáveis terem acesso as informações e dados de suas crianças.              |  9 |   9   |  7  | 1 | 1,023 |
+| RF_12 | Professor poder registrar e gerenciar atividades.                               |  9 |   8   |  6  | 1 | 1,076 |
+| RF_13 | Professor poder lançar presença.                                                |  7 |   3   |  6  | 4 | 0,344 |
+| RF_14 | Professor poder notificar responsáveis com observações.                         |  7 |   5   |  7  | 3 | 0,463 |
 | -- | TOTAL | 102	| 71,5 | 84,5 | 45 |
 
 ## Versionamento
