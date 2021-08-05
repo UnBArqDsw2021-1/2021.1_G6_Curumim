@@ -67,5 +67,5 @@
 ## Versionamento
 | Versão | Data | Modificação | Autor |
 | :-: | -- | -- | -- |
-|0.1| 02/08/2021 | Adição da argumentação  | Todos os integrantes |
+|0.1| 02/08/2021 | Debate entre os integrantes e geração das argumentações | Todos os integrantes |
 |1.0| 03/08/2021 | Adição da introdução, da Metodologia, dos diagramas e da bibliografia | Nilo Mendonça |

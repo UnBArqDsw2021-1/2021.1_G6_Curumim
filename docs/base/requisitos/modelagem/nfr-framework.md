@@ -24,4 +24,4 @@
 ## Versionamento
 | Versão | Data | Modificação | Autor |
 | :-: | -- | -- | -- |
-|0.1| 03/08/2021 | Adição da introduçao, da metodologia, do diagrama e da bibliografia  | Nilo Mendonça |
+|1.0| 03/08/2021 | Adição da introduçao, da metodologia, do diagrama e da bibliografia  | Nilo Mendonça |
