@@ -30,6 +30,8 @@ nav:
                                 - Mapa Metal: base/requisitos/pre-rastreabilidade/mapa-mental.md
                                 - Rich Picture: base/requisitos/pre-rastreabilidade/rich-picture.md
                                 - Argumentação: base/requisitos/pre-rastreabilidade/argumentacao.md
+                        - Modelagem:
+                                - iStar: base/requisitos/modelagem/i-star.md
                 - Metodologia:
                         - Metodologia: base/metodologia/metodologia.md
         - Reuniões:
