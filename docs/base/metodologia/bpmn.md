@@ -7,28 +7,28 @@
 <center>[Figura 1: Diagrama BPMN do processo geral.](../../assets/imagens/BPMN/bpmn-geral.jpg)</center>
 
 ## Definir tema
-![Processo Geral](../../assets/imagens/BPMN/bpmn-tema.jpg)
-<center>[Figura 2: Diagrama BPMN do processo geral.](../../assets/imagens/BPMN/bpmn-tema.jpg)</center>
+![Definir tema](../../assets/imagens/BPMN/bpmn-tema.jpg)
+<center>[Figura 2: Diagrama BPMN do processo de definição do tema.](../../assets/imagens/BPMN/bpmn-tema.jpg)</center>
 
 ## Realizar a design sprint
-![Processo Geral](../../assets/imagens/BPMN/bpmn-ds.jpg)
-<center>[Figura 3: Diagrama BPMN do processo geral.](../../assets/imagens/BPMN/bpmn-ds.jpg)</center>
+![Realizar a design sprint](../../assets/imagens/BPMN/bpmn-ds.jpg)
+<center>[Figura 3: Diagrama BPMN do processo de realização da design sprint.](../../assets/imagens/BPMN/bpmn-ds.jpg)</center>
 
 ## Definir a metodologia
-![Processo Geral](../../assets/imagens/BPMN/bpmn-metodologia.jpg)
-<center>[Figura 4: Diagrama BPMN do processo geral.](../../assets/imagens/BPMN/bpmn-metodologia.jpg)</center>
+![Definir a metodologia](../../assets/imagens/BPMN/bpmn-metodologia.jpg)
+<center>[Figura 4: Diagrama BPMN do processo de definição da metodologia.](../../assets/imagens/BPMN/bpmn-metodologia.jpg)</center>
 
 ## Executar a metodologia
-![Processo Geral](../../assets/imagens/BPMN/bpmn-ex-metodologia.jpg)
-<center>[Figura 5: Diagrama BPMN do processo geral.](../../assets/imagens/BPMN/bpmn-ex-metodologia.jpg)</center>
+![Executar a metodologia](../../assets/imagens/BPMN/bpmn-ex-metodologia.jpg)
+<center>[Figura 5: Diagrama BPMN do processo de execução da metodologia.](../../assets/imagens/BPMN/bpmn-ex-metodologia.jpg)</center>
 
 ## Realizar a reunião de planejamento da Sprint
-![Processo Geral](../../assets/imagens/BPMN/bpmn-planning.jpg)
-<center>[Figura 6: Diagrama BPMN do processo geral.](../../assets/imagens/BPMN/bpmn-planning.jpg)</center>
+![Realizar a reunião de planejamento da Sprint](../../assets/imagens/BPMN/bpmn-planning.jpg)
+<center>[Figura 6: Diagrama BPMN do processo de realização do planning.](../../assets/imagens/BPMN/bpmn-planning.jpg)</center>
 
 ## Realizar a reunião de revisão da sprint
-![Processo Geral](../../assets/imagens/BPMN/bpmn-review.jpg)
-<center>[Figura 7: Diagrama BPMN do processo geral.](../../assets/imagens/BPMN/bpmn-review.jpg)</center>
+![Realizar a reunião de revisão da sprint](../../assets/imagens/BPMN/bpmn-review.jpg)
+<center>[Figura 7: Diagrama BPMN do processo de realização da review.](../../assets/imagens/BPMN/bpmn-review.jpg)</center>
 
 ## Bibliografia
 > - Videoaulas e materiais complementares presentes no moodle da disciplina Arquitetura e Desenho de Software. Disponível em <https://aprender3.unb.br/course/view.php?id=8603>. Acesso em: 04 jul. 2021.
