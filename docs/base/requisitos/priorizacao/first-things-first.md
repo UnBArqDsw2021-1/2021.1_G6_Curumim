@@ -32,4 +32,5 @@ A tabela a seguir detalha e identifica os requisitos funcionais que foram elicit
 | Versão | Data       | Modificação                                       | Autor                                                                                                                                   |
 | ------ | ---------- | ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | 0.1    | 29/07/2021 | Reunião para decidir a priorização dos requisitos | Bruno Félix, Daniel Porto, Edson de Araújo, Eliseu Kadesh, Enzo Gabriel, Francisco Emanoel, João Pedro, Mateus Oliveira, Gabriel Bonifácio e Nilo Mendonça |
-| 1.0    | 31/07/2021 | Abertura do documento                             | Eliseu Kadesh                                                                                                                             |
+| 1.0    | 31/07/2021 | Abertura do documento | Eliseu Kadesh |
+| 1.1    | 03/07/2021 | Padronização do documento | Eliseu Kadesh |
