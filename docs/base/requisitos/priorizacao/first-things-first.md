@@ -27,6 +27,10 @@ ID | Requisitos | Benefício relativo | Penalidade relativa | Custo relativo | R
 | RF_14 | Professor poder notificar responsáveis com observações.                         |  7 |   5   |  7  | 3 | 0,463 |
 | -- | TOTAL | 102	| 71,5 | 84,5 | 45 |
 
+## Bibliografia
+
+> - E. WIEGERS, Karl. 1999. First Things First: Prioritizing Requirements.
+
 ## Versionamento
 
 | Versão | Data | Modificação | Autor | 
