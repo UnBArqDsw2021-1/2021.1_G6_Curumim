@@ -29,7 +29,7 @@
 |   **RF_10**   | Poder disponibilizar relatórios gerais.                                         | Could      |
 |   **RF_11**   | Responsáveis terem acessoa as informações e dados de suas crianças.             | Must       |
 |   **RF_12**   | Professor poder registra e gerenciar atividades.                                | Must       |
-|   **RF_13**   | Professor poder lançar presença.                                                | Won't      |
+|   **RF_13**   | Professor poder lançar presença.                                                | Could      |
 |   **RF_14**   | Professor poder notificar responsáveis com observações.                         | Should     |
 
 [link para a tabela completa no excel](https://docs.google.com/spreadsheets/d/1VO7EnKcoZ7DF_uIbGJHg4b3MkhtVpMwE/edit#gid=667435397)
