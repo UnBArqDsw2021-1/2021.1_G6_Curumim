@@ -1,4 +1,6 @@
+
 # iStar
+
 
 ## Introdução
 
@@ -14,22 +16,24 @@
 
 ## Strategic Dependency Models
 
-### Versão 1.0
+### Versões 1.0
 
-#### SD1 - Responsável
+#### SD Responsável
 ![responsavel](https://user-images.githubusercontent.com/37383185/128371414-57d2590a-7a01-499f-b589-34b4832a39ca.png)
+Autor: [Mateus Oliveira Patrício](https://github.com/omateusp)
 
-#### SD2 - Professor
+#### SD Professor
 ![professor](https://user-images.githubusercontent.com/37383185/128371492-016cb26c-ec8b-425d-8364-8ef0a55d6a3d.png)
+Autor: [Mateus Oliveira Patrício](https://github.com/omateusp)
 
-#### SD3 - Administrador
+#### SD Administrador
 ![responsavel](https://user-images.githubusercontent.com/37383185/128371542-9dfa7da1-0964-4bfd-9b20-7c5e03761671.png)
-
+Autor: [Mateus Oliveira Patrício](https://github.com/omateusp)
 
 ## Referências
 
-- iStar2.0: A Guided Tour: https://www.dropbox.com/s/4l2k4tbywb8wekk/iStar-tutorial-online.pdf?dl=0. Último acesso em 05/08/2020.
-- i* Wiki: http://www.istarwiki.org/tiki-view_articles.php. Último acesso em 05/08/2020.
+> - iStar2.0: A Guided Tour: https://www.dropbox.com/s/4l2k4tbywb8wekk/iStar-tutorial-online.pdf?dl=0. Último acesso em 05/08/2020.
+> - i* Wiki: http://www.istarwiki.org/tiki-view_articles.php. Último acesso em 05/08/2020.
 
 
 ## Versionamento
@@ -37,3 +41,4 @@
 |--|--|--|--|
 |0.1|04/08/2021| Criação das primeiras versões de Strategic Dependency Models | Mateus O. Patrício |
 |1.0|05/08/2021| Criação do documento e adição das versões 1.0 dos SD1, SD2 e SD3 | Mateus O. Patrício |
+|1.1|05/08/2021| Padronização do documento | Mateus O. Patrício |
