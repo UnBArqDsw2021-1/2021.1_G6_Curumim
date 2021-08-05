@@ -3,11 +3,11 @@
 
 ## Metodologia
 
-Para a classificação dos benefícios, custo, valor e riscos dos requisitos funcionais, os 10 integrantes do grupo fizeram um debate utilizando a plataforma Microsoft Teams e chegaram a um consenso quanto a priorização de cada requisito.
+&emsp;&emsp;Para a classificação dos benefícios, custo, valor e riscos dos requisitos funcionais, os 10 integrantes do grupo fizeram um debate utilizando a plataforma Microsoft Teams e chegaram a um consenso quanto a priorização de cada requisito.
 
 ## Requisitos Funcionais
 
-A tabela a seguir detalha e identifica os requisitos funcionais que foram elicitados, seus custos, valor, risco, e também a prioridade baseada no artefato [Moscow](./moscow.md) que também foi realizado pela equipe e que juntamente com o First-Things-First auxilia na priorização dos requisitos.
+&emsp;&emsp;A tabela a seguir detalha e identifica os requisitos funcionais que foram elicitados, seus custos, valor, risco, e também a prioridade baseada no artefato [Moscow](./moscow.md) que também foi realizado pela equipe e que juntamente com o First-Things-First auxilia na priorização dos requisitos.
 
 |         | Peso                                                                            | 2                  | 3                 |             |         | 1              |         | 1              |         |            |
 | ------- | ------------------------------------------------------------------------------- | ------------------ | ----------------- | ----------- | ------- | -------------- | ------- | -------------- | ------- | ---------- |
@@ -29,8 +29,9 @@ A tabela a seguir detalha e identifica os requisitos funcionais que foram elicit
 |         | TOTAL                                                                           | 102                | 71,5              | 418,5       | 10,00%  | 84,5           | 100,00% | 45             | 100,00% |            |
 
 
-| Versão | Data       | Modificação                                       | Autor                                                                                                                                   |
-| ------ | ---------- | ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| 0.1    | 29/07/2021 | Reunião para decidir a priorização dos requisitos | Bruno Félix, Daniel Porto, Edson de Araújo, Eliseu Kadesh, Enzo Gabriel, Francisco Emanoel, João Pedro, Mateus Oliveira, Gabriel Bonifácio e Nilo Mendonça |
-| 1.0    | 31/07/2021 | Abertura do documento | Eliseu Kadesh |
-| 1.1    | 03/07/2021 | Padronização do documento | Eliseu Kadesh |
+
+| Versão | Data | Modificação | Autor | 
+|--|--|--|--|
+| 0.1 | 29/07/2021 | Reunião para decidir a priorização dos requisitos | Bruno Félix, Daniel Porto, Edson de Araújo, Eliseu Kadesh, Enzo Gabriel, Francisco Emanoel, João Pedro, Mateus Oliveira, Gabriel Bonifácio e Nilo Mendonça |
+| 1.0 | 31/07/2021 | Abertura do documento | Eliseu Kadesh |
+| 1.1 | 03/07/2021 | Padronização do documento | Eliseu Kadesh |
