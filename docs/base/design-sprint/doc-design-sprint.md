@@ -36,4 +36,4 @@ Segue a data de quando fizemos cada etapa:
 | Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 |0.1|26/07/2021| Planejamento do Design Sprint | Bruno Félix, Daniel Porto, Edson Soares, Eliseu Kadesh, Enzo Gabriel, Francisco Emanoel, Gabriel Bonifácio, Mateus Oliveira e Nilo Mendonça|
-|1.0|05/08/2021| Adição da introdução e metodologia | Gabriel Bonifácio |
+|1.0|05/08/2021| Adição da introdução, metodologia e data de realização de cada fase | Gabriel Bonifácio |
