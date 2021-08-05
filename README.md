@@ -1,4 +1,4 @@
-# 2021.1_G6
+# 2021.1_G6_Curumim
 <!-- # RepositorioTemplate
 Esse repositório é para ser utilizado pelos grupos como um template inicial, da home page do Projeto.
 Demais diretrizes sobre a organização da wiki constam no Moodle Aprender 3.
@@ -30,11 +30,45 @@ Demais diretrizes sobre a organização da wiki constam no Moodle Aprender 3.
 | 16/0015006  | Mateus Oliveira Patrício |
 | 16/0037522  | Nilo Mendonça de Brito Júnior |
 
-
 ## Sobre  
+&emsp;&emsp;
+Considerando a atual relação entre professores e administradores com os responsáveis de crianças em centros educacionais, a proposta do projeto Curumim é justamente fazer com que os responsáveis possam ter um contato maior com suas crianças, e com professores e administradores. Além disso, terão acesso a informações e dados, para que possa participar mais da educação delas. Por outro lado, os professores poderão registrar e gerenciar atividades, para possivelmetne poder até mesmo notificar esses responsáveis sobre quaisquer observações a serem feitas. Este é o projeto Curumim. 
+&emsp;&emsp;
 
 <!-- ## Screenshots Primeira Entrega <<FOCO: DSW(Base)>>
 Adicione 2 ou mais screenshots do projeto em termos de artefatos da Primeira Entrega.
+--->
+
+## Telas do Protótipo de Alta Fidelidade
+&emsp;&emsp;
+    No momento que estamos, ainda não há uma aplicação pronta, por estamos na fase inicial. Para que se possa "saborerar" — mesmo que minimamente — parte do que será o projeto Curumim, seguem algumas telas do nosso prótotipo de alta fidelidade:
+&emsp;&emsp;
+- Tela 1 — Login:
+
+![Tela de Login](docs/assets/imagens/sobre/sobre1-login.jpg)
+<center>[Figura 1: Tela de Login](docs/assets/sobre/sobre1-login.jpg)</center>
+
+&emsp;&emsp;
+- Tela 2 — Cadastro:
+
+![Tela de Login](docs/assets/imagens/sobre/sobre2-cadastro.jpg)
+<center>[Figura 1: Tela de Login](docs/assets/sobre/sobre2-cadastro.jpg)</center>
+
+&emsp;&emsp;
+
+- Tela 3 — Perfil do Aluno:
+
+
+![Tela de Login](docs/assets/imagens/sobre/sobre3-perfil.jpg)
+<center>[Figura 1: Tela de Login](docs/assets/sobre/sobre3-perfil.jpg)</center>
+
+&emsp;&emsp;
+
+
+&emsp;&emsp;
+Estas são 3 telas que fizemos no nosso protótipo. Conforme o projeto for andando e se aprimorando, a ideia é retratar aqui no README todas essas evoluções.
+
+<!--
 
 ## Vídeo(s) Primeira Entrega <<FOCO: DSW(Base)>>
 Adicione o(s)s vídeo(s) da Primeira Entrega.
