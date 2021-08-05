@@ -15,7 +15,7 @@
 # Introdução
 - 
 
-# Estrutura Analítica do Plano de Riscos
+# Estrutura Analítica dos Riscos
 
 # Probabilidade
 |    Probabilidade    |  Peso|
@@ -44,3 +44,35 @@
 | Média | 3 | 6 | 9 | 12 | 15 |
 | Alta | 4 | 8 | 12 | 16 | 20 |
 | Muito alta | 5 | 10 | 15 | 20 | 25 |
+
+## Riscos Organizacionais
+|    Risco    | Impacto |  Probabilidade |  Prevenção  |  Resposta |  Prioridade    |
+|:----------:|:------:|-------:|------:|-------:|------:|
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+
+
+
+
+
+# Registro de riscos
+
+|    ID    | Nome |                             Descrição                             |                    Validade                    |    Resposta    |
+|:----------:|:------:|:-----------------------------------------------------------------:|-----------------:|:----------------------------------------:|
+| 01 | Covid-19 | Algum membro do grupo ou parentes próximos, passam por uma situação grave de covid-19. |  | O membro que se encontrar nessa situação, se possível, deve comunicar o grupo. |
+| 02 | Retirada de matrícula | O membro do grupo pede retirada de matrícula da disciplina. |  | Replanejar as atrbuições de tarefas de acordo com as metodologias ágeis utilizadas pelo grupo. |
+| 03 | Equipamento danificado  | Um ou mais membros estão com seus equipamentos de trabalho danificados. |  | Diluir as tarefas entre os demais do grupo. |
+| 04 | Sem sinal de internet | Durante um processo, um membro fica sem internet. |  | O grupo continua os trabalhos e depois o membro acompanha o progresso dos trabalhos na documentação ou pergunta para o grupo no chat do telegram.  |
+| 05 |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+
+#  
