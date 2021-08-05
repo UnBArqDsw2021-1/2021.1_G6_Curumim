@@ -44,3 +44,4 @@
 | ------ | ---------- | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 0.1    | 29/07/2021 | Reunião para decidir a priorização dos requisitos | Bruno Félix, Daniel Porto, Edson de Araújo, Eliseu Kadesh, Enzo Gabriel, Francisco Emanoel, Gabriel Bonifácio, João Pedro, Mateus Oliveira e Nilo Mendonça |
 | 1.0    | 30/07/2021 | Abertura do documento                             | Enzo Gabriel                                                                                                                                               |
+| 1.1    | 05/08/2021 | Padronizando o documento                          | Enzo Gabriel                                                                                                                                               |
