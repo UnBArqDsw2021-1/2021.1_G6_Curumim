@@ -1,10 +1,10 @@
 ## Introdução
 &emsp;&emsp;
-Uma persona é um personagem fictício, arquétipo hipotético de um grupo de usuários reais, criada para descrever um usuário típico (Cooper et al., 2007; Pruitt e Adlin, 2006; Cooper, 1999).
+Uma persona é um personagem fictício, arquétipo hipotético de um grupo de [usuários](../modelagem/lexicos.md/#lexico-usuario) reais, criada para descrever um [usuário](../modelagem/lexicos.md/#lexico-usuario) típico (Cooper et al., 2007; Pruitt e Adlin, 2006; Cooper, 1999).
 &emsp;&emsp;
 
 &emsp;&emsp;
-É utilizada principalmente para representar um grupo de usuários finais durante discussões de design, mantendo todos focados no mesmo alvo.
+É utilizada principalmente para representar um grupo de [usuários](../modelagem/lexicos.md/#lexico-usuario) finais durante discussões de design, mantendo todos focados no mesmo alvo.
 &emsp;&emsp;
 
 &emsp;&emsp;
@@ -46,7 +46,6 @@ Segue a figura da anti-persona, retratando sua função, perfil, comportamentos 
 ![Personas](../../../assets/imagens/personas/1antipersona-joaquim.jpg)
 <center>[Figura 4: Antipersona 1 - Joaquim Lima](../../../assets/imagens/personas/1antipersona-joaquim.jpg)</center>
 
-
 ## Bibliografia
 
 > - BARBOSA. Simone. SILVA. Bruno. 2010. Interação Humano-computador.
@@ -58,3 +57,4 @@ Segue a figura da anti-persona, retratando sua função, perfil, comportamentos 
 |1.0|29/07/2021| Abertura de Documento | Gabriel Bonifácio |
 |2.0|04/08/2021| Vetorização das personas e ajuste de espaçamento | Gabriel Bonifácio |
 |2.1|05/08/2021| Ajustando vetorização das personas | Gabriel Bonifácio |
+|2.2|06/08/2021| Adição de hiperlinks dos léxicos | Gabriel Bonifácio |
