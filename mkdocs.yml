@@ -20,21 +20,27 @@ nav:
                         - Elicitação:
                                 - Brainstorming: base/requisitos/elicitacao/brainstorming.md
                                 - Personas: base/requisitos/elicitacao/personas.md
-                                - Story Boards: base/requisitos/elicitacao/story-boards.md
+                                - StoryBoards: base/requisitos/elicitacao/storyboards.md
                                 - Introspecção: base/requisitos/elicitacao/introspeccao.md
-                        - Modelagem:
-                                - NFR Framework: base/requisitos/modelagem/nfr-framework.md
                         - Priorização:
                                 - MoSCoW: base/requisitos/priorizacao/moscow.md
                                 - First Things First: base/requisitos/priorizacao/first-things-first.md
+                        - Modelagem:
+                                - NFR Framework: base/requisitos/modelagem/nfr-framework.md
+                                - iStar: base/requisitos/modelagem/i-star.md
                         - Pré-rastreabilidade:
                                 - 5W2H: base/requisitos/pre-rastreabilidade/5w2h.md
                                 - Argumentação: base/requisitos/pre-rastreabilidade/argumentacao.md
                                 - Mapa Metal: base/requisitos/pre-rastreabilidade/mapa-mental.md
                                 - Rich Picture: base/requisitos/pre-rastreabilidade/rich-picture.md
+                                - Argumentação: base/requisitos/pre-rastreabilidade/argumentacao.md
                 - Metodologia:
                         - Metodologia: base/metodologia/metodologia.md
                         - Modelagem BPMN: base/metodologia/bpmn.md
+                - Product Backlog: product-backlog.md
         - Reuniões:
                 - ATA reunião 26/07: reunioes/r1-ata-26-07.md
-                - ATA reunião 28/07: reunioes/r1-ata-28-07.md
+                - ATA reunião 28/07: reunioes/r2-ata-28-07.md
+                - Sprints:
+                        - Sprint 0:
+                                - Planning: reunioes/sprints/planning-sprint0.md
