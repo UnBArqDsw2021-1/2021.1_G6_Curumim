@@ -13,7 +13,7 @@
 #### Escopo
 
 <p style="text-indent: 20px; text-align: justify">
-&emsp;&emsp;O objetivo do Curumim é facilitar o acompanhamento dos pais e/ou responsáveis a respeito do rendimento de seus dependentes nas atividades propostas e a comunicação entre a instituição/professores com os responsáveis, vice-versa.
+&emsp;&emsp;O objetivo do Curumim é facilitar o acompanhamento dos pais e/ou <a href="/base/requisitos/modelagem/lexicos/#lexico-responsavel">responsáveis</a> a respeito do rendimento de seus dependentes nas atividades propostas e a comunicação entre a instituição/professores com os <a href="/base/requisitos/modelagem/lexicos/#lexico-responsavel">responsáveis</a>, vice-versa.
 </p>
 
 ### Funcionalidade
@@ -55,7 +55,7 @@ O hardware que suporte este aplicativo deve ser: </p>
 ### Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line
 
 <p style="text-indent: 20px; text-align: justify">
-&emsp;&emsp;O aplicativo deve possuir dentro de sua própria interface um manual, em formato de perguntas e respostas frequentes que auxiliem ou introduzem o usuário inexperiente ou menor capacitado a utilizar as suas de forma igualitária.
+&emsp;&emsp;O aplicativo deve possuir dentro de sua própria interface um manual, em formato de perguntas e respostas frequentes que auxiliem ou introduzam o usuário inexperiente ou menor capacitado a utilizar as suas de forma igualitária.
 </p>
 
 ### Interfaces

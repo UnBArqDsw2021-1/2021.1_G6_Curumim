@@ -1,4 +1,5 @@
 site_name: Curumim
+repo_url: https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim
 
 extra_css: 
         - assets/stylesheets/extra.css
@@ -21,6 +22,11 @@ nav:
                                 - Plano de testes de alta fidelidade: base/design-sprint/plan-test.md
                                 - Protótipo de alta fidelidade: base/design-sprint/prototipo-alta.md
                 - Requisitos:
+                        - Pré-rastreabilidade:
+                                - 5W2H: base/requisitos/pre-rastreabilidade/5w2h.md
+                                - Argumentação: base/requisitos/pre-rastreabilidade/argumentacao.md
+                                - Mapa Mental: base/requisitos/pre-rastreabilidade/mapa-mental.md
+                                - Rich Picture: base/requisitos/pre-rastreabilidade/rich-picture.md
                         - Elicitação:
                                 - Brainstorming: base/requisitos/elicitacao/brainstorming.md
                                 - Personas: base/requisitos/elicitacao/personas.md
@@ -34,13 +40,6 @@ nav:
                                 - Léxicos: base/requisitos/modelagem/lexicos.md
                                 - NFR Framework: base/requisitos/modelagem/nfr-framework.md
                                 - iStar: base/requisitos/modelagem/i-star.md
-                                - Especificação Suplementar: base/requisitos/modelagem/especificacao-suplementar.md
-                        - Pré-rastreabilidade:
-                                - 5W2H: base/requisitos/pre-rastreabilidade/5w2h.md
-                                - Argumentação: base/requisitos/pre-rastreabilidade/argumentacao.md
-                                - Causa-Efeito: base/requisitos/pre-rastreabilidade/causa-efeito.md
-                                - Mapa Metal: base/requisitos/pre-rastreabilidade/mapa-mental.md
-                                - Rich Picture: base/requisitos/pre-rastreabilidade/rich-picture.md
                 - Metodologia:
                         - Metodologia: base/metodologia/metodologia.md
                         - Modelagem BPMN: base/metodologia/bpmn.md

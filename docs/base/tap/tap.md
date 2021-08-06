@@ -155,6 +155,7 @@ equipes de desenvolvimento.
  - uso de práticas modernas de programação;
  - uso de ferramentas de software;
  - cronograma exigido de desenvolvimento.
+
  **Atributos do produto:**
  
  - confiabilidade exigida do software;
