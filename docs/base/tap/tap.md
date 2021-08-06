@@ -111,6 +111,30 @@
 
 ### Introdução
 
+&emsp;&emsp;Segundo Cruz, Werner e Soares (1999), o objetivo de estimar os custos, é desenvolver uma estimativa dos custos dos recursos necessários para executar as atividades do projeto, visando obter a remuneração dos recursos ( mão de obra, serviços, capital, etc). No contexto das estimativas de custos de projetos de desenvolvimento de software, a medição em si  ainda encontra bastante problemas, pois não existe um consenso sobre as técnicas ou modelos a serem utilizados. Enquanto, alguns profissionais acreditam na medição da contagem da quantidade de linhas de código-fonte, outros defendem a contagem de pontos de função, essas afirmações tem suas divergências.
+
+&emsp;&emsp;A medição dentro do desenvolvimento de software encara um problema ainda maior, quando o objetivo é realizar a estimativa de prazos e de esforço de desenvolvimento, pois o desenvolvimento de um software pode demorar anos e isso pode gerar problemas na coleta de doados, levando a baixa motivação dos membros da equipe.
+
+&emsp;&emsp;Hazan(2001), Considera que o processo de medição deve ser integrado com o processo de desenvolvimento de software e os resultados da medição devem ser compartilhados com as
+equipes de desenvolvimento.
+
+&emsp;&emsp;Estimativas são necessárias nas fases iniciais do ciclo de vida de cada projeto, pois há uma necessidade de apresentar propostas apropriadas de negócio e administrar corretamente os recursos ao longo do mesmo. O uso de técnicas formais de estimativa pode dobrar a probabilidade do projeto de software ser concluído com sucesso, conforme indicaram as pesquisas de Roetzheim (2000b).
+
+### COCOMO
+
+&emsp;&emsp;Decidimos que o modelo utilizado para a realização dessas estimativas será feito utilizando o método COCOMO(COnstructive COst MOdel).
+
+&emsp;&emsp;COCOMO ou Modelo de Custo Construtivo, é um modelo de estimativa do tempo de desenvolvimento de um software, criado por Barry Boehm e baseado no estudo de sessenta e três projetos. Esse método pode dar uma visão geral e ser considerado útil para quase todos os projetos de software. 
+
+&emsp;&emsp;O COCOMO pode ser divido em três implementações, a depender do tipo de software que será desenvolvido e qual o grau de confiabilidade se quer chegar na estimativa de um projeto, sendo eles:
+
+- COCOMO Básico (Basic): computa o esforço e o custo de desenvolvimento considerando uma estimativa do tamanho do programa (em estimativa do número de linhas de código).
+
+- COCOMO Intermediário (Intermediate): computa o esforço e o custo de desenvolvimento considerando uma estimativa do tamanho do programa e um conjunto de direcionadores de custo (avaliações subjetivas do produto, do hardware, do pessoal e dos atributos do projeto).
+
+- COCOMO Detalhado (Detailed): além das características do COCOMO intermediário, inclui uma avaliação do impacto dos direcionadores de custo sobre cada etapa do desenvolvimento.
+
+
 ### Aplicação do COCOMO
 
 O modelo COCOMO pode ser aplicado em três classes de projetos:
@@ -121,17 +145,19 @@ O modelo COCOMO pode ser aplicado em três classes de projetos:
 
 No caso do nosso projeto, se trata de um Modo Semidestacado.
 
-&emsp;&emsp;Dos atributos que são utilizados no COCOMO intermediário, decidimos levar em consideração os seguintes atributos:
+&emsp;&emsp;Dos atributos que são utilizados no COCOMO intermediário, decidimos levar em consideração apenas os seguintes atributos:
 
-* **Atributos de projeto:**
-  * uso de práticas modernas de programação;
-  * uso de ferramentas de software;
-  * cronograma exigido de desenvolvimento.
+**Atributos de projeto:**
+
+  - uso de práticas modernas de programação;
+  - uso de ferramentas de software;
+  - cronograma exigido de desenvolvimento.
   
-* **Atributos do produto:**
-  * confiabilidade exigida do software;
-  * tamanho do banco de dados;
-  * complexidade do produto.
+**Atributos do produto:**
+
+  - confiabilidade exigida do software;
+  - tamanho do banco de dados;
+  - complexidade do produto.
 
 ### Tabela de coeficientes
 
@@ -147,7 +173,7 @@ Como visto anteriormente usaremos como base o Modo semidestacado.
 
 ### Escolha dos multiplicadores de esforço
 
-&emsp;&emsp;Com base em reunião com os integrantes, em cada atributo escolhido definimos os multiplicadores de esforço de acordo com as tabelas de Boehm (1981), e cada multiplicador escolhido dexiamos destacados na tabela.
+&emsp;&emsp;Com base em reunião com os integrantes, em cada atributo definimos os multiplicadores de esforço de acordo com as tabelas de Boehm (1981), e cada multiplicador escolhido deixamos destacados na tabela.
 
 ### Atributos de Projeto
 
