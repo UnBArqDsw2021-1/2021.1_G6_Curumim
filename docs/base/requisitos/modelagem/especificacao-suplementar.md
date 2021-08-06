@@ -1,30 +1,30 @@
-### 1. Introdução
+### Introdução
 
 <p style="text-indent: 20px; text-align: justify">
 A especificação suplementar é um documento que tem o objetivo de descrever os requisitos não funcionais que não foram prontamente capturados pelas outras técnicas de modelagem.
 </p>
 
-#### 1.1 Finalidade
+#### Finalidade
 
 <p style="text-indent: 20px; text-align: justify">
 Definir requisitos não funcionais do aplicativo Curumim que os outros métodos não conseguiram definir.
 </p>
 
-#### 1.2 Referências Bibliográficas
+#### Referências Bibliográficas
 
 <p style="text-indent: 20px; text-align: justify">
 1. Gois, Samilly Rocha. Sobrinho, Francisco Luiz. Projeto de Software Floricultura Beija-Flor Especificação Suplementar. PHP SOFTWARE COMPANY, 2012.
 </p>
 
-#### 1.3 Escopo
+#### Escopo
 
 <p style="text-indent: 20px; text-align: justify">
 O objetivo do Curumim é facilitar o acompanhamento dos pais e/ou responsáveis a respeito do rendimento de seus dependentes nas atividades propostas e a comunicação entre a instituição/professores com os responsáveis, vice-versa.
 </p>
 
-### 2. Funcionalidade
+### Funcionalidade
 
-#### 2.1 Especificações do equipamento (Hardware) e Suportabilidade
+#### Especificações do equipamento (Hardware) e Suportabilidade
 
 <p style="text-indent: 20px; text-align: justify">
 O hardware que suporte este aplicativo deve ser: </p>
@@ -36,43 +36,38 @@ O hardware que suporte este aplicativo deve ser: </p>
 - O aplicativo deverá funcionar nos sistemas operacionais mobile Android (6.0 ou superior), iOS (11.0 ou superior), Windows (7.0 ou superior), macOS X (10.12 ou superior) e Linux;
 - O aplicativo deve possuir diálogo com as funções de notificação dos diferentes sistemas operacionais suportados.
 
-### 3. Usabilidade
+### Usabilidade
 
 - Apresentar as funcionalidades de uma forma mais visual;
 - Demonstrar como as funcionalidades acontecem;
 - Aumentar a acessibilidade para usuários com dificuldades;
 - As funções do aplicativo não devem ser cansativas.
 
-### 4. Confiabilidade
+### Confiabilidade
 
 - O aplicativo deverá manter os dados do usuário seguros;
 - O aplicativo deverá manter os dados das crianças seguros;
 - Tenha alguma forma de autenticação para utilizar o sistema, que garanta segurança;
 
-
-### 5. Desempenho
+### Desempenho
 
 - O sistema não deve executar funções que necessitem processamento exagerado;
 - O sistema deverá notificar o usuário sem falhas.
 
-### 6. Restrições de Design
-
-<p style="text-indent: 20px; text-align: justify">
-
-</p>
+### Restrições de Design
 
 - A aplicação deverá ter uma acessibilidade maior para deficientes visuais, mas também para analfabetos tecnológicos;
 - A aplicação deverá ter um design de fácil compreensão.
 
-### 7. Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line
+### Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line
 
 <p style="text-indent: 20px; text-align: justify">
 O aplicativo deve possuir dentro de sua própria interface um manual, em formato de perguntas e respostas frequentes que auxiliem ou introduzem o usuário inexperiente ou menor capacitado a utilizar as suas de forma igualitária.
 </p>
 
-### 8. Interfaces
+### Interfaces
 
-#### 8.1 Interfaces do Usuário
+#### Interfaces do Usuário
 
 <p style="text-indent: 20px; text-align: justify">
 O aplicativo mobile deve possuir uma interface gráfica que suporte telas sensíveis ao toque. Essa mesma interface deve ter seu design construído a partir de informações em texto e ícones.
@@ -81,14 +76,14 @@ O aplicativo mobile deve possuir uma interface gráfica que suporte telas sensí
 A aplicação deve possuir barra de navegação lateral que disponibilize as diferentes seções do aplicativo.
 </p>
 
-#### 8.2 Interfaces de Hardware
+#### Interfaces de Hardware
 
 <p style="text-indent: 20px; text-align: justify">
 A ser definido nas fases subsequentes.
 </p>
 
 
-#### 8.3 Interfaces de Software
+#### Interfaces de Software
 
 <p style="text-indent: 20px; text-align: justify">
 A ser definido nas fases subsequentes.
