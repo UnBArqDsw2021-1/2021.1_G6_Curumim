@@ -40,4 +40,7 @@ nav:
                 - Product Backlog: product-backlog.md
         - Reuniões:
                 - ATA reunião 26/07: reunioes/r1-ata-26-07.md
-                - ATA reunião 28/07: reunioes/r1-ata-28-07.md
+                - ATA reunião 28/07: reunioes/r2-ata-28-07.md
+                - Sprints:
+                        - Sprint 0:
+                                - Planning: reunioes/sprints/planning-sprint0.md
