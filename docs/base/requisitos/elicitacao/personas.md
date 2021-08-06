@@ -49,7 +49,7 @@ Segue a figura da anti-persona, retratando sua função, perfil, comportamentos 
 
 ## Bibliografia
 
-> BARBOSA. Simone. SILVA. Bruno. 2010. Interação Humano-computador.
+> - BARBOSA. Simone. SILVA. Bruno. 2010. Interação Humano-computador.
 
 ## Versionamento
 | Versão | Data | Modificação | Autor |
