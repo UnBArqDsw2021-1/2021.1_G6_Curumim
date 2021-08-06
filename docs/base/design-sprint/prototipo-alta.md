@@ -14,12 +14,13 @@
 
 ## Referências
 
--   Fidelidade de protótipos: Baixa, Média ou Alta, conheça os tipos: https://www.vitaminaweb.com.br/fidelidade-de-prototipos-baixa-media-ou-alta/. Último acesso em 04/08/2021.
+> -   Fidelidade de protótipos: Baixa, Média ou Alta, conheça os tipos: https://www.vitaminaweb.com.br/fidelidade-de-prototipos-baixa-media-ou-alta/. Último acesso em 04/08/2021.
 
 ## Versionamento
 | Versão | Data | Modificação | Autor |
 |--|--|--|--|
 |0.1|30/07/2021| Reunião e criação do protótipo de alta fidelidade | Nilo Mendonça, Mateus O. Patrício, Enzo Gabriel, Edson Soares, Eliseu Kadesh, Daniel Porto, João Pedro Moura e Bruno Félix |
-|0.2|02/08/2021| Update visual no protótipo | Mateus O. Patrício, Edson Soares e Bruno Félix |
+|0.2|02/08/2021| Atualização visual no protótipo | Mateus O. Patrício, Edson Soares e Bruno Félix |
 |1.0|04/08/2021| Criação do documento | Mateus O. Patrício |
+|1.1|04/08/2021| Padronização do documento | Mateus O. Patrício |
 
