@@ -96,7 +96,7 @@
 | L08 | Professor |
 | -- | -- |
 | Classificação | Sujeito |
-| Noção | Pessoa responsável por gerir o ensino e organização de uma turma de alunos, criando e conduzindo as atividades, lançando presença e comunicando com os pais/ responsáveis.|
+| Noção | - Pessoa responsável por gerir o ensino e organização de uma turma de alunos, criando e conduzindo as atividades, lançando presença e comunicando com os pais/ responsáveis.|
 | Impacto | - O professor pode criar e gerenciar uma atividade;<br> - O professor pode lançar presença; O professor pode enviar anotações para um aluno.
 | Sinônimo | |
 
@@ -105,18 +105,18 @@
 | L09 | Administrador |
 | -- | -- |
 | Classificação | Sujeito |
-| Noção | Pessoa que gerencia o Centro Educacional |
+| Noção | - Pessoa que gerencia o Centro Educacional |
 | Impacto | - O Administrador pode cadastrar uma criança, professor;<br> - O Administrador pode criar uma turma; <br> - O Administrador pode criar e gerenciar um evento; <br> |
-| Sinônimo | |
+| Sinônimo | - Gestor |
 
 ### Léxico -  Agenda
 
 | L10 | Agenda |
 | -- | -- |
-| Classificação | |
-| Noção | |
-| Impacto | |
-| Sinônimo | - Aluno |
+| Classificação | Objeto |
+| Noção | - Local onde o professor faz anotações |
+| Impacto | - O prefessor anota informações sobre cada aluno em sua respectiva agenda |
+| Sinônimo | |
 
 ### Léxico -  Criança
 
@@ -125,60 +125,60 @@
 | Classificação | Sujeito |
 | Noção | - Os alunos do centro educacional |
 | Impacto | - As crianças podem participar de eventos<br>- As crianças podem realizar atividades|
-| Sinônimo | - Aluno|
+| Sinônimo | - Aluno |
 
 ### Léxico - Notificação
 
 | L12 | Notificação |
 | -- | -- |
-| Classificação | |
-| Noção | |
-| Impacto | |
+| Classificação | Objeto |
+| Noção | - Mensagens enviadas pelo app com o intuito de alertar. |
+| Impacto | - Os responsáveis irão receber notificações sobre novos eventos, atividades e sobre a entrada e saída de suas crianças |
 | Sinônimo | |
 
-### Léxico -  Turma
+### Léxico - Turma
 
 | L13 | Turmas |
 | -- | -- |
-| Classificação | |
-| Noção | |
-| Impacto | |
-| Sinônimo | |
+| Classificação | Objeto |
+| Noção | - Conjunto de alunos que seguem o mesmo programa e possuem o mesmo professor. |
+| Impacto | - Os administradores criarão turmas e alocarão os professores e os alunos nelas. |
+| Sinônimo | - Sala de aula |
 
 ### Léxico - Evento
 
 | L14 | Eventos |
 | -- | -- |
-| Classificação | |
-| Noção | |
-| Impacto | |
+| Classificação | Objeto |
+| Noção | - Ações em grupo organizadas pelos administradoes. |
+| Impacto | - Os administradores criarão atividades para todas as turmas do Centro Educadional.|
 | Sinônimo | |
 
 ### Léxico - Presença
 
 | L15 | Presença |
 | -- | -- |
-| Classificação | |
-| Noção | |
-| Impacto | |
-| Sinônimo | |
+| Classificação | Objeto |
+| Noção | - Marcador de frequência dos alunos. |
+| Impacto | - Os professores marcaram as presenças dos alunos na aplicação. |
+| Sinônimo | - Frequência |
 
 ### Léxico - Anotação
 
 | L16 | Anotação |
 | -- | -- |
-| Classificação | |
-| Noção | |
-| Impacto | |
+| Classificação | Objeto |
+| Noção | - Informações sobre o aluno. |
+| Impacto | - As anotações estarão estarão dentro da agenda dos alunos. |
 | Sinônimo | |
 
 ### Léxico - Relatório
 
 | L17 | Relatórios |
 | -- | -- |
-| Classificação | |
-| Noção | |
-| Impacto | |
+| Classificação | Objeto |
+| Noção | - Os professores disponibilizirão um relatório sobre os alunos. |
+| Impacto | - Será disponibilizado no perfil do aluno um relatório sobre ele. |
 | Sinônimo | |
 
 ### Léxico - Atividade
