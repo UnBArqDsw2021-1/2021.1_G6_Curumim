@@ -11,21 +11,19 @@
 
 ## 2. Objetivo
 
-<p style="text-indent: 20px; text-align: justify">
-Desenvolver um aplicativo que realize o cadastro de crianças em um centro educacional e informe aos pais ou responsáveis sobre o rendimento da criança nas atividades propostas, e caso haja, informe sobre eventos realizados pelo centro educacional. 
-</p>
+
+&emsp;&emsp;Desenvolver um aplicativo que realize o cadastro de crianças em um centro educacional e informe aos pais ou responsáveis sobre o rendimento da criança nas atividades propostas, e caso haja, informe sobre eventos realizados pelo centro educacional.
+
 
 ## 3. Justificativa
 
-<p style="text-indent: 20px; text-align: justify">
-Alguns pais e/ou responsáveis tem dificuldade de acompanhar o rendimento escolar de seus dependentes por vários motivos, como por falta de tempo por conta do trabalho, ou não conseguir falar com os professores ou até mesmo por desinteresse em procurar estas informações. Outro obstáculo que pode ser relatado para esse problema, é a falta de incentivo por parte dos altos cargos destes centro educacionais em estimular os responsáveis a buscar estas informações. Para isso o aplicativo tornará essa troca de informações mais confortável e prática, tanto para os responsáveis terem acesso quanto aos professores postarem.
-</p>
+
+&emsp;&emsp;Alguns pais e/ou responsáveis tem dificuldade de acompanhar o rendimento escolar de seus dependentes por vários motivos, como por falta de tempo por conta do trabalho, ou não conseguir falar com os professores ou até mesmo por desinteresse em procurar estas informações. Outro obstáculo que pode ser relatado para esse problema, é a falta de incentivo por parte dos altos cargos destes centro educacionais em estimular os responsáveis a buscar estas informações. Para isso o aplicativo tornará essa troca de informações mais confortável e prática, tanto para os responsáveis terem acesso quanto aos professores postarem.
 
 ## 4. Descrição do projeto
 
-<p style="text-indent: 20px; text-align: justify">
-Desenvolver um aplicativo web mobile para que seja possível um centro educacional, para crianças de até 5 anos de idade, cadastrar essas crianças matriculadas em seus domínios e que assim, os pais e/ou responsáveis das mesmas possam acessar os dados de seus dependentes, assim como as atividades que realizam, notificações sobre eventos realizados pelo centro educacional, e caso queiram, também poder se comunicar com a instituição e professores. O aplicativo deverá funcionar nos sistemas operacionais Windows, Linux, IOS e Android.
-</p>
+
+&emsp;&emsp;Desenvolver um aplicativo web mobile para que seja possível um centro educacional, para crianças de até 5 anos de idade, cadastrar essas crianças matriculadas em seus domínios e que assim, os pais e/ou responsáveis das mesmas possam acessar os dados de seus dependentes, assim como as atividades que realizam, notificações sobre eventos realizados pelo centro educacional, e caso queiram, também poder se comunicar com a instituição e professores. O aplicativo deverá funcionar nos sistemas operacionais Windows, Linux, IOS e Android.
 
 ## 5. Premissas
 
@@ -40,13 +38,15 @@ Desenvolver um aplicativo web mobile para que seja possível um centro educacion
 ## 7. Riscos
 
 ## Introdução
-A finalidade deste documento é apresentar e explicitar como será executado o plano de riscos do projeto. O gerenciamento de riscos é uma das etapas do processo de gerenciamento de projeto. Com o controle de riscos, podemos listar, acompanhar, prevenir as incertezas, medir os impactos e dessa forma conseguimos ter um certo controle dos riscos. Assim, este documento tem o objetivo de definir como os riscos serão identificados, definidos e acompanhados em todo processo.
+
+&emsp;&emsp;A finalidade deste documento é apresentar e explicitar como será executado o plano de riscos do projeto. O gerenciamento de riscos é uma das etapas do processo de gerenciamento de projeto. Com o controle de riscos, podemos listar, acompanhar, prevenir as incertezas, medir os impactos e dessa forma conseguimos ter um certo controle dos riscos. Assim, este documento tem o objetivo de definir como os riscos serão identificados, definidos e acompanhados em todo processo.
 
 ## Estrutura Analítica dos Riscos
 ![EAR](../../assets/imagens/EAR/EAR_02.PNG)
 
 ## Análise quantitativa dos riscos
-A análise quantitativa de riscos tem como objetivo levantar dados mensuráveis, na intenção de obter maior controle das variáveis envolvidas no processo e domínio sobre os objetivos estratégicos. Com o resultado podemos aplicar ações que visam eliminar ou reduzir os riscos do projeto.
+
+&emsp;&emsp;A análise quantitativa de riscos tem como objetivo levantar dados mensuráveis, na intenção de obter maior controle das variáveis envolvidas no processo e domínio sobre os objetivos estratégicos. Com o resultado podemos aplicar ações que visam eliminar ou reduzir os riscos do projeto.
 
 ## Probabilidade
 |    Probabilidade    |  Peso|
