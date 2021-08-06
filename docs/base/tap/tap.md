@@ -125,4 +125,3 @@ A análise quantitativa de riscos tem como objetivo levantar dados mensuráveis,
 > A monitoria, projeto de arquitetura e desenho de software, UnB. https://2019-2-arquitetura-desenho.github.io/wiki/dinamica_seminario_II/controle_riscos/
 
 > COMO FAZER MATRIZ DE ANÁLISE DE RISCOS, Conaplo, https://www.youtube.com/watch?v=hxPjCp_hBg0&t=570s
-
