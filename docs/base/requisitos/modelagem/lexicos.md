@@ -27,9 +27,63 @@
 | Impacto | |
 | Sinônimo | |
 
-### L01 - Exemplo
+### L01 - Personas
 
-| L01 | Exemplo |
+| L01 | Personas |
+| -- | -- |
+| Classificação | |
+| Noção | |
+| Impacto | |
+| Sinônimo | |
+
+### L02 - Protótipo
+
+| L02 | Protótipo |
+| -- | -- |
+| Classificação | |
+| Noção | |
+| Impacto | |
+| Sinônimo | |
+
+### L03 - Protótipo de baixa fidelidade
+
+| L03 | Protótipo de baixa fidelidade |
+| -- | -- |
+| Classificação | |
+| Noção | |
+| Impacto | |
+| Sinônimo | |
+
+### L04 - Protótipo de alta fidelidade
+
+| L04 | Protótipo de alta fidelidade |
+| -- | -- |
+| Classificação | |
+| Noção | |
+| Impacto | |
+| Sinônimo | |
+
+### L05 - Usuário
+
+| L05 | Usuário |
+| -- | -- |
+| Classificação | |
+| Noção | |
+| Impacto | |
+| Sinônimo | |
+
+### L06 - Rich picture
+
+| L06 | Rich picture |
+| -- | -- |
+| Classificação | |
+| Noção | |
+| Impacto | |
+| Sinônimo | |
+
+### L07 - Stakeholders
+
+| L07 | Stakeholders |
 | -- | -- |
 | Classificação | |
 | Noção | |
@@ -41,4 +95,4 @@
 | Versão | Data | Modificação | Autor |
 |--|--|--|--|
 |1.0|06/08/2021| Criação do documento | Mateus O. Patrício |
-
+|1.1|06/08/2021| Adição dos léxicos [L01](#l01-personas), [L02](#l02-prototipo), [L03](#l03-prototipo-de-baixa-fidelidade), [L04](#l04-prototipo-de-alta-fidelidade), [L05](#l05-usuario), [L06](#l06-rich-picture) e [L07](#l07-stakeholders) | Mateus O. Patrício |
