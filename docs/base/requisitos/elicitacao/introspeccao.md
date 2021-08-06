@@ -1,7 +1,7 @@
 ## Introdução
+
 &emsp;&emsp;
 A introspecção é uma técnica de elicitação de requisitos, baseando-se na ideia de buscar entender qual é o tipo de sistema a persona gostaria de ter (e ver) quando estivesse executando uma tarefa desejada na aplicação. Para isso, portanto, criamos as <a href="../elicitacao/personas.md">personas</a> com o intuito de utilizar essa técnica. 
-&emsp;&emsp;
 
 ## Como ocorreu
 &emsp;&emsp;
@@ -11,7 +11,7 @@ Durante a reunião do dia 28/07, o grupo fez a execução da técnica de introsp
 ## Requisitos
 &emsp;&emsp;
 Segue a tabela com os requisitos não funcionais elicitados:
-&emsp;&emsp;
+
 |ID|Requisito|
 |:-:|--|
 |**RNFI_01**|Sistema carregar uma página em menos de 2 segundos|
