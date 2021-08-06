@@ -1,6 +1,4 @@
-
 # iStar
-
 
 ## Introdução
 
@@ -18,17 +16,17 @@
 
 ### Versões 1.0
 
-#### SD Responsável
+#### SD - Responsável
 ![responsavel](https://user-images.githubusercontent.com/37383185/128371414-57d2590a-7a01-499f-b589-34b4832a39ca.png)
-Autor: [Mateus Oliveira Patrício](https://github.com/omateusp)
+<center>[Figura 1: SD de resposável](https://user-images.githubusercontent.com/37383185/128371414-57d2590a-7a01-499f-b589-34b4832a39ca.png)</center>
 
-#### SD Professor
+#### SD - Professor
 ![professor](https://user-images.githubusercontent.com/37383185/128371492-016cb26c-ec8b-425d-8364-8ef0a55d6a3d.png)
-Autor: [Mateus Oliveira Patrício](https://github.com/omateusp)
+<center>[Figura 2: SD de Professor](https://user-images.githubusercontent.com/37383185/128371492-016cb26c-ec8b-425d-8364-8ef0a55d6a3d.png)</center>
 
-#### SD Administrador
+#### SD - Administrador
 ![responsavel](https://user-images.githubusercontent.com/37383185/128371542-9dfa7da1-0964-4bfd-9b20-7c5e03761671.png)
-Autor: [Mateus Oliveira Patrício](https://github.com/omateusp)
+<center>[Figura 3: SD de Administrador](https://user-images.githubusercontent.com/37383185/128371542-9dfa7da1-0964-4bfd-9b20-7c5e03761671.png)</center>
 
 ## Referências
 
