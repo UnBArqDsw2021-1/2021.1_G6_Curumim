@@ -10,9 +10,9 @@
 
 &emsp;&emsp;Suzana é uma ex-professora que teve um vasto conhecimento na área da padagogia, e conhece de perto muitas dores da área, principalmente na inclusão digital na educação.
 
-**Problemas do dia-a-dia**: Um dia na rotina de Suzana.
+**Problemas do dia a dia**: Um dia na rotina de Suzana.
 ![](https://raw.githubusercontent.com/francisco1code/docs/master/images/1.png) <center>
-[Figura 1 - Persona Suzana ](https://raw.githubusercontent.com/francisco1code/docs/master/images/1.png)</center>
+[Figura 1 - Persona Suzana](https://raw.githubusercontent.com/francisco1code/docs/master/images/1.png)</center>
 
 **Soluções da aplicação:** Suzana conversa com colega de trabalho.
 ![](https://raw.githubusercontent.com/francisco1code/docs/master/images/2.png) <center>
@@ -26,7 +26,7 @@
 
 &emsp;&emsp;Poliana é uma jovem professora de crianças, muita extrovertida, que gosta de sempre estar em contato com os responsáveis de seus alunos.
 
-**Problemas do dia-a-dia**: Um dia de Poliana na sala dos professores.
+**Problemas do dia a dia**: Um dia de Poliana na sala dos professores.
 ![](../../../assets/imagens/storyboards/storyboard_poliana_1.png) <center>
 [Figura 4 - Persona Poliana](../../../assets/imagens/storyboards/storyboard_poliana_1.png) </center>
 
@@ -38,11 +38,11 @@
 
 &emsp;&emsp;Gustavo é um homem de 31 anos, ele é o pai muito presente de uma menina de 5 anos, ele é formado em engenharia de software, então é uma pessoa muito atualizada com tecnologias.
 
-**Problemas do dia-a-dia**: Um dia na rotina de Gustavo com sua esposa.
+**Problemas do dia a dia**: Um dia na rotina de Gustavo com sua noiva.
 ![](../../../assets/imagens/storyboards/storyboard_gustavo_1.png) <center>
 [Figura 6 - Persona Gustavo](../../../assets/imagens/storyboards/storyboard_gustavo_1.png)</center>
 
-**Soluções da aplicação e mais funcionalidades:**: Gustavo conversa com sua esposa dias depois.
+**Soluções da aplicação e mais funcionalidades:**: Gustavo conversa com sua noiva dias depois.
 
 ![](../../../assets/imagens/storyboards/storyboard_gustavo_2.png)<center>
 [Figura 7 - Persona Gustavo](../../../assets/imagens/storyboards/storyboard_gustavo_2.png)</center>
