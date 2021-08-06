@@ -21,10 +21,9 @@
 #### Especificações do equipamento (Hardware) e Suportabilidade
 
 <p style="text-indent: 20px; text-align: justify">
-&emsp;&emsp;O hardware que suporte este aplicativo deve ser: </p>
+O hardware que suporte este aplicativo deve ser: </p>
 </p>
 
-- Dispositivo portátil dotado de sistema operacional Android 6.0 ou superior ou iOS 11.0 ou superior;
 - Possuir sensor de câmera especificação superior a 2 megapixels, para aplicativo mobile;
 - Possuir conexão com a Internet, de forma a ser possível estabelecer a comunicação aplicativo - servidor de dados;
 - O aplicativo deverá funcionar nos sistemas operacionais mobile Android (6.0 ou superior), iOS (11.0 ou superior), Windows (7.0 ou superior), macOS X (10.12 ou superior) e Linux;
