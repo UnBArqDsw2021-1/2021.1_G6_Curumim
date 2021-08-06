@@ -73,13 +73,9 @@ A análise quantitativa de riscos tem como objetivo levantar dados mensuráveis,
 
 ## Riscos de Qualidade
 |    Risco    | Impacto |  Probabilidade |  Prevenção  |  Resposta |  Prioridade    |
-|:----------:|:------:|-------:|------:|-------:|------:|
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
+|:----------:|:------:|:-------:|------:|:-------:|:------:|
+| Ausência de testes | Muito alto | Alta | Realizar testes automatizados de alta prioridade. | Buscar realizar testes. | 20 |
+| Falhas e bugs | Muito alto | Média | Realizar testes e verificação no pull resquest.  | Refatoração das partes com folhas. | 15 |
 
 ## Riscos Externos
 |    Risco    | Impacto |  Probabilidade |  Prevenção  |  Resposta |  Prioridade    |
