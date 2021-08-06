@@ -65,13 +65,11 @@ A análise quantitativa de riscos tem como objetivo levantar dados mensuráveis,
 
 ## Riscos técnico
 |    Risco    | Impacto |  Probabilidade |  Prevenção  |  Resposta |  Prioridade    |
-|:----------:|:------:|-------:|------:|-------:|------:|
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
+|:----------:|:------:|:-------:|:------:|:-------:|:------:|
+| Dificuldade na identificação dos requisitos. | Muito alto | Alta | Utilizar diferentes técnicas para fazer a elicitação dos reqisitos. | Refinar o processo de levantamento dos requisitos. | 20 |
+| Pouco domínio das tecnologias utilizadas. | Alto | Alta | Estudo individual sobre as tecnologias.  | Treinamento em pares, com o objetivo de trocar conhecimentos. | 16 |
+| Atraso nas entregas das tarefas. | Alto | Média | Medir conhecimento técnico de cada membro de acordo com as tecnologias. | Avaliar o planejamento das atividades. | 12 |
+
 
 ## Riscos de Qualidade
 |    Risco    | Impacto |  Probabilidade |  Prevenção  |  Resposta |  Prioridade    |
