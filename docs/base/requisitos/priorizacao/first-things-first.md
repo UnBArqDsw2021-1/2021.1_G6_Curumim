@@ -19,10 +19,10 @@ ID | Requisitos | Prioridade |
 | **RF_01** | Ter sistema de comunicação entre [responsáveis](/base/requisitos/modelagem/lexicos/#lexico-responsavel) e professores.                    | 0,364 |
 | **RF_02** | Ter sistema de comunicação entre [responsáveis](/base/requisitos/modelagem/lexicos/#lexico-responsavel) e administradores da instituição. | 0,209 |
 | **RF_03** | [Responsáveis](/base/requisitos/modelagem/lexicos/#lexico-responsavel) receberem notificações sobre novas atividades.                     |0,302 |
-| **RF_04** | [Responsáveis](/base/requisitos/modelagem/lexicos/#lexico-responsavel) receberem notificações sobre entrada e saída da crianças.          |0,268 |
+| **RF_04** | [Responsáveis](/base/requisitos/modelagem/lexicos/#lexico-responsavel) receberem notificações sobre entrada e saída das crianças.          |0,268 |
 | **RF_05** | [Responsáveis](/base/requisitos/modelagem/lexicos/#lexico-responsavel) receberem notificações sobre novos eventos.                        | 0,249 |
 | **RF_06** | Administrador poder criar e configurar turmas.                                  |1,153 |
-| **RF_07** | Administrador poder registras as crianças.                                      |1,546 |
+| **RF_07** | Administrador poder registrar as crianças.                                      |1,546 |
 | **RF_08** | Administrador poder registrar os professores.                                   |1,546 |
 | **RF_09** | Administrador poder criar e configurar eventos.                                 |0,399 |
 | **RF_10** | Poder disponibilizar relatórios gerais.                                         |0,314 |
