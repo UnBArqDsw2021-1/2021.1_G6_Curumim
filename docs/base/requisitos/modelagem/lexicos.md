@@ -213,7 +213,7 @@
 
 | L21 | Full-stack |
 | -- | -- |
-| Classificação | Substantivo |
+| Classificação | Verbo |
 | Noção | Desenvolvimento do código fonte do software que contempla todas todas as etapas de desenvolvimento, do inicio a entrega da funcionalidade |
 | Impacto | Prática usada pelo desenvolvedor para escrever o código fonte  |
 | Sinônimo | Etapas de desenvolvimento do software |
@@ -222,7 +222,7 @@
 
 | L22 | Front-end |
 | -- | -- |
-| Classificação | Substantivo |
+| Classificação | Verbo |
 | Noção | Desenvolvimento do código fonte referente a parte visual, de contato direto com o usuário final |
 | Impacto | Prática usada pelo desenvolvedor para escrever o código fonte |
 | Sinônimo | Interface da aplicação |
