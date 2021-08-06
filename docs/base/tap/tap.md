@@ -170,6 +170,8 @@ No caso do nosso projeto, se trata de um Modo Semidestacado.
 | Semidestacado | 3.00 | 1.12 | 2.50 | 0.35 |
 | Embutido      | 3.60 | 1.20 | 2.50 | 0.32 |
  
+* Fonte: Boehm (1981)
+
 Como visto anteriormente usaremos como base o Modo semidestacado.
  
 ### Escolha dos multiplicadores de esforço
@@ -183,7 +185,8 @@ Como visto anteriormente usaremos como base o Modo semidestacado.
 | Uso de práticas modernas de programação | 1,24  | 1,10 | **1,00** | 0,91 | 0,82 | - |
 | Uso de ferramentas de software          | 1,24  | 1,10 | **1,00** | 0,91 | 0,83 | - |
 | Cronograma exigido de desenvolvimento   | 1,23  | 1,08 | 1,00 | **1,04** | 1,10 | - |
-Fonte: Boehm (1981)
+
+* Fonte: Boehm (1981)
  
 ### Atributos do Produto
  
@@ -192,7 +195,8 @@ Fonte: Boehm (1981)
 | Confiabilidade exigida do software  | 0,75 | 0,88 | 1,00 | **1,15** | 1,40 |  -   |
 | Tamanho do banco de dados           |   -  | 0,94 | **1,00** | 1,08 | 1,16 |  -   |
 | Complexidade do produto             | 0,70 | 0,85 | **1,00** | 1,15 | 1,30 | 1,65 |
-Fonte: Boehm (1981)
+
+* Fonte: Boehm (1981)
  
 ### Atributos de Pessoal
  
@@ -202,6 +206,7 @@ Fonte: Boehm (1981)
 | Experiência em aplicações       | 1.29  | 1.13  |   1.00      | **0.91**  | 0.82  | - |
 | Capacidade do programador       | 1.42  | 1.17  |   1.00      | **0.86**  | 0.70  | - |
  
+* Fonte: Boehm (1981)
  
 ### Calculo da Estimativa do Esforço
  
