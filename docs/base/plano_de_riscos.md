@@ -4,9 +4,9 @@
 
 |    Data    | Versão |        Alteração               |                    Autor                    |
 |:----------:|:------:|:-----------------:|:------------------------:|
-| 04/08/2021|  0.0  | Abertura do documento | @edsondearaujo |
-| 04/08/2021 | 0.1 | Criação das tabelas probabilidade, impacto e a matriz de probabilidade X impacto. | @edsondearaujo |
-|  |  |  |  |
+| 04/08/2021|  0.1  | Abertura do documento | @edsondearaujo |
+| 04/08/2021 | 1.0 | Criação das tabelas probabilidade, impacto e a matriz de probabilidade X impacto. | @edsondearaujo |
+| 06/08/2021 | 1.1 | Criação da introdução | @edsondearaujo |
 |  |  |  |  |
 |  |  |  |  |
 |  |  |  |  |
@@ -16,6 +16,11 @@
 A finalidade deste documento é apresentar e explicitar como será executado o plano de riscos do projeto. O gerenciamento de riscos é uma das etapas do processo de gerenciamento de projeto. Com o controle de riscos, podemos listar, acompanhar, prevenir as incertezas, medir os impactos e dessa forma conseguimos ter um certo controle dos riscos. Assim, este documento tem o objetivo de definir como os riscos serão identificados, definidos e acompanhados em todo processo.
 
 # Estrutura Analítica dos Riscos
+![EAR](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/blob/doc/24-plano-de-riscos/docs/assets/imagens/plano_de_riscos/EAR_02.PNG)
+
+# Análise quantitativa dos riscos
+A análise quantitativa de riscos tem como objetivo levantar dados mensuráveis, na intenção de obter maior controle das variáveis envolvidas no processo e domínio sobre os objetivos estratégicos. Com o resultado podemos aplicar ações que visam eliminar ou reduzir os riscos do projeto.
+
 # Probabilidade
 |    Probabilidade    |  Peso|
 |:----------:|-------:|
@@ -35,7 +40,7 @@ A finalidade deste documento é apresentar e explicitar como será executado o p
 | Alta |  Torna o andamento do projeto mais difícil.  | 4 |
 | Muito alta | Impossibilita a continuação do projeto.  | 5 |
 
-# Matriz de Probabilidade X Impacto
+# Prioridade
 |    P/I    | Muito baixa |  Baixa |  Média  |  Alta |  Muito alta    |
 |:----------:|:------:|:-------:|:------:|:-------:|:------:|
 | Muito baixa | 1 | 2 | 3 | 4 | 5 |
@@ -44,7 +49,8 @@ A finalidade deste documento é apresentar e explicitar como será executado o p
 | Alta | 4 | 8 | 12 | 16 | 20 |
 | Muito alta | 5 | 10 | 15 | 20 | 25 |
 
-## Riscos Organizacionais
+# Matriz de impacto
+## Riscos de Gerencia de projeto
 |    Risco    | Impacto |  Probabilidade |  Prevenção  |  Resposta |  Prioridade    |
 |:----------:|:------:|-------:|------:|-------:|------:|
 |  |  |  |  |  |  |
@@ -53,10 +59,50 @@ A finalidade deste documento é apresentar e explicitar como será executado o p
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
+
+
+## Riscos Organizacionais
+|    Risco    | Impacto |  Probabilidade |  Prevenção  |  Resposta |  Prioridade    |
+|:----------:|:------:|:-------:|:------:|:-------:|:------:|
+|  Membro do grupo ou parentes próximos, passam por uma situação grave de covid-19. | Alto | Média | Manter os membros conscientizados sobre o risco de contaminação. | Dividir de forma justa as atividades entre o grupo. | 15 |
+| Retirada de matrícula da disciplina. | Muito alto | Baixa | Manter os membros motivados na disciplina. | Replanejar as atrbuições de tarefas de acordo com as metodologias ágeis utilizadas pelo grupo.  | 10 |
+| Falta de comunicação na equipe | Alta | Baixa | Manter o grupo engajado. | Buscar outras maneiras de interação, durante um processo. | 8 |
+| indisponibilidade dos integrantes do grupo para reuniões e eventuais encontros durante o desenvolvimento do projeto. |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 
+## Riscos técnico
+|    Risco    | Impacto |  Probabilidade |  Prevenção  |  Resposta |  Prioridade    |
+|:----------:|:------:|-------:|------:|-------:|------:|
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+
+## Riscos de Qualidade
+|    Risco    | Impacto |  Probabilidade |  Prevenção  |  Resposta |  Prioridade    |
+|:----------:|:------:|-------:|------:|-------:|------:|
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+
+## Riscos Externos
+|    Risco    | Impacto |  Probabilidade |  Prevenção  |  Resposta |  Prioridade    |
+|:----------:|:------:|-------:|------:|-------:|------:|
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
 
 
 
