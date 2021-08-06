@@ -24,7 +24,7 @@
 
 #### Protótipo de alta fidelidade:
 
-O [protótipo de alta fidelidade](/base/requisitos/modelagem/lexicos/#lexico-prototipo-de-alta-fidelidade) será desenvolvio na plataforma [Figma](https://www.figma.com/).
+O [protótipo de alta fidelidade](/base/requisitos/modelagem/lexicos/#lexico-prototipo-de-alta-fidelidade) será desenvolvido na plataforma [Figma](https://www.figma.com/).
 
 
 
