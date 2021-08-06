@@ -2,8 +2,8 @@
 
 # Histórico de revisão
 
-|    Data    | Versão |                             Alteração                             |                    Autor                    |
-|:----------:|:------:|:-----------------------------------------------------------------:|:-------------------------------------------:|
+|    Data    | Versão |        Alteração               |                    Autor                    |
+|:----------:|:------:|:-----------------:|:------------------------:|
 | 04/08/2021|  0.0  | Abertura do documento | @edsondearaujo |
 | 04/08/2021 | 0.1 | Criação das tabelas probabilidade, impacto e a matriz de probabilidade X impacto. | @edsondearaujo |
 |  |  |  |  |
@@ -13,10 +13,9 @@
 |  |  |  |  |
 
 # Introdução
-- 
+A finalidade deste documento é apresentar e explicitar como será executado o plano de riscos do projeto. O gerenciamento de riscos é uma das etapas do processo de gerenciamento de projeto. Com o controle de riscos, podemos listar, acompanhar, prevenir as incertezas, medir os impactos e dessa forma conseguimos ter um certo controle dos riscos. Assim, este documento tem o objetivo de definir como os riscos serão identificados, definidos e acompanhados em todo processo.
 
 # Estrutura Analítica dos Riscos
-
 # Probabilidade
 |    Probabilidade    |  Peso|
 |:----------:|-------:|
