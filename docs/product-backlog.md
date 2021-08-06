@@ -49,7 +49,7 @@
 | E2 | FT05 | US19 | Eu, como [professor](/base/requisitos/modelagem/lexicos/#lexico-professor), desejo lançar presença da minha turma                                                 | RF_13 |
 | E2 | FT05 | US20 | Eu, como [responsável](/base/requisitos/modelagem/lexicos/#lexico-responsavel), desejo acompanhar o andamento das presenças da minha criança                        | RF_13 |
 | E3 | FT02 | US21 | Eu, como [responsável](/base/requisitos/modelagem/lexicos/#lexico-responsavel), desejo receber notificações sobre a entrada e saída da minha criança                | RF_04 |
-| E3 | FT01 | US22 | Eu, como [responsável](/base/requisitos/modelagem/lexicos/#lexico-responsavel), desejo conversar com o adminstrador do centro de ensino                             | RF_02 |
+| E3 | FT01 | US22 | Eu, como [responsável](/base/requisitos/modelagem/lexicos/#lexico-responsavel), desejo conversar com o administrador do centro de ensino                             | RF_02 |
 | E3 | FT01 | US23 | Eu, como [responsável](/base/requisitos/modelagem/lexicos/#lexico-responsavel), desejo conversar com o [professor](/base/requisitos/modelagem/lexicos/#lexico-professor) da turma da minha criança                          | RF_01 |
 | E1 | FT07 | US24 | Eu, como [responsável](/base/requisitos/modelagem/lexicos/#lexico-responsavel), desejo receber relatórios esporádico sobre tudo produzido pela minha criança        | RF_10 |
 
