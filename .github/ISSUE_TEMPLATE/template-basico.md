@@ -8,12 +8,12 @@ assignees: ''
 ---
 
 ### Descrição:
-Descrição da Issue.
+Descrição do Issue.
 
 ### Tarefas:
-- [x] Tarefa a ser feita;
-- Tarefa a ser feita.
+- [] Tarefa a ser feita;
+- [] Tarefa a ser feita.
 
 ### Critérios de aceitação:
-- [x] Critério a ser verificado;
-- Critério a ser verificado.
+- [] Critério a ser verificado;
+- [] Critério a ser verificado.
