@@ -31,17 +31,14 @@ Demais diretrizes sobre a organização da wiki constam no Moodle Aprender 3.
 | 16/0037522  | Nilo Mendonça de Brito Júnior |
 
 ## Sobre  
-&emsp;&emsp;
-Considerando a atual relação entre professores e administradores com os responsáveis de crianças em centros educacionais, a proposta do projeto Curumim é justamente fazer com que os responsáveis possam ter um contato maior com suas crianças, e com professores e administradores. Além disso, terão acesso a informações e dados, para que possa participar mais da educação delas. Por outro lado, os professores poderão registrar e gerenciar atividades, para possivelmetne poder até mesmo notificar esses responsáveis sobre quaisquer observações a serem feitas. Este é o projeto Curumim. 
-&emsp;&emsp;
+&emsp;&emsp;Considerando a atual relação entre professores e administradores com os responsáveis de crianças em centros educacionais, a proposta do projeto Curumim é justamente fazer com que os responsáveis possam ter um contato maior com suas crianças, e com professores e administradores. Além disso, terão acesso a informações e dados, para que possa participar mais da educação delas. Por outro lado, os professores poderão registrar e gerenciar atividades, para possivelmetne poder até mesmo notificar esses responsáveis sobre quaisquer observações a serem feitas. Este é o projeto Curumim. 
 
 <!-- ## Screenshots Primeira Entrega <<FOCO: DSW(Base)>>
 Adicione 2 ou mais screenshots do projeto em termos de artefatos da Primeira Entrega.
 --->
 
-## Projeto Wiki
-&emsp;&emsp;
-    No momento que estamos, ainda não há uma aplicação pronta, por estamos na fase inicial. Para que se possa "saborerar" — mesmo que minimamente — parte do que será o projeto Curumim, seguem algumas imagens da nossa documentação que está sendo feita durante esses dias na Wiki:
+## Wiki do Projeto
+&emsp;&emsp;No momento que estamos, ainda não há uma aplicação pronta, por estamos na fase inicial. Para que se possa "saborerar" — mesmo que minimamente — parte do que será o projeto Curumim, seguem algumas imagens da nossa documentação que está sendo feita durante esses dias na Wiki:
 
 - Imagem 1 - Wiki - Brainstorming:
 
@@ -71,8 +68,7 @@ Adicione 2 ou mais screenshots do projeto em termos de artefatos da Primeira Ent
 
 <br>
 
-&emsp;&emsp;
-Estas são 4 imagens que dão início a nossa documentação aqui no README sobre as documentações. Conforme o projeto for andando e se aprimorando, a ideia é retratar aqui no README todas essas novas evoluções.
+&emsp;&emsp;Estas são 4 imagens que dão início a nossa documentação aqui no README sobre as documentações. Conforme o projeto for andando e se aprimorando, a ideia é retratar aqui no README todas essas novas evoluções.
 
 <!--
 
