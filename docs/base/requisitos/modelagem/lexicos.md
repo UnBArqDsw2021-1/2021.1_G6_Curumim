@@ -185,7 +185,7 @@
 
 | L18 | Atividade |
 | -- | -- |
-| Classificação | Substantivo |
+| Classificação | Objeto |
 | Noção | - Práticas desenvolvidas pelos professores para a realização dos alunos no Centro Educacional. |
 | Impacto | - Os professores cadastram atividades para suas turmas dentro da aplicação. |
 | Sinônimo | - Práticas |
@@ -194,7 +194,7 @@
 
 | L19 | Educação |
 | -- | -- |
-| Classificação | Substantivo |
+| Classificação | Objeto |
 | Noção | - Ação ou efeito de educar, de aperfeiçoar as capacidades.  |
 | Impacto | - O objetivo de um centro educacional é promover a educação das crianças.  |
 | Sinônimo | - Pedagogia  |
@@ -213,7 +213,7 @@
 
 | L21 | Full-stack |
 | -- | -- |
-| Classificação | Substantivo |
+| Classificação | Objeto |
 | Noção | Desenvolvimento do código fonte do software que contempla todas todas as etapas de desenvolvimento, do inicio a entrega da funcionalidade |
 | Impacto | Prática usada pelo desenvolvedor para escrever o código fonte  |
 | Sinônimo | Etapas de desenvolvimento do software |
@@ -222,7 +222,7 @@
 
 | L22 | Front-end |
 | -- | -- |
-| Classificação | Substantivo |
+| Classificação | Objeto |
 | Noção | Desenvolvimento do código fonte referente a parte visual, de contato direto com o usuário final |
 | Impacto | Prática usada pelo desenvolvedor para escrever o código fonte |
 | Sinônimo | Interface da aplicação |
