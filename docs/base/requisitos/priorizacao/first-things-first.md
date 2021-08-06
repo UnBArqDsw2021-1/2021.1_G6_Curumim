@@ -40,3 +40,4 @@ ID | Requisitos | Benefício relativo | Penalidade relativa | Custo relativo | R
 | 0.1 | 29/07/2021 | Reunião para decidir a priorização dos requisitos | Bruno Félix, Daniel Porto, Edson de Araújo, Eliseu Kadesh, Enzo Gabriel, Francisco Emanoel, João Pedro, Mateus Oliveira, Gabriel Bonifácio e Nilo Mendonça |
 | 1.0 | 31/07/2021 | Abertura do documento | Eliseu Kadesh |
 | 1.1 | 03/07/2021 | Padronização do documento | Eliseu Kadesh |
+| 2.0 | 05/07/2021 | Finalização da padronização do documento | Eliseu Kadesh |
