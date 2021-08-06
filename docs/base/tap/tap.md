@@ -43,7 +43,7 @@ Desenvolver um aplicativo web mobile para que seja possível um centro educacion
 A finalidade deste documento é apresentar e explicitar como será executado o plano de riscos do projeto. O gerenciamento de riscos é uma das etapas do processo de gerenciamento de projeto. Com o controle de riscos, podemos listar, acompanhar, prevenir as incertezas, medir os impactos e dessa forma conseguimos ter um certo controle dos riscos. Assim, este documento tem o objetivo de definir como os riscos serão identificados, definidos e acompanhados em todo processo.
 
 ## Estrutura Analítica dos Riscos
-![EAR](assets/imagens/EAR/EAR_02.PNG)
+![EAR](../../assets/imagens/EAR/EAR_02.PNG)
 
 ## Análise quantitativa dos riscos
 A análise quantitativa de riscos tem como objetivo levantar dados mensuráveis, na intenção de obter maior controle das variáveis envolvidas no processo e domínio sobre os objetivos estratégicos. Com o resultado podemos aplicar ações que visam eliminar ou reduzir os riscos do projeto.
