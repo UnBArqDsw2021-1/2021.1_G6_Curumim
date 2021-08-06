@@ -28,9 +28,11 @@ nav:
                         - Modelagem:
                                 - NFR Framework: base/requisitos/modelagem/nfr-framework.md
                                 - iStar: base/requisitos/modelagem/i-star.md
+                                - Especificação Suplementar: base/requisitos/modelagem/especificacao-suplementar.md
                         - Pré-rastreabilidade:
                                 - 5W2H: base/requisitos/pre-rastreabilidade/5w2h.md
                                 - Argumentação: base/requisitos/pre-rastreabilidade/argumentacao.md
+                                - Causa-Efeito: base/requisitos/pre-rastreabilidade/causa-efeito.md
                                 - Mapa Metal: base/requisitos/pre-rastreabilidade/mapa-mental.md
                                 - Rich Picture: base/requisitos/pre-rastreabilidade/rich-picture.md
                 - Metodologia:
