@@ -27,7 +27,7 @@ Issues adicionadas:
 **Responsáveis:** Daniel Porto<br>
 
 3. **Issue:** [#20 NFR Framework](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/20)<br>
-**Responsáveis:** Nilo Mendonca<br>
+**Responsáveis:** Nilo Mendonça<br>
 
 4. **Issue:** [#21 Diagrama de Causa-Efeito](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/21)<br>
 **Responsáveis:** Joao Pedro<br>
