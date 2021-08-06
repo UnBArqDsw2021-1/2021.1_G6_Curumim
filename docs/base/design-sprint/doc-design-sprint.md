@@ -1,7 +1,7 @@
 ## Introdução
 
 &emsp;&emsp;
-O design sprint é uma maneira ágil de se definir e já iniciar o processo de concepção de uma ideia, visto que colabora para projetos que necessitem de implantações em um espaço de tempo curto. Projetado pelo [Google Ventures](https://www.gv.com/sprint/), o design sprint é um processo de 5 dias, afim de se resolver processos mais críticos do projeto sobre design, [protótipos](../requisitos/modelagem/lexicos.md/#lexico-prototipo) e teste de ideias. 
+O design sprint é uma maneira ágil de se definir e já iniciar o processo de concepção de uma ideia, visto que colabora para projetos que necessitem de implantações em um espaço de tempo curto. Projetado pelo [Google Ventures](https://www.gv.com/sprint/), o design sprint é um processo de 5 dias, afim de se resolver processos mais críticos do projeto sobre design, [protótipos](../../requisitos/modelagem/lexicos/#lexico-prototipo) e teste de ideias. 
 <br>
 
 ## Metodologia
@@ -14,7 +14,7 @@ A ideia principal é que essa essas sprints são versáteis. Com isso, podemos m
 
 3. Decidir (_Decision_): Definimos aqui a escolha do melhor Rich Picture.
 
-4. Prototipar (_Prototype_): De longe, a etapa que mais nos tomou tempo. Fizemos todo o protótipo de [baixa](../requisitos/modelagem/lexicos.md/#lexico-prototipo-de-baixa-fidelidade) e [alta fidelidade](../requisitos/modelagem/lexicos.md/#lexico-prototipo-de-alta-fidelidade), com todas as telas incluídas, o que nos tomou um tempo maior que o esperado, mas como tivemos uma certa agilidade nas etapas anteriores, terminamos em tempo hábil.
+4. Prototipar (_Prototype_): De longe, a etapa que mais nos tomou tempo. Fizemos todo o protótipo de [baixa](../../requisitos/modelagem/lexicos/#lexico-prototipo-de-baixa-fidelidade) e [alta fidelidade](../../requisitos/modelagem/lexicos/#lexico-prototipo-de-alta-fidelidade), com todas as telas incluídas, o que nos tomou um tempo maior que o esperado, mas como tivemos uma certa agilidade nas etapas anteriores, terminamos em tempo hábil.
 <br>
 
 ## Realização de cada fase
@@ -64,20 +64,20 @@ Seguem as datas e os artefatos feitos de quando fizemos cada etapa:
 
 ### 4. Prototipar (_Prototype_): realizado do dia 30/07/2021 ao dia 03/08/2021.
 
-- Realizamos a criação do protótipo de [baixa](../requisitos/modelagem/lexicos.md/#lexico-prototipo-de-baixa-fidelidade) e [alta fidelidade](../requisitos/modelagem/lexicos.md/#lexico-prototipo-de-alta-fidelidade) para mostrar uma representação mais fiel do que será a aplicação.
+- Realizamos a criação do protótipo de [baixa](../../requisitos/modelagem/lexicos/#lexico-prototipo-de-baixa-fidelidade) e [alta fidelidade](../../requisitos/modelagem/lexicos/#lexico-prototipo-de-alta-fidelidade) para mostrar uma representação mais fiel do que será a aplicação.
     
     > [Protótipos](./prototipos.md)
 
 ### 5. Testes de Usabilidade
 
-- Também fizemos alguns testes com o nosso [protótipo de alta fidelidade](../requisitos/modelagem/lexicos.md/#lexico-prototipo-de-alta-fidelidade), buscando analisar possíveis defeitos e melhorias a serem feitas na hora da criação da aplicação.
+- Também fizemos alguns testes com o nosso [protótipo de alta fidelidade](../../requisitos/modelagem/lexicos/#lexico-prototipo-de-alta-fidelidade), buscando analisar possíveis defeitos e melhorias a serem feitas na hora da criação da aplicação.
     
     > [Testes de Usabilidade](./prototipos.md)
 
 ## Adaptações
 
 &emsp;&emsp;
-Uma das grandes características do Design Sprint é que ele pode ser bem versátil. Dessa forma, a adaptação constante foi algo recorrente no nosso processo. A iniciar pelo tempo, devido a divergências e outras atividades dos membros do grupo, 5 dias não foram suficientes — sobretudo no [protótipo de alta fidelidade](../requisitos/modelagem/lexicos.md/#lexico-prototipo-de-alta-fidelidade), o que implicou também nos testes de usabilidade. Adaptamos também o tempo dos storyboards, que não foram feitos em tempo previsto.  
+Uma das grandes características do Design Sprint é que ele pode ser bem versátil. Dessa forma, a adaptação constante foi algo recorrente no nosso processo. A iniciar pelo tempo, devido a divergências e outras atividades dos membros do grupo, 5 dias não foram suficientes — sobretudo no [protótipo de alta fidelidade](../../requisitos/modelagem/lexicos.md/#lexico-prototipo-de-alta-fidelidade), o que implicou também nos testes de usabilidade. Adaptamos também o tempo dos storyboards, que não foram feitos em tempo previsto.  
 
 ## Bibliografia
 > - "The Design Sprint". Disponível em <https://www.gv.com/sprint/>. Acesso em: 05 ago. 2021.
@@ -87,4 +87,4 @@ Uma das grandes características do Design Sprint é que ele pode ser bem versá
 |--|--|--|--|
 |0.1|26/07/2021| Planejamento do Design Sprint | Bruno Félix, Daniel Porto, Edson Soares, Eliseu Kadesh, Enzo Gabriel, Francisco Emanoel, Gabriel Bonifácio, Mateus Oliveira e Nilo Mendonça|
 |1.0|05/08/2021| Adição da introdução, metodologia e data de realização de cada fase | Gabriel Bonifácio |
-|2.0|06/08/2021| Adição das referências dos documentos, da seção de adaptações e de hiperlinks dos léxicos | Gabriel Bonifácio |
+|2.0|06/08/2021| Adição das referências dos documentos, da seção de adaptações e correção de hiperlinks dos léxicos | Gabriel Bonifácio |
