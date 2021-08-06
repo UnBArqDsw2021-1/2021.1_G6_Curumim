@@ -43,8 +43,8 @@
 
 - DECISÃO: Houve um consenso para desenvolver um ambiente comum para todos que diferencie os tipos de usuários a partir dos dados.
 
-#### Desenvolvimento Full-stack de cada feature
-- i(p1) - Bruno: Acho que é melhor que os responsáveis pela feature desenvolvam ela do banco ao front.
+#### Desenvolvimento [Full-stack](/base/requisitos/modelagem/lexicos/#lexico-full-stack) de cada feature
+- i(p1) - Bruno: Acho que é melhor que os responsáveis pela feature desenvolvam ela do banco ao [Front-end](/base/requisitos/modelagem/lexicos/#lexico-front-end).
 - i(p2) - Matheus: Não tenho experiência com esse tipo de trabalho e ficaria confuso com todas as frentes ao mesmo tempo.
 - P1(i(p2), i(p1)) - Todos: Aumentaria muito a carga de trabalho em cima de cada integrante exigir que ele desenvolva todas as frentes da feature.
 - i(p3) - Bruno: Podem haver falhas na comunicação e prejudicar o desenvolvimento de um funcionalidade por completo.
@@ -52,7 +52,7 @@
 - It(i(p2), i(p4)) - Todos: Com o desenvolvimento de uma arquitetura o compartilhamento das tarefas dentro de uma feature vai estar menos propenso a erros.
 - i(p4) - Matheus: Com o desenvolvimento da arquitetura o entendimento geral vai mitigar essas dificuldades.
 - It(i(p4), i(p5)) - Todos: Mesmo com a divisão das frentes de trabalho, a falta de conhecimento sobre determinadas tecnologias ainda pode ser um problema.
-- i(p5) - Bruno: Sinto que não tem muitas pessoas com aptidão ao front-end, o que pode sobrecarregar alguns integrantes.
+- i(p5) - Bruno: Sinto que não tem muitas pessoas com aptidão ao [Front-end](/base/requisitos/modelagem/lexicos/#lexico-front-end), o que pode sobrecarregar alguns integrantes.
 - i(p6) - Francisco: A equipe tem muitos integrantes que podem ser alocados conforme a necessidade.
 - P(i(p6), i(p5)) - Todos: O número elevado de integrantes na equipe pode diminuir a sobrecarga individual referente a necessidade do aprendizado de uma nova tecnologia.
 
