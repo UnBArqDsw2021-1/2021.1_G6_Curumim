@@ -254,6 +254,8 @@ Para nosso caso que são 3500 linhas de código ou 3.5Kloc temos:
 
 > - ESPINHA, Roberto Gil. Termo de abertura do projeto: o que é e como montar o seu. Artia. Disponível em: <https://artia.com/blog/termo-de-abertura-do-projeto/>. Acesso em: 4 de agosto de 2021.
 
+> - MELLER, Maristela Corrêa. Modelos para estimar custos de software: Estudo comparativo com sofwares de pequeno porte. Disponível em: <https://repositorio.ufsc.br/xmlui/bitstream/handle/123456789/82351/184841.pdf?sequence=1&isAllowed=y/>. Acesso em: 6 de agosto de 2021.
+
 > - Projeto de arquitetura e desenho de software, UnB, A monitoria: <https://2019-2-arquitetura-desenho.github.io/wiki/dinamica_seminario_II/controle_riscos/>
 
 > - Conaplo, Como fazer matriz de Análise De Riscos, : <https://www.youtube.com/watch?v=hxPjCp_hBg0&t=570s/>
