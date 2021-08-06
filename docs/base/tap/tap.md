@@ -71,7 +71,8 @@
 | Muito alta | 5 | 10 | 15 | 20 | 25 |
  
 ### Matriz de impacto
-### Riscos de Gerencia de projeto
+
+#### Riscos de Gerencia de projeto
 |    Risco    | Impacto |  Probabilidade |  Prevenção  |  Resposta |  Prioridade    |
 |:----------:|:------:|:-------:|:------:|:-------:|:------:|
 | Alteração no escopo do projeto. | Alto | Alta | Boa comunicação com os stakeholders. | Aprimorar a capacidade de entender os requisitos e documentá-los. | 16 |
@@ -80,7 +81,7 @@
 | Cronograma incoerente com a realidade do projeto. | Alto | Média | Adaptar os prazos e atividades em um escopo viável.  | Refatorar o cronograma. | 12 |
  
  
-### Riscos Organizacionais
+#### Riscos Organizacionais
 |    Risco    | Impacto |  Probabilidade |  Prevenção  |  Resposta |  Prioridade    |
 |:----------:|:------:|:-------:|:------:|:-------:|:------:|
 |  Membro do grupo ou parentes próximos, passam por uma situação grave de covid-19. | Alto | Média | Manter os membros conscientizados sobre o risco de contaminação. | Dividir de forma justa as atividades entre o grupo. | 15 |
@@ -88,7 +89,7 @@
 | Falta de comunicação dentro da equipe | Alta | Baixa | Manter o grupo engajado. | Buscar outras maneiras de interação, durante um processo. | 8 |
  
  
-### Riscos técnico
+#### Riscos técnicos
 |    Risco    | Impacto |  Probabilidade |  Prevenção  |  Resposta |  Prioridade    |
 |:----------:|:------:|:-------:|:------:|:-------:|:------:|
 | Dificuldade na identificação dos requisitos. | Muito alto | Alta | Utilizar diferentes técnicas para fazer a elicitação dos requisitos. | Refinar o processo de levantamento dos requisitos. | 20 |
@@ -96,13 +97,13 @@
 | Atraso nas entregas das tarefas. | Alto | Média | Medir conhecimento técnico de cada membro de acordo com as tecnologias. | Avaliar o planejamento das atividades. | 12 |
  
  
-### Riscos de Qualidade
+#### Riscos de Qualidade
 |    Risco    | Impacto |  Probabilidade |  Prevenção  |  Resposta |  Prioridade    |
 |:----------:|:------:|:-------:|------:|:-------:|:------:|
 | Ausência de testes | Muito alto | Alta | Realizar testes automatizados de alta prioridade. | Buscar realizar testes. | 20 |
 | Falhas e bugs | Muito alto | Média | Realizar testes e verificação no pull request.  | Refatoração das partes com folhas. | 15 |
  
-### Riscos Externos
+#### Riscos Externos
 |    Risco    | Impacto |  Probabilidade |  Prevenção  |  Resposta |  Prioridade    |
 |:----------:|:------:|:-------:|:------:|:-------:|:------:|
 | Indisponibilidade dos integrantes do grupo para reuniões e eventuais encontros durante o desenvolvimento do projeto | Muito alto | Médio | Buscar atividades motivadoras. | Adaptar de acordo com a necessidade do grupo. | 15 |
