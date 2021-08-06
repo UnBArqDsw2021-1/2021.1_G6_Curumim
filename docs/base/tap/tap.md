@@ -6,18 +6,18 @@
  
 ## 2. Objetivo
  
-&emsp;&emsp;Desenvolver um aplicativo que realize o cadastro de crianças em um centro educacional e informe aos pais ou responsáveis sobre o rendimento da criança nas atividades propostas, e caso haja, informe sobre eventos realizados pelo centro educacional.
+&emsp;&emsp;Desenvolver um aplicativo que realize o cadastro de <a href=/base/requisitos/modelagem/lexicos/#lexico-criança>crianças</a> em um <a href=/base/requisitos/modelagem/lexicos/#lexico-centroeducacional>centro educacional</a> e informe aos <a href=/base/requisitos/modelagem/lexicos/#lexico-pais>pais</a> ou <a href=/base/requisitos/modelagem/lexicos/#lexico-responsavel>responsáveis</a> sobre o rendimento da <a href=/base/requisitos/modelagem/lexicos/#lexico-criança>criança</a> nas <a href=/base/requisitos/modelagem/lexicos/#lexico-atividade>atividades</a> propostas, e caso haja, informe sobre <a href=/base/requisitos/modelagem/lexicos/#lexico-evento>eventos</a> realizados pelo <a href=/base/requisitos/modelagem/lexicos/#lexico-centroeducacional>centro educacional</a>.
  
  
 ## 3. Justificativa
  
  
-&emsp;&emsp;Alguns pais e/ou responsáveis tem dificuldade de acompanhar o rendimento escolar de seus dependentes por vários motivos, como por falta de tempo por conta do trabalho, ou não conseguir falar com os professores ou até mesmo por desinteresse em procurar estas informações. Outro obstáculo que pode ser relatado para esse problema, é a falta de incentivo por parte dos altos cargos destes centros educacionais em estimular os responsáveis a buscar estas informações. Para isso o aplicativo tornará essa troca de informações mais confortável e prática, tanto para os responsáveis terem acesso quanto aos professores postarem.
+&emsp;&emsp;Alguns <a href=/base/requisitos/modelagem/lexicos/#lexico-pais>pais</a> e/ou <a href=/base/requisitos/modelagem/lexicos/#lexico-responsavel>responsáveis</a> tem dificuldade de acompanhar o rendimento escolar de seus dependentes por vários motivos, como por falta de tempo por conta do trabalho, ou não conseguir falar com os <a href=/base/requisitos/modelagem/lexicos/#lexico-professor>professores</a> ou até mesmo por desinteresse em procurar estas informações. Outro obstáculo que pode ser relatado para esse problema, é a falta de incentivo por parte dos altos cargos destes centros educacionais em estimular os <a href=/base/requisitos/modelagem/lexicos/#lexico-responsavel>responsáveis</a> a buscar estas informações. Para isso o aplicativo tornará essa troca de informações mais confortável e prática, tanto para os <a href=/base/requisitos/modelagem/lexicos/#lexico-responsavel>responsáveis</a> terem acesso quanto aos <a href=/base/requisitos/modelagem/lexicos/#lexico-professor>professores</a> postarem.
  
 ## 4. Descrição do projeto
  
  
-&emsp;&emsp;Desenvolver um aplicativo web mobile para que seja possível um centro educacional, para crianças de até 5 anos de idade, cadastrar essas crianças matriculadas em seus domínios e que assim, os pais e/ou responsáveis das mesmas possam acessar os dados de seus dependentes, assim como as atividades que realizam, notificações sobre eventos realizados pelo centro educacional, e caso queiram, também poder se comunicar com a instituição e professores. O aplicativo deverá funcionar nos sistemas operacionais Windows, Linux, IOS e Android.
+&emsp;&emsp;Desenvolver um aplicativo web mobile para que seja possível um <a href=/base/requisitos/modelagem/lexicos/#lexico-centroeducacional>centro educacional</a>, para <a href=/base/requisitos/modelagem/lexicos/#lexico-criança>crianças</a> de até 5 anos de idade, cadastrar essas <a href=/base/requisitos/modelagem/lexicos/#lexico-criança>crianças</a> matriculadas em seus domínios e que assim, os <a href=/base/requisitos/modelagem/lexicos/#lexico-pais>pais</a> e/ou <a href=/base/requisitos/modelagem/lexicos/#lexico-responsavel>responsáveis</a> das mesmas possam acessar os dados de seus dependentes, assim como as <a href=/base/requisitos/modelagem/lexicos/#lexico-atividade>atividades</a> que realizam, <a href=/base/requisitos/modelagem/lexicos/#lexico-notificar>notificações</a> sobre <a href=/base/requisitos/modelagem/lexicos/#lexico-evento>eventos</a> realizados pelo <a href=/base/requisitos/modelagem/lexicos/#lexico-centroeducacional>centro educacional</a>, e caso queiram, também poder se comunicar com a instituição e <a href=/base/requisitos/modelagem/lexicos/#lexico-professor>professores.</a> O aplicativo deverá funcionar nos sistemas operacionais Windows, Linux, IOS e Android.
  
 ## 5. Premissas
  
@@ -75,7 +75,7 @@
 #### Riscos de Gerencia de projeto
 |    Risco    | Impacto |  Probabilidade |  Prevenção  |  Resposta |  Prioridade    |
 |:----------:|:------:|:-------:|:------:|:-------:|:------:|
-| Alteração no escopo do projeto. | Alto | Alta | Boa comunicação com os stakeholders. | Aprimorar a capacidade de entender os requisitos e documentá-los. | 16 |
+| Alteração no escopo do projeto. | Alto | Alta | Boa comunicação com os <a href=/base/requisitos/modelagem/lexicos/#lexico-stakeholder>stakeholders.</a> | Aprimorar a capacidade de entender os requisitos e documentá-los. | 16 |
 | Divergência na grade horária dos integrantes. | Alto | Média | Transparência com relação aos horários disponíveis. | Estratégia na distribuição de tarefas, pareamento ou outra maneira justa na divisão.  | 12 |
 | Falha no autogerenciamento do grupo. | Muito alto | Média | Cada membro deve estar ciente do seu papel e suas responsabilidades dentro da equipe. | Cobrança mútua por parte do grupo. | 15 |
 | Cronograma incoerente com a realidade do projeto. | Alto | Média | Adaptar os prazos e atividades em um escopo viável.  | Refatorar o cronograma. | 12 |
