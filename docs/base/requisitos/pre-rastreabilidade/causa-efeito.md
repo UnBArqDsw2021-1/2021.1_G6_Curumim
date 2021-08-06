@@ -13,9 +13,9 @@
 
 ## Bibliografia
 
-> ANDRADE, Luiza. Diagrama de Ishikawa: o que é e como fazer. Siteware, 2017. Disponível em: <https://www.siteware.com.br/blog/metodologias/diagrama-de-ishikawa/>. Acesso em: 3 de agosto de 2021.
+> - ANDRADE, Luiza. Diagrama de Ishikawa: o que é e como fazer. Siteware, 2017. Disponível em: <https://www.siteware.com.br/blog/metodologias/diagrama-de-ishikawa/>. Acesso em: 3 de agosto de 2021.
 
-> SILVEIRA, Cristiano Bertulucci.Diagrama de Ishikawa, Causa e Efeito ou Espinha de Peixe. Citisystems, 2012. Disponível em: <https://www.citisystems.com.br/diagrama-de-ishikawa/>. Acesso em: 3 de agosto de 2021.
+> - SILVEIRA, Cristiano Bertulucci.Diagrama de Ishikawa, Causa e Efeito ou Espinha de Peixe. Citisystems, 2012. Disponível em: <https://www.citisystems.com.br/diagrama-de-ishikawa/>. Acesso em: 3 de agosto de 2021.
 
 ## Versionamento
 | Versão | Data | Modificação | Autor |
