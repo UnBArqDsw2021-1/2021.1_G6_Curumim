@@ -1,13 +1,5 @@
 # Termo de abertura do projeto (TAP) 
 
-## Histórico de revisão
-
-|    Data    | Versão |        Alteração               |                    Autor                    |
-|:----------:|:------:|:-----------------:|:------------------------:|
-| 04/08/2021|  0.1  | Abertura do documento | João Pedro, Edson Soares e Eliseu Kadesh |
-| 04/08/2021 | 1.0 | Criação das tabelas probabilidade, impacto e a matriz de probabilidade X impacto. | Edson Soares |
-| 06/08/2021 | 1.1 | Finalização dos riscos. | Edson Soares |
-
 
 ## 2. Objetivo
 
@@ -127,3 +119,12 @@
 > - Conaplo, Como fazer matriz de Análise De Riscos, : <https://www.youtube.com/watch?v=hxPjCp_hBg0&t=570s/>
 
 > ESO edx, Planejar o gerenciamento dos riscos: <https://www.youtube.com/watch?v=HDMS7ftQJb0&t=319s/>
+
+
+## Versionamento
+
+|    Data    | Versão |        Alteração               |                    Autor                    |
+|:----------:|:------:|:-----------------:|:------------------------:|
+| 04/08/2021|  0.1  | Abertura do documento | João Pedro, Edson Soares e Eliseu Kadesh |
+| 04/08/2021 | 1.0 | Criação das tabelas probabilidade, impacto e a matriz de probabilidade X impacto. | Edson Soares |
+| 06/08/2021 | 1.1 | Finalização dos riscos. | Edson Soares |
