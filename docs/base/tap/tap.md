@@ -61,7 +61,7 @@
 ## Impacto
 |    Impacto    | Descrição |  Peso|    |
 |:----------:|:------:|-------:|------:|
-| Muito baixo | Considera-se quase que imperceptível para o projeto. | 1 |  |
+| Muito baixo | Considera-se quase que imperceptível para o projeto. | 1 |
 | Baixo |  Pouca influência no projeto.  | 2 |
 | Médio |  Impacto que pode afetar o projeto, mas tem solução.  | 3 |
 | Alto |  Torna o andamento do projeto mais difícil.  | 4 |
