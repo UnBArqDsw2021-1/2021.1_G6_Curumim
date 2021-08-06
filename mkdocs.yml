@@ -15,7 +15,11 @@ nav:
         - Base:
                 - Design Sprint:
                         - Documento de Design Sprint: base/design-sprint/doc-design-sprint.md
-                        - Prototipação: base/design-sprint/prototipos.md
+                        - Prototipação:
+                                - Introdução: base/design-sprint/prototipos.md
+                                - Protótipo de baixa fidelidade: base/design-sprint/prototipo-baixa.md
+                                - Plano de testes de alta fidelidade: base/design-sprint/plan-test.md
+                                - Protótipo de alta fidelidade: base/design-sprint/prototipo-alta.md
                 - Requisitos:
                         - Elicitação:
                                 - Brainstorming: base/requisitos/elicitacao/brainstorming.md
