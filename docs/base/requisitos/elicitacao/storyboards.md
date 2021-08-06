@@ -11,34 +11,55 @@
 &emsp;&emsp;Suzana é uma ex-professora que tevem um vasto conheciento na área de padagogia, e conhece de perto muitas dores da área, principalmente na inclusão digital na educação.
 
 **Problemas do dia-a-dia**: Um dia na rotina de Suzana.
-![](https://raw.githubusercontent.com/francisco1code/docs/master/images/1.png)
+![](https://raw.githubusercontent.com/francisco1code/docs/master/images/1.png) <center>
+[Figura 1- Persona Suzana ](https://raw.githubusercontent.com/francisco1code/docs/master/images/1.png)</center>
 
 **Soluções da aplicação:** Suzana conversa com colega de trabalho.
-![](https://raw.githubusercontent.com/francisco1code/docs/master/images/2.png)
+![](https://raw.githubusercontent.com/francisco1code/docs/master/images/2.png) <center>
+[Figura 2- Persona Suzana](https://raw.githubusercontent.com/francisco1code/docs/master/images/2.png)
+</center>
 
 **Mais funcionalidades**: Suzana descobre mais funcionalidades e fica super feliz.
-![](https://raw.githubusercontent.com/francisco1code/docs/master/images/3333.png)
+![](https://raw.githubusercontent.com/francisco1code/docs/master/images/3333.png) <center>
+
+[Figura 3- Persona Suzana](https://raw.githubusercontent.com/francisco1code/docs/master/images/3333.png)
+
+</center>
 
 ### Professor
 
 &emsp;&emsp;Poliana é uma jovem professora de crianças, muita extrovertida, que gosta de sempre estar em contato com os responsáveis de seus alunos.
 
 **Problemas do dia-a-dia**: Um dia de Poliana na sala dos professores.
-![](../../../assets/imagens/storyboards/storyboard_poliana_1.png)
+![](../../../assets/imagens/storyboards/storyboard_poliana_1.png) <center> 
+[Figura 4- Persona Poliana](../../../assets/imagens/storyboards/storyboard_poliana_1.png) </center>
 
+<<<<<<< HEAD:docs/base/requisitos/elicitacao/storyboards.md
 **Soluções da aplicação e mais funcionalidade**: Poliana descobrindo funcionalidades do App.
 ![](../../../assets/imagens/storyboards/storyboard_poliana_2.png)
+=======
+**Soluções da aplicação e mais funcionalidade**:
+![](../../../assets/imagens/storyboards/storyboard_poliana_2.png) <center>
+[Figura 5- Persona Poliana](../../../assets/imagens/storyboards/storyboard_poliana_2.png) </center>
+>>>>>>> c331d54 (doc(#12) Adicionado link da fonte das imagens):docs/base/requisitos/elicitacao/story-boards.md
 
 ### Pais/Responsáveis
 
 &emsp;&emsp;Gustavo é um homem de 31 anos, ele é o pai muito presente de uma menina de 5 anos, ele é formado em engenharia de software, então é uma pessoa muito atualizada com tecnologias.
 
 **Problemas do dia-a-dia**: Um dia na rotina de Gustavo com sua esposa.
-![](../../../assets/imagens/storyboards/storyboard_gustavo_1.png)
+![](../../../assets/imagens/storyboards/storyboard_gustavo_1.png) <center> 
+
+[Figura 6- Persona Gustavo](../../../assets/imagens/storyboards/storyboard_gustavo_1.png)</center>
+
 
 **Soluções da aplicação e mais funcionalidades:**: Gustavo conversa com sua esposa dias depois.
 
 ![](../../../assets/imagens/storyboards/storyboard_gustavo_2.png)
+
+<center> 
+
+[Figura 7- Persona Gustavo](../../../assets/imagens/storyboards/storyboard_gustavo_2.png)</center>
 
 ## Bibliografia
 
