@@ -26,7 +26,7 @@
 **Problemas do dia-a-dia**: Um dia de Poliana na sala dos professores.
 ![](../../../assets/imagens/storyboards/storyboard_poliana_1.png)
 
-**Soluções da aplicação e mais funcionalidade**:
+**Soluções da aplicação e mais funcionalidade**: Poliana descobrindo funcionalidades do App.
 ![](../../../assets/imagens/storyboards/storyboard_poliana_2.png)
 
 ### Pais/Responsáveis
