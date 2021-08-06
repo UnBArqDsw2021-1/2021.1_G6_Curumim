@@ -113,7 +113,7 @@
  
 ### Introdução
  
-&emsp;&emsp;Segundo Cruz, Werner e Soares (1999), o objetivo de estimar os custos, é desenvolver uma estimativa dos custos dos recursos necessários para executar as atividades do projeto, visando obter a remuneração dos recursos ( mão de obra, serviços, capital, etc). No contexto das estimativas de custos de projetos de desenvolvimento de software, a medição em si  ainda encontra bastante problemas, pois não existe um consenso sobre as técnicas ou modelos a serem utilizados. Enquanto, alguns profissionais acreditam na medição da contagem da quantidade de linhas de código-fonte, outros defendem a contagem de pontos de função, essas afirmações têm suas divergências.
+&emsp;&emsp;Segundo Cruz, Werner e Soares (1999), o objetivo de estimar os custos, é desenvolver uma estimativa dos custos dos recursos necessários para executar as atividades do projeto, visando obter a remuneração dos recursos (mão de obra, serviços, capital, etc). No contexto das estimativas de custos de projetos de desenvolvimento de software, a medição em si ainda encontra bastantes problemas, pois não existe um consenso sobre as técnicas ou modelos a serem utilizados. Enquanto, alguns profissionais acreditam na medição da contagem da quantidade de linhas de código-fonte, outros defendem a contagem de pontos de função, essas afirmações têm suas divergências.
  
 &emsp;&emsp;A medição dentro do desenvolvimento de software encara um problema ainda maior, quando o objetivo é realizar a estimativa de prazos e de esforço de desenvolvimento, pois o desenvolvimento de um software pode demorar anos e isso pode gerar problemas na coleta de doados, levando a baixa motivação dos membros da equipe.
  
@@ -139,13 +139,13 @@ equipes de desenvolvimento.
  
 ### Aplicação do COCOMO
  
-O modelo COCOMO pode ser aplicado em três classes de projetos:
+&emsp;&emsp;O modelo COCOMO pode ser aplicado em três classes de projetos:
  
 - Modo Orgânico: projetos simples, relativamente pequenos, com conjuntos de requisitos não tão rígidos, com equipes pequenas e experientes.
 - Modo Semidestacado: projetos intermediários (em tamanho e complexidade), com alguns requisitos rígidos e outros não tão rígidos, com níveis mistos de experiência nas equipes.
 - Modo Embutido: projetos com conjunto rígido de restrições operacionais, tanto de hardware, quanto de software.
  
-No caso do nosso projeto, se trata de um Modo Semidestacado.
+&emsp;&emsp;No caso do nosso projeto, se trata de um Modo Semidestacado.
  
 &emsp;&emsp;Dos atributos que são utilizados no COCOMO intermediário, decidimos levar em consideração apenas os seguintes atributos:
  
