@@ -7,7 +7,7 @@ O diagrama Causa-Efeito, também conhecido como diagrama de Ishikawa ou espinha 
 ## Diagrama
 
 ![Diagrama Causa-Efeito](../../../assets/imagens/causa-efeito/Diagrama%20Causa-Efeito.png)
-<center>[Figura 1: Diagrama Causa-Efeito]</center>
+<center>[Figura 1: Diagrama Causa-Efeito](../../../assets/imagens/causa-efeito/Diagrama%20Causa-Efeito.png)</center>
 
 
 
