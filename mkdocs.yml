@@ -25,15 +25,18 @@ nav:
                         - Priorização:
                                 - MoSCoW: base/requisitos/priorizacao/moscow.md
                                 - First Things First: base/requisitos/priorizacao/first-things-first.md
+                        - Modelagem:
+                                - NFR Framework: base/requisitos/modelagem/nfr-framework.md
+                                - iStar: base/requisitos/modelagem/i-star.md
                         - Pré-rastreabilidade:
                                 - 5W2H: base/requisitos/pre-rastreabilidade/5w2h.md
+                                - Argumentação: base/requisitos/pre-rastreabilidade/argumentacao.md
                                 - Mapa Metal: base/requisitos/pre-rastreabilidade/mapa-mental.md
                                 - Rich Picture: base/requisitos/pre-rastreabilidade/rich-picture.md
                                 - Argumentação: base/requisitos/pre-rastreabilidade/argumentacao.md
-                        - Modelagem:
-                                - iStar: base/requisitos/modelagem/i-star.md
                 - Metodologia:
                         - Metodologia: base/metodologia/metodologia.md
+                        - Modelagem BPMN: base/metodologia/bpmn.md
         - Reuniões:
                 - ATA reunião 26/07: reunioes/r1-ata-26-07.md
                 - ATA reunião 28/07: reunioes/r1-ata-28-07.md
