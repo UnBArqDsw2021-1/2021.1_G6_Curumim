@@ -11,7 +11,7 @@
 #### Fluxograma
 &emsp;&emsp;Fluxograma utilizado para ajudar na criação do protótipo de alta fidelidade.
 ![fluxo-prototipo](https://user-images.githubusercontent.com/37383185/128437055-e4cec67c-a1a3-4c97-b751-62177bd17d6e.jpg)
-Autor: Todos os integrantes
+<center>[Figura 1: Fluxograma da aplicação](https://user-images.githubusercontent.com/37383185/128437055-e4cec67c-a1a3-4c97-b751-62177bd17d6e.jpg)</center>
 
 
 ## Protótipos
@@ -39,14 +39,18 @@ Autor: Todos os integrantes
 
 &emsp;&emsp;Em uma escala de 1 a 5, onde 1 equivale a inútil e 5 a muito útil, qual é seu grau de utilidade da plataforma Curumim?
 ![image](https://user-images.githubusercontent.com/37383185/128441747-a079ac58-f9b8-4452-9a12-675bd364020a.png)
+<center>[Figura 2: Respostas da pergunta 1](https://user-images.githubusercontent.com/37383185/128441747-a079ac58-f9b8-4452-9a12-675bd364020a.png)</center>
 
 &emsp;&emsp;Em uma escala de 1 a 5, onde 1 equivale a muito fácil e 5 a muito difícil, avalie o grau de dificuldade na execução das tarefas?
 ![image](https://user-images.githubusercontent.com/37383185/128441793-eb8a5935-a957-4f9b-a5ab-ca1da12cecae.png)
+<center>[Figura 2: Respostas da pergunta 2](https://user-images.githubusercontent.com/37383185/128441793-eb8a5935-a957-4f9b-a5ab-ca1da12cecae.png)</center>
 
 &emsp;&emsp;Alguma sugestão de melhoria para a realização das tarefas?
 ![image](https://user-images.githubusercontent.com/37383185/128441858-d8da2a7c-8b30-4d4b-95f0-bf7ac8eb65e2.png)
+<center>[Figura 3: Respostas da pergunta 3](https://user-images.githubusercontent.com/37383185/128441858-d8da2a7c-8b30-4d4b-95f0-bf7ac8eb65e2.png)</center>
 
 &emsp;&emsp;Problemas de usabilidades descobertos:
+
 | Onde ocorreu | descrição | sugestões de correção |
 |--------------|-----------|-----------------------|
 | Perfil do estudante | Algumas pessoas clicaram no nome ou no espaço em branco para abrir os detalhes das atividades. | Abrir a descrição da atividade em toda a caixa além do botão de detalhes.|
