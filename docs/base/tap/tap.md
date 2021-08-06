@@ -250,7 +250,7 @@ Para nosso caso que são 3500 linhas de código ou 3.5Kloc temos:
 
     T = 5.87 meses
 
-## Referências
+## Bibliografia
 
 > - ESPINHA, Roberto Gil. Termo de abertura do projeto: o que é e como montar o seu. Artia. Disponível em: <https://artia.com/blog/termo-de-abertura-do-projeto/>. Acesso em: 4 de agosto de 2021.
 
