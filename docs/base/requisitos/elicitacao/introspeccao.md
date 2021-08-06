@@ -5,7 +5,6 @@
 
 &emsp;&emsp;Durante a reunião do dia 28/07, o grupo fez a execução da técnica de introspecção, logo após da criação das personas, com o objetivo de elicitar alguns requisitos não-funcionais, já que ainda só haviamos elicitados os funcionais.
 
-
 ## Requisitos
 &emsp;&emsp;Segue a tabela com os requisitos não funcionais elicitados:
 
@@ -22,7 +21,7 @@
 
 ## Bibliografia
 
-- BARBOSA. Simone. SILVA. Bruno. 2010. Interação Humano-computador.
+> - BARBOSA. Simone. SILVA. Bruno. 2010. Interação Humano-computador.
 
 ## Versionamento
 | Versão | Data | Modificação | Autor(es) |
