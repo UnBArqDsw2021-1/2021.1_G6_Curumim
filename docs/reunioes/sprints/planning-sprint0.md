@@ -30,7 +30,7 @@ Issues adicionadas:
 **Responsáveis:** Nilo Mendonça<br>
 
 4. **Issue:** [#21 Diagrama de Causa-Efeito](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/21)<br>
-**Responsáveis:** Joao Pedro<br>
+**Responsáveis:** João Pedro<br>
 
 5. **Issue:** [#23 Modelagem BPMN](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/23)<br>
 **Responsáveis:** Daniel Porto<br>
@@ -54,4 +54,4 @@ Issues adicionadas:
 **Responsáveis:** Enzo Gabriel e Francisco Emanoel<br>
 
 12. **Issue:** [#46 Criar TAP](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/46)<br>
-**Responsáveis:** Edson Araujo, Eliseu Kadesh e Joao Pedro<br>
+**Responsáveis:** Edson Araujo, Eliseu Kadesh e João Pedro<br>
