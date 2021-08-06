@@ -118,10 +118,12 @@ A análise quantitativa de riscos tem como objetivo levantar dados mensuráveis,
 ## 8. Custos
 
 
-## Bibliografia
+## Referências
 
 > ESPINHA, Roberto Gil. Termo de abertura do projeto: o que é e como montar o seu. Artia. Disponível em: <https://artia.com/blog/termo-de-abertura-do-projeto/>. Acesso em: 4 de agosto de 2021.
 
-> A monitoria, projeto de arquitetura e desenho de software, UnB. https://2019-2-arquitetura-desenho.github.io/wiki/dinamica_seminario_II/controle_riscos/
+> Projeto de arquitetura e desenho de software, UnB, A monitoria: <https://2019-2-arquitetura-desenho.github.io/wiki/dinamica_seminario_II/controle_riscos/>
 
-> COMO FAZER MATRIZ DE ANÁLISE DE RISCOS, Conaplo, https://www.youtube.com/watch?v=hxPjCp_hBg0&t=570s
+> Conaplo, Como fazer matriz de Análise De Riscos, : <https://www.youtube.com/watch?v=hxPjCp_hBg0&t=570s/>
+
+> ESO edx, Planejar o gerenciamento dos riscos: <https://www.youtube.com/watch?v=HDMS7ftQJb0&t=319s/>
