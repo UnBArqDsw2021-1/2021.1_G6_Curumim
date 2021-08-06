@@ -209,7 +209,7 @@
 | Impacto | O usuário acessa a sua conta através dele |
 | Sinônimo | Login |
 
-### Léxico - Full-stack
+### Léxico - Desenvilvimento Full-stack
 
 | L21 | Full-stack |
 | -- | -- |
@@ -218,7 +218,7 @@
 | Impacto | Prática usada pelo desenvolvedor para escrever o código fonte  |
 | Sinônimo | Etapas de desenvolvimento do software |
 
-### Léxico - Front-end
+### Léxico - Deesenvolvimento Front-end
 
 | L22 | Front-end |
 | -- | -- |
