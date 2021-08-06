@@ -24,9 +24,9 @@
 - P2(i(p1), i(p3)) - Todos: Apesar da funcionalidade estar alinhada com o requisito inicial, nele não é especificado de fato a forma como as informações devem ser disponibilizadas.
 - i(p4) - Francisco: A presença dos alunos pode ser representada em gráficos.
 - P3(i(p4), i(p1)) - Todos: Apesar de não haver a necessidade da criação de gráficos para todos os dados gerados na aplicação, a disponibilização deles especificamente para o acompanhamento da frequência dos alunos seria extremamente útil para os pais.
-- i(p5) - Enzo: Como são crianças de até 5 anos, os responsáveis precisam leva-las até o centro educacional, o que os dá a certeza da presença na aula.
-- It(i(p4), i(p6)) - Todos: Seria importante disponibilizar o gráfico de presença do aluno para que o responsável possa acompanhar as entradas e saídas da criança, especialmente em casos que não seja o tal responsável que deixa a criança no centro educacional.
-- i(p6) - João: Nem sempre será o responsável que levará a criança, o que faz que seja necessário os dados de presença.
+- i(p5) - Enzo: Como são crianças de até 5 anos, os [responsáveis](/base/requisitos/modelagem/lexicos/#lexico-responsavel) precisam leva-las até o centro educacional, o que os dá a certeza da presença na aula.
+- It(i(p4), i(p6)) - Todos: Seria importante disponibilizar o gráfico de presença do aluno para que o [responsável](/base/requisitos/modelagem/lexicos/#lexico-responsavel) possa acompanhar as entradas e saídas da criança, especialmente em casos que não seja o tal [responsável](/base/requisitos/modelagem/lexicos/#lexico-responsavel) que deixa a criança no centro educacional.
+- i(p6) - João: Nem sempre será o [responsável](/base/requisitos/modelagem/lexicos/#lexico-responsavel) que levará a criança, o que faz que seja necessário os dados de presença.
 
 ![Permanencia do requisito REQB_05](../../../assets/imagens/argumentacao/arg-1.png)
 <center>[Figura 1: Permanencia do requisito REQB_05](../../../assets/imagens/argumentacao/arg-1.png)</center>

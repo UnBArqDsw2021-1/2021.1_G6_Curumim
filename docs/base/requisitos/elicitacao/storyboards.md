@@ -24,7 +24,7 @@
 
 ### Professor
 
-&emsp;&emsp;Poliana é uma jovem [professora](/base/requisitos/modelagem/lexicos/#lexico-professor) de [crianaçs](/base/requisitos/modelagem/lexicos/#lexico-criança), muita extrovertida, que gosta de sempre estar em contato com os responsáveis de seus alunos.
+&emsp;&emsp;Poliana é uma jovem [professora](/base/requisitos/modelagem/lexicos/#lexico-professor) de [crianaçs](/base/requisitos/modelagem/lexicos/#lexico-criança), muita extrovertida, que gosta de sempre estar em contato com os [responsáveis](/base/requisitos/modelagem/lexicos/#lexico-responsavel) de seus alunos.
 
 **Problemas do dia a dia**: Um dia de Poliana na sala dos [professores](/base/requisitos/modelagem/lexicos/#lexico-professor).
 ![](../../../assets/imagens/storyboards/storyboard_poliana_1.png) <center>
