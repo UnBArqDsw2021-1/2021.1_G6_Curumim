@@ -34,14 +34,9 @@
 ![](../../../assets/imagens/storyboards/storyboard_poliana_1.png) <center> 
 [Figura 4- Persona Poliana](../../../assets/imagens/storyboards/storyboard_poliana_1.png) </center>
 
-<<<<<<< HEAD:docs/base/requisitos/elicitacao/storyboards.md
-**Soluções da aplicação e mais funcionalidade**: Poliana descobrindo funcionalidades do App.
-![](../../../assets/imagens/storyboards/storyboard_poliana_2.png)
-=======
 **Soluções da aplicação e mais funcionalidade**:
 ![](../../../assets/imagens/storyboards/storyboard_poliana_2.png) <center>
 [Figura 5- Persona Poliana](../../../assets/imagens/storyboards/storyboard_poliana_2.png) </center>
->>>>>>> c331d54 (doc(#12) Adicionado link da fonte das imagens):docs/base/requisitos/elicitacao/story-boards.md
 
 ### Pais/Responsáveis
 
