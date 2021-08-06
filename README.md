@@ -39,34 +39,40 @@ Considerando a atual relação entre professores e administradores com os respon
 Adicione 2 ou mais screenshots do projeto em termos de artefatos da Primeira Entrega.
 --->
 
-## Telas do Protótipo de Alta Fidelidade
+## Projeto Wiki
 &emsp;&emsp;
-    No momento que estamos, ainda não há uma aplicação pronta, por estamos na fase inicial. Para que se possa "saborerar" — mesmo que minimamente — parte do que será o projeto Curumim, seguem algumas telas do nosso prótotipo de alta fidelidade:
+    No momento que estamos, ainda não há uma aplicação pronta, por estamos na fase inicial. Para que se possa "saborerar" — mesmo que minimamente — parte do que será o projeto Curumim, seguem algumas imagens da nossa documentação que está sendo feita durante esses dias na Wiki:
+
+- Imagem 1 - Wiki - Brainstorming:
+
+![Wiki](docs/assets/imagens/sobre/wiki-imagem1.png)
+<center>[Figura 1: Wiki - Brainstorming](docs/assets/sobre/wiki-imagem1.png)</center>
+
+<br>
+
+- Imagem 2 - Wiki - MosCoW:
+
+![Wiki](docs/assets/imagens/sobre/wiki-imagem2.png)
+<center>[Figura 2: Wiki - MosCoW](docs/assets/sobre/wiki-imagem2.png)</center>
+
+<br>
+
+- Imagem 3 - Wiki - BPMN:
+
+![Wiki](docs/assets/imagens/sobre/wiki-imagem3.png)
+<center>[Figura 3: Wiki - BPMN](docs/assets/sobre/wiki-imagem3.png)</center>
+
+<br>
+
+- Imagem 4 - Wiki - Argumentação:
+
+![Wiki](docs/assets/imagens/sobre/wiki-imagem4.png)
+<center>[Figura 4: Wiki - Argumentação](docs/assets/sobre/wiki-imagem4.png)</center>
+
+<br>
+
 &emsp;&emsp;
-- Tela 1 — Login:
-
-![Tela de Login](docs/assets/imagens/sobre/sobre1-login.jpg)
-<center>[Figura 1: Tela de Login](docs/assets/sobre/sobre1-login.jpg)</center>
-
-&emsp;&emsp;
-- Tela 2 — Cadastro:
-
-![Tela de Login](docs/assets/imagens/sobre/sobre2-cadastro.jpg)
-<center>[Figura 1: Tela de Login](docs/assets/sobre/sobre2-cadastro.jpg)</center>
-
-&emsp;&emsp;
-
-- Tela 3 — Perfil do Aluno:
-
-
-![Tela de Login](docs/assets/imagens/sobre/sobre3-perfil.jpg)
-<center>[Figura 1: Tela de Login](docs/assets/sobre/sobre3-perfil.jpg)</center>
-
-&emsp;&emsp;
-
-
-&emsp;&emsp;
-Estas são 3 telas que fizemos no nosso protótipo. Conforme o projeto for andando e se aprimorando, a ideia é retratar aqui no README todas essas evoluções.
+Estas são 4 imagens que dão início a nossa documentação aqui no README sobre as documentações. Conforme o projeto for andando e se aprimorando, a ideia é retratar aqui no README todas essas novas evoluções.
 
 <!--
 
