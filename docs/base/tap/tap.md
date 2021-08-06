@@ -29,18 +29,18 @@
 
 ## 7. Riscos
 
-## Introdução
+### Introdução
 
 &emsp;&emsp;A finalidade deste documento é apresentar e explicitar como será executado o plano de riscos do projeto. O gerenciamento de riscos é uma das etapas do processo de gerenciamento de projeto. Com o controle de riscos, podemos listar, acompanhar, prevenir as incertezas, medir os impactos e dessa forma conseguimos ter um certo controle dos riscos. Assim, este documento tem o objetivo de definir como os riscos serão identificados, definidos e acompanhados em todo processo.
 
-## Estrutura Analítica dos Riscos
+### Estrutura Analítica dos Riscos
 ![EAR](../../assets/imagens/EAR/EAR_02.PNG)
 
-## Análise quantitativa dos riscos
+### Análise quantitativa dos riscos
 
 &emsp;&emsp;A análise quantitativa de riscos tem como objetivo levantar dados mensuráveis, na intenção de obter maior controle das variáveis envolvidas no processo e domínio sobre os objetivos estratégicos. Com o resultado podemos aplicar ações que visam eliminar ou reduzir os riscos do projeto.
 
-## Probabilidade
+### Probabilidade
 |    Probabilidade    |  Peso|
 |:----------:|-------:|
 | Muito baixa | 1 |
@@ -50,7 +50,7 @@
 | Muito alta | 5 |
 
 
-## Impacto
+### Impacto
 |    Impacto    | Descrição |  Peso|    |
 |:----------:|:------:|-------:|------:|
 | Muito baixo | Considera-se quase que imperceptível para o projeto. | 1 |
@@ -59,7 +59,7 @@
 | Alto |  Torna o andamento do projeto mais difícil.  | 4 |
 | Muito alto | Impossibilita a continuação do projeto.  | 5 |
 
-## Prioridade
+### Prioridade
 |    P/I    | Muito baixa |  Baixa |  Média  |  Alta |  Muito alta    |
 |:----------:|:------:|:-------:|:------:|:-------:|:------:|
 | Muito baixa | 1 | 2 | 3 | 4 | 5 |
@@ -68,8 +68,8 @@
 | Alta | 4 | 8 | 12 | 16 | 20 |
 | Muito alta | 5 | 10 | 15 | 20 | 25 |
 
-## Matriz de impacto
-## Riscos de Gerencia de projeto
+### Matriz de impacto
+### Riscos de Gerencia de projeto
 |    Risco    | Impacto |  Probabilidade |  Prevenção  |  Resposta |  Prioridade    |
 |:----------:|:------:|:-------:|:------:|:-------:|:------:|
 | Alteração no escopo do projeto. | Alto | Alta | Boa comunicação com os stakeholders. | Aprimorar a capacidade de entender os requisitos e documentá-los. | 16 |
@@ -78,7 +78,7 @@
 | Cronograma incoerente com a realidade do projeto. | Alto | Média | Adptar os prazos e atividades em um escopo viável.  | Refatorar o cronograma. | 12 |
 
 
-## Riscos Organizacionais
+### Riscos Organizacionais
 |    Risco    | Impacto |  Probabilidade |  Prevenção  |  Resposta |  Prioridade    |
 |:----------:|:------:|:-------:|:------:|:-------:|:------:|
 |  Membro do grupo ou parentes próximos, passam por uma situação grave de covid-19. | Alto | Média | Manter os membros conscientizados sobre o risco de contaminação. | Dividir de forma justa as atividades entre o grupo. | 15 |
@@ -86,7 +86,7 @@
 | Falta de comunicação dentro da equipe | Alta | Baixa | Manter o grupo engajado. | Buscar outras maneiras de interação, durante um processo. | 8 |
 
 
-## Riscos técnico
+### Riscos técnico
 |    Risco    | Impacto |  Probabilidade |  Prevenção  |  Resposta |  Prioridade    |
 |:----------:|:------:|:-------:|:------:|:-------:|:------:|
 | Dificuldade na identificação dos requisitos. | Muito alto | Alta | Utilizar diferentes técnicas para fazer a elicitação dos reqisitos. | Refinar o processo de levantamento dos requisitos. | 20 |
@@ -94,13 +94,13 @@
 | Atraso nas entregas das tarefas. | Alto | Média | Medir conhecimento técnico de cada membro de acordo com as tecnologias. | Avaliar o planejamento das atividades. | 12 |
 
 
-## Riscos de Qualidade
+### Riscos de Qualidade
 |    Risco    | Impacto |  Probabilidade |  Prevenção  |  Resposta |  Prioridade    |
 |:----------:|:------:|:-------:|------:|:-------:|:------:|
 | Ausência de testes | Muito alto | Alta | Realizar testes automatizados de alta prioridade. | Buscar realizar testes. | 20 |
 | Falhas e bugs | Muito alto | Média | Realizar testes e verificação no pull resquest.  | Refatoração das partes com folhas. | 15 |
 
-## Riscos Externos
+### Riscos Externos
 |    Risco    | Impacto |  Probabilidade |  Prevenção  |  Resposta |  Prioridade    |
 |:----------:|:------:|:-------:|:------:|:-------:|:------:|
 | indisponibilidade dos integrantes do grupo para reuniões e eventuais encontros durante o desenvolvimento do projeto | Muito alto | Médio | Buscar atividades motivadores. | Adptar de acordo com a necessidade do grupo. | 15 |
@@ -121,7 +121,7 @@ O modelo COCOMO pode ser aplicado em três classes de projetos:
 
 No caso do nosso projeto, se trata de um Modo Semidestacado.
 
-Dos atributos que são utilizados no COCOMO intermediário, decidimos levar em consideração os seguintes atributos:
+&emsp;&emsp;Dos atributos que são utilizados no COCOMO intermediário, decidimos levar em consideração os seguintes atributos:
 
 * **Atributos de projeto:**
   * uso de práticas modernas de programação;
@@ -135,7 +135,7 @@ Dos atributos que são utilizados no COCOMO intermediário, decidimos levar em c
 
 ### Tabela de coeficientes
 
-Tabela para os valores dos coeficientes "a" e "b" de acordo com o tipo do projeto, a mesma tabela utilizada no COCOMO básico:
+&emsp;&emsp;Tabela para os valores dos coeficientes "a" e "b" de acordo com o tipo do projeto, a mesma tabela utilizada no COCOMO básico:
 
 | Projeto de Software	| a	| b	| c	| d |
 |:-:|--|--|--|--|
@@ -147,7 +147,7 @@ Como visto anteriormente usaremos como base o Modo semidestacado.
 
 ### Escolha dos multiplicadores de esforço
 
-Com base em reunião com os integrantes, em cada atributo escolhido definimos os multiplicadores de esforço de acordo com as tabelas de Boehm (1981), e cada multiplicador escolhido destacamos em negrito.
+&emsp;&emsp;Com base em reunião com os integrantes, em cada atributo escolhido definimos os multiplicadores de esforço de acordo com as tabelas de Boehm (1981), e cada multiplicador escolhido dexiamos destacados na tabela.
 
 ### Atributos de Projeto
 
@@ -178,7 +178,7 @@ Fonte: Boehm (1981)
 
 ### Calculo da Estimativa do Esforço
 
-O resultado do esforço representa o valor de Pessoas/Mês. O modelo COCOMO Intermediário usa a seguinte equação para a estimativa do esforço:
+&emsp;&emsp;O resultado do esforço representa o valor de Pessoas/Mês. O modelo COCOMO Intermediário usa a seguinte equação para a estimativa do esforço:
 
     E = a x (S ^ b) x fae
 
@@ -203,7 +203,7 @@ Aplicando a formula ao caso do projeto temos:
 
 ### Calculo da Estimativa do Tempo
 
-O calculo da estimativa do tempo representa a quantidade de meses prevista para a conclusão do projeto, e dado pela formula:
+&emsp;&emsp;O calculo da estimativa do tempo representa a quantidade de meses prevista para a conclusão do projeto, e dado pela formula:
 
     T = c x (E ^ d)
 
@@ -214,7 +214,7 @@ onde:
 - c: é um coeficiente fornecido pela Tabela.
 - d: é um expoente fornecido pela Tabela.
 
-Em reunião com a equipe, decidimos uma estimativa de 3500 linhas de código, portanto nosso S será 3.5Kloc.
+&emsp;&emsp;Em reunião com a equipe, decidimos uma estimativa de 3500 linhas de código, portanto nosso S será 3.5Kloc.
 
 Para nosso caso que são 3500 linhas de código ou 3.5Kloc temos:
 
@@ -232,8 +232,7 @@ Para nosso caso que são 3500 linhas de código ou 3.5Kloc temos:
 
 > - Conaplo, Como fazer matriz de Análise De Riscos, : <https://www.youtube.com/watch?v=hxPjCp_hBg0&t=570s/>
 
-> ESO edx, Planejar o gerenciamento dos riscos: <https://www.youtube.com/watch?v=HDMS7ftQJb0&t=319s/>
-
+> - ESO edx, Planejar o gerenciamento dos riscos: <https://www.youtube.com/watch?v=HDMS7ftQJb0&t=319s/>
 
 ## Versionamento
 
