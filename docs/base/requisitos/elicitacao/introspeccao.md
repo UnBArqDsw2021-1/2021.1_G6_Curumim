@@ -1,5 +1,5 @@
 ## Introdução
-&emsp;&emsp;A introspecção é uma técnica de elicitação de requisitos, baseando-se na ideia de buscar entender qual é o tipo de sistema a persona gostaria de ter (e ver) quando estivesse executando uma tarefa desejada na aplicação. Para isso, portanto, criamos as <a href="../elicitacao/personas.md">personas</a> com o intuito de utilizar essa técnica.
+&emsp;&emsp;A introspecção é uma técnica de elicitação de requisitos, baseando-se na ideia de buscar entender qual é o tipo de sistema a persona gostaria de ter (e ver) quando estivesse executando uma tarefa desejada na aplicação. Para isso, portanto, criamos as [personas](./personas.md) com o intuito de utilizar essa técnica.
 
 ## Como ocorreu
 
@@ -13,15 +13,15 @@
 |RNF_01|Sistema carregar uma página em menos de 2 segundos|
 |RNF_02|Sistema funcionar 24h por dia|
 |RNF_03|Sistema deve ser responsivo|
-|RNF_04|Sistema ter acessibilidade para usuários com dificuldades|
+|RNF_04|Sistema ter acessibilidade para [usuários](../modelagem/lexicos.md/#lexico-usuario) com dificuldades|
 |RNF_05|Sistema apresentar as funcionalidades principais na tela inicial|
-|RNF_06|Sistema gerar relatório em menos de 15 segundos|
-|RNF_07|Centralizar suas atividades no seu celular|
-|RNF_08|Um bom sistema de autenticação em duas etapas|
+|RNF_06|Sistema gerar [relatório](../modelagem/lexicos.md/#lexico-relatorio) em menos de 15 segundos|
+|RNF_07|Centralizar suas [atividades](../modelagem/lexicos.md/#lexico-atividade) no seu celular|
+|RNF_08|Um bom sistema de [autenticação em duas etapas](../modelagem/lexicos.md/#lexico-autenticacao-em-duas-etapas)|
 
 ## Bibliografia
 
-- BARBOSA. Simone. SILVA. Bruno. 2010. Interação Humano-computador.
+> - BARBOSA. Simone. SILVA. Bruno. 2010. Interação Humano-computador.
 
 ## Versionamento
 | Versão | Data | Modificação | Autor(es) |
@@ -31,3 +31,4 @@
 |1.1|02/08/2021| Padronização e correção do documento | Gabriel Bonifácio |
 |2.0|04/08/2021| Atualização dos requisitos não funcionais | Gabriel Bonifácio |
 |2.1|05/08/2021| Correção da tabela | Daniel Porto |
+|2.2|06/08/2021| Adição de hiperlinks dos léxicos | Gabriel Bonifácio |
