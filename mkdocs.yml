@@ -37,6 +37,7 @@ nav:
                 - Metodologia:
                         - Metodologia: base/metodologia/metodologia.md
                         - Modelagem BPMN: base/metodologia/bpmn.md
+                - Product Backlog: product-backlog.md
         - Reuniões:
                 - ATA reunião 26/07: reunioes/r1-ata-26-07.md
                 - ATA reunião 28/07: reunioes/r1-ata-28-07.md
