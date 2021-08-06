@@ -266,6 +266,7 @@ Para nosso caso que são 3500 linhas de código ou 3.5Kloc temos:
 
 |    Data    | Versão |        Alteração               |                    Autor                    |
 |:----------:|:------:|:-----------------:|:------------------------:|
-| 04/08/2021|  0.1  | Abertura do documento | João Pedro, Edson Soares e Eliseu Kadesh |
-| 04/08/2021 | 1.0 | Criação das tabelas probabilidade, impacto e a matriz de probabilidade X impacto. | Edson Soares |
-| 06/08/2021 | 1.1 | Finalização dos riscos. | Edson Soares |
+| 04/08/2021 | 0.1  | Abertura do documento | João Pedro, Edson Soares e Eliseu Kadesh |
+| 04/08/2021 | 1.0  | Criação das tabelas probabilidade, impacto e a matriz de probabilidade X impacto. | Edson Soares |
+| 06/08/2021 | 1.1 | Finalização dos riscos.    | Edson Soares |
+| 06/08/2021 | 2.0 | Adição do tópico de custos | Eliseu Kadesh, Edson Soares |
