@@ -59,4 +59,4 @@
 | 1.1    | 05/08 | Criando história da persona Suzana               | Francisco Emanoel |
 | 1.2    | 05/08 | Criando histórias das personas Poliana e Gustavo | Enzo Gabriel      |
 | 2.0    | 06/08 | Finalizando correções no documento               | Enzo Gabriel      |
-| 3.0    | 06/08 | Adicionando léxicos ao documento                 | Enzo Gabriel      |
+| 2.1    | 06/08 | Adicionando léxicos ao documento                 | Enzo Gabriel      |

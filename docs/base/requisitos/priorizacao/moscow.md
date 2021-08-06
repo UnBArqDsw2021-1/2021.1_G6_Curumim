@@ -17,20 +17,20 @@
 
 | Identificação | Requisito                                                                                                                                                                                             | Prioridade |
 | :-----------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
-|   **RF_01**   | Ter sistema de comunicação entre [responsáveis](/base/requisitos/modelagem/lexicos/#lexico-responsavel) e [professores](/base/requisitos/modelagem/lexicos/#lexico-pai).                              | Should     |
+|   **RF_01**   | Ter sistema de comunicação entre [responsáveis](/base/requisitos/modelagem/lexicos/#lexico-responsavel) e [professores](/base/requisitos/modelagem/lexicos/#lexico-professores).                      | Should     |
 |   **RF_02**   | Ter sistema de comunicação entre [responsáveis](/base/requisitos/modelagem/lexicos/#lexico-responsavel) e [administradores](/base/requisitos/modelagem/lexicos/#lexico-administrador) da instituição. | Could      |
 |   **RF_03**   | [Responsáveis](/base/requisitos/modelagem/lexicos/#lexico-responsavel) receberem notificações sobre novas [atividades](/base/requisitos/modelagem/lexicos/#lexico-atividade).                         | Should     |
 |   **RF_04**   | [Responsáveis](/base/requisitos/modelagem/lexicos/#lexico-responsavel) receberem notificações sobre entrada e saída da [crianças](/base/requisitos/modelagem/lexicos/#lexico-crianca).                | Could      |
 |   **RF_05**   | [Responsáveis](/base/requisitos/modelagem/lexicos/#lexico-responsavel) receberem notificações sobre novos [eventos](/base/requisitos/modelagem/lexicos/#lexico-evento).                               | Won't      |
 |   **RF_06**   | [Administrador](/base/requisitos/modelagem/lexicos/#lexico-administrador) poder criar e configurar [turmas](/base/requisitos/modelagem/lexicos/#lexico-turma).                                        | Must       |
 |   **RF_07**   | [Administrador](/base/requisitos/modelagem/lexicos/#lexico-administrador) poder registras as [crianças](/base/requisitos/modelagem/lexicos/#lexico-crianca).                                          | Must       |
-|   **RF_08**   | [Administrador](/base/requisitos/modelagem/lexicos/#lexico-administrador) poder registrar os [professores](/base/requisitos/modelagem/lexicos/#lexico-responsavel).                                   | Must       |
-|   **RF_09**   | [Administrador](/base/requisitos/modelagem/lexicos/#lexico-responsavel) poder criar e configurar [eventos](/base/requisitos/modelagem/lexicos/#lexico-evento).                                        | Could      |
+|   **RF_08**   | [Administrador](/base/requisitos/modelagem/lexicos/#lexico-administrador) poder registrar os [professores](/base/requisitos/modelagem/lexicos/#lexico-professor).                                     | Must       |
+|   **RF_09**   | [Administrador](/base/requisitos/modelagem/lexicos/#lexico-administrador) poder criar e configurar [eventos](/base/requisitos/modelagem/lexicos/#lexico-evento).                                      | Could      |
 |   **RF_10**   | Poder disponibilizar [relatórios](/base/requisitos/modelagem/lexicos/#lexico-relatorio) gerais.                                                                                                       | Could      |
 |   **RF_11**   | [Responsáveis](/base/requisitos/modelagem/lexicos/#lexico-responsavel) terem acessoa as informações e dados de suas [crianças](/base/requisitos/modelagem/lexicos/#lexico-crianca).                   | Must       |
-|   **RF_12**   | [Professor](/base/requisitos/modelagem/lexicos/#lexico-responsavel) poder registra e gerenciar atividades.                                                                                            | Must       |
-|   **RF_13**   | [Professor](/base/requisitos/modelagem/lexicos/#lexico-responsavel) poder [lançar presença](/base/requisitos/modelagem/lexicos/#lexico-lancar-presenca).                                              | Could      |
-|   **RF_14**   | [Professor](/base/requisitos/modelagem/lexicos/#lexico-responsavel) poder notificar [responsáveis](/base/requisitos/modelagem/lexicos/#lexico-responsavel) com observações.                           | Should     |
+|   **RF_12**   | [Professor](/base/requisitos/modelagem/lexicos/#lexico-professor) poder registra e gerenciar atividades.                                                                                              | Must       |
+|   **RF_13**   | [Professor](/base/requisitos/modelagem/lexicos/#lexico-professor) poder [lançar presença](/base/requisitos/modelagem/lexicos/#lexico-lancar-presenca).                                                | Could      |
+|   **RF_14**   | [Professor](/base/requisitos/modelagem/lexicos/#lexico-professor) poder notificar [responsáveis](/base/requisitos/modelagem/lexicos/#lexico-responsavel) com observações.                             | Should     |
 
 [link para a tabela completa no excel](https://docs.google.com/spreadsheets/d/1VO7EnKcoZ7DF_uIbGJHg4b3MkhtVpMwE/edit#gid=667435397)
 
@@ -46,4 +46,4 @@
 | 1.0    | 30/07/2021 | Abertura do documento                             | Enzo Gabriel                                                                                                                                               |
 | 1.1    | 05/08/2021 | Padronizando o documento                          | Enzo Gabriel                                                                                                                                               |
 | 2.0    | 06/08/2021 | Finzalizando documento                            | Enzo Gabriel                                                                                                                                               |
-| 3.0    | 06/08/2021 | Adicionando léxicos ao documento                  | Enzo Gabriel                                                                                                                                               |
+| 2.1    | 06/08/2021 | Adicionando léxicos ao documento                  | Enzo Gabriel                                                                                                                                               |
