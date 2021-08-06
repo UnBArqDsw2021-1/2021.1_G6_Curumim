@@ -109,6 +109,120 @@
 
 ## 8. Custos
 
+### Introdução
+
+### Aplicação do COCOMO
+
+O modelo COCOMO pode ser aplicado em três classes de projetos:
+
+- Modo Orgânico: projetos simples, relativamente pequenos, com conjuntos de requisitos não tão rígidos, com equipes pequenas e experientes.
+- Modo Semidestacado: projetos intermediários (em tamanho e complexidade), com alguns requisitos rígidos e outros não tão rígidos, com níveis mistos de experiência nas equipes.
+- Modo Embutido: projetos com conjunto rígido de restrições operacionais, tanto de hardware, quanto de software.
+
+No caso do nosso projeto, se trata de um Modo Semidestacado.
+
+Dos atributos que são utilizados no COCOMO intermediário, decidimos levar em consideração os seguintes atributos:
+
+* **Atributos de projeto:**
+  * uso de práticas modernas de programação;
+  * uso de ferramentas de software;
+  * cronograma exigido de desenvolvimento.
+  
+* **Atributos do produto:**
+  * confiabilidade exigida do software;
+  * tamanho do banco de dados;
+  * complexidade do produto.
+
+### Tabela de coeficientes
+
+Tabela para os valores dos coeficientes "a" e "b" de acordo com o tipo do projeto, a mesma tabela utilizada no COCOMO básico:
+
+| Projeto de Software	| a	| b	| c	| d |
+|:-:|--|--|--|--|
+| Orgânico	    | 2.40 | 1.05 |	2.50 | 0.38 |
+| Semidestacado | 3.00 | 1.12	| 2.50 | 0.35 |
+| Embutido	    | 3.60 | 1.20	| 2.50 | 0.32 |
+
+Como visto anteriormente usaremos como base o Modo semidestacado.
+
+### Escolha dos multiplicadores de esforço
+
+Com base em reunião com os integrantes, em cada atributo escolhido definimos os multiplicadores de esforço de acordo com as tabelas de Boehm (1981), e cada multiplicador escolhido destacamos em negrito.
+
+### Atributos de Projeto
+
+| Direcionadores de Custo	| Muito Baixo |	Baixo	| Normal | Elevado | Muito Elevado | Extremamente Elevado |
+|:-:|--|--|--|--|--|--|
+| Uso de práticas modernas de programação | 1,24  | 1,10 | **1,00** | 0,91 | 0,82 | - |
+| Uso de ferramentas de software	        | 1,24  | 1,10 | **1,00** | 0,91 | 0,83 | - |
+| Cronograma exigido de desenvolvimento	  | 1,23  | 1,08 | 1,00 | **1,04** | 1,10 | - |
+Fonte: Boehm (1981)
+
+### Atributos do Produto
+
+| Direcionadores de Custo	| Muito Baixo |	Baixo	| Normal | Elevado | Muito Elevado | Extremamente Elevado|
+|:-:|--|--|--|--|--|--|
+| Confiabilidade exigida do software  | 0,75 | 0,88 | 1,00 | **1,15** | 1,40 |  -   |
+| Tamanho do banco de dados	          |   -  | 0,94 | **1,00** | 1,08 | 1,16 |  -   |
+| Complexidade do produto	            | 0,70 | 0,85 | **1,00** | 1,15 | 1,30 | 1,65 |
+Fonte: Boehm (1981)
+
+### Atributos de Pessoal
+
+| Direcionadores de Custo	| Muito Baixo |	Baixo	| Normal | Elevado | Muito Elevado | Extremamente Elevado|
+|:-:|--|--|--|--|--|--|
+| Capacidade analítica	          | 1.46	| 1.19	| **1.00**	  |   0.86	  | 0.71	| - |
+| Experiência em aplicações	      | 1.29	| 1.13	|   1.00	    | **0.91**	| 0.82	| - |
+| Capacidade do programador	      | 1.42	| 1.17	|   1.00	    | **0.86**	| 0.70	| - |
+
+
+### Calculo da Estimativa do Esforço
+
+O resultado do esforço representa o valor de Pessoas/Mês. O modelo COCOMO Intermediário usa a seguinte equação para a estimativa do esforço:
+
+    E = a x (S ^ b) x fae
+
+onde:
+
+- E: é o esforço aplicado (em pessoas-mês).
+- S: é o número (estimado) de linhas de código para o projeto (em milhares).
+- a: é um coeficiente fornecido pela Tabela.
+- b: é um expoente fornecido pela Tabela.
+- fae: é o Fator de Ajustamento do Esforço (multiplicação de cada um dos Multiplicadores de       Esforço fornecidos pela Tabela).
+
+De acordo com as decisoes de multiplicadores de esforço fornecido pela tabela temos o **fae** dado por:
+
+    fae = (1.00 x 1.00 x 1.04 x 1.15 x 1.00 x 1.00 x 1.00 x 0.91 x 0.86) = 0.93
+
+Em reunião com a equipe, decidimos uma estimativa de 3500 linhas de código, portanto nosso S será 3.5Kloc.
+ 
+Aplicando a formula ao caso do projeto temos:
+
+    E = 3.00 x (3.5 ^ 1.12) x (0.93)
+    E = 11.5 pessoas/mes
+
+### Calculo da Estimativa do Tempo
+
+O calculo da estimativa do tempo representa a quantidade de meses prevista para a conclusão do projeto, e dado pela formula:
+
+    T = c x (E ^ d)
+
+onde:
+
+- E: é o esforço aplicado (em pessoas-mês).
+- T: é o tempo de desenvolvimento (em meses cronológicos).
+- c: é um coeficiente fornecido pela Tabela.
+- d: é um expoente fornecido pela Tabela.
+
+Em reunião com a equipe, decidimos uma estimativa de 3500 linhas de código, portanto nosso S será 3.5Kloc.
+
+Para nosso caso que são 3500 linhas de código ou 3.5Kloc temos:
+
+    T = c x (E ^ d)
+
+    T = 2.50 x (11.5 ^ 0.35)
+
+    T = 5.87 meses
 
 ## Referências
 
