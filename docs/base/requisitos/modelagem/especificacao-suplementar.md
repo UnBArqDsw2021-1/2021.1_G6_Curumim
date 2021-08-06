@@ -1,25 +1,19 @@
 ### Introdução
 
 <p style="text-indent: 20px; text-align: justify">
-A especificação suplementar é um documento que tem o objetivo de descrever os requisitos não funcionais que não foram prontamente capturados pelas outras técnicas de modelagem.
+&emsp;&emsp;A especificação suplementar é um documento que tem o objetivo de descrever os requisitos não funcionais que não foram prontamente capturados pelas outras técnicas de modelagem.
 </p>
 
 #### Finalidade
 
 <p style="text-indent: 20px; text-align: justify">
-Definir requisitos não funcionais do aplicativo Curumim que os outros métodos não conseguiram definir.
-</p>
-
-#### Referências Bibliográficas
-
-<p style="text-indent: 20px; text-align: justify">
-1. Gois, Samilly Rocha. Sobrinho, Francisco Luiz. Projeto de Software Floricultura Beija-Flor Especificação Suplementar. PHP SOFTWARE COMPANY, 2012.
+&emsp;&emsp;Definir requisitos não funcionais do aplicativo Curumim que os outros métodos não conseguiram definir.
 </p>
 
 #### Escopo
 
 <p style="text-indent: 20px; text-align: justify">
-O objetivo do Curumim é facilitar o acompanhamento dos pais e/ou responsáveis a respeito do rendimento de seus dependentes nas atividades propostas e a comunicação entre a instituição/professores com os responsáveis, vice-versa.
+&emsp;&emsp;O objetivo do Curumim é facilitar o acompanhamento dos pais e/ou responsáveis a respeito do rendimento de seus dependentes nas atividades propostas e a comunicação entre a instituição/professores com os responsáveis, vice-versa.
 </p>
 
 ### Funcionalidade
@@ -27,7 +21,7 @@ O objetivo do Curumim é facilitar o acompanhamento dos pais e/ou responsáveis 
 #### Especificações do equipamento (Hardware) e Suportabilidade
 
 <p style="text-indent: 20px; text-align: justify">
-O hardware que suporte este aplicativo deve ser: </p>
+&emsp;&emsp;O hardware que suporte este aplicativo deve ser: </p>
 </p>
 
 - Dispositivo portátil dotado de sistema operacional Android 6.0 ou superior ou iOS 11.0 ou superior;
@@ -62,7 +56,7 @@ O hardware que suporte este aplicativo deve ser: </p>
 ### Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line
 
 <p style="text-indent: 20px; text-align: justify">
-O aplicativo deve possuir dentro de sua própria interface um manual, em formato de perguntas e respostas frequentes que auxiliem ou introduzem o usuário inexperiente ou menor capacitado a utilizar as suas de forma igualitária.
+&emsp;&emsp;O aplicativo deve possuir dentro de sua própria interface um manual, em formato de perguntas e respostas frequentes que auxiliem ou introduzem o usuário inexperiente ou menor capacitado a utilizar as suas de forma igualitária.
 </p>
 
 ### Interfaces
@@ -70,30 +64,30 @@ O aplicativo deve possuir dentro de sua própria interface um manual, em formato
 #### Interfaces do Usuário
 
 <p style="text-indent: 20px; text-align: justify">
-O aplicativo mobile deve possuir uma interface gráfica que suporte telas sensíveis ao toque. Essa mesma interface deve ter seu design construído a partir de informações em texto e ícones.
+&emsp;&emsp;O aplicativo mobile deve possuir uma interface gráfica que suporte telas sensíveis ao toque. Essa mesma interface deve ter seu design construído a partir de informações em texto e ícones.
 </p>
 <p style="text-indent: 20px; text-align: justify">
-A aplicação deve possuir barra de navegação lateral que disponibilize as diferentes seções do aplicativo.
+&emsp;&emsp;A aplicação deve possuir barra de navegação lateral que disponibilize as diferentes seções do aplicativo.
 </p>
 
 #### Interfaces de Hardware
 
 <p style="text-indent: 20px; text-align: justify">
-A ser definido nas fases subsequentes.
+&emsp;&emsp;A ser definido nas fases subsequentes.
 </p>
 
 
 #### Interfaces de Software
 
 <p style="text-indent: 20px; text-align: justify">
-A ser definido nas fases subsequentes.
+&emsp;&emsp;A ser definido nas fases subsequentes.
 </p>
 
 ## Bibliografia
 
-> VAZQUEZ, Carlos Eduardo; Simões, Guilherme Siqueira. Engenharia de Requisitos: software orientado ao negócio. BRASPORT. 1ª edição (2016)
+> - VAZQUEZ, Carlos Eduardo; Simões, Guilherme Siqueira. Engenharia de Requisitos: software orientado ao negócio. BRASPORT. 1ª edição (2016)
 
-> GOIS, Samilly Rocha. Sobrinho, Francisco Luiz. Projeto de Software Floricultura Beija-Flor Especificação Suplementar. PHP SOFTWARE COMPANY, 2012.
+> - GOIS, Samilly Rocha. Sobrinho, Francisco Luiz. Projeto de Software Floricultura Beija-Flor Especificação Suplementar. PHP SOFTWARE COMPANY, 2012.
 
 ## Versionamento
 | Versão | Data | Modificação | Autor |
