@@ -53,7 +53,7 @@ Seguem as datas e os artefatos feitos de quando fizemos cada etapa:
    
     > [Storyboards](../requisitos/pre-rastreabilidade/rich-picture.md)
     <br>
-    > [Rich Pictures](../requisitos/elicitacao/story-boards.md)
+    > [Rich Pictures](../requisitos/elicitacao/storyboards.md)
     <br>
     > [MoscoW](../requisitos/priorizacao/moscow.md)
     <br>
