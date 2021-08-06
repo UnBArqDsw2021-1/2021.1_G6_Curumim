@@ -43,32 +43,31 @@ Adicione 2 ou mais screenshots do projeto em termos de artefatos da Primeira Ent
 - Imagem 1 - Wiki - Brainstorming:
 
 ![Wiki](docs/assets/imagens/sobre/wiki-imagem1.png)
-
-[Figura 1: Wiki - Brainstorming](docs/assets/sobre/wiki-imagem1.png)
+<br>
+[Figura 1: Wiki - Brainstorming](docs/assets/imagens/sobre/wiki-imagem1.png)
 
 <br>
 
 - Imagem 2 - Wiki - MosCoW:
 
 ![Wiki](docs/assets/imagens/sobre/wiki-imagem2.png)
-
-[Figura 2: Wiki - MosCoW](docs/assets/sobre/wiki-imagem2.png)
+<br>
+[Figura 2: Wiki - MosCoW](docs/assets/imagens/sobre/wiki-imagem2.png)
 
 <br>
 
 - Imagem 3 - Wiki - BPMN:
 
 ![Wiki](docs/assets/imagens/sobre/wiki-imagem3.png)
-
-[Figura 3: Wiki - BPMN](docs/assets/sobre/wiki-imagem3.png)
+<br>
+[Figura 3: Wiki - BPMN](docs/assets/imagens/sobre/wiki-imagem3.png)
 
 <br>
 
 - Imagem 4 - Wiki - Argumentação:
 
-![Wiki](docs/assets/imagens/sobre/wiki-imagem4.png)
-
-[Figura 4: Wiki - Argumentação](docs/assets/sobre/wiki-imagem4.png)
+![Wiki](docs/assets/imagens/sobre/wiki-imagem4.png)<br>
+[Figura 4: Wiki - Argumentação](docs/assets/imagens/sobre/wiki-imagem4.png)
 
 <br>
 
