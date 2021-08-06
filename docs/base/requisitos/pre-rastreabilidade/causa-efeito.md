@@ -1,7 +1,7 @@
 ## Introdução
 
 <p style="text-indent: 20px; text-align: justify">
-O diagrama Causa-Efeito, também conhecido como diagrama de Ishikawa ou espinha de peixe é um artefato visual, livre de orientação metodológica específica. O criador desta ferramenta, Kaoru Ishikawa, desenvolveu a mesma através de uma ideia básica: fazer as pessoas pensarem sobre causas e razões possíveis que fazem com que um problema ocorra e que esta ferramenta pudesse ser utilizada por qualquer pessoa, desde um simples colaborador até a diretoria de um projeto.
+&emsp;&emsp;O diagrama Causa-Efeito, também conhecido como diagrama de Ishikawa ou espinha de peixe é um artefato visual, livre de orientação metodológica específica. O criador desta ferramenta, Kaoru Ishikawa, desenvolveu a mesma através de uma ideia básica: fazer as pessoas pensarem sobre causas e razões possíveis que fazem com que um problema ocorra e que esta ferramenta pudesse ser utilizada por qualquer pessoa, desde um simples colaborador até a diretoria de um projeto.
 </p>
 
 ## Diagrama
