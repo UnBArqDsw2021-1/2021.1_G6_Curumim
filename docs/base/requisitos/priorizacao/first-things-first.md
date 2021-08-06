@@ -7,7 +7,7 @@
 
 ## Requisitos Funcionais
 
-&emsp;&emsp;A tabela a seguir detalha e identifica os requisitos funcionais que foram elicitados, seus custos, valor, risco, e também a prioridade baseada no artefato [Moscow](./moscow.md) que também foi realizado pela equipe e que juntamente com o First-Things-First auxilia na priorização dos requisitos.
+&emsp;&emsp;A tabela a seguir detalha e identifica os requisitos funcionais que foram elicitados, seus custos, benefícios, risco, e também a prioridade baseada no artefato [Moscow](./moscow.md) que também foi realizado pela equipe e que juntamente com o First-Things-First auxilia na priorização dos requisitos.
 
 ID | Requisitos | Benefício relativo | Penalidade relativa | Custo relativo | Risco Relativo | Prioridade |
 |--|--|--|--|--|--|--|
@@ -26,6 +26,8 @@ ID | Requisitos | Benefício relativo | Penalidade relativa | Custo relativo | R
 | RF_13 | Professor poder lançar presença.                                                |  7 |   3   |  6  | 4 | 0,344 |
 | RF_14 | Professor poder notificar responsáveis com observações.                         |  7 |   5   |  7  | 3 | 0,463 |
 | -- | TOTAL | 102	| 71,5 | 84,5 | 45 |
+
+[link para a tabela completa no excel](https://docs.google.com/spreadsheets/d/1VO7EnKcoZ7DF_uIbGJHg4b3MkhtVpMwE/edit#gid=667435397)
 
 ## Bibliografia
 
