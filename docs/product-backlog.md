@@ -27,7 +27,7 @@
 ## 3. Histórias de Usuário
 
 | **Épico** | **Feacture** | **ID** | **Descrição** | **Rastreabilidade** |
-| --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | E4 | FT04 | US01 | Eu, como administrador, desejo cadastrar um criança no centro de ensino                                   | RF_07 |
 | E4 | FT04 | US02 | Eu, como administrador, desejo cadastrar um professor no centro de ensino                                 | RF_08 |
 | E4 | FT03 | US03 | Eu, como administrador, desejo criar, editar e excluir uma turma para o centro de ensino                  | RF_06 |
