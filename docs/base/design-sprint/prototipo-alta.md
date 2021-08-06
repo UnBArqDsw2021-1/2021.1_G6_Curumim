@@ -12,7 +12,7 @@
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FfuKyC6IKPXHx86egErX17O%2FProt%25C3%25B3tipo-alta-fidelidade-Curumim%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
 
-## Referências
+## Bibliografia
 
 > -   Fidelidade de protótipos: Baixa, Média ou Alta, conheça os tipos: https://www.vitaminaweb.com.br/fidelidade-de-prototipos-baixa-media-ou-alta/. Último acesso em 04/08/2021.
 

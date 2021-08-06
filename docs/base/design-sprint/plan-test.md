@@ -1,4 +1,5 @@
 # Planejamento da Avaliação do Protótipo de alta fidelidade
+
 ## Introdução
 &emsp;&emsp;O presente documento visa o planejamento da avaliação a partir do teste de usabilidade do protótipo de alta fidelidade desenvolvido pela equipe.
 
@@ -16,7 +17,7 @@
 #### Tarefas:
 - Para perfil de administrador: Cadastrar uma turma, matricular um aluno e cadastrar um evento.
 - Para perfil de professor: Cadastrar atividade, lançar presença e abrir conversa com um responsável.
-- Para perfil de pai: Verificar as atividades da criança, conversar com um professor e acessar perfil do centro educacional.
+- Para perfil de responsável: Verificar as atividades da criança, conversar com um professor e acessar perfil do centro educacional.
   
 #### Perfil do Participante:
 &emsp;&emsp;Levando em consideração tudo o que foi levantando nas etapas anteriores, o participante deve se enquadrar nos perfis que foram descritos nas [personas](../requisitos/elicitacao/personas.md).
@@ -48,7 +49,7 @@ O protótipo de alta fidelidade será desenvolvio na plataforma [Figma](https://
 - O perfil dos participantes;
 - As tarefas executadas pelos participantes;
 - As respostas para o roteiro de perguntas;
-- Uma lista dos problemas de usabilidade ainda não contemplados, indicando: onde ocorreu, descrição e justificativa do problema e sugestões de correção;
+- Uma lista dos problemas de usabilidade ainda não contemplados, indicando: onde ocorreu, descrição e sugestões de correção;
 
 ### Bibliografia
 > - Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021) Interação Humano-Computador e Experiência do usuário.
