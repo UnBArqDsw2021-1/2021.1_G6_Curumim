@@ -16,20 +16,20 @@
 
 ID | Requisitos | Prioridade |
 |--|--|--|
-| **RF_01** | Ter sistema de comunicação entre responsáveis e professores.                    | 0,364 |
-| **RF_02** | Ter sistema de comunicação entre responsáveis e administradores da instituição. | 0,209 |
-| **RF_03** | Responsáveis receberem notificações sobre novas atividades.                     |0,302 |
-| **RF_04** | Responsáveis receberem notificações sobre entrada e saída da crianças.          |0,268 |
-| **RF_05** | Responsáveis receberem notificações sobre novos eventos.                        | 0,249 |
+| **RF_01** | Ter sistema de comunicação entre [responsáveis](/base/requisitos/modelagem/lexicos/#lexico-responsavel) e professores.                    | 0,364 |
+| **RF_02** | Ter sistema de comunicação entre [responsáveis](/base/requisitos/modelagem/lexicos/#lexico-responsavel) e administradores da instituição. | 0,209 |
+| **RF_03** | [Responsáveis](/base/requisitos/modelagem/lexicos/#lexico-responsavel) receberem notificações sobre novas atividades.                     |0,302 |
+| **RF_04** | [Responsáveis](/base/requisitos/modelagem/lexicos/#lexico-responsavel) receberem notificações sobre entrada e saída da crianças.          |0,268 |
+| **RF_05** | [Responsáveis](/base/requisitos/modelagem/lexicos/#lexico-responsavel) receberem notificações sobre novos eventos.                        | 0,249 |
 | **RF_06** | Administrador poder criar e configurar turmas.                                  |1,153 |
 | **RF_07** | Administrador poder registras as crianças.                                      |1,546 |
 | **RF_08** | Administrador poder registrar os professores.                                   |1,546 |
 | **RF_09** | Administrador poder criar e configurar eventos.                                 |0,399 |
 | **RF_10** | Poder disponibilizar relatórios gerais.                                         |0,314 |
-| **RF_11** | Responsáveis terem acesso as informações e dados de suas crianças.              |1,023 |
+| **RF_11** | [Responsáveis](/base/requisitos/modelagem/lexicos/#lexico-responsavel) terem acesso as informações e dados de suas crianças.              |1,023 |
 | **RF_12** | Professor poder registrar e gerenciar atividades.                               |1,076 |
 | **RF_13** | Professor poder lançar presença.                                                |0,344 |
-| **RF_14** | Professor poder notificar responsáveis com observações.                         |0,463 |
+| **RF_14** | Professor poder notificar [responsáveis](/base/requisitos/modelagem/lexicos/#lexico-responsavel) com observações.                         |0,463 |
 
 [link para a tabela completa no excel](https://docs.google.com/spreadsheets/d/1VO7EnKcoZ7DF_uIbGJHg4b3MkhtVpMwE/edit#gid=667435397)
 

@@ -13,7 +13,7 @@
 #### Escopo
 
 <p style="text-indent: 20px; text-align: justify">
-&emsp;&emsp;O objetivo do Curumim é facilitar o acompanhamento dos pais e/ou responsáveis a respeito do rendimento de seus dependentes nas atividades propostas e a comunicação entre a instituição/professores com os responsáveis, vice-versa.
+&emsp;&emsp;O objetivo do Curumim é facilitar o acompanhamento dos pais e/ou <a href="/base/requisitos/modelagem/lexicos/#lexico-responsavel">responsáveis</a> a respeito do rendimento de seus dependentes nas atividades propostas e a comunicação entre a instituição/professores com os <a href="/base/requisitos/modelagem/lexicos/#lexico-responsavel">responsáveis</a>, vice-versa.
 </p>
 
 ### Funcionalidade
