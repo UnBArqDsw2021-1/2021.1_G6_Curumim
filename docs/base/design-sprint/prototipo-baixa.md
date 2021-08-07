@@ -1,10 +1,10 @@
 # Protótipo de Baixa Fidelidade
 
-&emsp;&emsp;Os protótipos de baixa fidelidade são feitos  à mão no papel. Eles visam definir a interação do usuário com a aplicação da forma mais simples o possível, sem preocupações com o design. São utilizados para ajudar na definição do projeto e na elicitação de requisitos do produto.
+&emsp;&emsp;Os [protótipos de baixa fidelidade](/base/requisitos/modelagem/lexicos/#lexico-prototipo-de-baixa-fidelidade) são feitos  à mão no papel. Eles visam definir a interação do [usuário](/base/requisitos/modelagem/lexicos/#lexico-usuario) com a aplicação da forma mais simples o possível, sem preocupações com o design. São utilizados para ajudar na definição do projeto e na elicitação de requisitos do produto.
 
 ## Metodologia
 
-&emsp;&emsp;O time decidiu se reunir e cada membro fez um protótipo de baixa fidelidade com base nos requisitos que foram elicitados anteriormente.
+&emsp;&emsp;O time decidiu se reunir e cada membro fez um [protótipo de baixa fidelidade](/base/requisitos/modelagem/lexicos/#lexico-prototipo-de-baixa-fidelidade) com base nos requisitos que foram elicitados anteriormente.
 
 ## Protótipos Produzidos
 
@@ -77,7 +77,8 @@
 ## Versionamento
 | Versão | Data | Modificação | Autor |
 |--|--|--|--|
-|0.1|30/07/2021| Reunião e confecção dos protótipos de baixa fidelidade | Nilo Mendonça, Mateus O. Patrício, Enzo Gabriel, Edson Soares, Eliseu Kadesh, Daniel Porto, João Pedro Moura e Bruno Félix |
+|0.1|30/07/2021| Reunião e confecção dos [protótipos de baixa fidelidade](/base/requisitos/modelagem/lexicos/#lexico-prototipo-de-baixa-fidelidade) | Nilo Mendonça, Mateus O. Patrício, Enzo Gabriel, Edson Soares, Eliseu Kadesh, Daniel Porto, João Pedro Moura e Bruno Félix |
 |1.0|04/08/2021| Abertura do documento | Mateus O. Patrício |
 |1.1|05/08/2021| Padronização do documento | Mateus O. Patrício |
+|1.2|06/08/2021| Adição de hiperlinks dos léxicos | Mateus O. Patrício |
 

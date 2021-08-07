@@ -7,9 +7,9 @@
 - Estude e entenda as [Políticas](politicas.md) do projeto.
 
 ## Como contribuir?
-### Reportando um Bug
-- Cheque se não há algum [Issue](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues) referente ao bug em questão;
-- Caso o bug não esteja contemplado em nenhum issue, abra um novo de acordo com o template para bug report;
+### Reportando um [Bug](/base/requisitos/modelagem/lexicos/#lexico-bug)
+- Cheque se não há algum [Issue](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues) referente ao [bug](/base/requisitos/modelagem/lexicos/#lexico-bug) em questão;
+- Caso o [bug](/base/requisitos/modelagem/lexicos/#lexico-bug) não esteja contemplado em nenhum issue, abra um novo de acordo com o template para [bug](/base/requisitos/modelagem/lexicos/#lexico-bug) report;
 - Submeta um Pull Request seguindo os padrões e o fluxo de trabalho do projeto;
 - Seu Pull Request será revisado e agregará muito à aplicação!
 

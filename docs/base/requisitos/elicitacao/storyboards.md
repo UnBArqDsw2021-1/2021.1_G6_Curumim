@@ -2,19 +2,19 @@
 
 ## Introdução
 
-&emsp;&emsp;Um storyboard é uma representação gráfica que é composta de uma série de quadrinhos com ilustrações ou fotos que representam cada foto, com notas sobre o que está acontecendo na cena e o que está sendo dito no roteiro durante essa foto. Pense nisso como uma espécie de versão em quadrinhos do seu roteiro.
+&emsp;&emsp;Um storyboard é uma representação gráfica que é composta de uma série de quadrinhos com ilustrações ou fotos que representam cada história, com notas sobre o que está acontecendo na cena e o que está sendo dito no roteiro durante essa foto. Pense nisso como uma espécie de versão em quadrinhos do seu roteiro.
 
 ## Historias
 
 ### Administradora
 
-&emsp;&emsp;Suzana é uma ex-professora que teve um vasto conhecimento na área da padagogia, e conhece de perto muitas dores da área, principalmente na inclusão digital na educação.
+&emsp;&emsp;Suzana é uma ex-[professora](/base/requisitos/modelagem/lexicos/#lexico-professor) que teve um vasto conhecimento na área da pedagogia, e conhece de perto muitas dores da área, principalmente na inclusão digital na [educação](base/requisitos/modelagem/lexicos/#lexico-educacao).
 
 **Problemas do dia a dia**: Um dia na rotina de Suzana.
 ![](https://raw.githubusercontent.com/francisco1code/docs/master/images/1.png) <center>
 [Figura 1 - Persona Suzana](https://raw.githubusercontent.com/francisco1code/docs/master/images/1.png)</center>
 
-**Soluções da aplicação:** Suzana conversa com colega de trabalho.
+**Soluções da aplicação:** Suzana conversa com um colega de trabalho.
 ![](https://raw.githubusercontent.com/francisco1code/docs/master/images/2.png) <center>
 [Figura 2 - Persona Suzana](https://raw.githubusercontent.com/francisco1code/docs/master/images/2.png)</center>
 
@@ -24,19 +24,19 @@
 
 ### Professor
 
-&emsp;&emsp;Poliana é uma jovem professora de crianças, muita extrovertida, que gosta de sempre estar em contato com os responsáveis de seus alunos.
+&emsp;&emsp;Poliana é uma jovem [professora](/base/requisitos/modelagem/lexicos/#lexico-professor) de [crianças](/base/requisitos/modelagem/lexicos/#lexico-criança), muita extrovertida, que gosta de sempre estar em contato com os [responsáveis](/base/requisitos/modelagem/lexicos/#lexico-responsavel) de seus alunos.
 
-**Problemas do dia a dia**: Um dia de Poliana na sala dos professores.
+**Problemas do dia a dia**: Um dia de Poliana na sala dos [professores](/base/requisitos/modelagem/lexicos/#lexico-professor).
 ![](../../../assets/imagens/storyboards/storyboard_poliana_1.png) <center>
 [Figura 4 - Persona Poliana](../../../assets/imagens/storyboards/storyboard_poliana_1.png) </center>
 
-**Soluções da aplicação e mais funcionalidade**:
+**Soluções da aplicação e mais funcionalidade**: Poliana descobre que a aplicação facilita muito sua vida.
 ![](../../../assets/imagens/storyboards/storyboard_poliana_2.png) <center>
 [Figura 5 - Persona Poliana](../../../assets/imagens/storyboards/storyboard_poliana_2.png) </center>
 
 ### Pais/Responsáveis
 
-&emsp;&emsp;Gustavo é um homem de 31 anos, ele é o pai muito presente de uma menina de 5 anos, ele é formado em engenharia de software, então é uma pessoa muito atualizada com tecnologias.
+&emsp;&emsp;Gustavo é um homem de 31 anos, ele é o [pai](/base/requisitos/modelagem/lexicos/#lexico-pai) muito presente de uma menina de 5 anos, ele é formado em engenharia de software, então é uma pessoa muito atualizada com tecnologias.
 
 **Problemas do dia a dia**: Um dia na rotina de Gustavo com sua noiva.
 ![](../../../assets/imagens/storyboards/storyboard_gustavo_1.png) <center>
@@ -59,3 +59,4 @@
 | 1.1    | 05/08 | Criando história da persona Suzana               | Francisco Emanoel |
 | 1.2    | 05/08 | Criando histórias das personas Poliana e Gustavo | Enzo Gabriel      |
 | 2.0    | 06/08 | Finalizando correções no documento               | Enzo Gabriel      |
+| 2.1    | 06/08 | Adicionando léxicos ao documento                 | Enzo Gabriel      |

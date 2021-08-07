@@ -1,7 +1,7 @@
 # Projeto Curumim (Grupo 6)
 
 ## Sobre
-&emsp;&emsp;O projeto Curumim é uma aplicação que tem como objetivo facilitar a vida de professores, pais e/ou responsávels e administradores dentro do ambiente educacional. Com uma ideia de ajudar na comunicação entre esses três grupos, buscamos fazer com que os responsáveis possam ter acesso direto às informações e dados de sua(s) criança(s) em poucos cliques, otimizando o tempo de todos conjuntos envolvidos, além também da conversa entre pais e professores que poderá ser aprimorada, auxiliando na formação dessa crianaçs nos centros educacionais. 
+&emsp;&emsp;O projeto Curumim é uma aplicação que tem como objetivo facilitar a vida de [professores](./base/requisitos/modelagem/lexicos/#lexico-professor), [pais](./base/requisitos/modelagem/lexicos/#lexico-pai) e/ou [responsáveis](./base/requisitos/modelagem/lexicos/#lexico-responsavel) e [administradores](./base/requisitos/modelagem/lexicos/#lexico-administrador) dentro do ambiente educacional. Com uma ideia de ajudar na comunicação entre esses três grupos, buscamos fazer com que os [responsáveis](./base/requisitos/modelagem/lexicos/#lexico-responsavel) possam ter acesso direto às informações e dados de sua(s) [criança(s)](./base/requisitos/modelagem/lexicos/#lexico-crianca) em poucos cliques, otimizando o tempo de todos conjuntos envolvidos, além também da conversa entre [pais](./base/requisitos/modelagem/lexicos/#lexico-pai) e [professores](./base/requisitos/modelagem/lexicos/#lexico-professor) que poderá ser aprimorada, auxiliando na formação dessas [crianças](./base/requisitos/modelagem/lexicos/#lexico-crianca) nos [centros educacionais](./base/requisitos/modelagem/lexicos/#lexico-centro-educacional). 
 
 ## Equipe
 

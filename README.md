@@ -31,14 +31,18 @@ Demais diretrizes sobre a organização da wiki constam no Moodle Aprender 3.
 | 16/0037522  | Nilo Mendonça de Brito Júnior |
 
 ## Sobre  
-&emsp;&emsp;Considerando a atual relação entre professores e administradores com os responsáveis de crianças em centros educacionais, a proposta do projeto Curumim é justamente fazer com que os responsáveis possam ter um contato maior com suas crianças, e com professores e administradores. Além disso, terão acesso a informações e dados, para que possa participar mais da educação delas. Por outro lado, os professores poderão registrar e gerenciar atividades, para possivelmetne poder até mesmo notificar esses responsáveis sobre quaisquer observações a serem feitas. Este é o projeto Curumim. 
+&emsp;&emsp;Considerando a atual relação entre [professores](./docs/base/requisitos/modelagem/lexicos/#lexico-professor) e [administradores](./docs/base/requisitos/modelagem/lexicos/#lexico-administrador) com os [responsáveis](./docs/base/requisitos/modelagem/lexicos/#lexico-responsavel) de [crianças](./docs/base/requisitos/modelagem/lexicos/#lexico-crianca) em [centros educacionais](./docs/base/requisitos/modelagem/lexicos/#lexico-centro-educacional), a proposta do projeto Curumim é justamente fazer com que os [responsáveis](./docs/base/requisitos/modelagem/lexicos/#lexico-responsavel) possam ter um contato maior com suas [crianças](./docs/base/requisitos/modelagem/lexicos/#lexico-crianca), e com [professores](./docs/base/requisitos/modelagem/lexicos/#lexico-professor) e [administradores](./docs/base/requisitos/modelagem/lexicos/#lexico-administrador). Além disso, terão acesso a informações e dados, para que possa participar mais da [educação](./docs/base/requisitos/modelagem/lexicos/#lexico-educacao) delas. Por outro lado, os [professores](./docs/base/requisitos/modelagem/lexicos/#lexico-professor) poderão registrar e gerenciar [atividades](./docs/base/requisitos/modelagem/lexicos/#lexico-atividade), para possivelmente poder até mesmo [notificar](./docs/base/requisitos/modelagem/lexicos/#lexico-notificar) esses [responsáveis](./docs/base/requisitos/modelagem/lexicos/#lexico-responsavel) sobre quaisquer observações a serem feitas. Este é o projeto Curumim. 
+
+## Vídeo da Primeira Entrega DSW(Base)
+
+- [O vídeo da Primeira entrega pode ser acessado clicando aqui!](https://www.youtube.com/embed/sEOklsIoxgY)
 
 <!-- ## Screenshots Primeira Entrega <<FOCO: DSW(Base)>>
 Adicione 2 ou mais screenshots do projeto em termos de artefatos da Primeira Entrega.
 --->
 
 ## Wiki do Projeto
-&emsp;&emsp;No momento que estamos, ainda não há uma aplicação pronta, por estamos na fase inicial. Para que se possa "saborerar" — mesmo que minimamente — parte do que será o projeto Curumim, seguem algumas imagens da nossa documentação que está sendo feita durante esses dias na Wiki:
+&emsp;&emsp;No momento que estamos, ainda não há uma aplicação pronta, por estarmos na fase inicial. Para que se possa "saborerar" — mesmo que minimamente — parte do que será o projeto Curumim, seguem algumas imagens da nossa documentação que está sendo feita durante esses dias na Wiki:
 
 - Imagem 1 - Wiki - Brainstorming:
 
@@ -74,10 +78,10 @@ Adicione 2 ou mais screenshots do projeto em termos de artefatos da Primeira Ent
 &emsp;&emsp;Estas são 4 imagens que dão início a nossa documentação aqui no README sobre as documentações. Conforme o projeto for andando e se aprimorando, a ideia é retratar aqui no README todas essas novas evoluções.
 
 <!--
-
 ## Vídeo(s) Primeira Entrega <<FOCO: DSW(Base)>>
-Adicione o(s)s vídeo(s) da Primeira Entrega.
+Adicione o(s)s vídeo(s) da Primeira Entrega. -->
 
+<!--
 ## Screenshots Segunda Entrega <<FOCO: DSW(Modelagem)>>
 Adicione 2 ou mais screenshots do projeto em termos de artefatos da Segunda Entrega.
 

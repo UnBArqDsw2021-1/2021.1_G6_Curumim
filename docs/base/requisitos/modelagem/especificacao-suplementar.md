@@ -13,7 +13,7 @@
 #### Escopo
 
 <p style="text-indent: 20px; text-align: justify">
-&emsp;&emsp;O objetivo do Curumim é facilitar o acompanhamento dos pais e/ou responsáveis a respeito do rendimento de seus dependentes nas atividades propostas e a comunicação entre a instituição/professores com os responsáveis, vice-versa.
+&emsp;&emsp;O objetivo do Curumim é facilitar o acompanhamento dos pais e/ou <a href="/base/requisitos/modelagem/lexicos/#lexico-responsavel">responsáveis</a> a respeito do rendimento de seus dependentes nas atividades propostas e a comunicação entre a <a href="/base/requisitos/modelagem/lexicos/#lexico-instituicao">instituição</a>/professores com os <a href="/base/requisitos/modelagem/lexicos/#lexico-responsavel">responsáveis</a>, vice-versa.
 </p>
 
 ### Funcionalidade
@@ -24,7 +24,7 @@
 O hardware que suporte este aplicativo deve ser: </p>
 </p>
 
-- Possuir sensor de câmera especificação superior a 2 megapixels, para aplicativo mobile;
+- Possuir sensor de câmera especificação superior a 2 megapixels, para aplicativo <a href="/base/requisitos/modelagem/lexicos/#lexico-mobile">mobile</a>;
 - Possuir conexão com a Internet, de forma a ser possível estabelecer a comunicação aplicativo - servidor de dados;
 - O aplicativo deverá funcionar nos sistemas operacionais mobile Android (6.0 ou superior), iOS (11.0 ou superior), Windows (7.0 ou superior), macOS X (10.12 ou superior) e Linux;
 - O aplicativo deve possuir diálogo com as funções de notificação dos diferentes sistemas operacionais suportados.
@@ -45,7 +45,7 @@ O hardware que suporte este aplicativo deve ser: </p>
 ### Desempenho
 
 - O sistema não deve executar funções que necessitem processamento exagerado;
-- O sistema deverá notificar o usuário sem falhas.
+- O sistema deverá <a href="/base/requisitos/modelagem/lexicos/#lexico-notificar">notificar</a> o usuário sem falhas.
 
 ### Restrições de Design
 
@@ -55,7 +55,7 @@ O hardware que suporte este aplicativo deve ser: </p>
 ### Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line
 
 <p style="text-indent: 20px; text-align: justify">
-&emsp;&emsp;O aplicativo deve possuir dentro de sua própria interface um manual, em formato de perguntas e respostas frequentes que auxiliem ou introduzem o usuário inexperiente ou menor capacitado a utilizar as suas de forma igualitária.
+&emsp;&emsp;O aplicativo deve possuir dentro de sua própria interface um manual, em formato de perguntas e respostas frequentes que auxiliem ou introduzam o usuário inexperiente ou menor capacitado a utilizar as suas de forma igualitária.
 </p>
 
 ### Interfaces
