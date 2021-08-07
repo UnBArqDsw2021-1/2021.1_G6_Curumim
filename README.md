@@ -33,6 +33,10 @@ Demais diretrizes sobre a organização da wiki constam no Moodle Aprender 3.
 ## Sobre  
 &emsp;&emsp;Considerando a atual relação entre [professores](./docs/base/requisitos/modelagem/lexicos/#lexico-professor) e [administradores](./docs/base/requisitos/modelagem/lexicos/#lexico-administrador) com os [responsáveis](./docs/base/requisitos/modelagem/lexicos/#lexico-responsavel) de [crianças](./docs/base/requisitos/modelagem/lexicos/#lexico-crianca) em [centros educacionais](./docs/base/requisitos/modelagem/lexicos/#lexico-centro-educacional), a proposta do projeto Curumim é justamente fazer com que os [responsáveis](./docs/base/requisitos/modelagem/lexicos/#lexico-responsavel) possam ter um contato maior com suas [crianças](./docs/base/requisitos/modelagem/lexicos/#lexico-crianca), e com [professores](./docs/base/requisitos/modelagem/lexicos/#lexico-professor) e [administradores](./docs/base/requisitos/modelagem/lexicos/#lexico-administrador). Além disso, terão acesso a informações e dados, para que possa participar mais da [educação](./docs/base/requisitos/modelagem/lexicos/#lexico-educacao) delas. Por outro lado, os [professores](./docs/base/requisitos/modelagem/lexicos/#lexico-professor) poderão registrar e gerenciar [atividades](./docs/base/requisitos/modelagem/lexicos/#lexico-atividade), para possivelmente poder até mesmo [notificar](./docs/base/requisitos/modelagem/lexicos/#lexico-notificar) esses [responsáveis](./docs/base/requisitos/modelagem/lexicos/#lexico-responsavel) sobre quaisquer observações a serem feitas. Este é o projeto Curumim. 
 
+## Vídeo da Primeira Entrega DSW(Base)
+
+- [O vídeo da Primeira entrega pode ser acessado clicando aqui!](https://www.youtube.com/embed/sEOklsIoxgY)
+
 <!-- ## Screenshots Primeira Entrega <<FOCO: DSW(Base)>>
 Adicione 2 ou mais screenshots do projeto em termos de artefatos da Primeira Entrega.
 --->
@@ -76,10 +80,6 @@ Adicione 2 ou mais screenshots do projeto em termos de artefatos da Primeira Ent
 <!--
 ## Vídeo(s) Primeira Entrega <<FOCO: DSW(Base)>>
 Adicione o(s)s vídeo(s) da Primeira Entrega. -->
-
-## Vídeo da Primeira Entrega DSW(Base)
-
-<iframe width="1246" height="701" src="https://www.youtube.com/embed/sEOklsIoxgY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <!--
 ## Screenshots Segunda Entrega <<FOCO: DSW(Modelagem)>>
