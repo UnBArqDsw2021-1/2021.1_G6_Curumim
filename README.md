@@ -74,10 +74,14 @@ Adicione 2 ou mais screenshots do projeto em termos de artefatos da Primeira Ent
 &emsp;&emsp;Estas são 4 imagens que dão início a nossa documentação aqui no README sobre as documentações. Conforme o projeto for andando e se aprimorando, a ideia é retratar aqui no README todas essas novas evoluções.
 
 <!--
-
 ## Vídeo(s) Primeira Entrega <<FOCO: DSW(Base)>>
-Adicione o(s)s vídeo(s) da Primeira Entrega.
+Adicione o(s)s vídeo(s) da Primeira Entrega. -->
 
+## Vídeo da Primeira Entrega DSW(Base)
+
+<iframe width="1246" height="701" src="https://www.youtube.com/embed/sEOklsIoxgY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<!--
 ## Screenshots Segunda Entrega <<FOCO: DSW(Modelagem)>>
 Adicione 2 ou mais screenshots do projeto em termos de artefatos da Segunda Entrega.
 
