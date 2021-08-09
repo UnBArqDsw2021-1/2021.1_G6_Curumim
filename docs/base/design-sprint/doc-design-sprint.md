@@ -77,7 +77,7 @@ Seguem as datas e os artefatos feitos de quando fizemos cada etapa:
 ## Adaptações
 
 &emsp;&emsp;
-Uma das grandes características do Design Sprint é que ele pode ser bem versátil. Dessa forma, a adaptação constante foi algo recorrente no nosso processo. A iniciar pelo tempo, devido a divergências e outras atividades dos membros do grupo, 5 dias não foram suficientes — sobretudo no [protótipo de alta fidelidade](../../requisitos/modelagem/lexicos.md/#lexico-prototipo-de-alta-fidelidade), o que implicou também nos testes de usabilidade. Adaptamos também o tempo dos storyboards, que não foram feitos em tempo previsto.  
+Uma das grandes características do Design Sprint é que ele pode ser bem versátil. Dessa forma, a adaptação constante foi algo recorrente no nosso processo. A iniciar pelo tempo, devido a divergências e outras atividades dos membros do grupo, 5 dias não foram suficientes — sobretudo no [protótipo de alta fidelidade](../../requisitos/modelagem/lexicos/#lexico-prototipo-de-alta-fidelidade), o que implicou também nos testes de usabilidade. Adaptamos também o tempo dos storyboards, que não foram feitos em tempo previsto.  
 
 ## Bibliografia
 > - "The Design Sprint". Disponível em <https://www.gv.com/sprint/>. Acesso em: 05 ago. 2021.
@@ -88,3 +88,4 @@ Uma das grandes características do Design Sprint é que ele pode ser bem versá
 |0.1|26/07/2021| Planejamento do Design Sprint | Bruno Félix, Daniel Porto, Edson Soares, Eliseu Kadesh, Enzo Gabriel, Francisco Emanoel, Gabriel Bonifácio, Mateus Oliveira e Nilo Mendonça|
 |1.0|05/08/2021| Adição da introdução, metodologia e data de realização de cada fase | Gabriel Bonifácio |
 |2.0|06/08/2021| Adição das referências dos documentos, da seção de adaptações e correção de hiperlinks dos léxicos | Gabriel Bonifácio |
+|2.1|09/08/2021| Correção de hiperlinks dos léxicos | Gabriel Bonifácio |
