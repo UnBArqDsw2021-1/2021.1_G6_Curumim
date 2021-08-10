@@ -1,3 +1,5 @@
+# Guia de Contribuição <br> <span class="rotulo-extra">Iniciativa Extra</span>
+
 ## O que fazer antes de começar a contribuir?
 &emsp;&emsp;É de suma importância que, antes de começar a comtribuir, conheça bem o projeto e seus padrões. Por isso, é aconselhado que realize os seguintes passos:
 

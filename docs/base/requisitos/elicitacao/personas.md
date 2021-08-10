@@ -1,3 +1,5 @@
+# Personas <br> <span class="rotulo-extra">Iniciativa Extra</span>
+
 ## Introdução
 &emsp;&emsp;
 Uma persona é um personagem fictício, arquétipo hipotético de um grupo de [usuários](../../modelagem/lexicos/#lexico-usuario) reais, criada para descrever um [usuário](../../modelagem/lexicos/#lexico-usuario) típico (Cooper et al., 2007; Pruitt e Adlin, 2006; Cooper, 1999).
