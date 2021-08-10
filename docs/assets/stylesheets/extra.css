@@ -61,3 +61,11 @@ body{
     width: auto; 
     text-decoration: none;
 }
+
+.rotulo-extra{
+    background-color: #3f6ec6;
+    color:#ffffff;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 20px;
+}

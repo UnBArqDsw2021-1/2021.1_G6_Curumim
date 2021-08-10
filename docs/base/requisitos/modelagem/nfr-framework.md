@@ -1,3 +1,5 @@
+# NFR Framework <br> <span class="rotulo-extra">Iniciativa Extra</span>
+
 ## Introdução
 &emsp;&emsp;Requisitos não funcionais em um sistema de software não descrevem o que o software irá fazer, mas como o software irá fazer, levando em consideração características que não são funcionais, como performance, requisitos de interface, design e qualidade(CHUNG et al, 2012).
 
