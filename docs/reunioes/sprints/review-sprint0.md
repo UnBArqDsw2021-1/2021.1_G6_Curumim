@@ -7,6 +7,11 @@
 **Duração:** 5 dias.<br>
  
 ## 2. Resultados
+
+### [**Issue : #17 Prototipação (Débito técnico)**](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/17)
+ **Responsáveis: Mateus Oliveira**<br>
+ **Pontuação: 8**<br>
+ **Status: Concluída**<br>
  
 ### [**Issue : #18 Instalar Zenhub**](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/18)
  **Responsáveis: Todos os integrantes**<br>
@@ -34,7 +39,7 @@
  **Status: Concluída**<br>
  
 ### [**Issue : #24 Plano de Riscos**](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/24)
- **Responsáveis: Edson Araujo**<br>
+ **Responsáveis: Edson Soares**<br>
  **Pontuação: 5**<br>
  **Status: Concluída**<br>
  
@@ -73,7 +78,7 @@
  **Pontuação: 8**<br>
  **Status: Concluída**<br>
 
-### **Débitos técnicos**
+### **Débitos técnicos para a Sprint 1**
  - Finalização dos protótipos;
  - Criação do Storyboard final;
  - Complementar o iStar;
@@ -109,3 +114,4 @@
 |:-:|--|--|--|
 |0.1|07/08/2021| Revisão e Retrospectiva com os integrantes | Todos os integrantes |
 |1.0|11/08/2021| Abertura do documento | Eliseu Kadesh |
+|1.1|11/08/2021| Correções gerais no documento | Eliseu Kadesh |
