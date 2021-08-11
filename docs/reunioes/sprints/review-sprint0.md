@@ -108,6 +108,12 @@
 <center>[Figura 1: Burndown Report gerado pelo Zenhub.](../../assets/imagens/sprint-review/sprint0/burndown-report.png)</center>
  
 ## 5. Velocity
+![Velocity Tracking](../../assets/imagens/sprint-review/sprint0/velocity-tracking.png)
+<center>[Figura 1: Velocity Tracking gerado pelo Zenhub.](../../assets/imagens/sprint-review/sprint0/velocity-tracking.png)</center>
+
+#### **Observações**:<br> 
+- A reta que representa o Average Story Points está exatamente na altura da Sprint 0 porque o gráfico do Velocity da Sprint 0 foi o primeiro a ser gerado.<br>
+- A ideia inicial era apenas apresentar o Velocity Tracking da Sprint que está sendo revisada, mas como o Velocity foi gerado após o fechamento da Sprint 0, a Sprint 1 que é a Sprint atual, aparece também no gráfico.
 
 ## Versionamento
 | Versão | Data | Modificação | Autor |
