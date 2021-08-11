@@ -65,7 +65,7 @@
  
 ### [**Issue : #42 Criar documento de especificação suplementar**](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/42)
  **Responsáveis: João Pedro**<br>
- **Pontuação: 3**<br>
+ **Pontuação: 5**<br>
  **Status: Concluída**<br>
  
 ### [**Issue : #46 Criar TAP**](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/46)
