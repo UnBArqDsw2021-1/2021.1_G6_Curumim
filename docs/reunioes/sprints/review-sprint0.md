@@ -116,9 +116,9 @@
 - A ideia inicial era apenas apresentar o Velocity Tracking da Sprint que está sendo revisada, mas como o Velocity foi gerado após o fechamento da Sprint 0, a Sprint 1 que é a Sprint atual, aparece também no gráfico.
 
 ## Versionamento
-| Versão | Data | Modificação | Autor |
-|:-:|--|--|--|
-|0.1|07/08/2021| Revisão e Retrospectiva com os integrantes | Todos os integrantes |
-|1.0|11/08/2021| Abertura do documento | Eliseu Kadesh |
-|1.1|11/08/2021| Correções gerais no documento | Eliseu Kadesh |
-|2.0|11/08/2021| Adição do Velocity | Eliseu Kadesh |
+| Versão | Data       | Modificação                                | Autor                |
+| :----: | ---------- | ------------------------------------------ | -------------------- |
+|  0.1   | 07/08/2021 | Revisão e Retrospectiva com os integrantes | Todos os integrantes |
+|  1.0   | 11/08/2021 | Abertura do documento                      | Eliseu Kadesh        |
+|  1.1   | 11/08/2021 | Correções gerais no documento              | Eliseu Kadesh        |
+|  2.0   | 11/08/2021 | Adição do Velocity                         | Eliseu Kadesh        |
