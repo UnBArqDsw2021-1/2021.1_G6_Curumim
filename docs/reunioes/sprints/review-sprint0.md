@@ -121,3 +121,4 @@
 |0.1|07/08/2021| Revisão e Retrospectiva com os integrantes | Todos os integrantes |
 |1.0|11/08/2021| Abertura do documento | Eliseu Kadesh |
 |1.1|11/08/2021| Correções gerais no documento | Eliseu Kadesh |
+|2.0|11/08/2021| Adição do Velocity | Eliseu Kadesh |
