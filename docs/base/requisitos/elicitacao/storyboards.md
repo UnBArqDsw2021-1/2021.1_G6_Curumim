@@ -8,7 +8,7 @@
 
 ### Administradora
 
-&emsp;&emsp;Suzana é uma ex-[professora](/base/requisitos/modelagem/lexicos/#lexico-professor) que teve um vasto conhecimento na área da pedagogia, e conhece de perto muitas dores da área, principalmente na inclusão digital na [educação](base/requisitos/modelagem/lexicos/#lexico-educacao).
+&emsp;&emsp;Suzana é uma ex-[professora](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-professor) que teve um vasto conhecimento na área da pedagogia, e conhece de perto muitas dores da área, principalmente na inclusão digital na [educação](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-educacao).
 
 **Problemas do dia a dia**: Um dia na rotina de Suzana.
 ![](https://raw.githubusercontent.com/francisco1code/docs/master/images/1.png) <center>
@@ -24,9 +24,9 @@
 
 ### Professor
 
-&emsp;&emsp;Poliana é uma jovem [professora](/base/requisitos/modelagem/lexicos/#lexico-professor) de [crianças](/base/requisitos/modelagem/lexicos/#lexico-criança), muita extrovertida, que gosta de sempre estar em contato com os [responsáveis](/base/requisitos/modelagem/lexicos/#lexico-responsavel) de seus alunos.
+&emsp;&emsp;Poliana é uma jovem [professora](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-professor) de [crianças](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-criança), muita extrovertida, que gosta de sempre estar em contato com os [responsáveis](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-responsavel) de seus alunos.
 
-**Problemas do dia a dia**: Um dia de Poliana na sala dos [professores](/base/requisitos/modelagem/lexicos/#lexico-professor).
+**Problemas do dia a dia**: Um dia de Poliana na sala dos [professores](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-professor).
 ![](../../../assets/imagens/storyboards/storyboard_poliana_1.png) <center>
 [Figura 4 - Persona Poliana](../../../assets/imagens/storyboards/storyboard_poliana_1.png) </center>
 
@@ -36,7 +36,7 @@
 
 ### Pais/Responsáveis
 
-&emsp;&emsp;Gustavo é um homem de 31 anos, ele é o [pai](/base/requisitos/modelagem/lexicos/#lexico-pai) muito presente de uma menina de 5 anos, ele é formado em engenharia de software, então é uma pessoa muito atualizada com tecnologias.
+&emsp;&emsp;Gustavo é um homem de 31 anos, ele é o [pai](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-pai) muito presente de uma menina de 5 anos, ele é formado em engenharia de software, então é uma pessoa muito atualizada com tecnologias.
 
 **Problemas do dia a dia**: Um dia na rotina de Gustavo com sua noiva.
 ![](../../../assets/imagens/storyboards/storyboard_gustavo_1.png) <center>
