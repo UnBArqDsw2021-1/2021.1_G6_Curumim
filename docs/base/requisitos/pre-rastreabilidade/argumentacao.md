@@ -26,9 +26,9 @@
 - P2(i(p1), i(p3)) - Todos: Apesar da funcionalidade estar alinhada com o requisito inicial, nele não é especificado de fato a forma como as informações devem ser disponibilizadas.
 - i(p4) - Francisco: A presença dos alunos pode ser representada em gráficos.
 - P3(i(p4), i(p1)) - Todos: Apesar de não haver a necessidade da criação de gráficos para todos os dados gerados na aplicação, a disponibilização deles especificamente para o acompanhamento da frequência dos alunos seria extremamente útil para os pais.
-- i(p5) - Enzo: Como são crianças de até 5 anos, os [responsáveis](/base/requisitos/modelagem/lexicos/#lexico-responsavel) precisam leva-las até o centro educacional, o que os dá a certeza da presença na aula.
-- It(i(p4), i(p6)) - Todos: Seria importante disponibilizar o gráfico de presença do aluno para que o [responsável](/base/requisitos/modelagem/lexicos/#lexico-responsavel) possa acompanhar as entradas e saídas da criança, especialmente em casos que não seja o tal [responsável](/base/requisitos/modelagem/lexicos/#lexico-responsavel) que deixa a criança no centro educacional.
-- i(p6) - João: Nem sempre será o [responsável](/base/requisitos/modelagem/lexicos/#lexico-responsavel) que levará a criança, o que faz que seja necessário os dados de presença.
+- i(p5) - Enzo: Como são crianças de até 5 anos, os [responsáveis](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-responsavel) precisam leva-las até o centro educacional, o que os dá a certeza da presença na aula.
+- It(i(p4), i(p6)) - Todos: Seria importante disponibilizar o gráfico de presença do aluno para que o [responsável](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-responsavel) possa acompanhar as entradas e saídas da criança, especialmente em casos que não seja o tal [responsável](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-responsavel) que deixa a criança no centro educacional.
+- i(p6) - João: Nem sempre será o [responsável](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-responsavel) que levará a criança, o que faz que seja necessário os dados de presença.
 
 ![Permanência do requisito REQB_05](../../../assets/imagens/argumentacao/arg-1.png)
 <center>[Figura 1: Permanência do requisito REQB_05](../../../assets/imagens/argumentacao/arg-1.png)</center>
@@ -45,8 +45,8 @@
 
 - DECISÃO: Houve um consenso para desenvolver um ambiente comum para todos que diferencie os tipos de usuários a partir dos dados.
 
-#### Desenvolvimento [Full-stack](/base/requisitos/modelagem/lexicos/#lexico-full-stack) de cada feature
-- i(p1) - Bruno: Acho que é melhor que os responsáveis pela feature desenvolvam ela do banco ao [Front-end](/base/requisitos/modelagem/lexicos/#lexico-front-end).
+#### Desenvolvimento [Full-stack](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-full-stack) de cada feature
+- i(p1) - Bruno: Acho que é melhor que os responsáveis pela feature desenvolvam ela do banco ao [Front-end](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-front-end).
 - i(p2) - Matheus: Não tenho experiência com esse tipo de trabalho e ficaria confuso com todas as frentes ao mesmo tempo.
 - P1(i(p2), i(p1)) - Todos: Aumentaria muito a carga de trabalho em cima de cada integrante exigir que ele desenvolva todas as frentes da feature.
 - i(p3) - Bruno: Podem haver falhas na comunicação e prejudicar o desenvolvimento de um funcionalidade por completo.
@@ -54,7 +54,7 @@
 - It(i(p2), i(p4)) - Todos: Com o desenvolvimento de uma arquitetura o compartilhamento das tarefas dentro de uma feature vai estar menos propenso a erros.
 - i(p4) - Matheus: Com o desenvolvimento da arquitetura o entendimento geral vai mitigar essas dificuldades.
 - It(i(p4), i(p5)) - Todos: Mesmo com a divisão das frentes de trabalho, a falta de conhecimento sobre determinadas tecnologias ainda pode ser um problema.
-- i(p5) - Bruno: Sinto que não tem muitas pessoas com aptidão ao [Front-end](/base/requisitos/modelagem/lexicos/#lexico-front-end), o que pode sobrecarregar alguns integrantes.
+- i(p5) - Bruno: Sinto que não tem muitas pessoas com aptidão ao [Front-end](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-front-end), o que pode sobrecarregar alguns integrantes.
 - i(p6) - Francisco: A equipe tem muitos integrantes que podem ser alocados conforme a necessidade.
 - P(i(p6), i(p5)) - Todos: O número elevado de integrantes na equipe pode diminuir a sobrecarga individual referente a necessidade do aprendizado de uma nova tecnologia.
 
