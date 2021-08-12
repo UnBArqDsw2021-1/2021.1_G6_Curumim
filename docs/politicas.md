@@ -1,4 +1,4 @@
-# Políticas de Contribuição
+# Políticas de Contribuição <br> <span class="rotulo-extra">Iniciativa Extra</span>
 
 ## Introdução
 &emsp;&emsp;O presente documento visa apresentar as políticas que serão usadas no decorrer do projeto, detalhando as politicas de branchs e seu fluxo de trabalho, commits, issues e pull requests.

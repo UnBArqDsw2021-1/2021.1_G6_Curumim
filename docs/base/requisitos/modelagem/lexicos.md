@@ -1,4 +1,4 @@
-# Léxicos
+# Léxicos <br> <span class="rotulo-extra">Iniciativa Extra</span>
 
 ## Introdução
 

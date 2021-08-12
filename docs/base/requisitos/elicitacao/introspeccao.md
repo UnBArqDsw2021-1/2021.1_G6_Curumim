@@ -1,3 +1,5 @@
+# Introspecção <br> <span class="rotulo-extra">Iniciativa Extra</span>
+
 ## Introdução
 &emsp;&emsp;A introspecção é uma técnica de elicitação de requisitos, baseando-se na ideia de buscar entender qual é o tipo de sistema a persona gostaria de ter (e ver) quando estivesse executando uma tarefa desejada na aplicação. Para isso, portanto, criamos as [personas](./personas.md) com o intuito de utilizar essa técnica.
 
