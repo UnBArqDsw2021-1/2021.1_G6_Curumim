@@ -6,6 +6,8 @@
 
 ![Diagrama de pacotes](https://raw.githubusercontent.com/UnBArqDsw2021-1/2021.1_G6_Curumim/doc/56_diagrama-de-pacote/docs/assets/imagens/diagrama-de-pacotes/Diagrama%20de%20pacotes.png)
 
+<center>[Figura 1: Diagrama de pacotes](https://raw.githubusercontent.com/UnBArqDsw2021-1/2021.1_G6_Curumim/doc/56_diagrama-de-pacote/docs/assets/imagens/diagrama-de-pacotes/Diagrama%20de%20pacotes.png)</center>
+
 
 ## Bibliografia
 > - UML Package Diagrams Overview. Disponível em: https://www.uml-diagrams.org/package-diagrams-overview.html. Acesso em: 12/08/2021.
