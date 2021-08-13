@@ -51,9 +51,9 @@ Seguem as datas e os artefatos feitos de quando fizemos cada etapa:
 
 - Nessa etapa, o grupo definiu o melhor Rich Picture (que melhor representava o que planejamos), alinhado juntamente com a priorização de requisitos, que utilizamos o MoscoW e o First Things First. Além disso, utilizamos o artefato de argumentação para decidir sobre aspectos importantes do projeto e criamos os storyboards.
    
-    > [Storyboards](../requisitos/pre-rastreabilidade/rich-picture.md)
+    > [Storyboards](../requisitos/elicitacao/storyboards.md)
     <br>
-    > [Rich Pictures](../requisitos/elicitacao/storyboards.md)
+    > [Rich Pictures](../requisitos/pre-rastreabilidade/rich-picture.md)
     <br>
     > [MoscoW](../requisitos/priorizacao/moscow.md)
     <br>
