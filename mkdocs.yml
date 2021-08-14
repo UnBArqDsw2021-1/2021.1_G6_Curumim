@@ -48,7 +48,6 @@ nav:
                 - TAP: base/tap/tap.md
         - Modelagem:
                 - Modelagem Estática:
-                        - Casos de uso: modelagem/modelagem-estatica/casos-de-uso.md
                         - Diagrama de pacotes: modelagem/modelagem-estatica/diagrama-de-pacotes.md
         - Reuniões:
                 - ATA reunião 26/07: reunioes/r1-ata-26-07.md
