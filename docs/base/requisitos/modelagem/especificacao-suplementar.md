@@ -25,7 +25,7 @@ O hardware que suporte este aplicativo deve ser: </p>
 
 - Possuir sensor de câmera especificação superior a 2 megapixels, para aplicativo [mobile](../lexicos/#lexico-mobile);
 - Possuir conexão com a Internet, de forma a ser possível estabelecer a comunicação aplicativo - servidor de dados;
-- O aplicativo deverá funcionar nos sistemas operacionais mobile Android (6.0 ou superior), iOS (11.0 ou superior), Windows (7.0 ou superior), macOS X (10.12 ou superior) e Linux;
+- O aplicativo deverá funcionar nos sistemas operacionais [mobile](../lexicos/#lexico-mobile) Android (6.0 ou superior), iOS (11.0 ou superior), Windows (7.0 ou superior), macOS X (10.12 ou superior) e Linux;
 - O aplicativo deve possuir diálogo com as funções de notificação dos diferentes sistemas operacionais suportados.
 
 ### Usabilidade
@@ -44,7 +44,7 @@ O hardware que suporte este aplicativo deve ser: </p>
 ### Desempenho
 
 - O sistema não deve executar funções que necessitem processamento exagerado;
-- O sistema deverá [notificar](../lexicos/#lexico-notificar) o usuário sem falhas.
+- O sistema deverá [notificar](../lexicos/#lexico-notificar) o [usuário](../lexicos/#lexico-usuario) sem falhas.
 
 ### Restrições de Design
 
@@ -90,4 +90,4 @@ A aplicação deve possuir barra de navegação lateral que disponibilize as dif
 | Versão | Data | Modificação | Autor |
 |:-:|--|--|--|
 |1.0|03/08/2021| Criação do documento | João Pedro |
-|1.0|12/08/2021| Corrigindo links | João Pedro |
+|1.1|12/08/2021| Corrigindo links | João Pedro |
