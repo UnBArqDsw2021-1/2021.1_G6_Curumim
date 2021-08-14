@@ -1,3 +1,5 @@
+# Casos de uso <br> <span class="rotulo-extra">Iniciativa Extra</span>
+
 ## Introdução
 &emsp;&emsp;Os diagramas de casos de uso são diagramas que fazem uso da notação UML (Unified Modeling Language) e buscam descrever as funcionalidades propostas para um determinado sistema, é considerada uma excelente ferramenta para auxilio no levantamento de requisitos funcionais. Um caso de uso basicamente representa a interação entre um ator que pode ser uma pessoa ou entidade máquina que interage com o sistema para executar algum trabalho.<br>
 &emsp;&emsp;Na figura abaixo são representados os principais componentes de um diagrama de casos de uso:
