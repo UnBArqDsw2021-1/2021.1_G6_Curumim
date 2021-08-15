@@ -14,19 +14,19 @@ O diagrama de atividades é um diagrama de comportamento UML que mostra o fluxo 
 ### Diagrama de atividades - Responsável
 
 ![Diagrama de atividades - Responsável](docs/assets/imagens/diagrama-de-atividades/Diagr.Atividades_Responsavel.jpg)
-<center>[Figura 1: Diagrama de atividades - Responsável](assets/imagens/diagrama-de-atividades/Diagr.Atividades_Responsavel.jpg)</center>
+<center>[Figura 2: Diagrama de atividades - Responsável](assets/imagens/diagrama-de-atividades/Diagr.Atividades_Responsavel.jpg)</center>
 
 
 ### Diagrama de atividades - Professor
 
 ![Diagrama de atividades - Professor](docs/assets/imagens/diagrama-de-atividades/Diagr.Atividades_Prof.jpg)
-<center>[Figura 1: Diagrama de atividades - Professor](assets/imagens/diagrama-atividades/Diagr.Atividades_Prof.jpg)</center>
+<center>[Figura 3: Diagrama de atividades - Professor](assets/imagens/diagrama-atividades/Diagr.Atividades_Prof.jpg)</center>
 
 
 ### Diagrama de atividades - Chat
 
 ![Diagrama de atividades - Chat](.../.../imagens/diagrama-de-atividades/Diagr.Atividades_Chat.jpg)
-<center>[Figura 1: Diagrama de atividades - Chat](assets/imagens/diagrama-atividades/Diagr.Atividades_Chat.jpg)</center>
+<center>[Figura 4: Diagrama de atividades - Chat](assets/imagens/diagrama-atividades/Diagr.Atividades_Chat.jpg)</center>
 
 
 ## Bibliografia
@@ -39,5 +39,7 @@ O diagrama de atividades é um diagrama de comportamento UML que mostra o fluxo 
 | Versão | Data | Modificação | Autor |
 |:-:|--|--|--|
 |1.0|14/08/2021| Criação do documento | João Pedro e Edson |
-|1.1|14/08/2021| Ajuste do caminho das imagens | Edson |
+|1.1|14/08/2021| Ajustes do caminho das imagens | Edson |
+|1.2|14/08/2021| Correção da numeração das figuras | Edson |
+
 
