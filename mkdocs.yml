@@ -40,6 +40,7 @@ nav:
                                 - Léxicos: base/requisitos/modelagem/lexicos.md
                                 - NFR Framework: base/requisitos/modelagem/nfr-framework.md
                                 - iStar: base/requisitos/modelagem/i-star.md
+                                - Diagrama de Atividades: base/requisitos/modelagem/diagrama-de-atividades.md
                 - Metodologia:
                         - Metodologia: base/metodologia/metodologia.md
                         - Modelagem BPMN: base/metodologia/bpmn.md
