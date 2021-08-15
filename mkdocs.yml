@@ -46,6 +46,9 @@ nav:
                 - Causa e efeito: causa-efeito.md
                 - Product Backlog: product-backlog.md
                 - TAP: base/tap/tap.md
+        - Modelagem:
+                - Modelagem Dinâmica:
+                        - Casos de uso: modelagem/modelagem-dinamica/casos-de-uso.md
         - Reuniões:
                 - ATA reunião 26/07: reunioes/r1-ata-26-07.md
                 - ATA reunião 28/07: reunioes/r2-ata-28-07.md
