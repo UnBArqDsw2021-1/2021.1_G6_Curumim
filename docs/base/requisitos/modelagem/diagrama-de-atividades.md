@@ -7,25 +7,25 @@ O diagrama de atividades é um diagrama de comportamento UML que mostra o fluxo 
 
 ### Diagrama de atividades - Administrador
 
-![Diagrama de atividades - Admin](docs/assets/imagens/diagrama-de-atividades/Diagr.Atividades_Admin.jpg)
+![Diagrama de atividades - Admin](../../../assets/imagens/diagrama-de-atividades/Diagr.Atividades_Admin.jpg)
 <center>[Figura 1: Diagrama de atividades - Administrador](assets/imagens/diagrama-atividades/Diagr.Atividades_Admin.jpg)</center>
 
 
 ### Diagrama de atividades - Responsável
 
-![Diagrama de atividades - Responsável](docs/assets/imagens/diagrama-de-atividades/Diagr.Atividades_Responsavel.jpg)
+![Diagrama de atividades - Responsável](../../../assets/imagens/diagrama-de-atividades/Diagr.Atividades_Responsavel.jpg)
 <center>[Figura 2: Diagrama de atividades - Responsável](assets/imagens/diagrama-de-atividades/Diagr.Atividades_Responsavel.jpg)</center>
 
 
 ### Diagrama de atividades - Professor
 
-![Diagrama de atividades - Professor](docs/assets/imagens/diagrama-de-atividades/Diagr.Atividades_Prof.jpg)
+![Diagrama de atividades - Professor](../../../assets/imagens/diagrama-de-atividades/Diagr.Atividades_Prof.jpg)
 <center>[Figura 3: Diagrama de atividades - Professor](assets/imagens/diagrama-atividades/Diagr.Atividades_Prof.jpg)</center>
 
 
 ### Diagrama de atividades - Chat
 
-![Diagrama de atividades - Chat](.../.../imagens/diagrama-de-atividades/Diagr.Atividades_Chat.jpg)
+![Diagrama de atividades - Chat](../../../assets/imagens/diagrama-de-atividades/Diagr.Atividades_Chat.jpg)
 <center>[Figura 4: Diagrama de atividades - Chat](assets/imagens/diagrama-atividades/Diagr.Atividades_Chat.jpg)</center>
 
 
@@ -41,5 +41,4 @@ O diagrama de atividades é um diagrama de comportamento UML que mostra o fluxo 
 |1.0|14/08/2021| Criação do documento | João Pedro e Edson |
 |1.1|14/08/2021| Ajustes do caminho das imagens | Edson |
 |1.2|14/08/2021| Correção da numeração das figuras | Edson |
-
-
+|1.3|14/08/2021| Mudança no caminho das imagens | Edson e francisco |
