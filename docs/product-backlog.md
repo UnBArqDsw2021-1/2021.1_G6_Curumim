@@ -51,7 +51,7 @@
 | E3 | FT02 | US21 | Eu, como [responsável](/base/requisitos/modelagem/lexicos/#lexico-responsavel), desejo receber [notificações](/base/requisitos/modelagem/lexicos/#lexico-notificacao) sobre a entrada e saída da minha [criança](/base/requisitos/modelagem/lexicos/#lexico-crianca) | RF_04 | Could |
 | E3 | FT01 | US22 | Eu, como [responsável](/base/requisitos/modelagem/lexicos/#lexico-responsavel), desejo conversar com o [administrador](/base/requisitos/modelagem/lexicos/#lexico-administrador)  do [centro educacional](/base/requisitos/modelagem/lexicos/#lexico-centro-educacional) | RF_02 | Could |
 | E3 | FT01 | US23 | Eu, como [responsável](/base/requisitos/modelagem/lexicos/#lexico-responsavel), desejo conversar com o [professor](/base/requisitos/modelagem/lexicos/#lexico-professor) da [turma](/base/requisitos/modelagem/lexicos/#lexico-turma) da minha [criança](/base/requisitos/modelagem/lexicos/#lexico-crianca) | RF_01 | Should |
-| E1 | FT07 | US24 | Eu, como [responsável](/base/requisitos/modelagem/lexicos/#lexico-responsavel), desejo receber [relatórios](/base/requisitos/modelagem/lexicos/#lexico-relatorio) esporádico sobre tudo produzido pela minha [criança](/base/requisitos/modelagem/lexicos/#lexico-crianca) | RF_10 | Could |
+| E1 | FT07 | US24 | Eu, como [responsável](/base/requisitos/modelagem/lexicos/#lexico-responsavel), desejo receber [relatórios](/base/requisitos/modelagem/lexicos/#lexico-relatorio) esporádicos sobre tudo produzido pela minha [criança](/base/requisitos/modelagem/lexicos/#lexico-crianca) | RF_10 | Could |
 
 
 ## Versionamento
