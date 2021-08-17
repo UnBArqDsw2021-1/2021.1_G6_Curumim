@@ -9,14 +9,14 @@
 **Duração:** 7 dias.<br>
 
 
-## 3. Objetivos
+## 2. Objetivos
 A [Sprint 1](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/milestone/3) tem como objetivo:
 
 - Definição das Tecnologias;<br>
 - Desenvolvimento de artefatos da Modelagem.<br>
 
 
-## 4. Sprint Backlog
+## 3. Sprint Backlog
 Issues adicionadas: 
 
 1. **Issue:** [#50 Documentar Sprint 0 - Review/ Retrospective](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/50)<br> 
