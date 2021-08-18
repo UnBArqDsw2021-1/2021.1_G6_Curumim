@@ -51,6 +51,7 @@ nav:
                         - Diagrama de pacotes: modelagem/modelagem-estatica/diagrama-de-pacotes.md
                 - Modelagem Dinâmica:
                         - Casos de uso: modelagem/modelagem-dinamica/casos-de-uso.md
+                        - Diagrama de estados: modelagem/modelagem-dinamica/diagrama-estados.md
         - Reuniões:
                 - ATA reunião 26/07: reunioes/r1-ata-26-07.md
                 - ATA reunião 28/07: reunioes/r2-ata-28-07.md
