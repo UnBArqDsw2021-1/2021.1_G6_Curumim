@@ -9,7 +9,7 @@
 **Duração:** 5 dias.<br>
 
 
-## 3. Objetivos
+## 2. Objetivos
 A [Sprint 0](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/milestone/2) tem como objetivo:
 
 - Documentação dos Artefatos da Design Sprint;<br>
@@ -17,7 +17,7 @@ A [Sprint 0](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/milestone/2) t
 - Entrega e Apresentação do Tópico 2 - Desenho de Software(Base).
 
 
-## 4. Sprint Backlog
+## 3. Sprint Backlog
 Issues adicionadas: 
 
 1. **Issue:** [#18 Instalar Zenhub](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/18)<br>
