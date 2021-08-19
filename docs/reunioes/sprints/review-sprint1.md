@@ -95,11 +95,11 @@
  
 ## 4. Burndown
 ![Burndown Report](../../assets/imagens/sprint-review/sprint1/burndown-report.png)
-<center>[Figura 1: Burndown Report gerado pelo Zenhub.](../../assets/imagens/sprint-review/sprint1/burndown-report.png)</center>
+<center>[Figura 1: Burndown Report gerado pelo Zenhub](../../assets/imagens/sprint-review/sprint1/burndown-report.png)</center>
 
 ## 5. Velocity
 ![Velocity Tracking](../../assets/imagens/sprint-review/sprint1/velocity-tracking.png)
-<center>[Figura 1: Velocity Tracking gerado pelo Zenhub.](../../assets/imagens/sprint-review/sprint1/velocity-tracking.png)</center>
+<center>[Figura 2: Velocity Tracking gerado pelo Zenhub](../../assets/imagens/sprint-review/sprint1/velocity-tracking.png)</center>
 
 ## Versionamento
 | Versão | Data       | Modificação                                | Autor                |
