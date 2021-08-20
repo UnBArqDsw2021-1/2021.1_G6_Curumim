@@ -105,11 +105,11 @@
  
 ## 4. Burndown
 ![Burndown Report](../../assets/imagens/sprint-review/sprint0/burndown-report.png)
-<center>[Figura 1: Burndown Report gerado pelo Zenhub.](../../assets/imagens/sprint-review/sprint0/burndown-report.png)</center>
+<center>[Figura 1: Burndown Report gerado pelo Zenhub](../../assets/imagens/sprint-review/sprint0/burndown-report.png)</center>
  
 ## 5. Velocity
 ![Velocity Tracking](../../assets/imagens/sprint-review/sprint0/velocity-tracking.png)
-<center>[Figura 1: Velocity Tracking gerado pelo Zenhub.](../../assets/imagens/sprint-review/sprint0/velocity-tracking.png)</center>
+<center>[Figura 2: Velocity Tracking gerado pelo Zenhub](../../assets/imagens/sprint-review/sprint0/velocity-tracking.png)</center>
 
 #### **Observações**:<br> 
 - A reta que representa o Average Story Points está exatamente na altura da Sprint 0 porque o gráfico do Velocity da Sprint 0 foi o primeiro a ser gerado.<br>
