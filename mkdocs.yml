@@ -49,6 +49,7 @@ nav:
         - Modelagem:
                 - Modelagem Estática:
                         - Diagrama de pacotes: modelagem/modelagem-estatica/diagrama-de-pacotes.md
+                        - Diagrama de classes: modelagem/modelagem-estatica/diagrama-de-classes.md
                 - Modelagem Dinâmica:
                         - Casos de uso: modelagem/modelagem-dinamica/casos-de-uso.md
         - Reuniões:
