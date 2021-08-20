@@ -9,7 +9,7 @@
 <center>[Figura 1: Diagrama de classes](../../assets/imagens/diagrama-de-classes/Diagrama-de-classes.png)</center>
 
 #### **Observações**:<br> 
-- Todos os atributos privados possuem Getters e Setters, e não foram inclusos no diagrama para facilitar a visualização.
+- Todos os atributos privados possuem métodos Getters e Setters, e não foram inclusos no diagrama para facilitar a visualização.
 
 ## Bibliografia
 > - UML Package Diagrams Overview. Disponível em: https://www.uml-diagrams.org/package-diagrams-overview.html. Acesso em: 13/08/2021.
