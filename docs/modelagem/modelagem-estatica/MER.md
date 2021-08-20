@@ -21,12 +21,12 @@
 
 |Atributos | Propriedade | Tipo | Descrição |
 |----------|-------------|------|-----------|
-|IdGuardian|Chave primária|Inteiro|Indetificação do [Responsável](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel)|
-|Name|Obrigatório|String|Nome do [Responsável](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel)|
-|CPF|Obrigatório|String|CPF do [Responsável](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel)|
-|Email|Obrigatório|String| Email do  [Responsável](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel) |
-|Password|Obrigatório|String| Senha do  [Responsável](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel)|
-|Address|Obrigatório|String|  Endereço do  [Responsável](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel)|
+|IdGuardian|Chave primária|Inteiro|Indetificação do [responsável](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel)|
+|Name|Obrigatório|String|Nome do [responsável](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel)|
+|CPF|Obrigatório|String|CPF do [responsável](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel)|
+|Email|Obrigatório|String| Email do  [responsável](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel) |
+|Password|Obrigatório|String| Senha do  [responsável](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel)|
+|Address|Obrigatório|String|  Endereço do  [responsável](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel)|
 
 ### [Adm](../../../base/requisitos/modelagem/lexicos/#lexico-administrador)
 
@@ -66,8 +66,8 @@
 |Atributos | Propriedade | Tipo | Descrição |
 |----------|-------------|------|-----------|
 |IdClass|Chave primária|Inteiro|Indetificação da [turma](../../../base/requisitos/modelagem/lexicos/#lexico-turma)|
-|IdTeacher|Chave estrangeira|Inteiro[ ]| Indetificação do [professor](../../../base/requisitos/modelagem/lexicos/#lexico-professor)|
-|IdChild|Chave estrangeira|Inteiro[ ]| Indetificação da [criança](../../../base/requisitos/modelagem/lexicos/#lexico-crianca)| 
+|IdTeacher|Chave estrangeira|Inteiro| Indetificação do [professor](../../../base/requisitos/modelagem/lexicos/#lexico-professor)|
+|IdChild|Chave estrangeira|Inteiro| Indetificação da [criança](../../../base/requisitos/modelagem/lexicos/#lexico-crianca)| 
 |Code|Obrigatório| String| Codigo da [turma](../../../base/requisitos/modelagem/lexicos/#lexico-turma)|
 |Capacity|Obrigatório|Inteiro| Capacidade da [turma](../../../base/requisitos/modelagem/lexicos/#lexico-turma)|
 
@@ -108,18 +108,18 @@
 |----------|-------------|------|-----------|
 |IdBoard|Chave primária|Inteiro|Identificação do [mural](../../../base/requisitos/modelagem/lexicos/#lexico-mural)|
 |IdChild|Chave estrangeira|Inteiro| Identificação da [criança](../../../base/requisitos/modelagem/lexicos/#lexico-crianca)|
-|IdAnotation|Chave estrangeira|Inteiro[ ]|Identificação da [anotação](../../../base/requisitos/modelagem/lexicos/#lexico-anotacao)|
-|IdActivity|Chave estrangeira|Inteiro[ ]|Identificação da [atividade](../../../base/requisitos/modelagem/lexicos/#lexico-atividade)|
-|IdEvent|Chave estranfeira|Inteiro[ ]|Indetificação do [evento](../../../base/requisitos/modelagem/lexicos/#lexico-evento)|
+|IdAnotation|Chave estrangeira|Inteiro|Identificação da [anotação](../../../base/requisitos/modelagem/lexicos/#lexico-anotacao)|
+|IdActivity|Chave estrangeira|Inteiro|Identificação da [atividade](../../../base/requisitos/modelagem/lexicos/#lexico-atividade)|
+|IdEvent|Chave estranfeira|Inteiro|Indetificação do [evento](../../../base/requisitos/modelagem/lexicos/#lexico-evento)|
 
 ### [EC](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional)
 
 |Atributos | Propriedade | Tipo | Descrição |
 |----------|-------------|------|-----------|
 |IdEC|Chave primária|Inteiro|Identificação do [centro educacional](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional)|
-|IdAdm|Chave estrangeira|Inteiro[ ]|Indetificação do [administrador](../../../base/requisitos/modelagem/lexicos/#lexico-administrador)|
-|IdTeacher|Chave estrangeira|Inteiro[ ]|Indetificação do [professor](../../../base/requisitos/modelagem/lexicos/#lexico-professor)|
-|IdClass|Chave estrangeira|Inteiro[ ]|Indetificação da [turma](../../../base/requisitos/modelagem/lexicos/#lexico-turma)|
+|IdAdm|Chave estrangeira|Inteiro|Indetificação do [administrador](../../../base/requisitos/modelagem/lexicos/#lexico-administrador)|
+|IdTeacher|Chave estrangeira|Inteiro|Indetificação do [professor](../../../base/requisitos/modelagem/lexicos/#lexico-professor)|
+|IdClass|Chave estrangeira|Inteiro|Indetificação da [turma](../../../base/requisitos/modelagem/lexicos/#lexico-turma)|
 |Name|Obrigatório|String| Nome do [centro educacional](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional)|
 |Adress|Obrigatório|String| Endereço do [centro educacional](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional)|
 |Description|Obrigatório|String| Descrição do [centro educacional](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional)|
@@ -133,53 +133,81 @@
 |Title|Obrigatório|String| Titulo do [relatório](../../../base/requisitos/modelagem/lexicos/#lexico-relatorio)|
 |Description|Obrigatório|String| Descriçaõ do [relatório](../../../base/requisitos/modelagem/lexicos/#lexico-relatorio)|
 
+### Chat
+
+|Atributos | Propriedade | Tipo | Descrição |
+|----------|-------------|------|-----------|
+|IdChat|Chave primária|Inteiro|Identificação do chat|
+|IdGuardian|Chave estrangeira|Inteiro|Identificação do [responsável](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel)|
+|IdRecipiente|Chave estrangeira|Inteiro|Identificação do [administrador](../../../base/requisitos/modelagem/lexicos/#lexico-administrador) ou do [professor](../../../base/requisitos/modelagem/lexicos/#lexico-professor)|
+|IdMensage|Chave estrangeira|Inteiro|Identificador das mensagens do chat|
+
+### Mensage
+
+|Atributos | Propriedade | Tipo | Descrição |
+|----------|-------------|------|-----------|
+|IdMensage|Chave primária|Inteiro|Identificador das mensagens|
+|IdChat|Chave estrangeira|Inteiro|Identificação do chat|
+|SentBy|Chave estrangeira|Inteiro|Identificador do [usuário](../../../base/requisitos/modelagem/lexicos/#lexico-usuario) que enviou a mensagem|
+|Body|Obrigatório|String|Corpo do texto da mensagem|
+|Date|Obrgatório|Data|Data de envio|
+
+### Presence
+
+|Atributos | Propriedade | Tipo | Descrição |
+|----------|-------------|------|-----------|
+|IdPresence|Chave primária|Inteiro|Identificador da presença|
+|IdClass|Chave estrangeira|Inteiro|Identificação da [turma](../../../base/requisitos/modelagem/lexicos/#lexico-turma)|
+|IdChild|Chave estrangeira|Inteiro|Identificação da [criança](../../../base/requisitos/modelagem/lexicos/#lexico-crianca)|
+|Date|Obrigatório|Data|Data da presença ou falta da [criança](../../../base/requisitos/modelagem/lexicos/#lexico-crianca)|
+|Status|Obrigatório|Integer|Presente = 1, falta=0|
+
 ## Relacionamentos
-1. [**RESPOSÁVEL**](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel) -- possui -- [**CRIANÇA**](../../../base/requisitos/modelagem/lexicos/#lexico-crianca): Um [reponsável](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel) possui [crianças](../../../base/requisitos/modelagem/lexicos/#lexico-crianca) e uma criança está atrelada a [responsáveis](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel).<br>
+1. [**RESPOSÁVEL**](#guardian) -- possui -- [**CRIANÇA**](#child): Um [reponsável](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel) possui [crianças](../../../base/requisitos/modelagem/lexicos/#lexico-crianca) e uma criança está atrelada a [responsáveis](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel).<br>
 (Cardinalidade: n:m)
 
-2. [**ADMINISTRDOR**](../../../base/requisitos/modelagem/lexicos/#lexico-administrador) -- registra -- [**TURMA**](../../../base/requisitos/modelagem/lexicos/#lexico-turma): Um [administrador](../../../base/requisitos/modelagem/lexicos/#lexico-administrador) registra [turmas](../../../base/requisitos/modelagem/lexicos/#lexico-turma) e uma [turma](../../../base/requisitos/modelagem/lexicos/#lexico-turma) é registrada por uma [administrador](../../../base/requisitos/modelagem/lexicos/#lexico-administrador).<br>
+2. [**ADMINISTRADOR**](#adm) -- registra -- [**TURMA**](#class): Um [administrador](../../../base/requisitos/modelagem/lexicos/#lexico-administrador) registra [turmas](../../../base/requisitos/modelagem/lexicos/#lexico-turma) e uma [turma](../../../base/requisitos/modelagem/lexicos/#lexico-turma) é registrada por uma [administrador](../../../base/requisitos/modelagem/lexicos/#lexico-administrador).<br>
 (Cardinalidade: 1:n)
 
-3. [**ADMINISTRDOR**](../../../base/requisitos/modelagem/lexicos/#lexico-administrador) -- gera -- [**RELATÓRIO**](../../../base/requisitos/modelagem/lexicos/#lexico-relatorio): Um [administrador](../../../base/requisitos/modelagem/lexicos/#lexico-administrador) gera [relatórios](../../../base/requisitos/modelagem/lexicos/#lexico-relatorio) e um [relatório](../../../base/requisitos/modelagem/lexicos/#lexico-relatorio) é gerado por um [administrador](../../../base/requisitos/modelagem/lexicos/#lexico-administrador).<br>
+3. [**ADMINISTRADOR**](#adm) -- gera -- [**RELATÓRIO**](#report): Um [administrador](../../../base/requisitos/modelagem/lexicos/#lexico-administrador) gera [relatórios](../../../base/requisitos/modelagem/lexicos/#lexico-relatorio) e um [relatório](../../../base/requisitos/modelagem/lexicos/#lexico-relatorio) é gerado por um [administrador](../../../base/requisitos/modelagem/lexicos/#lexico-administrador).<br>
 (Cardinalidade: 1:n)
 
-4. [**CENTRO EDUCACIONAL**](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional) -- possui -- [**ADMINISTRADOR**](../../../base/requisitos/modelagem/lexicos/#lexico-administrador): O [centro educacional](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional) possui ao menos um [administrador](../../../base/requisitos/modelagem/lexicos/#lexico-administrador) e os [administradores](../../../base/requisitos/modelagem/lexicos/#lexico-administrador) estão atrelados a um [centro educacional](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional).<br>
+4. [**CENTRO EDUCACIONAL**](#ce) -- possui -- [**ADMINISTRADOR**](#adm): O [centro educacional](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional) possui ao menos um [administrador](../../../base/requisitos/modelagem/lexicos/#lexico-administrador) e os [administradores](../../../base/requisitos/modelagem/lexicos/#lexico-administrador) estão atrelados a um [centro educacional](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional).<br>
 (Cardinalidade: 1:n)
 
-5. [**CENTRO EDUCACIONAL**](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional) -- possui -- [**PROFESSOR**](../../../base/requisitos/modelagem/lexicos/#lexico-professor): O [centro educacional](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional) possui [professores](../../../base/requisitos/modelagem/lexicos/#lexico-professor) e os [professores](../../../base/requisitos/modelagem/lexicos/#lexico-professor) estão atrelados a um [centro educacional](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional).<br>
-5. [**CENTRO EDUCACIONAL**](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional) -- possui -- [**PROFESSOR**](../../../base/requisitos/modelagem/lexicos/#lexico-professor): O [centro educacional](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional) possui [professores](../../../base/requisitos/modelagem/lexicos/#lexico-professor) e os [professores](../../../base/requisitos/modelagem/lexicos/#lexico-professor) estão atrelados a um [centro educacional](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional).<br>
-5. [**CENTRO EDUCACIONAL**](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional) -- possui -- [**PROFESSOR**](../../../base/requisitos/modelagem/lexicos/#lexico-professor): O [centro educacional](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional) possui  [professores](../../../base/requisitos/modelagem/lexicos/#lexico-professor) e os  [professores](../../../base/requisitos/modelagem/lexicos/#lexico-professor) estão atrelados a um [centro educacional](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional).<br>
+5. [**CENTRO EDUCACIONAL**](#ce) -- possui -- [**PROFESSOR**](#teacher): O [centro educacional](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional) possui [professores](../../../base/requisitos/modelagem/lexicos/#lexico-professor) e os [professores](../../../base/requisitos/modelagem/lexicos/#lexico-professor) estão atrelados a um [centro educacional](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional).<br>
+
+6. [**CENTRO EDUCACIONAL**](#ce) -- possui -- [**TURMA**](#class): O [centro educacional](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional) possui [turmas](../../../base/requisitos/modelagem/lexicos/#lexico-turma) e as [turmas](../../../base/requisitos/modelagem/lexicos/#lexico-turma) possuem um [centro educacional](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional). <br>
 (Cardinalidade: 1:n)
 
-6. [**CENTRO EDUCACIONAL**](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional) -- possui -- [**TURMA**](../../../base/requisitos/modelagem/lexicos/#lexico-turma): O [centro educacional](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional) possui [turmas](../../../base/requisitos/modelagem/lexicos/#lexico-turma) e as [turmas](../../../base/requisitos/modelagem/lexicos/#lexico-turma) possuem um [centro educacional](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional). <br>
+7. [**PROFESSOR**](#teacher) -- cria -- [**ATIVIDADE**](#activity): Um professor cria [atividades](../../../base/requisitos/modelagem/lexicos/#lexico-atividade) e uma [atividade](../../../base/requisitos/modelagem/lexicos/#lexico-atividade) é criada por um [professor](../../../base/requisitos/modelagem/lexicos/#lexico-professor). <br>
 (Cardinalidade: 1:n)
 
-7. [**PROFESSOR**](../../../base/requisitos/modelagem/lexicos/#lexico-professor) -- cria -- [**ATIVIDADE**](../../../base/requisitos/modelagem/lexicos/#lexico-atividade): Um professor cria [atividades](../../../base/requisitos/modelagem/lexicos/#lexico-atividade) e uma [atividade](../../../base/requisitos/modelagem/lexicos/#lexico-atividade) é criada por um [professor](../../../base/requisitos/modelagem/lexicos/#lexico-professor). <br>
+8. [**TURMA**](#class) -- contém-- [**CRIANÇA**](#child): Uma [turma](../../../base/requisitos/modelagem/lexicos/#lexico-turma) contém [crianças](../../../base/requisitos/modelagem/lexicos/#lexico-crianca) e uma [criança](../../../base/requisitos/modelagem/lexicos/#lexico-crianca) está contida em uma [turma](../../../base/requisitos/modelagem/lexicos/#lexico-turma). <br>
 (Cardinalidade: 1:n)
 
-8. [**TURMA**](../../../base/requisitos/modelagem/lexicos/#lexico-turma) -- contém-- [**CRIANÇA**](../../../base/requisitos/modelagem/lexicos/#lexico-crianca): Uma [turma](../../../base/requisitos/modelagem/lexicos/#lexico-turma) contém [crianças](../../../base/requisitos/modelagem/lexicos/#lexico-crianca) e uma [criança](../../../base/requisitos/modelagem/lexicos/#lexico-crianca) está contida em uma [turma](../../../base/requisitos/modelagem/lexicos/#lexico-turma). <br>
-(Cardinalidade: 1:n)
-
-5. [**CENTRO EDUCACIONAL**](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional) -- possui -- [**PROFESSOR**](../../../base/requisitos/modelagem/lexicos/#lexico-professor): O [centro educacional](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional) possui [professores](../../../base/requisitos/modelagem/lexicos/#lexico-professor) e os [professores](../../../base/requisitos/modelagem/lexicos/#lexico-professor) estão atrelados a um [centro educacional](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional).<br>
-9. [**TURMA**](../../../base/requisitos/modelagem/lexicos/#lexico-turma) -- contém -- [**PROFESSOR**](../../../base/requisitos/modelagem/lexicos/#lexico-professor): Uma [turma](../../../base/requisitos/modelagem/lexicos/#lexico-turma) contém [professores](../../../base/requisitos/modelagem/lexicos/#lexico-professor) e os [professores](../../../base/requisitos/modelagem/lexicos/#lexico-professor) estão contidos em [turmas](../../../base/requisitos/modelagem/lexicos/#lexico-turma). <br>
+9. [**TURMA**](#class) -- contém -- [**PROFESSOR**](#teacher): Uma [turma](../../../base/requisitos/modelagem/lexicos/#lexico-turma) contém [professores](../../../base/requisitos/modelagem/lexicos/#lexico-professor) e os [professores](../../../base/requisitos/modelagem/lexicos/#lexico-professor) estão contidos em [turmas](../../../base/requisitos/modelagem/lexicos/#lexico-turma). <br>
 (Cardinalidade: n:m)
 
-10. [**TURMA**](../../../base/requisitos/modelagem/lexicos/#lexico-turma) -- participa -- [**EVENTO**](../../../base/requisitos/modelagem/lexicos/#lexico-evento): Uma [turma](../../../base/requisitos/modelagem/lexicos/#lexico-turma) participa de [eventos](../../../base/requisitos/modelagem/lexicos/#lexico-evento) e um [evento](../../../base/requisitos/modelagem/lexicos/#lexico-evento) contém a participação das [turmas](../../../base/requisitos/modelagem/lexicos/#lexico-turma). <br>
+10. [**TURMA**](#class) -- participa -- [**EVENTO**](#event): Uma [turma](../../../base/requisitos/modelagem/lexicos/#lexico-turma) participa de [eventos](../../../base/requisitos/modelagem/lexicos/#lexico-evento) e um [evento](../../../base/requisitos/modelagem/lexicos/#lexico-evento) contém a participação das [turmas](../../../base/requisitos/modelagem/lexicos/#lexico-turma). <br>
 (Cardinalidade: n:m)
 
-11. [**TURMA**](../../../base/requisitos/modelagem/lexicos/#lexico-turma) -- aplica -- [**ATIVIDADE**](../../../base/requisitos/modelagem/lexicos/#lexico-atividade): Uma [turma](../../../base/requisitos/modelagem/lexicos/#lexico-turma) aplica [atividades](../../../base/requisitos/modelagem/lexicos/#lexico-atividade) e uma [atividade](../../../base/requisitos/modelagem/lexicos/#lexico-atividade) é aplicada nas [turmas](../../../base/requisitos/modelagem/lexicos/#lexico-turma). <br>
+11. [**TURMA**](#class) -- aplica -- [**ATIVIDADE**](#activity): Uma [turma](../../../base/requisitos/modelagem/lexicos/#lexico-turma) aplica [atividades](../../../base/requisitos/modelagem/lexicos/#lexico-atividade) e uma [atividade](../../../base/requisitos/modelagem/lexicos/#lexico-atividade) é aplicada nas [turmas](../../../base/requisitos/modelagem/lexicos/#lexico-turma). <br>
 (Cardinalidade: n:m)
 
-12. [**CRIANÇA**](../../../base/requisitos/modelagem/lexicos/#lexico-crianca) -- possui -- [**MURAL**](../../../base/requisitos/modelagem/lexicos/#lexico-mural) : Uma [criança](../../../base/requisitos/modelagem/lexicos/#lexico-crianca) possui um [mural](../../../base/requisitos/modelagem/lexicos/#lexico-mural) e um [mural](../../../base/requisitos/modelagem/lexicos/#lexico-mural) está atrelado a uma [criança](../../../base/requisitos/modelagem/lexicos/#lexico-crianca). <br>
+12. [**CRIANÇA**](#child) -- possui -- [**MURAL**](#board) : Uma [criança](../../../base/requisitos/modelagem/lexicos/#lexico-crianca) possui um [mural](../../../base/requisitos/modelagem/lexicos/#lexico-mural) e um [mural](../../../base/requisitos/modelagem/lexicos/#lexico-mural) está atrelado a uma [criança](../../../base/requisitos/modelagem/lexicos/#lexico-crianca). <br>
 (Cardinalidade: 1:1)
 
-13. [**MURAL**](../../../base/requisitos/modelagem/lexicos/#lexico-mural)  -- apresenta -- [**EVENTO**](../../../base/requisitos/modelagem/lexicos/#lexico-evento): Um [mural](../../../base/requisitos/modelagem/lexicos/#lexico-mural) mostra os últimos [eventos](../../../base/requisitos/modelagem/lexicos/#lexico-evento) para a [turma](../../../base/requisitos/modelagem/lexicos/#lexico-turma) da [criança](../../../base/requisitos/modelagem/lexicos/#lexico-crianca) e um [evento](../../../base/requisitos/modelagem/lexicos/#lexico-evento) está presente nos [murais](../../../base/requisitos/modelagem/lexicos/#lexico-mural) das [crianças](../../../base/requisitos/modelagem/lexicos/#lexico-crianca) das [turmas](../../../base/requisitos/modelagem/lexicos/#lexico-turma) contempladas. <br>
+13. [**MURAL**](#board)  -- apresenta -- [**EVENTO**](#event): Um [mural](../../../base/requisitos/modelagem/lexicos/#lexico-mural) mostra os últimos [eventos](../../../base/requisitos/modelagem/lexicos/#lexico-evento) para a [turma](../../../base/requisitos/modelagem/lexicos/#lexico-turma) da [criança](../../../base/requisitos/modelagem/lexicos/#lexico-crianca) e um [evento](../../../base/requisitos/modelagem/lexicos/#lexico-evento) está presente nos [murais](../../../base/requisitos/modelagem/lexicos/#lexico-mural) das [crianças](../../../base/requisitos/modelagem/lexicos/#lexico-crianca) das [turmas](../../../base/requisitos/modelagem/lexicos/#lexico-turma) contempladas. <br>
 (Cardinalidade: n:m)
 
-14. [**MURAL**](../../../base/requisitos/modelagem/lexicos/#lexico-mural)  -- apresenta -- [**ATIVIDADE**](../../../base/requisitos/modelagem/lexicos/#lexico-atividade): Um [mural](../../../base/requisitos/modelagem/lexicos/#lexico-mural) mostra as últimas [atividades](../../../base/requisitos/modelagem/lexicos/#lexico-atividade) da [turma](../../../base/requisitos/modelagem/lexicos/#lexico-turma) da [criança](../../../base/requisitos/modelagem/lexicos/#lexico-crianca) e uma [atividade](../../../base/requisitos/modelagem/lexicos/#lexico-atividade) está presente nos [murais](../../../base/requisitos/modelagem/lexicos/#lexico-mural) das [crianças](../../../base/requisitos/modelagem/lexicos/#lexico-crianca). <br>
+14. [**MURAL**](#board)  -- apresenta -- [**ATIVIDADE**](#activity): Um [mural](../../../base/requisitos/modelagem/lexicos/#lexico-mural) mostra as últimas [atividades](../../../base/requisitos/modelagem/lexicos/#lexico-atividade) da [turma](../../../base/requisitos/modelagem/lexicos/#lexico-turma) da [criança](../../../base/requisitos/modelagem/lexicos/#lexico-crianca) e uma [atividade](../../../base/requisitos/modelagem/lexicos/#lexico-atividade) está presente nos [murais](../../../base/requisitos/modelagem/lexicos/#lexico-mural) das [crianças](../../../base/requisitos/modelagem/lexicos/#lexico-crianca). <br>
 (Cardinalidade: n:m)
 
-16. [**MURAL**](../../../base/requisitos/modelagem/lexicos/#lexico-mural)  -- apresenta -- [**ANOTAÇÃO**](../../../base/requisitos/modelagem/lexicos/#lexico-anotacao): Um [mural](../../../base/requisitos/modelagem/lexicos/#lexico-mural) mostra as últimas [anotações](../../../base/requisitos/modelagem/lexicos/#lexico-anotacao) da [criança](../../../base/requisitos/modelagem/lexicos/#lexico-crianca) e uma [anotação](../../../base/requisitos/modelagem/lexicos/#lexico-anotacao) está presente em um [mural](../../../base/requisitos/modelagem/lexicos/#lexico-mural). <br>
+16. [**MURAL**](#board)  -- apresenta -- [**ANOTAÇÃO**](#anotation): Um [mural](../../../base/requisitos/modelagem/lexicos/#lexico-mural) mostra as últimas [anotações](../../../base/requisitos/modelagem/lexicos/#lexico-anotacao) da [criança](../../../base/requisitos/modelagem/lexicos/#lexico-crianca) e uma [anotação](../../../base/requisitos/modelagem/lexicos/#lexico-anotacao) está presente em um [mural](../../../base/requisitos/modelagem/lexicos/#lexico-mural). <br>
+(Cardinalidade: 1:n)
+
+17. [**CHAT**](#chat) -- contém -- [**MENSAGEM**](#mensage): Um chat contém mensagens e as mensagens estão contidas em um chat.
 (Cardinalidade: 1:n)
 
 ## Conclusão
@@ -197,3 +225,4 @@
 | 1.0 | 18/08/2021 | Abertura do documento e adição da Metodologia, das entidades, dos relacionamentos e da conclusão | Daniel Porto, Francisco Emanoel  |
 | 1.1 | 19/08/2021 | Adicionando descrição das entidades e a introdução do documento | Daniel Porto, Francisco Emanoel  |
 | 1.2 | 20/08/2021 | Adição dos léxicos | Daniel Porto |
+| 1.3 | 20/08/2021 | Adição das entidades chat, mensage, presence e seus relacionamentos| Daniel Porto |
