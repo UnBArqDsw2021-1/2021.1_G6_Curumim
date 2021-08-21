@@ -50,6 +50,7 @@ nav:
                 - Modelagem Estática:
                         - Diagrama de pacotes: modelagem/modelagem-estatica/diagrama-de-pacotes.md
                         - MER: modelagem/modelagem-estatica/MER.md
+                        - DER: modelagem/modelagem-estatica/DER.md
                 - Modelagem Dinâmica:
                         - Casos de uso: modelagem/modelagem-dinamica/casos-de-uso.md
         - Reuniões:
