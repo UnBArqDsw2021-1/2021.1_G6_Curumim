@@ -54,6 +54,7 @@ nav:
                         - DER: modelagem/modelagem-estatica/DER.md
                 - Modelagem Dinâmica:
                         - Casos de uso: modelagem/modelagem-dinamica/casos-de-uso.md
+                        - Diagrama de sequência: modelagem/modelagem-dinamica/diagrama-de-sequencia.md
         - Reuniões:
                 - ATA reunião 26/07: reunioes/r1-ata-26-07.md
                 - ATA reunião 28/07: reunioes/r2-ata-28-07.md
