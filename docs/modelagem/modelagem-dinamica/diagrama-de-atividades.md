@@ -8,7 +8,7 @@ O diagrama de atividades é um diagrama de comportamento UML que mostra o fluxo 
 ### Diagrama de atividades - Administrador
 
 ![Diagrama de atividades - Admin](../../../assets/imagens/diagrama-de-atividades/Diagr.Atividades_Admin.jpg)
-<center>[Figura 1: Diagrama de atividades - Administrador](assets/imagens/diagrama-atividades/Diagr.Atividades_Admin.jpg)</center>
+<center>[Figura 1: Diagrama de atividades - Administrador](assets/imagens/diagrama-de-atividades/Diagr.Atividades_Admin.jpg)</center>
 
 
 ### Diagrama de atividades - Responsável
@@ -20,13 +20,13 @@ O diagrama de atividades é um diagrama de comportamento UML que mostra o fluxo 
 ### Diagrama de atividades - Professor
 
 ![Diagrama de atividades - Professor](../../../assets/imagens/diagrama-de-atividades/Diagr.Atividades_Prof.jpg)
-<center>[Figura 3: Diagrama de atividades - Professor](assets/imagens/diagrama-atividades/Diagr.Atividades_Prof.jpg)</center>
+<center>[Figura 3: Diagrama de atividades - Professor](assets/imagens/diagrama-de-atividades/Diagr.Atividades_Prof.jpg)</center>
 
 
 ### Diagrama de atividades - Chat
 
 ![Diagrama de atividades - Chat](../../../assets/imagens/diagrama-de-atividades/Diagr.Atividades_Chat.jpg)
-<center>[Figura 4: Diagrama de atividades - Chat](assets/imagens/diagrama-atividades/Diagr.Atividades_Chat.jpg)</center>
+<center>[Figura 4: Diagrama de atividades - Chat](assets/imagens/diagrama-de-atividades/Diagr.Atividades_Chat.jpg)</center>
 
 
 ## Bibliografia
