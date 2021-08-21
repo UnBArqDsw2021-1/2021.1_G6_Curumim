@@ -57,6 +57,7 @@ nav:
                 - Modelagem Dinâmica:
                         - Diagrama de Atividades: modelagem/modelagem-dinamica/diagrama-de-atividades.md
                         - Casos de uso: modelagem/modelagem-dinamica/casos-de-uso.md
+                        - Diagrama de comunicação: modelagem/modelagem-dinamica/diagrama-de-comunicacao.md
                         - Diagrama de estados: modelagem/modelagem-dinamica/diagrama-estados.md
                         - Diagrama de sequência: modelagem/modelagem-dinamica/diagrama-de-sequencia.md
         - Reuniões:
