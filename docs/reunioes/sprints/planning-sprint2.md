@@ -12,9 +12,9 @@
 ## 2. Objetivos
 A [Sprint 2](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/milestone/4) tem como objetivo:
 
-- Termino de issues da sprint 1<br>
-- Desenvolvimento de artefatos da Modelagem.<br>
-- Criar ambinte de desevolvimento<br>
+- Termino das dividas técnicas da sprint 1;<br>
+- Desenvolvimento de artefatos da Modelagem;<br>
+- Criar ambiente de desenvolvimento.<br>
 
 
 
