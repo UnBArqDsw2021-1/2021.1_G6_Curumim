@@ -11,25 +11,25 @@ Os diagramas de comunicação são utilizados pelos designers para definir e esc
 
 ### Diagrama de comunicação - [Administrador](/base/requisitos/modelagem/lexicos/#lexico-administrador)
 
-![Diagrama de comunicação - Admin](../../assets/imagens/comunicacao/comunicação-admin.png)
-<center>[Figura 1: Diagrama de comunicação - Administrador](../../assets/imagens/comunicacao/comunicação-admin.png)</center>
+![Diagrama de comunicação - Adm](../../assets/imagens/comunicacao/comunicacao-adm.png)
+<center>[Figura 1: Diagrama de comunicação - Adm](../../assets/imagens/comunicacao/comunicacao-adm.png)</center>
 
 ### Diagrama de comunicação - [Responsável](/base/requisitos/modelagem/lexicos/#lexico-responsavel)
 
-![Diagrama de comunicação - Responsável](../../assets/imagens/comunicacao/comunicação-resp.png)
-<center>[Figura 2: Diagrama de comunicação - Responsável](../../assets/imagens/comunicacao/comunicação-resp.png)</center>
+![Diagrama de comunicação - Guardian](../../assets/imagens/comunicacao/comunicacao-guardian.png)
+<center>[Figura 2: Diagrama de comunicação - Guardian](../../assets/imagens/comunicacao/comunicacao-guardian.png)</center>
 
 
 ### Diagrama de comunicação - [Professor](/base/requisitos/modelagem/lexicos/#lexico-professor)
 
-![Diagrama de comunicação - Professor](../../assets/imagens/comunicacao/comunicação-prof.png)
-<center>[Figura 3: Diagrama de comunicação - Professor](../../assets/imagens/comunicacao/comunicação-prof.png)</center>
+![Diagrama de comunicação - Teacher](../../assets/imagens/comunicacao/comunicacao-teacher.png)
+<center>[Figura 3: Diagrama de comunicação - Teacher](../../assets/imagens/comunicacao/comunicacao-teacher.png)</center>
 
 
-### Diagrama de comunicação - Forum
+### Diagrama de comunicação - Chat
 
-![Diagrama de comunicação - Forum](../../assets/imagens/comunicacao/comunicação-chat.png)
-<center>[Figura 4: Diagrama de comunicação - Forum](../../imagens/comunicacao/comunicação-chat.png)</center>
+![Diagrama de comunicação - Chat](../../assets/imagens/comunicacao/comunicacao-chat.png)
+<center>[Figura 4: Diagrama de comunicação - Chat](../../imagens/comunicacao/comunicacao-chat.png)</center>
 
 
 
@@ -42,3 +42,4 @@ Os diagramas de comunicação são utilizados pelos designers para definir e esc
 | Versão | Data | Modificação | Autor |
 |:-:|--|--|--|
 |1.0|19/08/2021| Criação do documento | João Pedro |
+|1.1|21/08/2021| Modificação da nomenclatura das classes dos diagramas | João Pedro |
