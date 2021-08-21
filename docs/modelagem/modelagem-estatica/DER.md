@@ -25,3 +25,4 @@ Esse diagrama, juntamente ao [MER](./MER.md), devem ser tidos como base para a c
 | :-: | -- | -- | -- |
 | 0.1 | 20/08/2021 | Criação diagrama conceitual | Daniel Porto, Francisco Emanoel |
 | 1.0 | 20/08/2021 | Abertura do documento | Daniel Porto, Francisco Emanoel |
+| 1.1 | 21/08/2021 | Revisão por pares | Mateus O. Patrício, Edson Soares |

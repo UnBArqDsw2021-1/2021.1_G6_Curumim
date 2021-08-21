@@ -227,3 +227,4 @@
 | 1.1 | 19/08/2021 | Adicionando descrição das entidades e a introdução do documento | Daniel Porto, Francisco Emanoel  |
 | 1.2 | 20/08/2021 | Adição dos léxicos | Daniel Porto |
 | 1.3 | 20/08/2021 | Adição das entidades chat, mensage, presence e seus relacionamentos| Daniel Porto |
+| 1.4 | 21/08/2021 | Revisão por pares | Mateus O. Patrício, Edson Soares |
