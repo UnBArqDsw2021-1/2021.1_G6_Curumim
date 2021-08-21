@@ -59,7 +59,7 @@
 
 ## Bibliografia
 
-> - Vantagens da prototipação no desenvolvimento de software: https://www.treinaweb.com.br/blog/vantagens-da-prototipacao-no-desenvolvimento-de-software/. Último acesso em 04/08/2020.
+> - Vantagens da prototipação no desenvolvimento de software: https://www.treinaweb.com.br/blog/vantagens-da-prototipacao-no-desenvolvimento-de-software/. Último acesso em 04/08/2021.
 
 ## Versionamento
 | Versão | Data | Modificação | Autor |
