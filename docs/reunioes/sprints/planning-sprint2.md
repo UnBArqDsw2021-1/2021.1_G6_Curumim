@@ -51,3 +51,6 @@ Issues adicionadas:
 
 10. **Issue:** [#83 Construir Ambiente de Desenvolvimento](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/83)<br>
 **Responsáveis:** Francisco Ferreira e Mateus Oliveira<br>
+
+11. **Issue:** [#89 Revisar documentação](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/89)<br>
+**Responsáveis:** Todos <br>
