@@ -209,7 +209,7 @@
 | Impacto | O [usuário](#lexico-usuario) acessa a sua conta através dele |
 | Sinônimo | Login |
 
-### Léxico - Desenvilvimento Full-stack
+### Léxico - Desenvolvimento Full-stack
 
 | L21 | Full-stack |
 | -- | -- |
@@ -218,7 +218,7 @@
 | Impacto | Prática usada pelo desenvolvedor para escrever o código fonte  |
 | Sinônimo | Etapas de desenvolvimento do software |
 
-### Léxico - Deesenvolvimento Front-end
+### Léxico - Desenvolvimento Front-end
 
 | L22 | Front-end |
 | -- | -- |
@@ -307,6 +307,15 @@
 | Impacto | - Os contribuidores do projeto podem relatar e corrigir eventuais bugs.|
 | Sinônimo | |
 
+### Léxico - Mural
+
+| L32 | Mural |
+| -- | -- |
+| Classificação | Objeto |
+| Noção | - Tela que mostra as ultimas [atividades](#lexico-atividade), [eventos](#lexico-eventos) e [anotações](#lexico-anotacao) relacionados a uma [criaça](#lexico-crianca). |
+| Impacto | - Os [responsáveies](#lexico-responsavel) poderão acompanhar o cronograma da [crinaça](#lexico-crianca) no [centro educacional](#lexico-centro-educacional).|
+| Sinônimo | |
+
 ## Versionamento
 
 | Versão | Data | Modificação | Autor |
@@ -317,4 +326,5 @@
 |1.3|06/08/2021| Adição dos léxicos [L27](#lexico-aluno), [L26](#lexico-centro-educacional),  [L01](#lexico-responsavel), [L07](#lexico-pai) e [L31](#lexico-bug)| Daniel Porto |
 |1.4|06/08/2021| Adição dos léxicos [L28](#lexico-instituicao), [L29](#lexico-mobile), [L30](#lexico-notificar) | João Pedro |
 |1.5|06/08/2021| Adição dos léxicos [L23](#lexico-baixar-relatorio), [L24](#lexico-cadastrar-turma), [L25](#lexico-lancar-presenca) | Gabriel Bonifácio |
-|1.6|0/08/2021| Adição de hiperlinks com léxicos| Daniel Porto |
+|1.6|06/08/2021| Adição de hiperlinks com léxicos| Daniel Porto |
+|1.7|20/08/2021| Adição do léxico [L32](#lexico-mural)| Daniel Porto |
