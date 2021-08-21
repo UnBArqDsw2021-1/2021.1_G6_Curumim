@@ -15,19 +15,19 @@
 ## Diagramas
 &emsp;&emsp;A seguir, os diagramas produzidos pelo grupo.
 
-#### Comunicação entre os responsáveis e o [Centro Educacional](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional)
+#### Comunicação entre os [responsáveis](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel) e o [Centro Educacional](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional)
 ![Comunicação](../../../assets/imagens/diagrama-estados/comunicacao.png)
 <center>[Figura 1: Comunicação](../../../assets/imagens/diagrama-estados/comunicacao.png)</center>
 
-#### Realização do cadastro de crianças e [professores](../../../base/requisitos/modelagem/lexicos/#lexico-professores)
+#### Realização do cadastro de [crianças](../../../base/requisitos/modelagem/lexicos/#lexico-crianca) e [professores](../../../base/requisitos/modelagem/lexicos/#lexico-professor)
 ![Cadastro de crianças e professores](../../../assets/imagens/diagrama-estados/cadastro-crianca-professor.png)
 <center>[Figura 2: Cadastro de crianças e professores](../../../assets/imagens/diagrama-estados/cadastro-crianca-professor.png)</center>
 
-#### Realização do gerenciamento de [turmas](../../../base/requisitos/modelagem/lexicos/#lexico-turmas)
+#### Realização do gerenciamento de [turmas](../../../base/requisitos/modelagem/lexicos/#lexico-turma)
 ![Gerenciamento de turmas](../../../assets/imagens/diagrama-estados/gerencia-turma.png)
 <center>[Figura 3: Gerenciamento de turmas](../../../assets/imagens/diagrama-estados/gerencia-turma.png)</center>
 
-#### Lançamento de [presenças](../../../base/requisitos/modelagem/lexicos/#lexico-presenca)
+#### [Lançamento de presenças](../../../base/requisitos/modelagem/lexicos/#lexico-lancar-presenca)
 ![Lançamento de presenças](../../../assets/imagens/diagrama-estados/lancamento-presenca.png)
 <center>[Figura 4: Lançamento de presenças](../../../assets/imagens/diagrama-estados/lancamento-presenca.png)</center>
 
