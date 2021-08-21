@@ -1,4 +1,4 @@
-# Planejamento da Avaliação do [Protótipo de alta fidelidade](../../requisitos/modelagem/lexicos/#lexico-prototipo-de-alta-fidelidade) <br> <span class="rotulo-extra">Iniciativa Extra</span>
+# Planejamento da Avaliação do [Protótipo de alta fidelidade](../../requisitos/modelagem/lexicos/#lexico-prototipo-de-alta-fidelidade)
 
 ## Introdução
 &emsp;&emsp;O presente documento visa o planejamento da avaliação a partir do teste de usabilidade do [protótipo de alta fidelidade](../../requisitos/modelagem/lexicos/#lexico-prototipo-de-alta-fidelidade) desenvolvido pela equipe.
