@@ -9,10 +9,10 @@
 
 - Atributos: todos os atributos necessários para representar uma instância da entidade;
 - Propriedades: o que caracteriza aquele atributo, podendo ser uma chave primária, estrangeira, um atributo obrigatório ou opcional;
-- Tipo: basicamnete se refere ao tip de dado do atiburo em questão;
+- Tipo: basicamnete se refere ao tipo de dado do atributo em questão;
 - Descrição: uma breve explicação sobre o que o atributo representa.
 
-&emsp;&emsp;Feito isso, foram descritas e analisadas as relações entre as entidades e suas respectivas cardinalidades. Sendo assim, ao final foi possível tecer conclusões sobre a modelagem do banco de dados de forma que possibilite uma representação gráfica coerente com o escopo do projeto e as necessidades do desenvolvimento.
+&emsp;&emsp;Feito isso, foram descritas e analisadas as relações entre as entidades e suas respectivas cardinalidades. Sendo assim, ao final foi possível concluir sobre a modelagem do banco de dados de forma que possibilite uma representação gráfica coerente com o escopo do projeto e as necessidades do desenvolvimento.
 
 ## Entidades
 &emsp;&emsp;A seguir estão descritas as entidades conforme citado anteriormente. Os nomes das entidades e seus atributos estarão em Inglês no padrão CamelCase para já iniciar e introduzir uma padronização do que será implementado no código.
@@ -176,6 +176,7 @@
 (Cardinalidade: 1:n)
 
 5. [**CENTRO EDUCACIONAL**](#ce) -- possui -- [**PROFESSOR**](#teacher): O [centro educacional](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional) possui [professores](../../../base/requisitos/modelagem/lexicos/#lexico-professor) e os [professores](../../../base/requisitos/modelagem/lexicos/#lexico-professor) estão atrelados a um [centro educacional](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional).<br>
+(Cardinalidade: 1:n)
 
 6. [**CENTRO EDUCACIONAL**](#ce) -- possui -- [**TURMA**](#class): O [centro educacional](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional) possui [turmas](../../../base/requisitos/modelagem/lexicos/#lexico-turma) e as [turmas](../../../base/requisitos/modelagem/lexicos/#lexico-turma) possuem um [centro educacional](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional). <br>
 (Cardinalidade: 1:n)
@@ -207,7 +208,7 @@
 16. [**MURAL**](#board)  -- apresenta -- [**ANOTAÇÃO**](#anotation): Um [mural](../../../base/requisitos/modelagem/lexicos/#lexico-mural) mostra as últimas [anotações](../../../base/requisitos/modelagem/lexicos/#lexico-anotacao) da [criança](../../../base/requisitos/modelagem/lexicos/#lexico-crianca) e uma [anotação](../../../base/requisitos/modelagem/lexicos/#lexico-anotacao) está presente em um [mural](../../../base/requisitos/modelagem/lexicos/#lexico-mural). <br>
 (Cardinalidade: 1:n)
 
-17. [**CHAT**](#chat) -- contém -- [**MENSAGEM**](#mensage): Um chat contém mensagens e as mensagens estão contidas em um chat.
+17. [**CHAT**](#chat) -- contém -- [**MENSAGEM**](#mensage): Um chat contém mensagens e as mensagens estão contidas em um chat. <br>
 (Cardinalidade: 1:n)
 
 ## Conclusão
