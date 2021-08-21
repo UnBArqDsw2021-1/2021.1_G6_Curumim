@@ -2,14 +2,14 @@
 
 ## Introdução
 
-&emsp;&emsp;O [protótipo](/base/requisitos/modelagem/lexicos/#lexico-prototipo) é utilizado para apresentar conceitos e funcionalidades de uma forma simples, com o objetivo de criar uma representação semi realística de algo para que seja possível interagir e testar com [usuários](/base/requisitos/modelagem/lexicos/#lexico-usuario) reais. A sua principal função é descobrir problemas e oportunidades de melhorias antes de começar o desenvolvimento do produto, diminuindo o esforço gasto com os mesmos no futuro. Ele deve ser desenvolvido com base nos requisitos elicitados, e depois testado para validar se funciona conforme o esperado.
+&emsp;&emsp;O [protótipo](../../requisitos/modelagem/lexicos/#lexico-prototipo) é utilizado para apresentar conceitos e funcionalidades de uma forma simples, com o objetivo de criar uma representação semi realística de algo para que seja possível interagir e testar com [usuários](../../requisitos/modelagem/lexicos/#lexico-usuario) reais. A sua principal função é descobrir problemas e oportunidades de melhorias antes de começar o desenvolvimento do produto, diminuindo o esforço gasto com os mesmos no futuro. Ele deve ser desenvolvido com base nos requisitos elicitados, e depois testado para validar se funciona conforme o esperado.
 
 ## Metodologia
 
-&emsp;&emsp;Para a produção dos [protótipos](/base/requisitos/modelagem/lexicos/#lexico-prototipo) o time decidiu que cada membro faria um [protótipo de baixa fidelidade](/base/requisitos/modelagem/lexicos/#lexico-prototipo-de-baixa-fidelidade) de acordo com as funcionalidades e requisitos elicitados. Após a produção individual dos [protótipos](/base/requisitos/modelagem/lexicos/#lexico-prototipo), o time se reuniu para decidir o que gostamos e não gostamos a partir da análise de todos os membros e produzimos um fluxograma do app. Esses [protótipos de baixa fidelidade](/base/requisitos/modelagem/lexicos/#lexico-prototipo-de-baixa-fidelidade) serviram de inspiração para a criação do [protótipo de alta fidelidade](/base/requisitos/modelagem/lexicos/#lexico-prototipo-de-alta-fidelidade), [protótipo](/base/requisitos/modelagem/lexicos/#lexico-prototipo) este que será testado, de acordo com o nosso planejamento de avaliação, com [usuários](/base/requisitos/modelagem/lexicos/#lexico-usuario) que se enquadrem nos perfis descritos nas personas.
+&emsp;&emsp;Para a produção dos [protótipos](../../requisitos/modelagem/lexicos/#lexico-prototipo) o time decidiu que cada membro faria um [protótipo de baixa fidelidade](../../requisitos/modelagem/lexicos/#lexico-prototipo-de-baixa-fidelidade) de acordo com as funcionalidades e requisitos elicitados. Após a produção individual dos [protótipos](../../requisitos/modelagem/lexicos/#lexico-prototipo), o time se reuniu para decidir o que gostamos e não gostamos a partir da análise de todos os membros e produzimos um fluxograma do app. Esses [protótipos de baixa fidelidade](../../requisitos/modelagem/lexicos/#lexico-prototipo-de-baixa-fidelidade) serviram de inspiração para a criação do [protótipo de alta fidelidade](../../requisitos/modelagem/lexicos/#lexico-prototipo-de-alta-fidelidade), [protótipo](../../requisitos/modelagem/lexicos/#lexico-prototipo) este que será testado, de acordo com o nosso planejamento de avaliação, com [usuários](../../requisitos/modelagem/lexicos/#lexico-usuario) que se enquadrem nos perfis descritos nas personas.
 
 #### Fluxograma
-&emsp;&emsp;Fluxograma utilizado para ajudar na criação do [protótipo de alta fidelidade](/base/requisitos/modelagem/lexicos/#lexico-prototipo-de-alta-fidelidade).
+&emsp;&emsp;Fluxograma utilizado para ajudar na criação do [protótipo de alta fidelidade](../../requisitos/modelagem/lexicos/#lexico-prototipo-de-alta-fidelidade).
 ![fluxo-prototipo](https://user-images.githubusercontent.com/37383185/128437055-e4cec67c-a1a3-4c97-b751-62177bd17d6e.jpg)
 <center>[Figura 1: Fluxograma da aplicação](https://user-images.githubusercontent.com/37383185/128437055-e4cec67c-a1a3-4c97-b751-62177bd17d6e.jpg)</center>
 
@@ -25,9 +25,9 @@
 ## Resultados
 
 &emsp;&emsp;Todas as pessoas que realizaram o teste se encaixavam em algum dos perfis descritos nas [personas](../requisitos/elicitacao/personas.md). As tarefas foram distribuídas da seguinte maneira:
-- Para perfil de [administrador](/base/requisitos/modelagem/lexicos/#lexico-administrador): Cadastrar uma [turma](/base/requisitos/modelagem/lexicos/#lexico-turma), matricular um [aluno](/base/requisitos/modelagem/lexicos/#lexico-aluno) e cadastrar um [evento](/base/requisitos/modelagem/lexicos/#lexico-evento).
-- Para perfil de [professor](/base/requisitos/modelagem/lexicos/#lexico-professor): Cadastrar [atividade](/base/requisitos/modelagem/lexicos/#lexico-atividade), [lançar presença](/base/requisitos/modelagem/lexicos/#lexico-lancar-presenca) e abrir conversa com um [responsável](/base/requisitos/modelagem/lexicos/#lexico-responsavel).
-- Para perfil de [responsável](/base/requisitos/modelagem/lexicos/#lexico-responsavel): Verificar as [atividades](/base/requisitos/modelagem/lexicos/#lexico-atividade) da [criança](/base/requisitos/modelagem/lexicos/#lexico-crianca), conversar com um [professor](/base/requisitos/modelagem/lexicos/#lexico-professor) e acessar perfil do [centro educacional](/base/requisitos/modelagem/lexicos/#lexico-centro-educacional).
+- Para perfil de [administrador](../../requisitos/modelagem/lexicos/#lexico-administrador): Cadastrar uma [turma](../../requisitos/modelagem/lexicos/#lexico-turma), matricular um [aluno](../../requisitos/modelagem/lexicos/#lexico-aluno) e cadastrar um [evento](../../requisitos/modelagem/lexicos/#lexico-evento).
+- Para perfil de [professor](../../requisitos/modelagem/lexicos/#lexico-professor): Cadastrar [atividade](../../requisitos/modelagem/lexicos/#lexico-atividade), [lançar presença](../../requisitos/modelagem/lexicos/#lexico-lancar-presenca) e abrir conversa com um [responsável](../../requisitos/modelagem/lexicos/#lexico-responsavel).
+- Para perfil de [responsável](../../requisitos/modelagem/lexicos/#lexico-responsavel): Verificar as [atividades](../../requisitos/modelagem/lexicos/#lexico-atividade) da [criança](../../requisitos/modelagem/lexicos/#lexico-crianca), conversar com um [professor](../../requisitos/modelagem/lexicos/#lexico-professor) e acessar perfil do [centro educacional](../../requisitos/modelagem/lexicos/#lexico-centro-educacional).
 
 &emsp;&emsp;Os resultado dos testes realizado no Usability Hub podem ser visualizados nos links a seguir:
 
@@ -53,9 +53,9 @@
 
 | Onde ocorreu | descrição | sugestões de correção |
 |--------------|-----------|-----------------------|
-| Perfil do estudante | Algumas pessoas clicaram no nome ou no espaço em branco para abrir os detalhes das [atividades](/base/requisitos/modelagem/lexicos/#lexico-atividade). | Abrir a descrição da [atividade](/base/requisitos/modelagem/lexicos/#lexico-atividade) em toda a caixa além do botão de detalhes.|
-| Home de [administrador](/base/requisitos/modelagem/lexicos/#lexico-administrador) | Ao invés de clicar na aba de [turmas](/base/requisitos/modelagem/lexicos/#lexico-turma) ou [eventos](/base/requisitos/modelagem/lexicos/#lexico-evento) procuraram na barra lateral. | Adicionar opções que estão apenas na página inicial na barra lateral também.|
-| Home de [professor](/base/requisitos/modelagem/lexicos/#lexico-professor) | Algumas pessoas procuraram a aba de [presença](/base/requisitos/modelagem/lexicos/#lexico-presenca) no menu lateral. | Adicionar opções que estão apenas na página inicial na barra lateral também.
+| Perfil do estudante | Algumas pessoas clicaram no nome ou no espaço em branco para abrir os detalhes das [atividades](../../requisitos/modelagem/lexicos/#lexico-atividade). | Abrir a descrição da [atividade](../../requisitos/modelagem/lexicos/#lexico-atividade) em toda a caixa além do botão de detalhes.|
+| Home de [administrador](../../requisitos/modelagem/lexicos/#lexico-administrador) | Ao invés de clicar na aba de [turmas](../../requisitos/modelagem/lexicos/#lexico-turma) ou [eventos](../../requisitos/modelagem/lexicos/#lexico-evento) procuraram na barra lateral. | Adicionar opções que estão apenas na página inicial na barra lateral também.|
+| Home de [professor](../../requisitos/modelagem/lexicos/#lexico-professor) | Algumas pessoas procuraram a aba de [presença](../../requisitos/modelagem/lexicos/#lexico-presenca) no menu lateral. | Adicionar opções que estão apenas na página inicial na barra lateral também.
 
 ## Bibliografia
 
@@ -65,6 +65,7 @@
 | Versão | Data | Modificação | Autor |
 |--|--|--|--|
 |1.0|30/07/2021| Abertura do documento | Daniel Porto |
-|1.1|04/08/2021| Adição da introdução, metodologia e [protótipos](/base/requisitos/modelagem/lexicos/#lexico-prototipo) | Mateus O. Patrício |
+|1.1|04/08/2021| Adição da introdução, metodologia e [protótipos](../../requisitos/modelagem/lexicos/#lexico-prototipo) | Mateus O. Patrício |
 |1.2|05/08/2021| Adição do fluxograma | Mateus O. Patrício |
 |1.3|06/08/2021| Adição de hiperlinks dos léxicos | Mateus O. Patrício |
+|1.4|21/08/2021| Correção dos links dos léxicos | Gabriel Bonifácio |

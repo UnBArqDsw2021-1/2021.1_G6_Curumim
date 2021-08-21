@@ -1,7 +1,7 @@
 # Rich Picture
 
 ## Introdução
-&emsp;&emsp;O rich picture é um artefato composto por desenhos que identificam os [stakeholders](/base/requisitos/modelagem/lexicos/#lexico-stakeholder), suas preocupações e as informações à se modelar. A ferramenta mantém registros e relacionamentos incluindo seus efeitos.
+&emsp;&emsp;O rich picture é um artefato composto por desenhos que identificam os [stakeholders](../../modelagem/lexicos/#lexico-stakeholder), suas preocupações e as informações à se modelar. A ferramenta mantém registros e relacionamentos incluindo seus efeitos.
 
 ## Metodologia
 
@@ -71,3 +71,4 @@
 |1.0|05/08/2021| Adição dos artefatos e descrições ao documento | Mateus O. Patrício |
 |1.1|05/08/2021| Padronização do documento | Mateus O. Patrício |
 |1.2|06/08/2021| Adição de hiperlinks dos léxicos | Mateus O. Patrício |
+|1.3|21/08/2021| Correção dos links dos léxicos | Gabriel Bonifácio |
