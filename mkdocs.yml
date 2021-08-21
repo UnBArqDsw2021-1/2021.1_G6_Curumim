@@ -48,6 +48,7 @@ nav:
                 - TAP: base/tap/tap.md
         - Modelagem:
                 - Modelagem Estática:
+                        - Diagrama de componentes: modelagem/modelagem-estatica/diagrama-de-componentes.md
                         - Diagrama de pacotes: modelagem/modelagem-estatica/diagrama-de-pacotes.md
                 - Modelagem Dinâmica:
                         - Casos de uso: modelagem/modelagem-dinamica/casos-de-uso.md
@@ -61,3 +62,4 @@ nav:
                                 - Review: reunioes/sprints/review-sprint0.md
                         - Sprint 1:
                                 - Planning: reunioes/sprints/planning-sprint1.md
+                                - Review: reunioes/sprints/review-sprint1.md
