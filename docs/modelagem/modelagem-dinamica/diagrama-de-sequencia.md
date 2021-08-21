@@ -8,7 +8,7 @@
 ## [Administrador](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-administrador) cadastrando do [professor](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-professores)
 
 ![Administrador cadastrando professor](../../../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-admin-cadastrando-prof.png)
-<center>[Figura 1: Diagrama de sequência do administrador cadastrando professor](../../../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-admin-cadastrando-prof.png)</center>
+<center>[Figura 1: Diagrama de sequência do administrador cadastrando professor](../../../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-admin-cadastrando-professor.png)</center>
 
 ## [Responsável](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-responsavel) fazendo [login](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-professores) 
 
