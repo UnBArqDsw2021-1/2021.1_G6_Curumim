@@ -31,8 +31,8 @@
 
 ## Referências
 
-> - iStar2.0: A Guided Tour: https://www.dropbox.com/s/4l2k4tbywb8wekk/iStar-tutorial-online.pdf?dl=0. Último acesso em 05/08/2020.
-> - i* Wiki: http://www.istarwiki.org/tiki-view_articles.php. Último acesso em 05/08/2020.
+> - iStar2.0: A Guided Tour: https://www.dropbox.com/s/4l2k4tbywb8wekk/iStar-tutorial-online.pdf?dl=0. Último acesso em 05/08/2021.
+> - i* Wiki: http://www.istarwiki.org/tiki-view_articles.php. Último acesso em 05/08/2021.
 
 
 ## Versionamento

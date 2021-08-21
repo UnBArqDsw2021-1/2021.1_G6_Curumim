@@ -48,6 +48,7 @@ nav:
                 - TAP: base/tap/tap.md
         - Modelagem:
                 - Modelagem Estática:
+                        - Diagrama de componentes: modelagem/modelagem-estatica/diagrama-de-componentes.md
                         - Diagrama de pacotes: modelagem/modelagem-estatica/diagrama-de-pacotes.md
                 - Modelagem Dinâmica:
                         - Casos de uso: modelagem/modelagem-dinamica/casos-de-uso.md
