@@ -18,20 +18,20 @@
 
 |    ID     | Requisito                                                                       |
 | :-------: | ------------------------------------------------------------------------------- |
-| **RF_01** | Ter sistema de comunicação entre [responsáveis](/base/requisitos/modelagem/lexicos/#lexico-responsavel) e [professores](/base/requisitos/modelagem/lexicos/#lexico-professor).                    |
-| **RF_02** | Ter sistema de comunicação entre [responsáveis](/base/requisitos/modelagem/lexicos/#lexico-responsavel) e [administradores](/base/requisitos/modelagem/lexicos/#lexico-administrador) da [instituição](/base/requisitos/modelagem/lexicos/#lexico-instituicao). |
-| **RF_03** | [Responsáveis](/base/requisitos/modelagem/lexicos/#lexico-responsavel) receberem [notificações](/base/requisitos/modelagem/lexicos/#lexico-notificacao) sobre novas [atividades](/base/requisitos/modelagem/lexicos/#lexico-atividade).                     |
-| **RF_04** | [Responsáveis](/base/requisitos/modelagem/lexicos/#lexico-responsavel) receberem [notificações](/base/requisitos/modelagem/lexicos/#lexico-notificacao) sobre entrada e saída da [crianças](/base/requisitos/modelagem/lexicos/#lexico-crianca).          |
-| **RF_05** | [Responsáveis](/base/requisitos/modelagem/lexicos/#lexico-responsavel) receberem [notificações](/base/requisitos/modelagem/lexicos/#lexico-notificacao) sobre novos [eventos](/base/requisitos/modelagem/lexicos/#lexico-evento).                        |
-| **RF_06** | [Administrador](/base/requisitos/modelagem/lexicos/#lexico-administrador) poder [criar](/base/requisitos/modelagem/lexicos/#lexico-cadastrar-turma) e configurar [turmas](/base/requisitos/modelagem/lexicos/#lexico-turma).                                  |
-| **RF_07** | [Administrador](/base/requisitos/modelagem/lexicos/#lexico-administrador) poder registras as [crianças](/base/requisitos/modelagem/lexicos/#lexico-crianca).                                      |
-| **RF_08** | [Administrador](/base/requisitos/modelagem/lexicos/#lexico-administrador) poder registrar os [professores](/base/requisitos/modelagem/lexicos/#lexico-professor).                                   |
-| **RF_09** | [Administrador](/base/requisitos/modelagem/lexicos/#lexico-administrador) poder criar e configurar [eventos](/base/requisitos/modelagem/lexicos/#lexico-evento).                                 |
-| **RF_10** | Poder disponibilizar [relatórios](/base/requisitos/modelagem/lexicos/#lexico-relatorio) gerais.                                         |
-| **RF_11** | [Responsáveis](/base/requisitos/modelagem/lexicos/#lexico-responsavel) terem acessoa as informações e dados de suas crianças.             |
-| **RF_12** | [Professor](/base/requisitos/modelagem/lexicos/#lexico-professor) poder registra e gerenciar [atividades](/base/requisitos/modelagem/lexicos/#lexico-atividade).                                |
-| **RF_13** | [Professor](/base/requisitos/modelagem/lexicos/#lexico-professor) poder [lançar presença](/base/requisitos/modelagem/lexicos/#lexico-lancar-presenca).                                                |
-| **RF_14** | [Professor](/base/requisitos/modelagem/lexicos/#lexico-professor) poder [notificar](/base/requisitos/modelagem/lexicos/#lexico-notificar) [responsáveis](/base/requisitos/modelagem/lexicos/#lexico-responsavel) com observações.                         |
+| **RF_01** | Ter sistema de comunicação entre [responsáveis](../../modelagem/lexicos/#lexico-responsavel) e [professores](../../modelagem/lexicos/#lexico-professor).                    |
+| **RF_02** | Ter sistema de comunicação entre [responsáveis](../../modelagem/lexicos/#lexico-responsavel) e [administradores](../../modelagem/lexicos/#lexico-administrador) da [instituição](../../modelagem/lexicos/#lexico-instituicao). |
+| **RF_03** | [Responsáveis](../../modelagem/lexicos/#lexico-responsavel) receberem [notificações](../../modelagem/lexicos/#lexico-notificacao) sobre novas [atividades](../../modelagem/lexicos/#lexico-atividade).                     |
+| **RF_04** | [Responsáveis](../../modelagem/lexicos/#lexico-responsavel) receberem [notificações](../../modelagem/lexicos/#lexico-notificacao) sobre entrada e saída da [crianças](../../modelagem/lexicos/#lexico-crianca).          |
+| **RF_05** | [Responsáveis](../../modelagem/lexicos/#lexico-responsavel) receberem [notificações](../../modelagem/lexicos/#lexico-notificacao) sobre novos [eventos](../../modelagem/lexicos/#lexico-evento).                        |
+| **RF_06** | [Administrador](../../modelagem/lexicos/#lexico-administrador) poder [criar](../../modelagem/lexicos/#lexico-cadastrar-turma) e configurar [turmas](../../modelagem/lexicos/#lexico-turma).                                  |
+| **RF_07** | [Administrador](../../modelagem/lexicos/#lexico-administrador) poder registras as [crianças](../../modelagem/lexicos/#lexico-crianca).                                      |
+| **RF_08** | [Administrador](../../modelagem/lexicos/#lexico-administrador) poder registrar os [professores](../../modelagem/lexicos/#lexico-professor).                                   |
+| **RF_09** | [Administrador](../../modelagem/lexicos/#lexico-administrador) poder criar e configurar [eventos](../../modelagem/lexicos/#lexico-evento).                                 |
+| **RF_10** | Poder disponibilizar [relatórios](../../modelagem/lexicos/#lexico-relatorio) gerais.                                         |
+| **RF_11** | [Responsáveis](../../modelagem/lexicos/#lexico-responsavel) terem acessoa as informações e dados de suas crianças.             |
+| **RF_12** | [Professor](../../modelagem/lexicos/#lexico-professor) poder registra e gerenciar [atividades](../../modelagem/lexicos/#lexico-atividade).                                |
+| **RF_13** | [Professor](../../modelagem/lexicos/#lexico-professor) poder [lançar presença](../../modelagem/lexicos/#lexico-lancar-presenca).                                                |
+| **RF_14** | [Professor](../../modelagem/lexicos/#lexico-professor) poder [notificar](../../modelagem/lexicos/#lexico-notificar) [responsáveis](../../modelagem/lexicos/#lexico-responsavel) com observações.                         |
 
 ## Bibliografia
 
@@ -45,4 +45,5 @@
 | 1.0 | 28/07/2021 | Abertura do documento| Daniel Porto |
 | 1.1 | 01/08/2021 | Atualização dos prefixos da identificação dos requisitos | Daniel Porto |
 | 1.2 | 05/08/2021 | Atualização título dos requisitos 3 e 5 | Enzo Gabriel|
-| 1.3 | 06/08/2021 | Adicionando os hiperlinks dos léxicos | Daniel Porto |
+| 1.3 | 06/08/2021 | Adição dos hiperlinks dos léxicos | Daniel Porto |
+| 1.4 | 11/08/2021 | Correção dos hiperlinks dos léxicos | Daniel Porto |
