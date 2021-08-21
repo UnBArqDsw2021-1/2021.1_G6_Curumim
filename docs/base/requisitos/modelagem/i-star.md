@@ -17,15 +17,15 @@
 
 ### Versões 1.0
 
-#### SD - [Responsável](/base/requisitos/modelagem/lexicos/#lexico-responsavel)
+#### SD - [Responsável](../lexicos/#lexico-responsavel)
 ![responsavel](https://user-images.githubusercontent.com/37383185/128371414-57d2590a-7a01-499f-b589-34b4832a39ca.png)
-<center>[Figura 1: SD de resposável](https://user-images.githubusercontent.com/37383185/128371414-57d2590a-7a01-499f-b589-34b4832a39ca.png)</center>
+<center>[Figura 1: SD de responsável](https://user-images.githubusercontent.com/37383185/128371414-57d2590a-7a01-499f-b589-34b4832a39ca.png)</center>
 
-#### SD - [Professor](/base/requisitos/modelagem/lexicos/#lexico-professor)
+#### SD - [Professor](../lexicos/#lexico-professor)
 ![professor](https://user-images.githubusercontent.com/37383185/128371492-016cb26c-ec8b-425d-8364-8ef0a55d6a3d.png)
 <center>[Figura 2: SD de Professor](https://user-images.githubusercontent.com/37383185/128371492-016cb26c-ec8b-425d-8364-8ef0a55d6a3d.png)</center>
 
-#### SD - [Administrador](/base/requisitos/modelagem/lexicos/#lexico-administrador)
+#### SD - [Administrador](../lexicos/#lexico-administrador)
 ![responsavel](https://user-images.githubusercontent.com/37383185/128371542-9dfa7da1-0964-4bfd-9b20-7c5e03761671.png)
 <center>[Figura 3: SD de Administrador](https://user-images.githubusercontent.com/37383185/128371542-9dfa7da1-0964-4bfd-9b20-7c5e03761671.png)</center>
 
@@ -42,3 +42,4 @@
 |1.0|05/08/2021| Criação do documento e adição das versões 1.0 dos SD1, SD2 e SD3 | Mateus O. Patrício |
 |1.1|05/08/2021| Padronização do documento | Mateus O. Patrício |
 |1.2|06/08/2021| Adição de hiperlinks dos léxicos | Mateus O. Patrício |
+|1.3|21/08/2021| Correção dos links dos léxicos | Gabriel Bonifácio |
