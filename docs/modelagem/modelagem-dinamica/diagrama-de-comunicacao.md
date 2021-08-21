@@ -29,7 +29,7 @@ Os diagramas de comunicação são utilizados pelos designers para definir e esc
 ### Diagrama de comunicação - Chat
 
 ![Diagrama de comunicação - Chat](../../assets/imagens/comunicacao/comunicacao-chat.png)
-<center>[Figura 4: Diagrama de comunicação - Chat](../../imagens/comunicacao/comunicacao-chat.png)</center>
+<center>[Figura 4: Diagrama de comunicação - Chat](../../assets/imagens/comunicacao/comunicacao-chat.png)</center>
 
 
 
