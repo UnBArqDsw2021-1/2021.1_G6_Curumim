@@ -7,8 +7,9 @@
 ## Metodologia
 
 &emsp;&emsp;O desenvolvimento do diagrama de classes levou em consideração as decisões de técnologias e estruturas que serão utilizadas no projeto. Sendo assim, o diagrama de classes aborda a representação das classes que serão desenvolvidas na API do projeto, a qual contará com arquitetura MVC.<br>
-&emsp;&emsp;Portanto, foi focada a representação das entidades que compõem as camadas de modelos e controllers.
- 
+&emsp;&emsp;Portanto, foi focada a representação das entidades que compõem as camadas de modelos e controllers.<br>
+&emsp;&emsp;É importante mencionar que os nomes das classes, de seus atributos e métodos foram representados em Inglês e no estilo CamelCase para que, desde já, sejá feita uma padronização no que se refere ao que será implementado em código.
+
 ![Diagrama de classes](../../assets/imagens/diagrama-de-classes/Diagrama-de-classes.png)
  
 <center>[Figura 1: Diagrama de classes](../../assets/imagens/diagrama-de-classes/Diagrama-de-classes.png)</center>
