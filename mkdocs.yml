@@ -7,68 +7,77 @@ extra_css:
 theme:
         name: material
         language: pt
+        features:
+                - navigation.tabs
 
 nav:
         - Home: index.md
-        - Contribuição: 
-                - Guia de Contribuição: guia-contrib.md
-                - Políticas de Contribuição: politicas.md
         - Base:
-                - Design Sprint:
-                        - Documento de Design Sprint: base/design-sprint/doc-design-sprint.md
-                        - Prototipação:
-                                - Introdução: base/design-sprint/prototipos.md
-                                - Protótipo de baixa fidelidade: base/design-sprint/prototipo-baixa.md
-                                - Plano de testes de alta fidelidade: base/design-sprint/plan-test.md
-                                - Protótipo de alta fidelidade: base/design-sprint/prototipo-alta.md
-                - Requisitos:
-                        - Pré-rastreabilidade:
-                                - 5W2H: base/requisitos/pre-rastreabilidade/5w2h.md
-                                - Argumentação: base/requisitos/pre-rastreabilidade/argumentacao.md
-                                - Mapa Mental: base/requisitos/pre-rastreabilidade/mapa-mental.md
-                                - Rich Picture: base/requisitos/pre-rastreabilidade/rich-picture.md
-                        - Elicitação:
-                                - Brainstorming: base/requisitos/elicitacao/brainstorming.md
-                                - Personas: base/requisitos/elicitacao/personas.md
-                                - StoryBoards: base/requisitos/elicitacao/storyboards.md
-                                - Introspecção: base/requisitos/elicitacao/introspeccao.md
-                        - Priorização:
-                                - MoSCoW: base/requisitos/priorizacao/moscow.md
-                                - First Things First: base/requisitos/priorizacao/first-things-first.md
-                        - Modelagem:
-                                - Especificação Suplementar: base/requisitos/modelagem/especificacao-suplementar.md
-                                - Léxicos: base/requisitos/modelagem/lexicos.md
-                                - NFR Framework: base/requisitos/modelagem/nfr-framework.md
-                                - iStar: base/requisitos/modelagem/i-star.md
-                - Metodologia:
+                - Projeto Não Orientado a Abordagens Específicas:
+                        - Design Sprint:
+                                - Documento de Design Sprint: base/design-sprint/doc-design-sprint.md
+                                - Prototipação:
+                                        - Introdução: base/design-sprint/prototipos.md
+                                        - Protótipo de Baixa Fidelidade: base/design-sprint/prototipo-baixa.md
+                                        - Plano de Testes de Alta Fidelidade: base/design-sprint/plan-test.md
+                                        - Protótipo de Alta Fidelidade: base/design-sprint/prototipo-alta.md
+                        - Requisitos:
+                                - Pré-Rastreabilidade:
+                                        - 5W2H: base/requisitos/pre-rastreabilidade/5w2h.md
+                                        - Causa e Efeito: causa-efeito.md
+                                        - Mapa Mental: base/requisitos/pre-rastreabilidade/mapa-mental.md
+                                        - Rich Picture: base/requisitos/pre-rastreabilidade/rich-picture.md
+                                - Elicitação:
+                                        - Brainstorming: base/requisitos/elicitacao/brainstorming.md
+                                        - StoryBoards: base/requisitos/elicitacao/storyboards.md
+                                        - Introspecção: base/requisitos/elicitacao/introspeccao.md
+                                - Priorização:
+                                        - MoSCoW: base/requisitos/priorizacao/moscow.md
+                                - Modelagem:
+                                        - Especificação Suplementar: base/requisitos/modelagem/especificacao-suplementar.md
+                                        - Léxicos: base/requisitos/modelagem/lexicos.md
+                - Processos, Metodologias e Abordagens:
                         - Metodologia: base/metodologia/metodologia.md
                         - Modelagem BPMN: base/metodologia/bpmn.md
-                - Causa e efeito: causa-efeito.md
-                - Product Backlog: product-backlog.md
-                - TAP: base/tap/tap.md
+                - Iniciativas Extras:
+                        - Contribuição: 
+                                - Guia de Contribuição: guia-contrib.md
+                                - Políticas de Contribuição: politicas.md
+                        - TAP: base/tap/tap.md
+                        - Argumentação: base/requisitos/pre-rastreabilidade/argumentacao.md
+                        - Personas: base/requisitos/elicitacao/personas.md
+                        - NFR Framework: base/requisitos/modelagem/nfr-framework.md
+                        - iStar: base/requisitos/modelagem/i-star.md
+                        - First Things First: base/requisitos/priorizacao/first-things-first.md
+                        - Product Backlog: product-backlog.md
+                        - Reuniões:
+                                - ATA reunião 26/07: reunioes/r1-ata-26-07.md
+                                - ATA reunião 28/07: reunioes/r2-ata-28-07.md
+                                - Sprints:
+                                        - Sprint 0:
+                                                - Planning: reunioes/sprints/planning-sprint0.md
+                                                - Review: reunioes/sprints/review-sprint0.md
         - Modelagem:
-                - Modelagem Estática:
-                        - Diagrama de componentes: modelagem/modelagem-estatica/diagrama-de-componentes.md
-                        - Diagrama de pacotes: modelagem/modelagem-estatica/diagrama-de-pacotes.md
-                        - Diagrama de classes: modelagem/modelagem-estatica/diagrama-de-classes.md
+                - Projeto Orientado a Abordagens Tradicionais:
+                        - Modelagem Estática:
+                                - Diagrama de Componentes: modelagem/modelagem-estatica/diagrama-de-componentes.md
+                                - Diagrama de Pacotes: modelagem/modelagem-estatica/diagrama-de-pacotes.md
+                                - Diagrama de Classes: modelagem/modelagem-estatica/diagrama-de-classes.md
+                        - Modelagem Dinâmica:
+                                - Diagrama de Atividades: modelagem/modelagem-dinamica/diagrama-de-atividades.md
+                                - Diagrama de Comunicação: modelagem/modelagem-dinamica/diagrama-de-comunicacao.md
+                                - Diagrama de Estados: modelagem/modelagem-dinamica/diagrama-estados.md
+                                - Diagrama de Sequência: modelagem/modelagem-dinamica/diagrama-de-sequencia.md
+                        - Modelagem Ágil:
+                                - Product Backlog: product-backlog.md
+                - Iniciativas Extras:
+                        - Casos de Uso: modelagem/modelagem-dinamica/casos-de-uso.md
                         - MER: modelagem/modelagem-estatica/MER.md
-                        - DER: modelagem/modelagem-estatica/DER.md
-
-                - Modelagem Dinâmica:
-                        - Diagrama de Atividades: modelagem/modelagem-dinamica/diagrama-de-atividades.md
-                        - Casos de uso: modelagem/modelagem-dinamica/casos-de-uso.md
-                        - Diagrama de estados: modelagem/modelagem-dinamica/diagrama-estados.md
-                        - Diagrama de sequência: modelagem/modelagem-dinamica/diagrama-de-sequencia.md
-        - Reuniões:
-                - ATA reunião 26/07: reunioes/r1-ata-26-07.md
-                - ATA reunião 28/07: reunioes/r2-ata-28-07.md
-                - Sprints:
-                        - Sprint 0:
-                                - Planning: reunioes/sprints/planning-sprint0.md
-                                - Review: reunioes/sprints/review-sprint0.md
-                        - Sprint 1:
-                                - Planning: reunioes/sprints/planning-sprint1.md
-                                - Review: reunioes/sprints/review-sprint1.md
-                        - Sprint 2:
-                                - Planning: reunioes/sprints/planning-sprint2.md
-                                - Review: reunioes/sprints/review-sprint2.md
+                        - DER: modelagem/modelagem-estatica/DER.md                    
+                        - Reuniões:
+                                - Sprint 1:
+                                        - Planning: reunioes/sprints/planning-sprint1.md
+                                        - Review: reunioes/sprints/review-sprint1.md
+                                - Sprint 2:
+                                        - Planning: reunioes/sprints/planning-sprint2.md
+                                        - Review: reunioes/sprints/review-sprint2.md

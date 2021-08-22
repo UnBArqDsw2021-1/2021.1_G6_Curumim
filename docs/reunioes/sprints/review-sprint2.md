@@ -1,4 +1,4 @@
-# Sprint Review - Sprint 1
+# Sprint Review - Sprint 2 <br> <span class="rotulo-extra">Iniciativa Extra</span>
  
 ## 1. Visão Geral
 **Número da Sprint:** 2;<br>

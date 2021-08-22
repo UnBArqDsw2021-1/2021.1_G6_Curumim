@@ -1,4 +1,4 @@
-#Especificação Suplementar <br> <span class="rotulo-extra">Iniciativa Extra</span>
+# Especificação Suplementar
 
 ## Introdução
 

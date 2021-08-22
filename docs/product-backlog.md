@@ -62,5 +62,6 @@
 | 05/08/2021 | 1.0 | Desenvolvimento do documento | Bruno Félix |
 | 06/08/2021 | 1.1 | Inserção Lexicos             | Bruno Félix |
 | 13/08/2021 | 1.2 | Corrigindo links lexicos     | Bruno Félix |
-| 14/08/2021 | 1.3 | Inserção do MoSCoW           | Bruno Félix |
-| 21/08/2021 | 1.4 | Correção dos links dos léxicos | Gabriel Bonifácio |
+| 14/08/2021 | 1.3 | Entrega 2 - Inserção do MoSCoW | Bruno Félix |
+| 18/08/2021 | 1.4 | Entrega 2 - Retirada Tag Iniciativa Extra | Bruno Félix |
+| 21/08/2021 | 1.5 | Correção dos links dos léxicos | Gabriel Bonifácio |
