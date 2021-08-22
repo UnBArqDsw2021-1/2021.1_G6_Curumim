@@ -1,7 +1,7 @@
 # Sprint Review - Sprint 1
  
 ## 1. Visão Geral
-**Número da Sprint:** 1;<br>
+**Número da Sprint:** 2;<br>
 **Data de Início:** 14/08/2021;<br>
 **Data de Término:** 21/08/2021;<br>
 **Duração:** 7 dias.<br>
@@ -90,11 +90,11 @@
 
 ## 5. Velocity
 ![Velocity Tracking](../../assets/imagens/sprint-review/sprint2/velocity-tracking.png)
-<center>[Figura 2: Velocity Tracking gerado pelo Zenhub](../../assets/imagens/sprint-review2/velocity-tracking.png)</center>
+<center>[Figura 2: Velocity Tracking gerado pelo Zenhub](../../assets/imagens/sprint-review/sprint2/velocity-tracking.png)</center>
 
 ## Versionamento
 | Versão | Data       | Modificação                                | Autor                |
 | :----: | ---------- | ------------------------------------------ | -------------------- |
 |  0.1   | 21/08/2021 | Revisão e Retrospectiva com os integrantes | Todos os integrantes |
 |  1.0   | 21/08/2021 | Abertura do documento                      | Daniel Porto         |
-
+|  1.1   | 21/08/2021 | Adição do velocity e do burndown           | Daniel Porto         |
