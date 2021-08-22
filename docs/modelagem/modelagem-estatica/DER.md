@@ -1,4 +1,4 @@
-# Diagrama entidade relacionamento
+# Diagrama entidade relacionamento <br> <span class="rotulo-extra">Iniciativa Extra</span>
 
 ## Introdução
 &emsp;&emsp;O Diagrama entidade relacionamento, também conhecido como DER, aborda uma forma de representar gráficamente a modelagem do banco de dados. Basicamente, tem como objetivo organizar de forma conceitual e logica utilizando algum tipo de notação, as entiades que compõem o banco de dados e seus relacionamentos.
