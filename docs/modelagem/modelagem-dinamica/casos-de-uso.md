@@ -20,3 +20,4 @@
 | Versão | Data | Modificação | Autor |
 | :-: | -- | -- | -- |
 |1.0| 10/08/2021 | Adição da introdução, do diagrama de casos de uso e da bibliografia | Nilo Mendonça |
+|1.1| 15/08/2021 | Revisão por pares | Edson Soares, Francisco Emanoel |

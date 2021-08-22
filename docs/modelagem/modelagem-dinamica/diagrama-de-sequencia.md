@@ -27,4 +27,4 @@
 | :-: | -- | -- | -- |
 |1.0| 21/08/2021 | Criando documento, adicionando introdução, imagens e bibliografia | Enzo Gabriel e Edson Soares |
 |1.1| 21/08/2021 | Fazendo correções no documento | Enzo Gabriel e Edson Soares |
-|1.2| 21/08/2021 | Revisão do documento | Nilo Mendonça e Eliseu Kadesh |
+|1.2| 21/08/2021 | Revisão por pares| Nilo Mendonça e Eliseu Kadesh |
