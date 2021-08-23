@@ -18,3 +18,4 @@
 |1.3| 18/08/2021 | Melhoria do artefato | Mateus O. Patrício e Gabriel Bonifácio |
 |1.4| 20/08/2021 | Finalizada versão 1.0 do artefato | Gabriel Bonifácio |
 |2.0| 21/08/2021 | Adição do artefato e da bibliografia ao documento | Mateus O. Patrício |
+|2.1| 21/08/2021 | Revisão por pares | Daniel Porto, Francisco Emanoel |

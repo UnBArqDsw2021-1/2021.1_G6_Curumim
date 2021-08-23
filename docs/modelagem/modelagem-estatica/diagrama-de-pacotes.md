@@ -19,4 +19,5 @@ https://www.lucidchart.com/pages/pt/diagrama-de-pacotes-uml. Acesso em: 12/08/20
 | Versão | Data | Modificação | Autor |
 | :-: | -- | -- | -- |
 |1.0| 12/08/2021 | Criando documento e Diagrama de pacotes | Enzo Gabriel, Francisco Emanoel  |
-|1.1| 14/08/2021 | Resolvendo erros encontrados no diagrama    | Enzo Gabriel, Francisco Emanoel
+|1.1| 14/08/2021 | Resolvendo erros encontrados no diagrama    | Enzo Gabriel, Francisco Emanoel |
+|1.2| 21/08/2021 | Revisão por pares | Daniel Porto, Edson Soares|

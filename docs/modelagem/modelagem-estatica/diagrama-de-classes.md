@@ -29,3 +29,4 @@
 |1.0| 20/08/2021 | Abertura do Documento                       |  Eliseu Kadesh |
 |1.1| 20/08/2021 | Adição da metodologia                       |  Daniel Porto  |
 |2.0| 21/08/2021 | Correções no Diagrama de Classes            |  Eliseu Kadesh |
+|2.1| 21/08/2021 | Revisão por pares | Bruno Félix, Francisco Emanoel |

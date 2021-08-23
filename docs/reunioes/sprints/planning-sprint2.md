@@ -23,7 +23,7 @@ Issues adicionadas:
 
 
 1. **Issue:** [#53 Revisar e corrigir os hiperlinks para os léxicos](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/53)<br>
-**Responsáveis:** Todos<br>
+**Responsáveis:** Gabriel Bonifácil<br>
 
 2. **Issue:** [#54 Diagrama de Classes](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/54)<br>
 **Responsáveis:** Daniel Porto e Eliseu Kadesh<br>
@@ -52,5 +52,5 @@ Issues adicionadas:
 10. **Issue:** [#83 Construir Ambiente de Desenvolvimento](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/83)<br>
 **Responsáveis:** Francisco Ferreira e Mateus Oliveira<br>
 
-11. **Issue:** [#89 Revisar documentação](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/89)<br>
+11. **Issue:** [#89 Revisar Navegação Wiki](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/89)<br>
 **Responsáveis:** Todos <br>

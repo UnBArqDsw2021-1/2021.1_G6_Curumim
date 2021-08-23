@@ -40,6 +40,9 @@ nav:
                         - Metodologia: base/metodologia/metodologia.md
                         - Modelagem BPMN: base/metodologia/bpmn.md
                 - Iniciativas Extras:
+                        - Contribuição: 
+                                - Guia de Contribuição: guia-contrib.md
+                                - Políticas de Contribuição: politicas.md
                         - TAP: base/tap/tap.md
                         - Argumentação: base/requisitos/pre-rastreabilidade/argumentacao.md
                         - Personas: base/requisitos/elicitacao/personas.md
@@ -54,15 +57,12 @@ nav:
                                         - Sprint 0:
                                                 - Planning: reunioes/sprints/planning-sprint0.md
                                                 - Review: reunioes/sprints/review-sprint0.md
-                        - Contribuição: 
-                                - Guia de Contribuição: guia-contrib.md
-                                - Políticas de Contribuição: politicas.md
         - Modelagem:
                 - Projeto Orientado a Abordagens Tradicionais:
                         - Modelagem Estática:
-                                - Diagrama de Componentes: modelagem/modelagem-estatica/diagrama-de-componentes.md
-                                - Diagrama de Pacotes: modelagem/modelagem-estatica/diagrama-de-pacotes.md
                                 - Diagrama de Classes: modelagem/modelagem-estatica/diagrama-de-classes.md
+                                - Diagrama de Pacotes: modelagem/modelagem-estatica/diagrama-de-pacotes.md                                
+                                - Diagrama de Componentes: modelagem/modelagem-estatica/diagrama-de-componentes.md
                         - Modelagem Dinâmica:
                                 - Diagrama de Atividades: modelagem/modelagem-dinamica/diagrama-de-atividades.md
                                 - Diagrama de Comunicação: modelagem/modelagem-dinamica/diagrama-de-comunicacao.md
@@ -80,3 +80,4 @@ nav:
                                         - Review: reunioes/sprints/review-sprint1.md
                                 - Sprint 2:
                                         - Planning: reunioes/sprints/planning-sprint2.md
+                                        - Review: reunioes/sprints/review-sprint2.md

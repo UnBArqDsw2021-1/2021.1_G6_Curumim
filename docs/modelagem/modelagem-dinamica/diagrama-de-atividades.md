@@ -41,4 +41,5 @@ O diagrama de atividades é um diagrama de comportamento UML que mostra o fluxo 
 |1.0|14/08/2021| Criação do documento | João Pedro e Edson |
 |1.1|14/08/2021| Ajustes do caminho das imagens | Edson |
 |1.2|14/08/2021| Correção da numeração das figuras | Edson |
-|1.3|14/08/2021| Mudança no caminho das imagens | Edson e francisco |
+|1.3|14/08/2021| Mudança no caminho das imagens | Edson e Francisco Emanoel|
+|1.4|21/08/2021| Revisão por pares | Nilo Mendonça, Francisco Emanoel |

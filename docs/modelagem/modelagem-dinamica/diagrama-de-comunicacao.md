@@ -43,3 +43,4 @@ Os diagramas de comunicação são utilizados pelos designers para definir e esc
 |:-:|--|--|--|
 |1.0|19/08/2021| Criação do documento | João Pedro |
 |1.1|21/08/2021| Modificação da nomenclatura das classes dos diagramas | João Pedro |
+|1.2|21/08/2021| Revisão por pares | Nilo Mendonça, Bruno Félix |

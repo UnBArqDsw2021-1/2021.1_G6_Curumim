@@ -60,8 +60,9 @@
 | --- | --- | --- | --- |
 | 04/08/2021 | 0.1 | Abertura do documento        | Bruno Félix |
 | 05/08/2021 | 1.0 | Desenvolvimento do documento | Bruno Félix |
-| 06/08/2021 | 1.1 | Inserção Lexicos             | Bruno Félix |
-| 13/08/2021 | 1.2 | Corrigindo links lexicos     | Bruno Félix |
-| 14/08/2021 | 1.3 | Entrega 2 - Inserção do MoSCoW | Bruno Félix |
-| 18/08/2021 | 1.4 | Entrega 2 - Retirada Tag Iniciativa Extra | Bruno Félix |
-| 21/08/2021 | 1.5 | Correção dos links dos léxicos | Gabriel Bonifácio |
+| 05/08/2021 | 1.1 | Revisão por pares | Daniel Porto, Enzo Gabriel |
+| 06/08/2021 | 1.2 | Inserção Lexicos             | Bruno Félix |
+| 13/08/2021 | 1.3 | Corrigindo links lexicos     | Bruno Félix |
+| 14/08/2021 | 1.4 | Entrega 2 - Inserção do MoSCoW | Bruno Félix |
+| 18/08/2021 | 1.5 | Entrega 2 - Retirada Tag Iniciativa Extra | Bruno Félix |
+| 21/08/2021 | 1.6 | Correção dos links dos léxicos | Gabriel Bonifácio |

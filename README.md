@@ -37,58 +37,74 @@ Demais diretrizes sobre a organização da wiki constam no Moodle Aprender 3.
 
 - [O vídeo da Primeira entrega pode ser acessado clicando aqui!](https://www.youtube.com/embed/sEOklsIoxgY)
 
-<!-- ## Screenshots Primeira Entrega <<FOCO: DSW(Base)>>
-Adicione 2 ou mais screenshots do projeto em termos de artefatos da Primeira Entrega.
---->
-
-## Wiki do Projeto
+## Wiki do Projeto - Primeira Entrega:
 &emsp;&emsp;No momento que estamos, ainda não há uma aplicação pronta, por estarmos na fase inicial. Para que se possa "saborerar" — mesmo que minimamente — parte do que será o projeto Curumim, seguem algumas imagens da nossa documentação que está sendo feita durante esses dias na Wiki:
 
 - Imagem 1 - Wiki - Brainstorming:
 
-![Wiki](docs/assets/imagens/sobre/wiki-imagem1.png)
+![Wiki](docs/assets/imagens/sobre/entrega1/wiki-imagem1.png)
 <br>
-[Figura 1: Wiki - Brainstorming](docs/assets/imagens/sobre/wiki-imagem1.png)
+[Figura 1: Wiki - Brainstorming](docs/assets/imagens/sobre/entrega1/wiki-imagem1.png)
 
 <br>
 
 - Imagem 2 - Wiki - MosCoW:
 
-![Wiki](docs/assets/imagens/sobre/wiki-imagem2.png)
+![Wiki](docs/assets/imagens/sobre/entrega1/wiki-imagem2.png)
 <br>
-[Figura 2: Wiki - MosCoW](docs/assets/imagens/sobre/wiki-imagem2.png)
+[Figura 2: Wiki - MosCoW](docs/assets/imagens/sobre/entrega1/wiki-imagem2.png)
 
 <br>
 
 - Imagem 3 - Wiki - BPMN:
 
-![Wiki](docs/assets/imagens/sobre/wiki-imagem3.png)
+![Wiki](docs/assets/imagens/sobre/entrega1/wiki-imagem3.png)
 <br>
-[Figura 3: Wiki - BPMN](docs/assets/imagens/sobre/wiki-imagem3.png)
+[Figura 3: Wiki - BPMN](docs/assets/imagens/sobre/entrega1/wiki-imagem3.png)
 
 <br>
 
 - Imagem 4 - Wiki - Argumentação:
 
-![Wiki](docs/assets/imagens/sobre/wiki-imagem4.png)<br>
-[Figura 4: Wiki - Argumentação](docs/assets/imagens/sobre/wiki-imagem4.png)
+![Wiki](docs/assets/imagens/sobre/entrega1/wiki-imagem4.png)<br>
+[Figura 4: Wiki - Argumentação](docs/assets/imagens/sobre/entrega1/wiki-imagem4.png)
 
 <br>
 
 &emsp;&emsp;Estas são 4 imagens que dão início a nossa documentação aqui no README sobre as documentações. Conforme o projeto for andando e se aprimorando, a ideia é retratar aqui no README todas essas novas evoluções.
 
-<!--
-## Vídeo(s) Primeira Entrega <<FOCO: DSW(Base)>>
-Adicione o(s)s vídeo(s) da Primeira Entrega. -->
+## Vídeos Segunda Entrega: DSW(Modelagem)
+- [Vídeo 1 da segunda entrega: modelagem estática](https://www.youtube.com/watch?v=JoXI1bMMnsY)
+- [Vídeo 2 da segunda entrega: modelagem dinâmica](https://www.youtube.com/watch?v=KigxCIalYMk)
+- [Vídeo 3 da segunda entrega: modelagem ágil](https://www.youtube.com/watch?v=a6LLD7Fk-SY)
 
-<!--
-## Screenshots Segunda Entrega <<FOCO: DSW(Modelagem)>>
-Adicione 2 ou mais screenshots do projeto em termos de artefatos da Segunda Entrega.
+## Wiki do Projeto - Primeira Entrega:
 
-## Vídeo(s) Segunda Entrega <<FOCO: DSW(Modelagem)>>
-Adicione o(s)s vídeo(s) da Segunda Entrega.
+- Imagem 5 - Wiki - Diagrama de Pacotes:
 
-## Screenshots Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
+![Wiki](docs/assets/imagens/sobre/entrega2/img1.png)
+<br>
+[Figura 5: Wiki - Diagrama de Pacotes](docs/assets/imagens/sobre/entrega2/img1.png)
+
+<br>
+
+- Imagem 6 - Wiki - Diagrama de Classes:
+
+![Wiki](docs/assets/imagens/sobre/entrega2/img2.png)
+<br>
+[Figura 6: Wiki - Diagrama de Classes](docs/assets/imagens/sobre/entrega2/img2.png)
+
+<br>
+
+- Imagem 7 - Wiki - Diagrama de Estados:
+
+![Wiki](docs/assets/imagens/sobre/entrega2/img3.png)
+<br>
+[Figura 7: Wiki - Diagrama de Estados](docs/assets/imagens/sobre/entrega2/img3.png)
+
+<br>
+
+<!-- ## Screenshots Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
 Adicione 2 ou mais screenshots do projeto em termos de artefatos da Terceira Entrega.
 
 ## Vídeo(s) Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
