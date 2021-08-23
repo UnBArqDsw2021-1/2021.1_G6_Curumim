@@ -60,9 +60,9 @@ nav:
         - Modelagem:
                 - Projeto Orientado a Abordagens Tradicionais:
                         - Modelagem Estática:
-                                - Diagrama de Componentes: modelagem/modelagem-estatica/diagrama-de-componentes.md
-                                - Diagrama de Pacotes: modelagem/modelagem-estatica/diagrama-de-pacotes.md
                                 - Diagrama de Classes: modelagem/modelagem-estatica/diagrama-de-classes.md
+                                - Diagrama de Pacotes: modelagem/modelagem-estatica/diagrama-de-pacotes.md                                
+                                - Diagrama de Componentes: modelagem/modelagem-estatica/diagrama-de-componentes.md
                         - Modelagem Dinâmica:
                                 - Diagrama de Atividades: modelagem/modelagem-dinamica/diagrama-de-atividades.md
                                 - Diagrama de Comunicação: modelagem/modelagem-dinamica/diagrama-de-comunicacao.md
