@@ -57,6 +57,7 @@ nav:
                                         - Sprint 0:
                                                 - Planning: reunioes/sprints/planning-sprint0.md
                                                 - Review: reunioes/sprints/review-sprint0.md
+                - Apresentação: apresentacoes/apresentacoes_entrega1.md
         - Modelagem:
                 - Projeto Orientado a Abordagens Tradicionais:
                         - Modelagem Estática:
@@ -81,3 +82,4 @@ nav:
                                 - Sprint 2:
                                         - Planning: reunioes/sprints/planning-sprint2.md
                                         - Review: reunioes/sprints/review-sprint2.md
+                - Apresentação: apresentacoes/apresentacoes_entrega2.md
