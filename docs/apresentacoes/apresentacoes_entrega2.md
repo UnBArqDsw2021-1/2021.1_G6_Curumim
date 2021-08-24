@@ -17,7 +17,7 @@
 
 <hr>
 
-## Modelagem Ágil e Iniciativas Extrax
+## Modelagem Ágil e Iniciativas Extras
 - Product Backlog;
 - Caso de Uso;
 - MER;
