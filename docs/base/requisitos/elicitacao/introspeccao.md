@@ -12,14 +12,14 @@
 
 |ID|Requisito|
 |:-:|--|
-|RNF_01|Sistema carregar uma página em menos de 2 segundos|
-|RNF_02|Sistema funcionar 24h por dia|
-|RNF_03|Sistema deve ser responsivo|
-|RNF_04|Sistema ter acessibilidade para [usuários](../../modelagem/lexicos/#lexico-usuario) com dificuldades|
-|RNF_05|Sistema apresentar as funcionalidades principais na tela inicial|
-|RNF_06|Sistema gerar [relatório](../../modelagem/lexicos/#lexico-relatorio) em menos de 15 segundos|
-|RNF_07|Centralizar suas [atividades](../../modelagem/lexicos/#lexico-atividade) no seu celular|
-|RNF_08|Um bom sistema de [autenticação em duas etapas](../../modelagem/lexicos/#lexico-autenticacao-em-duas-etapas)|
+|<span id="rnf1"> **RNF_01** </span> |Sistema carregar uma página em menos de 2 segundos.|
+|<span id="rnf2"> **RNF_02** </span> |Sistema funcionar 24h por dia.|
+|<span id="rnf3"> **RNF_03** </span> |Sistema deve ser responsivo.|
+|<span id="rnf4"> **RNF_04** </span> |Sistema ter acessibilidade para [usuários](../../modelagem/lexicos/#lexico-usuario) com dificuldades.|
+|<span id="rnf5"> **RNF_05** </span> |Sistema apresentar as funcionalidades principais na tela inicial.|
+|<span id="rnf6"> **RNF_06** </span> |Sistema gerar [relatório](../../modelagem/lexicos/#lexico-relatorio) em menos de 15 segundos.|
+|<span id="rnf7"> **RNF_07** </span> |Centralizar suas [atividades](../../modelagem/lexicos/#lexico-atividade) no seu celular.|
+|<span id="rnf8"> **RNF_08** </span> |Um bom sistema de [autenticação em duas etapas](../../modelagem/lexicos/#lexico-autenticacao-em-duas-etapas).|
 
 ## Bibliografia
 
