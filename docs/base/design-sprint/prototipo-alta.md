@@ -4,7 +4,7 @@
 
 ## Metodologia
 
-&emsp;&emsp;O time decidiu se reunir e fizemos as telas iniciais do aplicativo em conjunto, com base nos [protótipos de baixa fidelidade](../design-sprint/prototipo-baixa/) produzidos. Em seguida, foi definido em comum acordo entre a equipe, que uma parte da equipe iria aperfeiçoar o [protótipo](../../requisitos/modelagem/lexicos/#lexico-prototipo) e depois, os outros membros iriam revisar os modelos produzidos.
+&emsp;&emsp;O time decidiu se reunir e fizemos as telas iniciais do aplicativo em conjunto, com base nos [protótipos de baixa fidelidade](../prototipo-baixa/) produzidos. Em seguida, foi definido em comum acordo entre a equipe, que uma parte da equipe iria aperfeiçoar o [protótipo](../../requisitos/modelagem/lexicos/#lexico-prototipo) e depois, os outros membros iriam revisar os modelos produzidos.
 
 ## [Protótipo](../../requisitos/modelagem/lexicos/#lexico-prototipo) Produzido
 
