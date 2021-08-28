@@ -13,7 +13,7 @@
 A [Sprint 3](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/milestone/5) tem como objetivo:
 
 - Revisar os documentos avaliados na primeira entrega, sendo que cada dupla tenha 7 pontos no somátorio de pontos obtidos pelo planning poker, das issues que são responsáveis;<br>
-- Entregar avaliação por pares;<br>
+- Entregar [avaliação por pares](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/106);<br>
 - Estudar sobre o conteúdo referente ao módulo Padrões de Projeto.<br>
 
 
