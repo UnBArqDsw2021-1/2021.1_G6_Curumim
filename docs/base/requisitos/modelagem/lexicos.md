@@ -333,3 +333,4 @@
 |1.8|06/08/2021| Adição de hiperlinks com léxicos| Daniel Porto |
 |1.9|20/08/2021| Adição do léxico [L32](#lexico-mural)| Daniel Porto |
 |2.0|28/08/2021| Incrementação da Introdução e dos Impactos dos Léxicos| Bruno Félix |
+|2.1|28/08/2021|Revisão por pares|Daniel Porto, Mateus O. Patrício | 

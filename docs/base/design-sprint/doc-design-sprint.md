@@ -94,3 +94,4 @@ Uma das grandes características do Design Sprint é que ele pode ser bem versá
 |2.0|06/08/2021| Adição das referências dos documentos, da seção de adaptações e correção de hiperlinks dos léxicos | Gabriel Bonifácio |
 |2.1|09/08/2021| Correção de hiperlinks dos léxicos | Gabriel Bonifácio |
 | 2.2 | 26/08/2021 | Correções nos textos, referências e links com outros artefatos | Nilo Mendonça, Bruno Félix |
+|2.3|28/08/2021|Revisão por pares|Daniel Porto, Mateus O. Patrício | 

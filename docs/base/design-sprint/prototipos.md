@@ -78,3 +78,4 @@
 |1.3|06/08/2021| Adição de hiperlinks dos léxicos | Mateus O. Patrício |
 |1.4|21/08/2021| Correção dos links dos léxicos | Gabriel Bonifácio |
 | 1.5 | 26/08/2021 | Correções nos textos, referências e links com outros artefatos | Nilo Mendonça, Bruno Félix |
+|1.6|28/08/2021|Revisão por pares|Daniel Porto, Mateus O. Patrício | 
