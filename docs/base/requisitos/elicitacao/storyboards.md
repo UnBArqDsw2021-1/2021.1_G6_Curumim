@@ -9,9 +9,9 @@
 
 ## Historias
 
-### [Administradora](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-administrador)
+### [Administradora](../../modelagem/lexicos/#lexico-administrador)
 
-&emsp;&emsp;[Suzana](../personas/#1-suzana-administradora) é uma ex-[professora](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-professor) que tem um vasto conhecimento na área da pedagogia, e conhece de perto muitas dores da área, principalmente na inclusão digital na [educação](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-educacao).
+&emsp;&emsp;[Suzana](../personas/#1-suzana-administradora) é uma ex-[professora](../../modelagem/lexicos/#lexico-professor) que tem um vasto conhecimento na área da pedagogia, e conhece de perto muitas dores da área, principalmente na inclusão digital na [educação](../../modelagem/lexicos/#lexico-educacao).
 
 **Problemas do dia a dia**: Um dia na rotina de Suzana.
 ![](https://raw.githubusercontent.com/francisco1code/docs/master/images/1.png) <center>
@@ -25,11 +25,11 @@
 ![](https://raw.githubusercontent.com/francisco1code/docs/master/images/3333.png) <center>
 [Figura 3 - Persona Suzana](https://raw.githubusercontent.com/francisco1code/docs/master/images/3333.png)</center>
 
-### [Professor](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-professor)
+### [Professor](../../modelagem/lexicos/#lexico-professor)
 
-&emsp;&emsp;[Poliana](../personas/#2-poliana-professora) é uma jovem [professora](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-professor) de [crianças](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-criança), muita extrovertida, que gosta de sempre estar em contato com os [responsáveis](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-responsavel) de seus alunos.
+&emsp;&emsp;[Poliana](../personas/#2-poliana-professora) é uma jovem [professora](../../modelagem/lexicos/#lexico-professor) de [crianças](../../modelagem/lexicos/#lexico-crianca), muita extrovertida, que gosta de sempre estar em contato com os [responsáveis](../../modelagem/lexicos/#lexico-responsavel) de seus alunos.
 
-**Problemas do dia a dia**: Um dia de Poliana na sala dos [professores](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-professor).
+**Problemas do dia a dia**: Um dia de Poliana na sala dos [professores](../../modelagem/lexicos/#lexico-professor).
 ![](../../../assets/imagens/storyboards/storyboard_poliana_1.png) <center>
 [Figura 4 - Persona Poliana](../../../assets/imagens/storyboards/storyboard_poliana_1.png) </center>
 
@@ -37,9 +37,9 @@
 ![](../../../assets/imagens/storyboards/storyboard_poliana_2.png) <center>
 [Figura 5 - Persona Poliana](../../../assets/imagens/storyboards/storyboard_poliana_2.png) </center>
 
-### [Pais/Responsáveis](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-pai)
+### [Pais/Responsáveis](../../modelagem/lexicos/#lexico-pai)
 
-&emsp;&emsp;[Gustavo](../personas/#3-gustavo-responsavel) é um homem de 31 anos, ele é o [pai](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-pai) muito presente de uma menina de 5 anos, ele é formado em engenharia de software, então é uma pessoa muito atualizada com tecnologias.
+&emsp;&emsp;[Gustavo](../personas/#3-gustavo-responsavel) é um homem de 31 anos, ele é o [pai](../../modelagem/lexicos/#lexico-pai) muito presente de uma menina de 5 anos, ele é formado em engenharia de software, então é uma pessoa muito atualizada com tecnologias.
 
 **Problemas do dia a dia**: Um dia na rotina de Gustavo com sua noiva.
 ![](../../../assets/imagens/storyboards/storyboard_gustavo_1.png) <center>
@@ -81,3 +81,5 @@
 | 2.0    | 06/08 | Finalizando correções no documento               | Enzo Gabriel      |
 | 2.1    | 06/08 | Adicionando léxicos ao documento                 | Enzo Gabriel      |
 | 3.0    | 26/08 | Adição da metodologia, dos requisitos elicitados e de links com artefatos terceiros | Daniel Porto |
+| 3.1|28/08|Correção dos links para os léxicos| Daniel Porto |
+| 3.2|28/08|Revisão por pares| Edson Soares, Eliseu Kadesh|

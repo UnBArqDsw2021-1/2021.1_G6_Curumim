@@ -271,11 +271,12 @@ Para nosso caso que são 3500 linhas de código ou 3.5Kloc temos:
  
 ## Versionamento
  
-|    Data    | Versão |        Alteração               |                    Autor                    |
-|:----------:|:------:|:-----------------:|:------------------------:|
-| 04/08/2021 | 0.1  | Abertura do documento | João Pedro, Edson Soares e Eliseu Kadesh |
-| 04/08/2021 | 1.0  | Criação das tabelas probabilidade, impacto e a matriz de probabilidade X impacto. | Edson Soares |
-| 06/08/2021 | 1.1 | Finalização dos riscos.    | Edson Soares |
-| 06/08/2021 | 2.0 | Adição do tópico de custos | Eliseu Kadesh, Edson Soares |
-| 21/08/2021 | 2.1 | Correção dos links dos léxicos | Gabriel Bonifácio |
-| 27/08/2021 | 2.2 | Adição de links dos léxicos | Daniel Porto |
+| Versão | Data |        Alteração               |                    Autor                    |
+|:----------:|------|-----------------|------------------------|
+| 0.1 | 04/08/2021 | Abertura do documento | João Pedro, Edson Soares e Eliseu Kadesh |
+| 1.0 | 04/08/2021 | Criação das tabelas probabilidade, impacto e a matriz de probabilidade X impacto. | Edson Soares |
+| 1.1 | 06/08/2021 | Finalização dos riscos.    | Edson Soares |
+| 2.0 | 06/08/2021 | Adição do tópico de custos | Eliseu Kadesh, Edson Soares |
+| 2.1 | 21/08/2021 | Correção dos links dos léxicos | Gabriel Bonifácio |
+| 2.2 | 27/08/2021 | Adição de links dos léxicos | Daniel Porto |
+| 2.3|28/08|Revisão por pares| Edson Soares, Eliseu Kadesh|

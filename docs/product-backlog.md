@@ -89,3 +89,4 @@
 | 21/08/2021 | 1.6 | Correção dos links dos léxicos | Gabriel Bonifácio |
 | 25/08/2021 | 1.7 | Adição da navegabilidade na raestreabilidade | Daniel Porto |
 | 27/08/2021 | 2.0 | Adição da introdução, metodologia, bibliografia e maiores explicações sobre os itens | Daniel Porto |
+| 28/08/2021 | 2.1 | Revisão por pares | Edson Soares, Eliseu Kadesh|
