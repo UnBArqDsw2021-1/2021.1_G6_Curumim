@@ -29,6 +29,22 @@
 ![responsavel](https://user-images.githubusercontent.com/37383185/128371542-9dfa7da1-0964-4bfd-9b20-7c5e03761671.png)
 <center>[Figura 3: SD de Administrador](https://user-images.githubusercontent.com/37383185/128371542-9dfa7da1-0964-4bfd-9b20-7c5e03761671.png)</center>
 
+## Strategic Dependency Models
+
+### Versões 2.0
+
+![responsavel](../../../assets/imagens/i-star/responsavel-curumim.jpeg)
+
+<center>[Figura 1: SD de Responsável](../../../assets/imagens/i-star/responsavel-curumim.jpeg)</center>
+
+![professor](../../../assets/imagens/i-star/professor-curumim.jpeg)
+
+<center>[Figura 2: Figura 2: SD de Professor](../../../assets/imagens/i-star/professor-curumim.jpeg)</center>
+
+![administrador](../../../assets/imagens/i-star/administrador_curumim.jpeg)
+
+<center>[Figura 3: SD de Administrador](../../../assets/imagens/i-star/administrador_curumim.jpeg)</center>
+
 ## Referências
 
 > - [1] - YU, E. S. K. (1995). Modelling Strategic Relationships For Process Reengineering. Ph. D. dissertation. Dept. of Computer Science, University of Toronto, 1995.
@@ -48,3 +64,4 @@
 |1.2|06/08/2021| Adição de hiperlinks dos léxicos | Mateus O. Patrício |
 |1.3|21/08/2021| Correção dos links dos léxicos | Gabriel Bonifácio |
 |1.4|28/08/2021| Adição de novas informações e referências | Gabriel e Francisco |
+|1.4|28/08/2021| Atualizando o diagrama versão 2| Gabriel e Francisco |
