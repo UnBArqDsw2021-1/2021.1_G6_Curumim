@@ -1,6 +1,6 @@
 # Protótipo de Baixa Fidelidade
 
-&emsp;&emsp;Os [protótipos de baixa fidelidade](../../requisitos/modelagem/lexicos/#lexico-prototipo-de-baixa-fidelidade) são feitos  à mão no papel. Eles visam definir a interação do [usuário](../../requisitos/modelagem/lexicos/#lexico-usuario) com a aplicação da forma mais simples o possível, sem preocupações com o design. São utilizados para ajudar na definição do projeto e na elicitação de requisitos do produto.
+&emsp;&emsp;Os [protótipos de baixa fidelidade](../../requisitos/modelagem/lexicos/#lexico-prototipo-de-baixa-fidelidade) são feitos  à mão no papel. Eles visam definir a interação do [usuário](../../requisitos/modelagem/lexicos/#lexico-usuario) com a aplicação da forma mais simples o possível, e esse tipo de protótipo tem como objetivo coletar feedbacks rápidos, por isso acabam não levando em conta o refinamento do design, além disso, o pricinpal foco é a arquitetura e as funcionlidades. São utilizados para ajudar na definição do projeto e na elicitação de requisitos do produto.
 
 ## Metodologia
 
@@ -72,7 +72,13 @@
 
 ## Bibliografia
 
+> - BARBOSA. Simone. SILVA. Bruno. 2010. Interação Humano-computador.
+
 > -   Fidelidade de protótipos: Baixa, Média ou Alta, conheça os tipos: https://www.vitaminaweb.com.br/fidelidade-de-prototipos-baixa-media-ou-alta/. Último acesso em 04/08/2021.
+
+> - Protótipos de Baixa fidelidade x Alta fidelidade. Qual escolher para seu produto?: https://medium.com/pan-design/prot%C3%B3tipos-de-baixa-fidelidade-x-alta-fidelidade-qual-escolher-para-seu-produto-6f3d0f95733c/. Último acesso em 28/08/2021
+
+> - Protótipo de baixa fidelidade: o que é e como desenvolver em um projeto?: https://www.digitalhouse.com/br/blog/prototipo-de-baixa-fidelidade/. Último acesso em 28/08/2021
 
 ## Versionamento
 | Versão | Data | Modificação | Autor |
@@ -82,4 +88,5 @@
 |1.1|05/08/2021| Padronização do documento | Mateus O. Patrício |
 |1.2|06/08/2021| Adição de hiperlinks dos léxicos | Mateus O. Patrício |
 |1.3|21/08/2021| Correção dos links dos léxicos | Gabriel Bonifácio |
+|1.4|28/08/2021| Revisão geral do Documento | Francisco Ferreira, Gabriel Bonifácio |
 
