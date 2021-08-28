@@ -2,11 +2,9 @@
 
 ## Introdução
 
-&emsp;&emsp;Léxico é uma técnica de modelagem utilizada com o intuito de melhorar o entendimento sobre termos utilizados. 
+&emsp;&emsp;Léxico é uma técnica de modelagem utilizada com o intuito de melhorar o entendimento sobre termos utilizados. Com o desenvolvimento dos artefatos se pode ter um entendimento mais rico e concreto do projeto e todas as terminologias usadas pelo grupo. Ao longo da [Design Sprint](../../../design-sprint/doc-design-sprint), ouve um constante aprendizado e aprimoramento do escopo do projeto e todas as palavras e frases que são cruciais na aplicação.
 
-## Objetivo
-
-&emsp;&emsp;Este documento tem a finalidade de apresentar todos os léxicos presentes em nossos documentos da wiki.
+&emsp;&emsp;Este documento tem a finalidade de apresentar todos os léxicos levantados durante o desenvolvimento da wiki.
 
 ## Léxicos
 &emsp;&emsp;A metodologia trabalhada nesse documento foi a **LAL - Léxico Ampliado da Linguagem**, trata-se de um método para descrever termos relacionados ao projeto.<br>
@@ -33,9 +31,9 @@
 | L01 | Responsável |
 | -- | -- |
 | Classificação | Sujeito |
-| Noção | - O responsável por uma ou mais crianças que estão matriculadas no [centro de ensino]().<br>- O [usuário](#lexico-usuario) que utiliza o sistema e tem acesso a funcionalidades desse perfil. |
-| Impacto | - Um responsável pode se cadastrar e se validar no sistema;<br>- Um responsável pode entrar em contato com [professor](#lexico-professor)<br>- Um responsável pode visualizar os dados e as informações de suas [crianças](#lexico-crianca). |
-| Sinônimo | - Pai<br> - [Usuário](#lexico-usuario) |
+| Noção | - Ter uma ou mais crianças que estão matriculadas no [centro de ensino]().<br>- O [usuário](#lexico-usuario) que utiliza o sistema e tem acesso a funcionalidades desse perfil. |
+| Impacto | - Pode se cadastrar e se validar no sistema;<br>- Pode entrar em contato com [professor](#lexico-professor)<br>- Pode visualizar os dados e as informações de suas [crianças](#lexico-crianca). |
+| Sinônimo | - [Pai](#lexico-pai)<br> - [Usuário](#lexico-usuario) |
 
 ### Léxico - Protótipo
 
@@ -52,7 +50,7 @@
 | -- | -- |
 | Classificação | Objeto |
 | Noção | É um esboço em desenho contemplando funcionalidades de maneira simplista do produto final. |
-| Impacto | - O time decidiu se reunir e cada membro fez um protótipo de baixa fidelidade. |
+| Impacto | - O time decidiu se reunir e cada membro fez um protótipo de baixa fidelidade;<br>- Com isso em mãos, o grupo pode discutir e criar o [Protótipo de alta fidelidade](#lexico-prototipo-de-alta-fidelidade). |
 | Sinônimo | - [Protótipo](#lexico-prototipo) |
 
 ### Léxico - Protótipo de alta fidelidade
@@ -61,7 +59,7 @@
 | -- | -- |
 | Classificação | Objeto |
 | Noção | - É uma representação interativa do produto. Esse tipo de protótipo representa o design final de forma fidedigna. |
-| Impacto | - O protótipo de alta fidelidade foi desenvolvido na plataforma Figma. |
+| Impacto | - O protótipo de alta fidelidade foi desenvolvido na plataforma Figma;<br>- Principal base e influência do virá a ser o [Front End](#lexico-desenvolvimento-front-end) da aplicação.. |
 | Sinônimo | - [Protótipo](#lexico-prototipo) |
 
 ### Léxico - Usuário
@@ -79,7 +77,7 @@
 | -- | -- |
 | Classificação | Sujeito |
 | Noção | - Partes interessadas, que devem estar de acordo com as decisões, no produto final. |
-| Impacto | - O stakeholder deve estar de acordo com o que está sendo produzido. |
+| Impacto | - Deve estar de acordo com o que está sendo produzido. <br> - Sua opinião é levada em consideração no desenvolvimento do projeto e do produto |
 | Sinônimo | - Pessoa interessada no projeto. |
 
 ### Léxico -  Pai
@@ -87,8 +85,8 @@
 | L07 | Pai |
 | -- | -- |
 | Classificação | Sujeito |
-| Noção | - O responsável por uma ou mais [crianças](#lexico-crianca) que estão matriculadas no [centro de ensino](#lexico-centro-educacional).<br>- O [usuário](#lexico-usuario) que utiliza o sistema e tem acesso a funcionalidades desse perfil. |
-| Impacto | - Os pais podem se cadastrar e se validar no sistema;<br>- Os pais podem entrar em contato com [professor](#lexico-professor)<br>- Um responsável pode visualizar os dados e as informações de suas [crianças](#lexico-crianca).|
+| Noção | - O [responsável](#lexico-responsavel) por uma ou mais [crianças](#lexico-crianca) que estão matriculadas no [centro de ensino](#lexico-centro-educacional).<br>- O [usuário](#lexico-usuario) que utiliza o sistema e tem acesso a funcionalidades desse perfil. |
+| Impacto | - Podem se cadastrar e se validar no sistema;<br>- Podem entrar em contato com [professor](#lexico-professor)<br>- Pode visualizar os dados e as informações de suas [crianças](#lexico-crianca).|
 | Sinônimo | - [Responsável](#lexico-responsavel) |
 
 ### Léxico -  Professor
@@ -96,8 +94,8 @@
 | L08 | Professor |
 | -- | -- |
 | Classificação | Sujeito |
-| Noção | - Pessoa responsável por gerir o ensino e organização de uma [turma](#lexico-turma) de [alunos](#lexico-aluno), criando e conduzindo as [atividades](#lexico-atividade), lançando [presença](#lexico-presenca) e comunicando com os pais/ responsáveis.|
-| Impacto | - O professor pode criar e gerenciar uma [atividade](#lexico-atividade);<br> - O professor pode [lançar presença](#lexico-lancar-presenca); O professor pode enviar anotações para um [aluno]().
+| Noção | - Pessoa responsável por gerir o ensino e organização de uma [turma](#lexico-turma) de [alunos](#lexico-aluno), criando e conduzindo as [atividades](#lexico-atividade), lançando [presença](#lexico-presenca) e comunicando com os [pais](#lexico-pai)/ [responsáveis](#lexico-responsavel).|
+| Impacto | - Pode criar e gerenciar uma [atividade](#lexico-atividade);<br> - Pode [lançar presença](#lexico-lancar-presenca); O professor pode enviar anotações para um [aluno]().
 | Sinônimo | |
 
 ### Léxico - Administrador
@@ -106,7 +104,7 @@
 | -- | -- |
 | Classificação | Sujeito |
 | Noção | - Pessoa que gerencia o [Centro Educacional](#lexico-centro-educacional) |
-| Impacto | - O Administrador pode cadastrar uma criança;<br> - O Administrador pode cadastrar um [professor](#lexico-professor);<br> - O Administrador pode criar uma [turma](#lexico-turma); <br> - O Administrador pode criar e gerenciar um [evento](#lexico-evento); <br> |
+| Impacto | - Pode cadastrar uma [criança](#lexico-crianca);<br> - Pode cadastrar um [professor](#lexico-professor);<br> - Pode criar uma [turma](#lexico-turma); <br> - Pode criar e gerenciar um [evento](#lexico-evento). <br> |
 | Sinônimo | - Gestor |
 
 ### Léxico -  Agenda
@@ -115,7 +113,7 @@
 | -- | -- |
 | Classificação | Objeto |
 | Noção | - Local onde o [professor](#lexico-professor) faz anotações |
-| Impacto | - O prefessor anota informações sobre cada [aluno]() em sua respectiva agenda |
+| Impacto | - O [professor](#lexico-professor) anota informações sobre cada [aluno](#lexico-aluno) em sua respectiva agenda; <br> - Local que reunirá todas as [anotações](#lexico-anotacao) da [criança](#lexico-crianca). |
 | Sinônimo | |
 
 ### Léxico -  Criança
@@ -124,7 +122,7 @@
 | -- | -- |
 | Classificação | Sujeito |
 | Noção | - Os [alunos](#lexico-aluno) do [centro educacional](#lexico-centro-educacional) |
-| Impacto | - As [crianças](#lexico-crianca) podem participar de eventos<br>- As [crianças](#lexico-crianca) podem realizar [atividades](#lexico-atividade)|
+| Impacto | - Podem participar de [eventos](#lexico-evento)<br>- Podem realizar [atividades](#lexico-atividade). |
 | Sinônimo | - [Aluno](#lexico-aluno) |
 
 ### Léxico - Notificação
@@ -133,7 +131,7 @@
 | -- | -- |
 | Classificação | Objeto |
 | Noção | - Mensagens enviadas pelo app com o intuito de alertar. |
-| Impacto | - Os responsáveis irão receber notificações sobre novos eventos, [atividades](#lexico-atividade) e sobre a entrada e saída de suas [crianças](#lexico-crianca) |
+| Impacto | - Os [responsáveis](#lexico-responsavel) irão receber notificações sobre novos eventos, [atividades](#lexico-atividade) e sobre a entrada e saída de suas [crianças](#lexico-crianca) |
 | Sinônimo | |
 
 ### Léxico - Turma
@@ -142,7 +140,7 @@
 | -- | -- |
 | Classificação | Objeto |
 | Noção | - Conjunto de [alunos](#lexico-aluno) que seguem o mesmo programa e possuem o mesmo [professor](#lexico-professor). |
-| Impacto | - Os administradores criarão turmas e alocarão os [professores](#lexico-professor) e os [alunos](#lexico-aluno) nelas. |
+| Impacto | - Os administradores as criarão e alocarão os [professores](#lexico-professor) e os [alunos](#lexico-aluno) nelas;<br>- O [professor](#lexico-professor) poderá criar [atividades](#lexico-atividade) para a turma. |
 | Sinônimo | - Sala de aula |
 
 ### Léxico - Evento
@@ -150,8 +148,8 @@
 | L14 | Evento |
 | -- | -- |
 | Classificação | Objeto |
-| Noção | - Ações em grupo organizadas pelos administradoes. |
-| Impacto | - Os administradores criarão [atividades](#lexico-atividade) para todas as turmas do Centro Educadional.|
+| Noção | - Ações em grupo organizadas pelos [administradores](#lexico-administrador). |
+| Impacto | - Os [administradores](#lexico-administrador) organizarão um momento coletivo para todas as [turmas](#lexico-turma) do [Centro Educacional](#lexico-centro-educacional).|
 | Sinônimo | |
 
 ### Léxico - Presença
@@ -160,7 +158,7 @@
 | -- | -- |
 | Classificação | Objeto |
 | Noção | - Marcador de frequência dos [alunos](#lexico-aluno). |
-| Impacto | - Os [professores](#lexico-professor) marcaram as presenças dos [alunos](#lexico-aluno) na aplicação. |
+| Impacto | - Os [professores](#lexico-professor) marcaram as presenças dos [alunos](#lexico-aluno) na aplicação;<br> - Assim os [pais](#lexico-pai) e [responsáveis](#lexico-responsavel) poderão acompanhar a presença da [criança](#lexico-crianca). |
 | Sinônimo | - Frequência |
 
 ### Léxico - Anotação
@@ -169,7 +167,7 @@
 | -- | -- |
 | Classificação | Objeto |
 | Noção | - Informações sobre o [aluno](). |
-| Impacto | - As anotações estarão estarão dentro da agenda dos [alunos](#lexico-aluno). |
+| Impacto | - As anotações estarão estarão dentro da agenda dos [alunos](#lexico-aluno); <br> - Será o jeito formal mais direto que um [professor](#lexico-professor) terá para informar algo ao [responsável](#lexico-responsavel). |
 | Sinônimo | |
 
 ### Léxico - Relatório
@@ -177,8 +175,8 @@
 | L17 | Relatórios |
 | -- | -- |
 | Classificação | Objeto |
-| Noção | - Os [professores](#lexico-professor) disponibilizirão um relatório sobre os [alunos](#lexico-aluno). |
-| Impacto | - Será disponibilizado no perfil do [aluno](#lexico-aluno) um relatório sobre ele. |
+| Noção | - Os [professores](#lexico-professor) disponibilizarão um relatório sobre os [alunos](#lexico-aluno). |
+| Impacto | - Será disponibilizado no perfil do [aluno](#lexico-aluno) um relatório sobre ele; <br> - De tempos em tempos o [responsável](#lexico-responsavel) tera informações do [aluno](#lexico-aluno) de forma detalhada. |
 | Sinônimo | |
 
 ### Léxico - Atividade
@@ -187,7 +185,7 @@
 | -- | -- |
 | Classificação | Objeto |
 | Noção | - Práticas desenvolvidas pelos [professores](#lexico-professor) para a realização dos [alunos](#lexico-aluno) no [Centro Educacional](#lexico-centro-educacional). |
-| Impacto | - Os [professores](#lexico-professor) cadastram [atividades](#lexico-atividade) para suas turmas dentro da aplicação. |
+| Impacto | - Os [professores](#lexico-professor) cadastram [atividades](#lexico-atividade) para suas [turmas](#lexico-turma) dentro da aplicação. |
 | Sinônimo | - Práticas |
 
 ### Léxico - Educação
@@ -233,8 +231,8 @@
 | L23 | Baixar relatório |
 | -- | -- |
 | Classificação | Verbo |
-| Noção | O responsável clica para baixar o relatório sobre os dados da sua [criança](#lexico-crianca) |
-| Impacto | O responsável recebe um relatório detalhado sobre os dados da sua [criança](#lexico-crianca) |
+| Noção | O [responsável](#lexico-responsavel) clica para baixar o relatório sobre os dados da sua [criança](#lexico-crianca) |
+| Impacto | O [responsável](#lexico-responsavel) recebe um relatório detalhado sobre os dados da sua [criança](#lexico-crianca) |
 | Sinônimo | - |
 
 ### Léxico - Cadastrar Turma
@@ -250,7 +248,7 @@
 | -- | -- |
 | Classificação | Verbo |
 | Noção | Lançamento de presença para registrar presença no dia |
-| Impacto | O [professor](#lexico-professor) lança presença, permitindo ao responsável a visualização dos dias que a [criança](#lexico-crianca) esteve ou não ausente |
+| Impacto | O [professor](#lexico-professor) lança presença, permitindo ao [responsável](#lexico-responsavel) a visualização dos dias que a [criança](#lexico-crianca) esteve ou não ausente |
 | Sinônimo | Registrar presença, confirmar presença | |
 
 ### Léxico - Centro educacional
@@ -259,7 +257,7 @@
 | -- | -- |
 | Classificação | - Objeto |
 | Noção | - [Instituição](#lexico-instituicao) que aplica a utilização da plataforma. |
-| Impacto | - As funcionalidade da plataforma giram em torno do dia a dia de um centro educacional |
+| Impacto | - As funcionalidade da plataforma giram em torno do dia a dia de um centro educacional; <br> - Promover a qualidade de [educação](#lexico-educacao) |
 | Sinônimo | - Centro de ensino |
 
 ### Léxico - Aluno
@@ -268,7 +266,7 @@
 | -- | -- |
 | Classificação | Sujeito |
 | Noção | - As [crianças](#lexico-crianca) matriculadas no [centro educacional](#lexico-centro-educacional) |
-| Impacto | - Os alunos podem participar de eventos<br>- Os alunos podem realizar [atividades](#lexico-atividade)|
+| Impacto | - Os alunos podem participar de [eventos](#lexico-evento)<br>- Os alunos podem realizar [atividades](#lexico-atividade)|
 | Sinônimo | - [Criança](#lexico-crianca) |
 
 ### Léxico - Instituição
@@ -277,7 +275,7 @@
 | -- | -- |
 | Classificação | Sujeito |
 | Noção | - Pessoa que responde pelo [centro educacional](#lexico-centro-educacional). |
-| Impacto | - A instituição pode trocar mensagens com os responsáveis.<br> - A instituição pode postar [eventos](#lexico-evento) que acontecerão. |
+| Impacto | - A instituição pode trocar mensagens com os [responsáveis](#lexico-responsavel).<br> - A instituição pode postar [eventos](#lexico-evento) que acontecerão. |
 | Sinônimo | - [Administrador](#lexico-administrador) |
 
 ### Léxico - Mobile
@@ -286,7 +284,7 @@
 | -- | -- |
 | Classificação | Objeto |
 | Noção | - Aparelho celular utilizado pelo [usuário](#lexico-usuario). |
-| Impacto | - Um dos locais pelo qual o aplicativo poderá ser acessado. |
+| Impacto | - Um dos locais pelo qual o aplicativo poderá ser acessado; <br> - [Usuário](#lexico-usuario) terá mais praticidade e facilidade em usar a aplicação. |
 | Sinônimo | - Celular |
 
 ### Léxico - Notificar
@@ -294,8 +292,8 @@
 | L30 | Notificar |
 | -- | -- |
 | Classificação | Verbo |
-| Noção | - Possibilita o [usuário](#lexico-usuario) a ser informado sem desvios ou perdas de informações. |
-| Impacto | - O [usuário](#lexico-usuario) recebe informações sobre [eventos](#lexico-evento) do [Centro Educacional](#lexico-centro-educacional). |
+| Noção | Possibilita o [usuário](#lexico-usuario) a ser informado sem desvios ou perdas de informações. |
+| Impacto | O [usuário](#lexico-usuario) recebe informações sobre [eventos](#lexico-evento) do [Centro Educacional](#lexico-centro-educacional). |
 | Sinônimo | - Informar<br> - Sinalizar |
 
 ### Léxico - Bug
@@ -312,9 +310,13 @@
 | L32 | Mural |
 | -- | -- |
 | Classificação | Objeto |
-| Noção | - Tela que mostra as ultimas [atividades](#lexico-atividade), [eventos](#lexico-eventos) e [anotações](#lexico-anotacao) relacionados a uma [criaça](#lexico-crianca). |
-| Impacto | - Os [responsáveies](#lexico-responsavel) poderão acompanhar o cronograma da [crinaça](#lexico-crianca) no [centro educacional](#lexico-centro-educacional).|
+| Noção | - Tela que mostra as últimas [atividades](#lexico-atividade), [eventos](#lexico-eventos) e [anotações](#lexico-anotacao) relacionados a uma [criança](#lexico-crianca). |
+| Impacto | - Os [responsáveis](#lexico-responsavel) poderão acompanhar o cronograma da [criança](#lexico-crianca) no [centro educacional](#lexico-centro-educacional).|
 | Sinônimo | |
+
+
+## Bibliografia
+> - SERRANO, Maurício; SERRANO, Milene; Requisitos - Aula 10.
 
 ## Versionamento
 
@@ -322,9 +324,13 @@
 |--|--|--|--|
 |1.0|06/08/2021| Criação do documento | Mateus O. Patrício |
 |1.1|06/08/2021| Adição dos léxicos [L02](#lexico-prototipo), [L03](#lexico-prototipo-de-baixa-fidelidade), [L04](#lexico-prototipo-de-alta-fidelidade), [L05](#lexico-usuario) e [L06](#lexico-stakeholder) | Mateus O. Patrício |
-|1.2|06/08/2021| Adição dos léxicos [L18](#lexico-atividade), [L19](#lexico-educacao), [L12](#lexico-notificacao), [L14](#lexico-evento), [L08](#lexico-professor), [L09](#lexico-administrador) e [L13](#lexico-turma) | Enzo Gabriel |
-|1.3|06/08/2021| Adição dos léxicos [L27](#lexico-aluno), [L26](#lexico-centro-educacional),  [L01](#lexico-responsavel), [L07](#lexico-pai) e [L31](#lexico-bug)| Daniel Porto |
+|1.2|06/08/2021| Adição dos léxicos [L08](#lexico-professor), [L09](#lexico-administrador), [L12](#lexico-notificacao), [L13](#lexico-turma), [L14](#lexico-evento), [L18](#lexico-atividade) e [L19](#lexico-educacao) | Enzo Gabriel |
+|1.3|06/08/2021| Adição dos léxicos [L01](#lexico-responsavel), [L07](#lexico-pai), [L26](#lexico-centro-educacional), [L27](#lexico-aluno) e [L31](#lexico-bug)| Daniel Porto |
 |1.4|06/08/2021| Adição dos léxicos [L28](#lexico-instituicao), [L29](#lexico-mobile), [L30](#lexico-notificar) | João Pedro |
 |1.5|06/08/2021| Adição dos léxicos [L23](#lexico-baixar-relatorio), [L24](#lexico-cadastrar-turma), [L25](#lexico-lancar-presenca) | Gabriel Bonifácio |
-|1.6|06/08/2021| Adição de hiperlinks com léxicos| Daniel Porto |
-|1.7|20/08/2021| Adição do léxico [L32](#lexico-mural)| Daniel Porto |
+|1.6|06/08/2021| Adição dos léxicos [L10](#lexico-agenda), [L11](#lexico-crianca), [L15](#lexico-presenca), [L16](#lexico-anotacao), [L17](#lexico-relatorio) | Bruno Félix |
+|1.7|06/08/2021| Adição dos léxicos [L20](#lexico-autenticacao-em-duas-etapas), [L21](#lexico-desenvolvimento-full-stack), [L22](#lexico-desenvolvimento-front-end) | Nilo Mendonça |
+|1.8|06/08/2021| Adição de hiperlinks com léxicos| Daniel Porto |
+|1.9|20/08/2021| Adição do léxico [L32](#lexico-mural)| Daniel Porto |
+|2.0|28/08/2021| Incrementação da Introdução e dos Impactos dos Léxicos| Bruno Félix |
+|2.1|28/08/2021|Revisão por pares|Daniel Porto, Mateus O. Patrício | 

@@ -2,7 +2,9 @@
 
 ## Introdução
 
-&emsp;&emsp;O [protótipo](../../requisitos/modelagem/lexicos/#lexico-prototipo) é utilizado para apresentar conceitos e funcionalidades de uma forma simples, com o objetivo de criar uma representação semi realística de algo para que seja possível interagir e testar com [usuários](../../requisitos/modelagem/lexicos/#lexico-usuario) reais. A sua principal função é descobrir problemas e oportunidades de melhorias antes de começar o desenvolvimento do produto, diminuindo o esforço gasto com os mesmos no futuro. Ele deve ser desenvolvido com base nos requisitos elicitados, e depois testado para validar se funciona conforme o esperado.
+&emsp;&emsp;O [protótipo](../../requisitos/modelagem/lexicos/#lexico-prototipo) é utilizado para apresentar conceitos e funcionalidades de uma forma simples, com o objetivo de criar uma representação semi realística de algo para que seja possível interagir e testar com [usuários](../../requisitos/modelagem/lexicos/#lexico-usuario) reais. A sua principal função é descobrir problemas e oportunidades de melhorias antes de começar o desenvolvimento do produto, diminuindo o esforço gasto com os mesmos no futuro. Ele deve ser desenvolvido com base nos requisitos elicitados, e depois testado para validar se funciona conforme o esperado.<br>
+&emsp;&emsp;Segundo Sommerville (2012), “um protótipo é uma versão inicial de um sistema de software, usado para demonstrar conceitos, experimentar opções de projeto e descobrir mais sobre o problema e suas possíveis soluções.”<br>
+&emsp;&emsp;Já segundo BENYON (2011), "A utilização de protótipos é algo comum no ambiente de design e construção de software. Um protótipo é uma representação ou implementação concreta, porém parcial, do design de um sistema. É considerado a primeira e mais importante forma para envolver pessoas e clientes durante o processo de avaliação das ideias de design".
 
 ## Metodologia
 
@@ -59,7 +61,13 @@
 
 ## Bibliografia
 
-> - Vantagens da prototipação no desenvolvimento de software: https://www.treinaweb.com.br/blog/vantagens-da-prototipacao-no-desenvolvimento-de-software/. Último acesso em 04/08/2021.
+> - [Documentação do protótipo do projeto Stock](https://unbarqdsw.github.io/2020.1_G12_Stock/#/Product/Prototipos);
+> - [Documentação do protótipo do projeto SYA](https://unbarqdsw.github.io/2020.1_G11_SYA/#/prototipos/prototipo_alta);
+> - Vantagens da prototipação no desenvolvimento de software: <https://www.treinaweb.com.br/blog/vantagens-da-prototipacao-no-desenvolvimento-de-software/>. Acesso em 04 ago. 2021.
+> - SIMONE DINIZ JUNQUEIRO BARBOSA, BRUNO SANTANA DA SILVA, Interação Humano-Computador, 1a . Edição, Editora Campus, 2010.
+> - FRANCISCO, Tatiane. Baixa, média ou alta fidelidade?. [S. l.], 2019. Disponível em <https://www.dextra.com.br/blog/baixa-media-ou-alta-fidelidade-conheca-as-diferencas-entre-os-tipos-de-prototipos/#:~:text=Prot%C3%B3tipo%20de%20m%C3%A9dia%20fidelidade,com%20os%20elementos%20da%20interface.>. Acesso em: 26 ago. 2021.
+> - SOMMERVILLE, Ian. Engenharia de software. 9. ed. 2012.
+> - BENYON, D. Interação humano-computador. 2. ed. São Paulo: Pearson Prentice Hall, 2011. 442 p.
 
 ## Versionamento
 | Versão | Data | Modificação | Autor |
@@ -69,3 +77,5 @@
 |1.2|05/08/2021| Adição do fluxograma | Mateus O. Patrício |
 |1.3|06/08/2021| Adição de hiperlinks dos léxicos | Mateus O. Patrício |
 |1.4|21/08/2021| Correção dos links dos léxicos | Gabriel Bonifácio |
+| 1.5 | 26/08/2021 | Correções nos textos, referências e links com outros artefatos | Nilo Mendonça, Bruno Félix |
+|1.6|28/08/2021|Revisão por pares|Daniel Porto, Mateus O. Patrício | 
