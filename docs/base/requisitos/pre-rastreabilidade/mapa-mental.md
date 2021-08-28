@@ -13,7 +13,7 @@
 ## Metodologia
 &emsp;&emsp;Para a o desenvolvimento desse artefato, a equipe utilizou um [issue no GitHub](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/8) para debater e compartilhar as visões individuais de cada integrante da equipe. Tendo todos os participantes compartilhado as suas visões e opiniões no issue, a equipe se reuniu numa chamada para tirar dúvidas e definir a versão final que seria documentada.
 
-&emsp;&emsp;O grupo, de maneira geral, fez suas versões individuais com base nos exemplos de mapas mentais presentes no [Guia rápido para fazer mapas mentais do site Miro](https://miro.com/guides/mind-mapping/)
+&emsp;&emsp;O grupo, de maneira geral, fez suas versões individuais com base nos exemplos de mapas mentais presentes no [Guia rápido para fazer mapas mentais do site Miro](https://miro.com/guides/mind-mapping/).
 
 ### Visões individuais
 &emsp;&emsp;A seguir, tem-se as versões individuais compartilhadas pelos integrantes.
