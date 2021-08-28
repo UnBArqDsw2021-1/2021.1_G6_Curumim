@@ -324,12 +324,12 @@
 |--|--|--|--|
 |1.0|06/08/2021| Criação do documento | Mateus O. Patrício |
 |1.1|06/08/2021| Adição dos léxicos [L02](#lexico-prototipo), [L03](#lexico-prototipo-de-baixa-fidelidade), [L04](#lexico-prototipo-de-alta-fidelidade), [L05](#lexico-usuario) e [L06](#lexico-stakeholder) | Mateus O. Patrício |
-|1.2|06/08/2021| Adição dos léxicos [L18](#lexico-atividade), [L19](#lexico-educacao), [L12](#lexico-notificacao), [L14](#lexico-evento), [L08](#lexico-professor), [L09](#lexico-administrador) e [L13](#lexico-turma) | Enzo Gabriel |
-|1.3|06/08/2021| Adição dos léxicos [L27](#lexico-aluno), [L26](#lexico-centro-educacional),  [L01](#lexico-responsavel), [L07](#lexico-pai) e [L31](#lexico-bug)| Daniel Porto |
+|1.2|06/08/2021| Adição dos léxicos [L08](#lexico-professor), [L09](#lexico-administrador), [L12](#lexico-notificacao), [L13](#lexico-turma), [L14](#lexico-evento), [L18](#lexico-atividade) e [L19](#lexico-educacao) | Enzo Gabriel |
+|1.3|06/08/2021| Adição dos léxicos [L01](#lexico-responsavel), [L07](#lexico-pai), [L26](#lexico-centro-educacional), [L27](#lexico-aluno) e [L31](#lexico-bug)| Daniel Porto |
 |1.4|06/08/2021| Adição dos léxicos [L28](#lexico-instituicao), [L29](#lexico-mobile), [L30](#lexico-notificar) | João Pedro |
 |1.5|06/08/2021| Adição dos léxicos [L23](#lexico-baixar-relatorio), [L24](#lexico-cadastrar-turma), [L25](#lexico-lancar-presenca) | Gabriel Bonifácio |
 |1.6|06/08/2021| Adição dos léxicos [L10](#lexico-agenda), [L11](#lexico-crianca), [L15](#lexico-presenca), [L16](#lexico-anotacao), [L17](#lexico-relatorio) | Bruno Félix |
-|1.7|06/08/2021| Adição dos léxicos [L10](#lexico-agenda), [L11](#lexico-crianca), [L15](#lexico-presenca) | Nilo Mendonça |
+|1.7|06/08/2021| Adição dos léxicos [L20](#lexico-autenticacao-em-duas-etapas), [L21](#lexico-desenvolvimento-full-stack), [L22](#lexico-desenvolvimento-front-end) | Nilo Mendonça |
 |1.8|06/08/2021| Adição de hiperlinks com léxicos| Daniel Porto |
 |1.9|20/08/2021| Adição do léxico [L32](#lexico-mural)| Daniel Porto |
-|2.0|28/08/2021| Incrementação da Introdução e Impacto dos Léxicos| Bruno Félix |
+|2.0|28/08/2021| Incrementação da Introdução e dos Impactos dos Léxicos| Bruno Félix |
