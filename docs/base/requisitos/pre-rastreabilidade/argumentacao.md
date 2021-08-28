@@ -1,7 +1,9 @@
 # Argumentação <br> <span class="rotulo-extra">Iniciativa Extra</span>
 
 ## Introdução
-&emsp;&emsp;A argumentação pode ser caracterizada como uma forma vital da cognição humana, representando assim uma atividade de comunicação essencial para a sociedade.
+&emsp;&emsp;A argumentação pode ser caracterizada como uma forma vital da cognição humana, representando assim uma atividade de comunicação essencial para a sociedade. 
+
+&emsp;&emsp;Um artefato de engenharia de requisitos é válido em relação às partes interessadas do sistema futuro se eles concordarem com o conteúdo desse artefato. A verificação da validade relativa envolve uma discussão entre as partes interessadas e o engenheiro de requisitos(JURETA, 2009).
 
 &emsp;&emsp;Para a utilização no projeto o grupo optou pelo framework ACE, que é muito utilizado na engenharia de requisitos, sendo o objetivo deste modelo a validação e verificação relativa dos artefatos discutidos em reuniões.
 
@@ -83,3 +85,4 @@
 |0.1| 02/08/2021 | Debate entre os integrantes e geração das argumentações | Todos os integrantes |
 |1.0| 03/08/2021 | Adição da introdução, da Metodologia, dos diagramas e da bibliografia | Nilo Mendonça |
 |1.1| 21/08/2021 | Correção dos links dos léxicos | Gabriel Bonifácio |
+|1.2| 27/08/2021 | Correção dos diagramas das argumentações | Enzo Gabriel e João Pedro |

@@ -1,6 +1,7 @@
 ## Introdução
 &emsp;&emsp;O Mapa mental é uma ferramenta que busca auxiliar na visualização e sistematização das conexões e relações entre conceitos e ideias. Sendo extremamente útil na transmissão de informações, dados e conhecimentos.<br>
 &emsp;&emsp;O objetivo principal do Mapa mental é realçar as ideias centrais e mostrar as conexões existentes entre essas ideias e os objetivos secundários, que também possuem importância na construção geral da ideia proposta.<br>
+&emsp;&emsp;O Mapa Mental é muito útil para fazer rápidas sistematizações, possibilitando uma boa apropriação dos principais aspectos abordados(LCM Treinamento, 2015).
 &emsp;&emsp;O grupo buscou utilizar o recurso do Mapa mental visando obter um apanhado geral das funcionalidades que cada membro achasse interessante para a aplicação e, com isso, organizar e definir o escopo do projeto.
 
 ## Visão do grupo
@@ -11,6 +12,8 @@
 
 ## Metodologia
 &emsp;&emsp;Para a o desenvolvimento desse artefato, a equipe utilizou um [issue no GitHub](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/8) para debater e compartilhar as visões individuais de cada integrante da equipe. Tendo todos os participantes compartilhado as suas visões e opiniões no issue, a equipe se reuniu numa chamada para tirar dúvidas e definir a versão final que seria documentada.
+
+&emsp;&emsp;O grupo, de maneira geral, fez suas versões individuais com base nos exemplos de mapas mentais presentes no [Guia rápido para fazer mapas mentais do site Miro](https://miro.com/guides/mind-mapping/).
 
 ### Visões individuais
 &emsp;&emsp;A seguir, tem-se as versões individuais compartilhadas pelos integrantes.
@@ -58,6 +61,7 @@
 ## Bibliografia
 > - Videoaulas e materiais complementares presentes no moodle da disciplina Arquitetura e Desenho de Software. Disponível em <https://aprender3.unb.br/course/view.php?id=8603>. Acesso em: 27 jul. 2021.
 > - LCM TREINAMENTO. Mapa mental: pra que serve?. Disponível em <https://lcmtreinamento.com.br/mapa-mental-para-que-serve/>. Acesso em: 27 jul. 2021.
+> - MIRO. The quick guide to mind mapping. Disponível em <https://miro.com/guides/mind-mapping/>. Acesso em: 27 ago. 2021.
 
 ## Versionamento
 | Versão | Data | Modificação | Autor |
@@ -67,3 +71,4 @@
 |1.1| 28/07/2021 | Adição dos mapas mentais individuais(Bruno Alves, Daniel Porto, Edson de Araújo, Eliseu Kadesh, Enzo Gabriel, Francisco Emanoel, Gabriel Bonifácio, João Pedro e Mateus Oliveira) | Nilo Mendonça |
 |1.2| 29/07/2021 | Adição da visão final do grupo | Nilo Mendonça |
 |1.3| 01/08/2021 | Padronização e correção do documento| Daniel Porto |
+|1.4| 27/08/2021 | Adicionando citação ao texto e referências a artefatos terceiros| Enzo Gabriel e João Pedro |
