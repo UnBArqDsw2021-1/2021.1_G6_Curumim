@@ -5,12 +5,17 @@
 
 ## Metodologia
 
+&emsp;&emsp;A metodologia utilizada para planejar a avaliação foi baseada no método de prototipação em papel, pois ele avalia a usabilidade de um design de Interação Humano Computador representado em papel (Snyder, 2003). No nosso caso, ao invés de aplicaramos este método em um protótipo em papel, utilizamos o método em nosso protótipo de alta fidelidade utilizando a plataforma Usability Hub.
+
+
 | Atividade | Tarefa |
 |--|--|
 | Preparação |Definir tarefas para o participante executar<br> Definir o perfil do participante e recrutá-lo<br>Criar [protótipo de alta fidelidade](../../requisitos/modelagem/lexicos/#lexico-prototipo-de-alta-fidelidade) para executar as tarefas |
 | Coleta de dados & Interpretação | O participante deve executar as tarefas propostas interagindo com o [protótipo de alta fidelidade](../../requisitos/modelagem/lexicos/#lexico-prototipo-de-alta-fidelidade), através da plataforma [Usability Hub](https://usabilityhub.com/)<br> O avaliador deve listar os problemas encontrados<br>|
 | Consolidação dos resultados<br> | Priorizar a correção dos problemas não resolvidos e sugerir correções<br> |
 | Relato dos resultados<br> | Relatar os problemas encontrados e as sugestões de correção<br> |
+
+* Fonte: Barbosa (2021)
 
 ### Preparação
 
@@ -53,6 +58,7 @@ O [protótipo de alta fidelidade](../../requisitos/modelagem/lexicos/#lexico-pro
 
 ### Bibliografia
 > - Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021) Interação Humano-Computador e Experiência do usuário.
+> - Snyder, Carolyn (2003). Paper Prototyping: The Fast and Easy Way to Design and Refine User Interfaces. Morgan Kaufmann Publishers Inc., San Francisco, CA, USA.
 
 ## Versionamento
 | Versão | Data | Modificação | Autor |
