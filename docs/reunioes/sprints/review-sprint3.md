@@ -109,9 +109,18 @@
 - Velocidade na documentação do planning;
 - Adesão a daily.
 
+## 4. Burndown
+![Burndown Report](../../assets/imagens/sprint-review/sprint3/burndown-report.png)
+<center>[Figura 1: Burndown Report gerado pelo Zenhub](../../assets/imagens/sprint-review/sprint3/burndown-report.png)</center>
+
+## 5. Velocity
+![Velocity Tracking](../../assets/imagens/sprint-review/sprint3/velocity-tracking.png)
+<center>[Figura 2: Velocity Tracking gerado pelo Zenhub](../../assets/imagens/sprint-review/sprint3/velocity-tracking.png)</center>
+
 ## Versionamento
 | Versão | Data       | Modificação                                | Autor                |
 | :----: | ---------- | ------------------------------------------ | -------------------- |
 |  0.1   | 28/08/2021 | Revisão e Retrospectiva com os integrantes | Todos os integrantes |
 |  1.0   | 29/08/2021 | Abertura do documento | Enzo Gabriel |
 |  1.1   | 29/08/2021 | Adicionando retrospectiva | Enzo Gabriel |
+|  1.2   | 29/08/2021 | Adicionando gráficos de Burndown e Velocity | Enzo Gabriel |
