@@ -27,3 +27,4 @@
 | Versão | Data | Modificação | Autor |
 | :-: | -- | -- | -- |
 |1.0| 03/08/2021 | Adição da introduçao, da metodologia, do diagrama e da bibliografia  | Nilo Mendonça |
+|2.0| 28/08/2021 | Revisão do documento e correção do diagrama | Nilo Mendonça, Edson Soares, Eliseu Kadesh |
