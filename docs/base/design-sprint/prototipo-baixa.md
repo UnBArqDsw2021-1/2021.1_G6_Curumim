@@ -1,6 +1,6 @@
 # Protótipo de Baixa Fidelidade
 
-&emsp;&emsp;Os [protótipos de baixa fidelidade](../../requisitos/modelagem/lexicos/#lexico-prototipo-de-baixa-fidelidade) são feitos  à mão no papel. Eles visam definir a interação do [usuário](../../requisitos/modelagem/lexicos/#lexico-usuario) com a aplicação da forma mais simples o possível, e esse tipo de protótipo tem como objetivo coletar feedbacks rápidos, por isso acabam não levando em conta o refinamento do design, além disso, o pricinpal foco é a arquitetura e as funcionlidades. São utilizados para ajudar na definição do projeto e na elicitação de requisitos do produto.
+&emsp;&emsp;Os [protótipos de baixa fidelidade](../../requisitos/modelagem/lexicos/#lexico-prototipo-de-baixa-fidelidade) são feitos  à mão no papel. Eles visam definir a interação do [usuário](../../requisitos/modelagem/lexicos/#lexico-usuario) com a aplicação da forma mais simples o possível, e esse tipo de [protótipo](../../requisitos/modelagem/lexicos/#lexico-prototipo) tem como objetivo coletar feedbacks rápidos, por isso acabam não levando em conta o refinamento do design, além disso, o pricinpal foco é a arquitetura e as funcionlidades. São utilizados para ajudar na definição do projeto e na elicitação de requisitos do produto.
 
 ## Metodologia
 
@@ -89,4 +89,4 @@
 |1.2|06/08/2021| Adição de hiperlinks dos léxicos | Mateus O. Patrício |
 |1.3|21/08/2021| Correção dos links dos léxicos | Gabriel Bonifácio |
 |1.4|28/08/2021| Revisão geral do Documento | Francisco Ferreira, Gabriel Bonifácio |
-
+|1.5|28/08/2021| Revisão por pares | Enzo Gabriel e Daniel Porto |

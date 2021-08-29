@@ -64,4 +64,5 @@
 |1.2|06/08/2021| Adição de hiperlinks dos léxicos | Mateus O. Patrício |
 |1.3|21/08/2021| Correção dos links dos léxicos | Gabriel Bonifácio |
 |1.4|28/08/2021| Adição de novas informações e referências | Gabriel e Francisco |
-|1.4|28/08/2021| Atualizando o diagrama versão 2| Gabriel e Francisco |
+|1.5|28/08/2021| Atualizando o diagrama versão 2| Gabriel e Francisco |
+|1.6|28/08/2021| Revisão por pares | Enzo Gabriel e Daniel Porto |

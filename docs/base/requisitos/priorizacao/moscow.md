@@ -1,6 +1,6 @@
 ## Introdução
 
-&emsp;&emsp;O MoSCoW é uma técnica de priorização utilizada para definir a prioridade dos requisitos presentes no projeto. As classificações são dadas por Must, Should, Could e Won't, que juntas formam o acrônimo MoSCoW. Essas classificações são dadas justamente para se priorizar os requisitos, para que se possa hierarquizar o que tem uma maior necessidade e o que não tem. Entendendo as regras de priorização, fizemos essa classificação para dar início à abertura desse documento.
+&emsp;&emsp;O MoSCoW é uma técnica utilizada para definir a prioridade dos requisitos presentes no projeto. As classificações são dadas por Must, Should, Could e Won't, que juntas formam o acrônimo MoSCoW. Essas classificações são dadas, para que se possa hierarquizar o que tem uma maior necessidade e o que não tem. Entendendo as regras de priorização, fizemos essa classificação para dar início à abertura desse documento.
 
 - Must: Deve ter este requisito para atender às necessidades de negócios.
 - Should: Deve ter este requisito, se possível, mas o sucesso do projeto não depende dele.
@@ -66,3 +66,4 @@
 | 2.0    | 06/08/2021 | Finzalizando documento                            | Enzo Gabriel                                                                                                                                               |
 | 2.1    | 06/08/2021 | Adicionando léxicos ao documento                  | Enzo Gabriel                                                                                                                                               |
 | 2.2    | 28/08/2021 | Adição de informações na introdução e da priorização dos requisitos não funcionais  | Gabriel e Francisco                                                                                                                                              |
+|2.3|28/08/2021| Revisão por pares | Enzo Gabriel e Daniel Porto |
