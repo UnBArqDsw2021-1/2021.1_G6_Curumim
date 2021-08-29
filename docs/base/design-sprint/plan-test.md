@@ -68,3 +68,4 @@ O [protótipo de alta fidelidade](../../requisitos/modelagem/lexicos/#lexico-pro
 |1.2|06/08/2021| Adição de hiperlinks dos léxicos | Mateus O. Patrício |
 |1.3|21/08/2021| Correção dos links dos léxicos | Gabriel Bonifácio |
 |1.4|28/08/2021| Adição de citações e referências | Eliseu Kadesh e Edson Soares |
+|1.5|28/08/2021| Revisão por pares | Gabriel Bonifácio, Francisco Ferreira |
