@@ -92,8 +92,26 @@
 - Modelagem lógica do banco de dados.
 - Criação de issues para revisão de todos os documentos.
 
+## 3. Retrospectiva
+
+### **Pontos positivos**
+- Divisão por pares funcionou bem;
+- Dividir os revisores na planning também funcionou bem;
+- Divisões de pares feita por sorteio, o que faz com que todos os membros do grupo eventualmente interajam ao longo do projeto;
+- Membros mexeram em documentos que não tinham mexido antes, o que fez número de perspectivas do documentos;
+- Velocidade na votação do planning poker.
+
+### **Pontos negativos**
+- Integrante caiu no risco 'Durante um processo, um membro fica sem internet'.
+  
+### **Pontos a melhorar**
+- Integrantes se atentarem aos riscos para informar ao grupo caso caiam em algum;
+- Velocidade na documentação do planning;
+- Adesão a daily.
+
 ## Versionamento
 | Versão | Data       | Modificação                                | Autor                |
 | :----: | ---------- | ------------------------------------------ | -------------------- |
 |  0.1   | 28/08/2021 | Revisão e Retrospectiva com os integrantes | Todos os integrantes |
 |  1.0   | 29/08/2021 | Abertura do documento | Enzo Gabriel |
+|  1.1   | 29/08/2021 | Adicionando retrospectiva | Enzo Gabriel |
