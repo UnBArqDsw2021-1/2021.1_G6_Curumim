@@ -35,6 +35,7 @@ Depois de algumas discussões durante a construção do modelo lógico, foi obse
 | Versão | Data | Modificação | Autor |
 | :-: | -- | -- | -- |
 | 0.1 | 25/08/2021 | Discussão sobre o [MER](../modelagem-estatica/MER.md) e [DER](../modelagem-estatica/DER.md) | Edson Soares e Eliseu Kadesh |
-| 0.2 | 27/08/2021 | Desenvolvimento do diagrama lógico | Edson Soares e Eliseu Kadesh |
+| 0.2 | 27/08/2021 | Desenvolvimento do diagrama lógico   | Edson Soares e Eliseu Kadesh |
 | 0.3 | 27/08/2021 | Discussão para reajustar a modelagem | Edson Soares, Eliseu Kadesh, Daniel Porto |
-| 1.0 | 30/08/2021 | Abertura do documento | Edson Soares, Eliseu Kadesh |
+| 1.0 | 30/08/2021 | Abertura do documento          | Edson Soares, Eliseu Kadesh |
+| 1.1 | 30/08/2021 | Adição de link para o léxicos  | Eliseu Kadesh |
