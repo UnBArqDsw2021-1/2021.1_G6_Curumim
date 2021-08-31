@@ -83,14 +83,17 @@
  **Pontuação: 2**<br>
  **Status: Concluída.**<br>
 
+ ### **Issue:** [#116 Modelagem logica do banco de dados](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/6)<br>
+**Responsáveis: Eliseu Kadesh e Edson Araújo**<br>
+ **Pontuação: 5**<br>
+ **Status: Dívida.**<br>
+ 
 ### **Issue:** [#117 Revisão de documentos - Design Sprint](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/117)<br>
 **Responsáveis: Nilo Mendonça e Bruno Félix**<br>
  **Pontuação: 2**<br>
  **Status: Concluída.**<br>
-
 ### **Débitos técnicos para a Sprint 3**
 - Modelagem lógica do banco de dados.
-- Criação de issues para revisão de todos os documentos.
 
 ## 3. Retrospectiva
 
@@ -124,3 +127,4 @@
 |  1.0   | 29/08/2021 | Abertura do documento | Enzo Gabriel |
 |  1.1   | 29/08/2021 | Adicionando retrospectiva | Enzo Gabriel |
 |  1.2   | 29/08/2021 | Adicionando gráficos de Burndown e Velocity | Enzo Gabriel |
+|  1.3   | 31/08/2021 | Adicionando issue aos resultados | Enzo Gabriel |
