@@ -1,7 +1,7 @@
 # Diagrama lógico do banco de dados <br> <span class="rotulo-extra">Iniciativa Extra</span>
 
 ## Introdução
-&emsp;&emsp; O modelo lógico é o resultado ou produto da conversão de um modelo conceitual para um determinado tipo de banco de dados, ou conforme Heuser, “Um modelo lógico é uma descrição de um banco de dados no nível de abstração visto pelo usuário do sistema gerenciador."
+&emsp;&emsp; O modelo lógico é o resultado ou produto da conversão de um modelo conceitual para um determinado tipo de banco de dados, ou conforme Heuser, “Um modelo lógico é uma descrição de um banco de dados no nível de abstração visto pelo [usuário](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-usuario) do sistema gerenciador."
 
 ## Metodologia
 &emsp;&emsp;Primeiramente foi realizada a revisão dos artefatos [MER](../modelagem-estatica/MER.md) e [DER](../modelagem-estatica/DER.md) que foram previamente desenvolvidos, pois estes documentos são utilizados como base para os demais processos de modelagem do banco de dados.
@@ -22,7 +22,7 @@ Depois de algumas discussões durante a construção do modelo lógico, foi obse
 
 
 #### **Observações**:<br>
-- As tabelas Adm, Teacher e Guardian, cada uma possuem uma chave primária que também é uma chave estrangeira que faz referência a tabela User, que será a tabela que possui de fato as informações pessoais de cada tipo de usuário, e um identificar de qual tipo é aquele usuário.
+- As tabelas Adm, Teacher e Guardian, cada uma possuem uma chave primária que também é uma chave estrangeira que faz referência a tabela User, que será a tabela que possui de fato as informações pessoais de cada tipo de [usuário](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-usuario), e um identificar de qual tipo é aquele usuário.
 - A cardinalidade (1:1) da relação entre a tabela User e as demais relacionadas a ela, evidenciam que deveria ser feito a união de tabelas, da tabela User com as das demais tabelas relacionadas a ela, porém para este caso em específico, as tabelas vão “herdar” os atributos da tabela User, por isso a cardinalidade (1:1).
 
 
