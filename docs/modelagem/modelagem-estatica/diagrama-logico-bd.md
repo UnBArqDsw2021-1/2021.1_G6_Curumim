@@ -19,11 +19,9 @@ Depois de algumas discussões durante a construção do modelo lógico, foi obse
 - Chave preta: Chave primária
 - Chave verde: Chave estrangeira
 
-
-
 #### **Observações**:<br>
-- As tabelas Adm, Teacher e Guardian, cada uma possuem uma chave primária que também é uma chave estrangeira que faz referência a tabela User, que será a tabela que possui de fato as informações pessoais de cada tipo de [usuário](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-usuario), e um identificar de qual tipo é aquele usuário.
-- A cardinalidade (1:1) da relação entre a tabela User e as demais relacionadas a ela, evidenciam que deveria ser feito a união de tabelas, da tabela User com as das demais tabelas relacionadas a ela, porém para este caso em específico, as tabelas vão “herdar” os atributos da tabela User, por isso a cardinalidade (1:1).
+- As tabelas [Adm](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-administrador), [Teacher](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-professor) e [Guardian](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-responsavel), cada uma possuem uma chave primária que também é uma chave estrangeira que faz referência a tabela [User](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-usuario), que será a tabela que possui de fato as informações pessoais de cada tipo de [usuário](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-usuario), e um identificar de qual tipo é aquele [usuário](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-usuario).
+- A cardinalidade (1:1) da relação entre a tabela User e as demais relacionadas a ela, evidenciam que deveria ser feito a união de tabelas, da tabela [User](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-usuario) com as das demais tabelas relacionadas a ela, porém para este caso em específico, as tabelas vão “herdar” os atributos da tabela [User](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-usuario), por isso a cardinalidade (1:1).
 
 
 ## Bibliografia
