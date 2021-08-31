@@ -1,10 +1,10 @@
 # Product Backlog
 ## Introdução
-&emsp;&emsp;Da perspectiva das metodologias ágeis, principalmente o SCRUM, o backlog do produto se trata de um conjunto de requisições do cliente e de pendências que serão implementadas no produto pela equipe de desenvolvimento. Os itens que compõem o backlog geralmente são as histórioas de usuário, mas esse artefato pode conter qualquer requisição do cliente e pode estar organizado de forma a possuir muitos graus de granularidade sempre com o objetivo de facilitar e promover entregas e iterações de qualidade.
+&emsp;&emsp;Da perspectiva das metodologias ágeis, principalmente o SCRUM, o backlog do produto se trata de um conjunto de requisições do cliente e de pendências que serão implementadas no produto pela equipe de desenvolvimento. Os itens que compõem o backlog geralmente são as histórias de usuário, mas esse artefato pode conter qualquer requisição do cliente e pode estar organizado de forma a possuir muitos graus de granularidade sempre com o objetivo de facilitar e promover entregas e iterações de qualidade.
 
 ## Metodologia
 &emsp;&emsp;O presente artefato foi desenvolvido ao final da [design sprint](./base/design-sprint/doc-design-sprint.md) e ajustado mais tarde na etapa de modelagem de forma a ser um compilado detalhado e bem especificado de tudo o que foi levantado para o desenvolvimento do projeto.<br>
-&emsp;&emsp;Dessa forma, foram analizados os artefatos até então produzidos e definidos os itens que estão presentes em três níveis de granularidade (épicos, features e histórias de usuário), sempre levando em consideração as prioridades e a restreabilidade.
+&emsp;&emsp;Dessa forma, foram analizados os artefatos até então produzidos e definidos os itens que estão presentes em três níveis de granularidade (épicos, features e histórias de usuário), sempre levando em consideração as prioridades e a rastreabilidade.
 
 ## 1. Épicos
 &emsp;&emsp;Um épico determina um conjunto de features que precisam ser desenvolvidas e tem o objetivo de realizar um Tema o qual seria um grau de granularidade superior que englobaria um conjunto de épicos<br>
@@ -69,7 +69,7 @@
 | **FT07** | <span id="US24">**US24**</span> | Eu, como [responsável](../base/requisitos/modelagem/lexicos/#lexico-responsavel), desejo receber [relatórios](../base/requisitos/modelagem/../base/requisitos/elicitacao/brainstorming/#rflexicos/#lexico-relatorio) esporádicos sobre tudo produzido pela minha [criança](../base/requisitos/modelagem/lexicos/#lexico-crianca) |
 
 ## 4. Backlog Completo
-&emsp;&emsp;Tendo todos os graus de granulidade definidos, pode-se montar uma tabela completa relacionando todos os elementos do backlog do produto e levando em consideração a rastreabilidade e a prioridade das histórias de usuário.<br>
+&emsp;&emsp;Tendo todos os graus de granularidade definidos, pode-se montar uma tabela completa relacionando todos os elementos do backlog do produto e levando em consideração a rastreabilidade e a prioridade das histórias de usuário.<br>
 &emsp;&emsp;Além disso, a equipe pontuou o grau de complexidade de implementação das histórias de usuário. A planilha com as pontuações individuais de cada participante pode ser acessada por [**aqui**](https://docs.google.com/spreadsheets/d/1ZGcBePhuaT0mwSivQk2BfF0m0w5ZzpPYWWVLPaImfVI/edit?usp=sharing). Foi utilizada a escala de [Fibonacci](https://en.wikipedia.org/wiki/Fibonacci_scale_(agile)), onde 1 equivale ao menor grau de complexidade e 21 ao maior.<br>
 &emsp;&emsp;Segue a tabela completa.
 
@@ -119,7 +119,7 @@
 | 14/08/2021 | 1.4 | Entrega 2 - Inserção do MoSCoW | Bruno Félix |
 | 18/08/2021 | 1.5 | Entrega 2 - Retirada Tag Iniciativa Extra | Bruno Félix |
 | 21/08/2021 | 1.6 | Correção dos links dos léxicos | Gabriel Bonifácio |
-| 25/08/2021 | 1.7 | Adição da navegabilidade na raestreabilidade | Daniel Porto |
+| 25/08/2021 | 1.7 | Adição da navegabilidade na rastreabilidade | Daniel Porto |
 | 27/08/2021 | 2.0 | Adição da introdução, metodologia, bibliografia e maiores explicações sobre os itens | Daniel Porto |
 | 28/08/2021 | 2.1 | Revisão por pares | Edson Soares, Eliseu Kadesh|
 | 31/08/2021 | 2.2 | Adição da pontuação das histórias de usuário| Daniel Porto|
