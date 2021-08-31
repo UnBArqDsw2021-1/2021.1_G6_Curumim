@@ -39,3 +39,4 @@ Depois de algumas discussões durante a construção do modelo lógico, foi obse
 | 0.3 | 27/08/2021 | Discussão para reajustar a modelagem | Edson Soares, Eliseu Kadesh, Daniel Porto |
 | 1.0 | 30/08/2021 | Abertura do documento          | Edson Soares, Eliseu Kadesh |
 | 1.1 | 30/08/2021 | Adição de link para o léxicos  | Eliseu Kadesh |
+| 1.2 | 30/08/2021| Revisão por pares | Gabriel Bonifácio, Francisco Ferreira |
