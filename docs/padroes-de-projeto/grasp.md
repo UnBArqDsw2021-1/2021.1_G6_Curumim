@@ -16,6 +16,11 @@ Padrões GRASP são uma ajuda na hora de entender como desenhar um software orie
 
 ## Alta Coesão
 
+&emsp;&emsp;No projeto de software, uma qualidade básica conhecida como coesão mede informalmente como funcionalidades relacionam as operações de um elemento de software e também mede quanto trabalho um elemento de software está realizando(LARMAN, 2004). A Alta coesão é atribuir de forma coerente as responsabilidades de cada classe. Para manter a alta coesão é importante escolher uma arquitetura adequada para o seu produto e fazer uso do boas práticas de software.
+ 
+&emsp;&emsp;Em termos de design de objeto, coesão (ou mais especificamente, coesão funcional) é uma medida de quão fortemente relacionadas e focadas as responsabilidades de um elemento estão. Um elemento com responsabilidades altamente relacionadas que não faz uma tremenda grande quantidade de trabalho tem alta coesão. Esses elementos incluem classes, subsistemas e assim por diante (LARMAN, 2004).
+
+&emsp;&emsp;O padrão de Alta Coesão para ser aplicado possui uma dependência direta com a aplicação do padrão de [Baixo acoplamento](#baixo-acoplamento). 
 
 ## Baixo Acoplamento
 
