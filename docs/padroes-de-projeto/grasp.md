@@ -39,6 +39,10 @@ Com o objetivo de fortalecer a [alta coesão](#alta-coesao) e o [baixo acoplamen
 
 ## Indireção
 
+&emsp;&emsp;Esse padrão se configura por atribuir responsabilidades de mediador a classes intermediárias entre outros componentes, objetos ou serviços com objetivo, também, de contribuir com a [alta coesão](#alta-coesao) e o [baixo acoplamento](#baixo-acoplamento).<br>
+&emsp;&emsp;**Camada Controller:** A indireção pode ser observada ao longo de todo o projeto simplesmente pela utilização da arquitetura **MVC**, visto que as classes contidas na camada de **controller** servem como mediadoras entre as camadas **view** e **model**. As classes controllers estão contidas nesse [diretório]().<br>
+&emsp;&emsp;**Middlewares:** Além disso, o nosso projeto utilizará middlewares que são classes utilizadas internamente na api, pelos controllers na execução das regras de negócio, de forma a desacoplar métodos e rotinas estratégicas. Os middlewares do projeto estão contidos nesse [diretório]().
+
 ## Variações protegidas
 
 
@@ -49,9 +53,13 @@ Com o objetivo de fortalecer a [alta coesão](#alta-coesao) e o [baixo acoplamen
 ## Bibliografia
 
 > - LARMAN, Craig. <b>Utilizando UML e Padrões</b>: Uma introdução à análise e ao projeto orientados a objetos e ao desenvolvimento iterativo. 3. ed. [S. l.: s. n.], 2004.
+> - Videoaulas e materiais complementares presentes no moodle da disciplina Arquitetura e Desenho de Software. Disponível em <https://aprender3.unb.br/course/view.php?id=8603>. Acesso em: 27 jul. 2021.
+> - Canal Vertice digital. Analise e Orientação a Objetos - Princípios do GRASP - Indirection ou Indireção. YouTube. Disponível em <https://www.youtube.com/watch?v=zPlAYo2E92o>. Acesso em: 02 set. 2021.
+> - Canal Vertice digital. Analise e Orientação a Objetos - Princípios do GRASP - Pure Fabrication ou Invenção Pura. Disponível em <https://www.youtube.com/watch?v=4CteZ9144bw>. Acesso em: 02 set. 2021.
 
 
 ## Versionamento
 | Versão | Data | Modificação | Autor |
 |--|--|--|--|
 |1.0|01/09/2021| Abertura do documento | Mateus O. Patrício |
+|1.1|02/09/2021| Adição da invenção pura e indireção | Bruno Felix, Daniel Porto |
