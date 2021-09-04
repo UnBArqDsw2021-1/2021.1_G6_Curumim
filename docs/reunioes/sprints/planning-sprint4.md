@@ -15,7 +15,7 @@ A [Sprint 4](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/milestone/6) t
 - Cada dupla desenvolver a documentação dos [GRASPs](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/131) que ficaram responsáveis.<br>
 - Configurar [banco de dados](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim_Back-end/issues/4), [pacotes](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim_Back-end/issues/3), desenvolver a [autenticação](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim_Back-end/issues/5) e a [modelagem lógica do banco de dados](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/116).<br>
 - Marcar reunião com o pessoal responsável do front-end.<br>
-- Fazer a pontuação das [histórias do usuário](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/127)<br>
+- Fazer a pontuação das [histórias do usuário](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/127).<br>
 
 ## 3. Sprint Backlog
 Issues adicionadas: 
