@@ -44,3 +44,4 @@ Padrões GRASP são uma ajuda na hora de entender como desenhar um software orie
 | Versão | Data | Modificação | Autor |
 |--|--|--|--|
 |1.0|01/09/2021| Abertura do documento | Mateus O. Patrício |
+|1.1|03/09/2021| Adicionando tópico Alta coesão | João Pedro e Francisco |
