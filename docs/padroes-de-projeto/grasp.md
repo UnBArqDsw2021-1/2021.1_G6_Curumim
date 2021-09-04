@@ -16,11 +16,11 @@ Padrões GRASP são uma ajuda na hora de entender como desenhar um software orie
 
 ## Alta Coesão
 
-&emsp;&emsp;No projeto de software, uma qualidade básica conhecida como coesão mede informalmente como funcionalidades relacionam as operações de um elemento de software e também mede quanto trabalho um elemento de software está realizando(LARMAN, 2004). A Alta coesão é atribuir de forma coerente as responsabilidades de cada classe. Para manter a alta coesão é importante escolher uma arquitetura adequada para o seu produto e fazer uso do boas práticas de software.
+&emsp;&emsp;No projeto de software, uma qualidade básica conhecida como coesão mede informalmente como funcionalidades relacionam as operações de um elemento de software e também mede quanto trabalho um elemento de software está realizando (LARMAN, 2004). A alta coesão é garantida quando atribui-se, de forma coerente, as responsabilidades de cada classe. Para manter a alta coesão é importante escolher uma arquitetura adequada para o seu produto e fazer uso do boas práticas de software.
  
-&emsp;&emsp;Em termos de design de objeto, coesão (ou mais especificamente, coesão funcional) é uma medida de quão fortemente relacionadas e focadas as responsabilidades de um elemento estão. Um elemento com responsabilidades altamente relacionadas que não faz uma tremenda grande quantidade de trabalho tem alta coesão. Esses elementos incluem classes, subsistemas e assim por diante (LARMAN, 2004).
+&emsp;&emsp;Em termos de design de objeto, coesão (ou mais especificamente, coesão funcional) é uma medida de quão fortemente relacionadas e focadas as responsabilidades de um elemento estão. Um elemento com responsabilidades altamente relacionadas que não faz uma grande quantidade de trabalho tem alta coesão. Esses elementos incluem classes, subsistemas e assim por diante (LARMAN, 2004).
 
-&emsp;&emsp;O padrão de Alta Coesão para ser aplicado possui uma dependência direta com a aplicação do padrão de [Baixo acoplamento](#baixo-acoplamento). 
+&emsp;&emsp;O padrão de Alta Coesão para ser aplicado possui uma dependência direta com a aplicação do padrão de [Baixo acoplamento](#baixo-acoplamento). Visto que estamos utilizando a arquitetura MVC como padrão, garantimos a alta coesão e que cada classe possua seus métodos e procedimentos específicos, facilitando a compreensão, o reuso e a manutenção, caso necessário.
 
 ## Baixo Acoplamento
 
