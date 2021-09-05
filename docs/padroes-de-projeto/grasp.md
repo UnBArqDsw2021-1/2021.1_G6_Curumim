@@ -53,7 +53,7 @@ Com o objetivo de fortalecer a [alta coesão](#alta-coesao) e o [baixo acoplamen
 &emsp;&emsp;**Middlewares:** Além disso, o nosso projeto utilizará middlewares que são classes utilizadas internamente na api, pelos controllers na execução das regras de negócio, de forma a desacoplar métodos e rotinas estratégicas. Os middlewares do projeto estão contidos nesse [diretório]().
 
 ## Variações protegidas
-
+&emsp;&emsp;O padrão Variações protegidas se caracteriza por tentar manter possível o isolamento de componentes, sem fazer comunicações desnecessárias, buscando eliminar impactos indesejáveis de elementos em outros elementos. Portanto aqui, nós buscamos identificar pontos de variação ou instabilidade previsíveis e atribuir responsabilidades para criar uma interface estável em torno deles.
 
 ## Polimorfismo
 
@@ -66,11 +66,11 @@ Com o objetivo de fortalecer a [alta coesão](#alta-coesao) e o [baixo acoplamen
 > - Canal Vertice digital. Analise e Orientação a Objetos - Princípios do GRASP - Indirection ou Indireção. YouTube. Disponível em <https://www.youtube.com/watch?v=zPlAYo2E92o>. Acesso em: 02 set. 2021.
 > - Canal Vertice digital. Analise e Orientação a Objetos - Princípios do GRASP - Pure Fabrication ou Invenção Pura. Disponível em <https://www.youtube.com/watch?v=4CteZ9144bw>. Acesso em: 02 set. 2021.
 > - Canal Vertice digital. Analise e Orientação a Objetos - Princípios do GRASP - Controller ou Controlador. Disponível em <https://www.youtube.com/watch?v=CbB5Oy8eBzc>. Acesso em: 04 set. 2021.
-
+> - Canal Vertice digital. Analise e Orientação a Objetos - Princípios do GRASP - Protected Variations ou Variações Protegidas. Disponível em <https://www.youtube.com/watch?v=AClwrkpYEG0>. Acesso em: 04 set. 2021.
 
 ## Versionamento
 | Versão | Data | Modificação | Autor |
 |--|--|--|--|
 |1.0|01/09/2021| Abertura do documento | Mateus O. Patrício |
 |1.1|02/09/2021| Adição da invenção pura e indireção | Bruno Felix, Daniel Porto |
-|1.2|04/09/2021| Adição da controlador e variações protegidas | Enzo Gabriel e Edson Araújo |
+|1.7|04/09/2021| Adição da controlador e variações protegidas | Enzo Gabriel e Edson Araújo |
