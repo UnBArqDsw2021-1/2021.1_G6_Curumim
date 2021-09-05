@@ -10,6 +10,15 @@
 
 ## Controlador
 
+&emsp;&emsp;O controlador funciona quase que como um mediador entre a interface de usuário e o sistema desenvolvido. Ele tem a responsabilidade de coordenar todas as operações solicitadas pelo usuário e verificar quem são os responsáveis por tais tarefas. No controlador, não há regras de negócio, sendo sua única tarefa portanto, delegar e distribui as atividades do sistema.<br>
+&emsp;&emsp;No nosso [diagrama de classes](../../modelagem/modelagem-estatica/diagrama-de-classes) podemos observar, que haverão alguns controladores dentro da aplicação. Como exemplo, temos:
+
+- **UserController:**
+
+![User Controller](../assets/imagens/GRASPs/user_controller.png)
+<center>[Figura 1: Classe authController](../assets/imagens/GRASPs/user_controller.png)</center>
+
+&emsp;&emsp;A classe **UserController** basicamente lida com tudo que pode envolver os usuários e distribui suas atividades para os devidos responsáveis.
 
 ## Invenção pura
 &emsp;&emsp;O conceito de invenção pura aborda a utilização de soluções que não necessariamente se encaixem em algum padrão de projeto.
@@ -56,6 +65,7 @@ Com o objetivo de fortalecer a [alta coesão](#alta-coesao) e o [baixo acoplamen
 > - Videoaulas e materiais complementares presentes no moodle da disciplina Arquitetura e Desenho de Software. Disponível em <https://aprender3.unb.br/course/view.php?id=8603>. Acesso em: 27 jul. 2021.
 > - Canal Vertice digital. Analise e Orientação a Objetos - Princípios do GRASP - Indirection ou Indireção. YouTube. Disponível em <https://www.youtube.com/watch?v=zPlAYo2E92o>. Acesso em: 02 set. 2021.
 > - Canal Vertice digital. Analise e Orientação a Objetos - Princípios do GRASP - Pure Fabrication ou Invenção Pura. Disponível em <https://www.youtube.com/watch?v=4CteZ9144bw>. Acesso em: 02 set. 2021.
+> - Canal Vertice digital. Analise e Orientação a Objetos - Princípios do GRASP - Controller ou Controlador. Disponível em <https://www.youtube.com/watch?v=CbB5Oy8eBzc>. Acesso em: 04 set. 2021.
 
 
 ## Versionamento
@@ -63,3 +73,4 @@ Com o objetivo de fortalecer a [alta coesão](#alta-coesao) e o [baixo acoplamen
 |--|--|--|--|
 |1.0|01/09/2021| Abertura do documento | Mateus O. Patrício |
 |1.1|02/09/2021| Adição da invenção pura e indireção | Bruno Felix, Daniel Porto |
+|1.2|04/09/2021| Adição da controlador e variações protegidas | Enzo Gabriel e Edson Araújo |
