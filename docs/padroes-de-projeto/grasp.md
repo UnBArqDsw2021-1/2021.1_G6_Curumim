@@ -24,6 +24,20 @@ Padrões GRASP são uma ajuda na hora de entender como desenhar um software orie
 
 ## Baixo Acoplamento
 
+&emsp;&emsp;Um dos grandes problemas relacionado ao planejamento de um grande projeto está atrelado a seguinte pergunta, "Como criar uma aplicação com baixa dependência, baixo impacto de mudança e maior reutilização?", pensado nisso, a literatura aborta o tema sobre design patterns, mais exatamente sobre os padrões GRASP.
+
+&emsp;&emsp;Antes de falamos de [baixo acoplamento](#baixo-acoplamento), primeiro vamos falar de acoplamento, oque é acoplamento? É uma forma medir o quão um elemento está conectado a outro elemento, tem conhecimento de outros elementos, ou depende de outros elementos. Depois de conhecer  oque é acoplamento fica mais fácil descrever oque é um [baixo acoplamento](#baixo-acoplamento). Um elemento com [baixo acoplamento](#baixo-acoplamento) não depende de muitos outros elementos, somente o necessário, esses elementos incluem classes, subsistemas, sistemas e assim por diante.
+
+&emsp;&emsp;Para deixa o contexto mais rico iremos falar sobre alto acoplamento, no  caso seria um elemento que depende de muitos outros elementos, assim acarretando alguns problemas já conhecido sobre pela literatura.
+   
+* Mudanças nos elementos forçadamente devido a mudanças nos elementos relacionados.
+* Dificuldades em entender os elementos isoladamentes.
+* Dificuldades em reutilizar elementos, porque seu uso requer o uso adicional de outros elementos.
+
+&emsp;&emsp;Para responder à pergunta feita no início desse tópico, achamos a seguinte resposta, "Tenta balancear a atribuição de responsabilidade e dependência entre os elementos, para que tenha um [baixo acoplamento](#baixo-acoplamento).
+
+&emsp;&emsp;Pensado nisso a maioria das nossas decisões para nossa aplicação, foram munidas com esses princípios dita pela literatura, assim conseguimos chegar em um objetivo limpo e claro, norteado pelo grasp.
+
 
 ## Indireção
 
@@ -44,4 +58,5 @@ Padrões GRASP são uma ajuda na hora de entender como desenhar um software orie
 | Versão | Data | Modificação | Autor |
 |--|--|--|--|
 |1.0|01/09/2021| Abertura do documento | Mateus O. Patrício |
-|1.1|03/09/2021| Adicionando tópico Alta coesão | João Pedro e Francisco |
+|1.1|03/09/2021| Adicionando tópico Alta coesão | João Pedro e Francisco Ferreira |
+|1.2|04/09/2021| Adicionando tópico de baixo acoplamento | Francisco Ferreira e João Pedro |
