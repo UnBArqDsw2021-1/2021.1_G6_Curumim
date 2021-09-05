@@ -1,6 +1,4 @@
-# Sprint 2 <br> <span class="rotulo-extra">Iniciativa Extra</span>
-
-## Planejamento 
+# Planejamento Sprint 2 <br> <span class="rotulo-extra">Iniciativa Extra</span>
 
 ## 1. Visão Geral
 **Número da Sprint:** 2;<br>
