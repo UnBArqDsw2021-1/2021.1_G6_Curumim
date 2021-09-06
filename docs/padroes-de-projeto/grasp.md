@@ -26,17 +26,17 @@ Padrões GRASP são uma ajuda na hora de entender como desenhar um software orie
 
 &emsp;&emsp;Um dos grandes problemas relacionado ao planejamento de um grande projeto está atrelado a seguinte pergunta, "Como criar uma aplicação com baixa dependência, baixo impacto de mudança e maior reutilização?", pensado nisso, a literatura aborta o tema sobre design patterns, mais exatamente sobre os padrões GRASP.
 
-&emsp;&emsp;Antes de falamos de [baixo acoplamento](#baixo-acoplamento), primeiro vamos falar de acoplamento, oque é acoplamento? É uma forma medir o quão um elemento está conectado a outro elemento, tem conhecimento de outros elementos, ou depende de outros elementos. Depois de conhecer  oque é acoplamento fica mais fácil descrever oque é um [baixo acoplamento](#baixo-acoplamento). Um elemento com [baixo acoplamento](#baixo-acoplamento) não depende de muitos outros elementos, somente o necessário, esses elementos incluem classes, subsistemas, sistemas e assim por diante.
+&emsp;&emsp;Antes de falamos de [baixo acoplamento](#baixo-acoplamento), primeiro vamos falar de acoplamento, é uma forma medir o quão um elemento está conectado a outro elemento, tem conhecimento de outros elementos, ou depende de outros elementos. Depois de conhecer  oque é acoplamento fica mais fácil descrever oque é um [baixo acoplamento](#baixo-acoplamento), é um elemento que não depende de muitos outros elementos, somente o necessário, esses elementos incluem classes, subsistemas, sistemas e assim por diante.
 
-&emsp;&emsp;Para deixa o contexto mais rico iremos falar sobre alto acoplamento, no  caso seria um elemento que depende de muitos outros elementos, assim acarretando alguns problemas já conhecido sobre pela literatura.
+&emsp;&emsp;Para deixa o contexto mais rico iremos falar sobre alto acoplamento, no  caso seria um elemento que depende de muitos outros elementos, assim acarretando alguns problemas já conhecido pela literatura.
    
 * Mudanças nos elementos forçadamente devido a mudanças nos elementos relacionados.
-* Dificuldades em entender os elementos isoladamentes.
+* Dificuldades em entender os elementos isoladamente.
 * Dificuldades em reutilizar elementos, porque seu uso requer o uso adicional de outros elementos.
 
-&emsp;&emsp;Para responder à pergunta feita no início desse tópico, achamos a seguinte resposta, "Tenta balancear a atribuição de responsabilidade e dependência entre os elementos, para que tenha um [baixo acoplamento](#baixo-acoplamento).
+&emsp;&emsp;Para responder a pergunta feita no início desse tópico, achamos a seguinte resposta, "Tentar balancear a atribuição de responsabilidade e dependência entre os elementos, para que tenham um [baixo acoplamento](#baixo-acoplamento)".
 
-&emsp;&emsp;Pensado nisso a maioria das nossas decisões para nossa aplicação, foram munidas com esses princípios dita pela literatura, assim conseguimos chegar em um objetivo limpo e claro, norteado pelo grasp.
+&emsp;&emsp;Pensado nisso a maioria das nossas decisões para nossa aplicação, foram munidas com esses princípios dita pela literatura, assim conseguimos chegar em um objetivo limpo e claro, norteado pelo GRASP.
 
 
 ## Indireção
