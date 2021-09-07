@@ -1,6 +1,4 @@
-# Sprint 2 <br> <span class="rotulo-extra">Iniciativa Extra</span>
-
-## Planejamento 
+# Planejamento Sprint 2 <br> <span class="rotulo-extra">Iniciativa Extra</span>
 
 ## 1. Visão Geral
 **Número da Sprint:** 2;<br>
@@ -23,7 +21,7 @@ Issues adicionadas:
 
 
 1. **Issue:** [#53 Revisar e corrigir os hiperlinks para os léxicos](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/53)<br>
-**Responsáveis:** Gabriel Bonifácil<br>
+**Responsáveis:** Gabriel Bonifácio<br>
 
 2. **Issue:** [#54 Diagrama de Classes](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/54)<br>
 **Responsáveis:** Daniel Porto e Eliseu Kadesh<br>
@@ -44,7 +42,7 @@ Issues adicionadas:
 **Responsáveis:** Bruno Felix<br>
 
 8. **Issue:** [#80 Diagrama de comunicação](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/80)<br>
-**Responsáveis:** Daniel Porto, João Pedro Eliseu Kadesh<br>
+**Responsáveis:** Daniel Porto, João Pedro e Eliseu Kadesh<br>
 
 9. **Issue:** [#81 Modelagem do banco de dados](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/81)<br>
 **Responsáveis:** Daniel Porto e Francisco Ferreira<br>

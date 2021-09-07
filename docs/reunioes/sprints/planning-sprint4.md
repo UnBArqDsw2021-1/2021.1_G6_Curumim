@@ -1,6 +1,4 @@
-# Sprint 4 <br> <span class="rotulo-extra">Iniciativa Extra</span>
-
-## Planejamento 
+# Planejamento Sprint 4 <br> <span class="rotulo-extra">Iniciativa Extra</span>
 
 ## 1. Visão Geral
 **Número da Sprint:** 4;<br>
@@ -20,9 +18,9 @@ A [Sprint 4](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/milestone/6) t
 ## 3. Sprint Backlog
 Issues adicionadas: 
 
-### 3.1 [Repositório Geral](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim)
+### 3.1 [Repositório de Documentação](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim)
 
-1. **Issue:** [#116 Modelagem logica do banco de dados](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/116)<br> 
+1. **Issue:** [#116 Modelagem lógica do banco de dados](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/116)<br> 
 **Responsáveis:** Edson Araújo e Eliseu Kadesh<br> 
 
 2. **Issue:** [#127 Pontuar as histórias de usuário](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/127)<br> 
@@ -41,6 +39,3 @@ Issues adicionadas:
 
 6. **Issue:** [#5 Implementar o sistema de autenticação](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim_Back-end/issues/5)<br> 
 **Responsáveis:** Edson Araújo e Mateus Oliveira<br>
-
-
-
