@@ -16,7 +16,7 @@
 - **UserController:**
 
 ![User Controller](../assets/imagens/GRASPs/user_controller.png)
-<center>[Figura 1: Classe authController](../assets/imagens/GRASPs/user_controller.png)</center>
+<center>[Figura 1: Classe User Controllerr](../assets/imagens/GRASPs/user_controller.png)</center>
 
 &emsp;&emsp;A classe **UserController** basicamente lida com tudo que pode envolver os [usuários](../../base/requisitos/modelagem/lexicos/#lexico-usuario) e distribui suas atividades para os devidos responsáveis.
 
@@ -25,12 +25,12 @@
 Com o objetivo de fortalecer a [alta coesão](#alta-coesao) e o [baixo acoplamento](#baixo-acoplamento), basicamente esse padrão consiste em atribuir um conjunto bem definido de responsabilidades para classes artificiais que não se encontram fundamentalmente no domínio do escopo do projeto.<br>
 &emsp;&emsp;Com base no [diagrama de classes](../../modelagem/modelagem-estatica/diagrama-de-classes) desenvolvido, esse padrão foi aplicado ao modelar as seguintes classes:
 
-- **Authenticantion Controller:**
+- **Authentication Controller:**
 
 &emsp;&emsp;A classe **authController** foi modelada para conter a responsabilidade de aplicar toda as regras de autenticação do sistema. Basicamente todas as requisições do [usuário](../../base/requisitos/modelagem/lexicos/#lexico-usuario) serão direcionadas às [rotas](), as quais inicialmente invocarão os métodos da **authController**, para, somente se autorizado pelos mesmos, continuar para a aplicação das regras de negócio inicialmente requisitadas e, finalmente, retornar uma resposta para a camada de view.
 
-![Authenticantion Controller](../assets/imagens/GRASPs/invencao_auth.png)
-<center>[Figura 1: Classe authController](../assets/imagens/GRASPs/invencao_auth.png)</center>
+![Authentication Controller](../assets/imagens/GRASPs/invencao_auth.png)
+<center>[Figura 2: Classe authController](../assets/imagens/GRASPs/invencao_auth.png)</center>
 
 - **Board:**
 
@@ -38,7 +38,7 @@ Com o objetivo de fortalecer a [alta coesão](#alta-coesao) e o [baixo acoplamen
 &emsp;&emsp;Tais funcionalidades estão especificadas na [US06](../../product-backlog/#US06) e podem ser melhor visualizadas no [prótipo de alta fidelidade](../../base/design-sprint/prototipo-alta/#prototipo-produzido).
 
 ![Board](../assets/imagens/GRASPs/invencao_board.png)
-<center>[Figura 2: Classe Board](../assets/imagens/GRASPs/invencao_board.png)</center>
+<center>[Figura 3: Classe Board](../assets/imagens/GRASPs/invencao_board.png)</center>
 
 ## Alta Coesão
 
@@ -72,5 +72,5 @@ Com o objetivo de fortalecer a [alta coesão](#alta-coesao) e o [baixo acoplamen
 | Versão | Data | Modificação | Autor |
 |--|--|--|--|
 |1.0|01/09/2021| Abertura do documento | Mateus O. Patrício |
-|1.1|02/09/2021| Adição da invenção pura e indireção | Bruno Felix, Daniel Porto |
+|1.1|02/09/2021| Adição da invenção pura e indireção | Bruno Felix e Daniel Porto |
 |1.7|04/09/2021| Adição da controlador e variações protegidas | Enzo Gabriel e Edson Araújo |
