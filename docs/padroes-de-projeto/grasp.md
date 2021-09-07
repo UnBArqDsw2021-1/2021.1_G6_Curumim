@@ -10,7 +10,7 @@
 
 ## Controlador
 
-&emsp;&emsp;O controlador funciona quase que como um mediador entre a interface de usuário e o sistema desenvolvido. Ele tem a responsabilidade de coordenar todas as operações solicitadas pelo usuário e verificar quem são os responsáveis por tais tarefas. No controlador, não há regras de negócio, sendo sua única tarefa portanto, delegar e distribui as atividades do sistema.<br>
+&emsp;&emsp;O controlador funciona quase que como um mediador entre a interface de [usuário](../../base/requisitos/modelagem/lexicos/#lexico-usuario) e o sistema desenvolvido. Ele tem a responsabilidade de coordenar todas as operações solicitadas pelo usuário e verificar quem são os responsáveis por tais tarefas. No controlador, não há regras de negócio, sendo sua única tarefa portanto, delegar e distribui as atividades do sistema.<br>
 &emsp;&emsp;No nosso [diagrama de classes](../../modelagem/modelagem-estatica/diagrama-de-classes) podemos observar, que haverão alguns controladores dentro da aplicação. Como exemplo, temos:
 
 - **UserController:**
@@ -18,7 +18,7 @@
 ![User Controller](../assets/imagens/GRASPs/user_controller.png)
 <center>[Figura 1: Classe authController](../assets/imagens/GRASPs/user_controller.png)</center>
 
-&emsp;&emsp;A classe **UserController** basicamente lida com tudo que pode envolver os usuários e distribui suas atividades para os devidos responsáveis.
+&emsp;&emsp;A classe **UserController** basicamente lida com tudo que pode envolver os [usuários](../../base/requisitos/modelagem/lexicos/#lexico-usuario) e distribui suas atividades para os devidos responsáveis.
 
 ## Invenção pura
 &emsp;&emsp;O conceito de invenção pura aborda a utilização de soluções que não necessariamente se encaixem em algum padrão de projeto.
