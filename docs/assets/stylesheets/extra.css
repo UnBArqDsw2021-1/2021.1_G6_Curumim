@@ -69,3 +69,19 @@ body{
     padding: 7px;
     font-size: 20px;
 }
+
+.img-guia-de-estilo{
+    width: 120px;
+    height: auto;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+
+.img-guia-de-estilo-tipografia{
+    width: 270px;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
