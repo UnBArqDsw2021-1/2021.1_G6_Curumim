@@ -86,10 +86,9 @@ nav:
                 - Apresentação: apresentacoes/apresentacoes_entrega2.md
         - Padrões de Projeto:
                 - Iniciativas Extras:
+                        - Guia de estilo: padroes-de-projeto/guia-de-estilo/guia-de-estilo.md
+                        - Diagrama Lógico do Banco de Dados: modelagem/modelagem-estatica/diagrama-logico-bd.md 
                         - Reuniões:
                                 - Sprint 3:
                                         - Planning: reunioes/sprints/planning-sprint3.md
                                         - Review: reunioes/sprints/review-sprint3.md
-                                - Sprint 4:
-                                        - Planning: reunioes/sprints/planning-sprint4.md
-                                        - Review: reunioes/sprints/review-sprint4.md
