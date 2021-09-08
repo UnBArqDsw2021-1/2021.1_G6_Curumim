@@ -27,7 +27,7 @@ Com o objetivo de fortalecer a [alta coesão](#alta-coesao) e o [baixo acoplamen
 
 - **Authentication Controller:**
 
-&emsp;&emsp;A classe **authController** foi modelada para conter a responsabilidade de aplicar toda as regras de autenticação do sistema. Basicamente todas as requisições do [usuário](../../base/requisitos/modelagem/lexicos/#lexico-usuario) serão direcionadas às [rotas](), as quais inicialmente invocarão os métodos da **authController**, para, somente se autorizado pelos mesmos, continuar para a aplicação das regras de negócio inicialmente requisitadas e, finalmente, retornar uma resposta para a camada de view.
+&emsp;&emsp;A classe **authController** foi modelada para conter a responsabilidade de aplicar toda as regras de autenticação do sistema. Basicamente todas as requisições do [usuário](../../base/requisitos/modelagem/lexicos/#lexico-usuario) serão direcionadas às rotas, as quais inicialmente invocarão os métodos da **authController**, para, somente se autorizado pelos mesmos, continuar para a aplicação das regras de negócio inicialmente requisitadas e, finalmente, retornar uma resposta para a camada de view.
 
 ![Authentication Controller](../assets/imagens/GRASPs/invencao_auth.png)
 <center>[Figura 2: Classe authController](../assets/imagens/GRASPs/invencao_auth.png)</center>
@@ -35,7 +35,7 @@ Com o objetivo de fortalecer a [alta coesão](#alta-coesao) e o [baixo acoplamen
 - **Board:**
 
 &emsp;&emsp;A classe [**Board**](../../base/requisitos/modelagem/lexicos/#lexico-mural) surgiu na necessidade de atribuir a responsabilidade de agrupar [atividades](../../base/requisitos/modelagem/lexicos/#lexico-atividade), [anotações](../../base/requisitos/modelagem/lexicos/#lexico-anotacao) e [eventos](../../base/requisitos/modelagem/lexicos/#lexico-evento) para a visualização por parte dos [responsáveis](../../base/requisitos/modelagem/lexicos/#lexico-responsavel). Essa classe tem sua validação na aplicação de regras específicas, como, por exemplo, a visualização de dados contidos nessas classes, em uma única tela, com a possibilidades de filtrar em um tipo de classe específica.<br>
-&emsp;&emsp;Tais funcionalidades estão especificadas na [US06](../../product-backlog/#US06) e podem ser melhor visualizadas no [prótipo de alta fidelidade](../../base/design-sprint/prototipo-alta/#prototipo-produzido).
+&emsp;&emsp;Tais funcionalidades estão especificadas na [US06](../../product-backlog/#US06) e podem ser melhor visualizadas no [prótotipo de alta fidelidade](../../base/design-sprint/prototipo-alta/#prototipo-produzido).
 
 ![Board](../assets/imagens/GRASPs/invencao_board.png)
 <center>[Figura 3: Classe Board](../assets/imagens/GRASPs/invencao_board.png)</center>
