@@ -57,8 +57,8 @@ Com o objetivo de fortalecer a [alta coesão](#alta-coesao) e o [baixo acoplamen
 ## Indireção
 
 &emsp;&emsp;Esse padrão se configura por atribuir responsabilidades de mediador a classes intermediárias entre outros componentes, objetos ou serviços com objetivo, também, de contribuir com a [alta coesão](#alta-coesao) e o [baixo acoplamento](#baixo-acoplamento).<br>
-&emsp;&emsp;**Camada Controller:** A indireção pode ser observada ao longo de todo o projeto simplesmente pela utilização da arquitetura **MVC**, visto que as classes contidas na camada de **controller** servem como mediadoras entre as camadas **view** e **model**. As classes controllers estão contidas nesse [diretório]().<br>
-&emsp;&emsp;**Middlewares:** Além disso, o nosso projeto utilizará middlewares que são classes utilizadas internamente na api, pelos controllers na execução das regras de negócio, de forma a desacoplar métodos e rotinas estratégicas. Os middlewares do projeto estão contidos nesse [diretório]().
+&emsp;&emsp;**Camada Controller:** A indireção pode ser observada ao longo de todo o projeto simplesmente pela utilização da arquitetura **MVC**, visto que as classes contidas na camada de **controller** servem como mediadoras entre as camadas **view** e **model**. As classes controllers estão contidas nesse diretório.<br>
+&emsp;&emsp;**Middlewares:** Além disso, o nosso projeto utilizará middlewares que são classes utilizadas internamente na api, pelos controllers na execução das regras de negócio, de forma a desacoplar métodos e rotinas estratégicas. Os middlewares do projeto estão contidos nesse diretório.
 
 ## Variações protegidas
 &emsp;&emsp;O padrão Variações protegidas se caracteriza por tentar manter possível o isolamento de componentes, sem fazer comunicações desnecessárias, buscando eliminar impactos indesejáveis de elementos em outros elementos. Portanto aqui, nós buscamos identificar pontos de variação ou instabilidade previsíveis e atribuir responsabilidades para criar uma interface estável em torno deles.
