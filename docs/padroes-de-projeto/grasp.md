@@ -26,7 +26,7 @@ Padrões GRASP são uma ajuda na hora de entender como desenhar um software orie
 
 &emsp;&emsp;Um dos grandes problemas relacionado ao planejamento de um grande projeto está atrelado a seguinte pergunta, "Como criar uma aplicação com baixa dependência, baixo impacto de mudança e maior reutilização?", pensado nisso, a literatura aborda o tema sobre design patterns, mais exatamente sobre os padrões GRASP.
 
-&emsp;&emsp;Antes de falamos de [baixo acoplamento](#baixo-acoplamento), primeiro vamos falar de acoplamento, é uma forma medir o quão um elemento está conectado a outro elemento, tem conhecimento de outros elementos, ou depende de outros elementos. Depois de conhecer o que é acoplamento, fica mais fácil descrever o que é um [baixo acoplamento](#baixo-acoplamento). É um elemento que não depende de muitos outros elementos, somente o necessário, esses elementos incluem classes, subsistemas, sistemas e assim por diante.
+&emsp;&emsp;Antes de falarmos de [baixo acoplamento](#baixo-acoplamento), primeiro vamos falar de acoplamento, é uma forma medir o quão um elemento está conectado a outro elemento, tem conhecimento de outros elementos, ou depende de outros elementos. Depois de conhecer o que é acoplamento, fica mais fácil descrever o que é um [baixo acoplamento](#baixo-acoplamento). É um elemento que não depende de muitos outros elementos, somente o necessário, esses elementos incluem classes, subsistemas, sistemas e assim por diante.
 
 &emsp;&emsp;Para deixar o contexto mais rico, iremos falar sobre alto acoplamento. No caso, seria um elemento que depende de muitos outros elementos, assim acarretando alguns problemas já conhecidos pela literatura.
    
