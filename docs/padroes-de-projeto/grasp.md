@@ -56,8 +56,27 @@ Com o objetivo de fortalecer a [alta coesão](#alta-coesao) e o [baixo acoplamen
 
 ## Alta Coesão
 
+&emsp;&emsp;No projeto de software, uma qualidade básica conhecida como coesão mede informalmente como funcionalidades relacionam as operações de um elemento de software e também mede quanto trabalho um elemento de software está realizando (LARMAN, 2004). A alta coesão é garantida quando atribui-se, de forma coerente, as responsabilidades de cada classe. Para manter a alta coesão é importante escolher uma arquitetura adequada para o seu produto e fazer uso de boas práticas de software.
+ 
+&emsp;&emsp;Em termos de design de objeto, coesão (ou mais especificamente, coesão funcional) é uma medida de quão fortemente relacionadas e focadas as responsabilidades de um elemento estão. Um elemento com responsabilidades altamente relacionadas que não faz uma grande quantidade de trabalho tem alta coesão. Esses elementos incluem classes, subsistemas e assim por diante (LARMAN, 2004).
+
+&emsp;&emsp;O padrão de Alta Coesão para ser aplicado possui uma dependência direta com a aplicação do padrão de [Baixo acoplamento](#baixo-acoplamento). Visto que estamos utilizando a arquitetura MVC como padrão, garantimos a alta coesão e que cada classe possua seus métodos e procedimentos específicos, facilitando a compreensão, o reuso e a manutenção, caso necessário.
 
 ## Baixo Acoplamento
+
+&emsp;&emsp;Um dos grandes problemas relacionado ao planejamento de um grande projeto está atrelado a seguinte pergunta, "Como criar uma aplicação com baixa dependência, baixo impacto de mudança e maior reutilização?", pensado nisso, a literatura aborda o tema sobre design patterns, mais exatamente sobre os padrões GRASP.
+
+&emsp;&emsp;Antes de falarmos de [baixo acoplamento](#baixo-acoplamento), primeiro vamos falar de acoplamento, é uma forma medir o quão um elemento está conectado a outro elemento, tem conhecimento de outros elementos, ou depende de outros elementos. Depois de conhecer o que é acoplamento, fica mais fácil descrever o que é um [baixo acoplamento](#baixo-acoplamento). É um elemento que não depende de muitos outros elementos, somente o necessário, esses elementos incluem classes, subsistemas, sistemas e assim por diante.
+
+&emsp;&emsp;Para deixar o contexto mais rico, iremos falar sobre alto acoplamento. No caso, seria um elemento que depende de muitos outros elementos, assim acarretando alguns problemas já conhecidos pela literatura.
+   
+* Mudanças nos elementos forçadamente devido a mudanças nos elementos relacionados.
+* Dificuldades em entender os elementos isoladamente.
+* Dificuldades em reutilizar elementos, porque seu uso requer o uso adicional de outros elementos.
+
+&emsp;&emsp;Para responder a pergunta feita no início desse tópico, achamos a seguinte resposta, "Tentar balancear a atribuição de responsabilidade e dependência entre os elementos, para que tenham um [baixo acoplamento](#baixo-acoplamento)".
+
+&emsp;&emsp;Pensando nisso, a maioria das nossas decisões para nossa aplicação, foram munidas com esses princípios ditos pela literatura, assim conseguimos chegar em um objetivo limpo e claro, norteado pelo GRASP.
 
 
 ## Indireção
@@ -91,4 +110,6 @@ Com o objetivo de fortalecer a [alta coesão](#alta-coesao) e o [baixo acoplamen
 |1.1|01/09/2021| Adição da introdução e criador | Mateus O. Patrício |
 |1.2|02/09/2021| Adição da invenção pura e indireção | Bruno Felix e Daniel Porto |
 |1.3|03/09/2021| Adição do especialista | Gabriel Bonifácio |
+|1.4|03/09/2021| Adicionando tópico Alta coesão | João Pedro e Francisco Ferreira |
+|1.5|04/09/2021| Adicionando tópico de baixo acoplamento | Francisco Ferreira e João Pedro |
 |1.7|04/09/2021| Adição da controlador e variações protegidas | Enzo Gabriel e Edson Araújo |
