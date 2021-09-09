@@ -29,9 +29,12 @@
 ## Polimorfismo
 
 &emsp;&emsp;Antes de definir o conceito de polimorfismo adotado pelos GRAPS é importante primeiro definir o conceito de polimorfismo. Ele se apresenta como um príncipio pelo o qual as subclasses de uma superpclasse conseguem chamar métodos, que apesar de apresentarem a mesma assinatura, se comportam de maneira diferente para cada classe derivada.<br>
-&emsp;&emsp;Suponha que em determinada classe são utilizadas estruturas condicionais para determinar o comportamento em função do tipo de classe, esse tipo de método pode gerar diversos problemas para a manutenção do código, sendo assim o Polimmorfismo proposto pelos GRAPS sugere que a seleção do comportamento seja dado utilizando o polimorfismo, ou seja, a superclasse cria o método e as subclasses realizam a implementação do polimorfismo.
-
-
+&emsp;&emsp;Suponha que em determinada classe são utilizadas estruturas condicionais para determinar o comportamento em função do tipo de classe, esse tipo de método pode gerar diversos problemas para a manutenção do código, sendo assim o Polimorfismo proposto pelos GRAPS sugere que a seleção do comportamento seja dado utilizando o polimorfismo, ou seja, a superclasse cria o método e as subclasses realizam a implementação do polimorfismo.<br>
+&emsp;&emsp;Como exemplo de polimorfismo adotado no projeto, temos a classe "UserController" com o método polimorfico "register".
+<center>
+	![polimorfismo](../assets/imagens/GRASPs/polimorfismo.png)<br>
+	[Figura 4: Polimorfismo](../assets/imagens/GRASPs/polimorfismo.png)
+</center>
 ## Bibliografia
 
 > - [Documento GRAPS do projeto QRodízio](https://unbarqdsw.github.io/2020.1_G10_QRodizio/design_patterns/grasps/grasps.html#grasps);
