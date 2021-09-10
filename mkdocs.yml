@@ -85,6 +85,8 @@ nav:
                                         - Review: reunioes/sprints/review-sprint2.md
                 - Apresentação: apresentacoes/apresentacoes_entrega2.md
         - Padrões de Projeto:
+                - GOFs:
+                        - Comportamentais: padroes-de-projeto/gofs-comportamentais.md
                 - Iniciativas Extras:
                         - Reuniões:
                                 - Sprint 3:
