@@ -90,11 +90,20 @@ Com o objetivo de fortalecer a [alta coesão](#alta-coesao) e o [baixo acoplamen
 
 ## Polimorfismo
 
-
-
+&emsp;&emsp;Antes de definir o conceito de polimorfismo adotado pelos GRAPS é importante primeiro definir o conceito de polimorfismo. Ele se apresenta como um príncipio pelo o qual as subclasses de uma superpclasse conseguem chamar métodos, que apesar de apresentarem a mesma assinatura, se comportam de maneira diferente para cada classe derivada.<br>
+&emsp;&emsp;Suponha que em determinada classe são utilizadas estruturas condicionais para determinar o comportamento em função do tipo de classe, esse tipo de método pode gerar diversos problemas para a manutenção do código, sendo assim o Polimorfismo proposto pelos GRAPS sugere que a seleção do comportamento seja dado utilizando o polimorfismo, ou seja, a superclasse cria o método e as subclasses realizam a implementação do polimorfismo.<br>
+&emsp;&emsp;Como exemplo de polimorfismo adotado no projeto, temos a classe "UserController" com o método polimorfico "register".
+<center>
+	![polimorfismo](../assets/imagens/GRASPs/polimorfismo.png)<br>
+	[Figura 4: Polimorfismo](../assets/imagens/GRASPs/polimorfismo.png)
+</center>
 ## Bibliografia
 
+> - [Documento GRAPS do projeto QRodízio](https://unbarqdsw.github.io/2020.1_G10_QRodizio/design_patterns/grasps/grasps.html#grasps);
+> - [Documento GRAPS do projeto Stock](https://unbarqdsw.github.io/2020.1_G12_Stock/#/Project/Estudos/GRASP);
 > - LARMAN, Craig. <b>Utilizando UML e Padrões</b>: Uma introdução à análise e ao projeto orientados a objetos e ao desenvolvimento iterativo. 3. ed. [S. l.: s. n.], 2004.
+> - MEDIUM. Padrões GRASP — Padrões de Atribuir Responsabilidades. Disponível em: <https://medium.com/@leandrovboas/padr%C3%B5es-grasp-padr%C3%B5es-de-atribuir-responsabilidades-1ae4351eb204>. Acesso em: 02 de set. 2021.
+> - DEVMEDIA. Desenvolvimento com qualidade com GRASP. <https://www.devmedia.com.br/desenvolvimento-com-qualidade-com-grasp/28704>. Acesso em: 02 de set. 2021.
 > - Padrões GRASP, UFU (Universidade Federal de Uberlândia). Disponível em http://www.facom.ufu.br/~bacala/ESOF/05a-Padr%C3%B5es%20GRASP.pdf. Acesso em: 03 set. 2021.
 > - [Documento GRAPS do projeto Stock](https://unbarqdsw.github.io/2020.1_G12_Stock/#/Project/Estudos/GRASP);
 > - Videoaulas e materiais complementares presentes no moodle da disciplina Arquitetura e Desenho de Software. Disponível em <https://aprender3.unb.br/course/view.php?id=8603>. Acesso em: 27 jul. 2021.
@@ -109,7 +118,9 @@ Com o objetivo de fortalecer a [alta coesão](#alta-coesao) e o [baixo acoplamen
 |1.0|01/09/2021| Abertura do documento | Mateus O. Patrício |
 |1.1|01/09/2021| Adição da introdução e criador | Mateus O. Patrício |
 |1.2|02/09/2021| Adição da invenção pura e indireção | Bruno Felix e Daniel Porto |
-|1.3|03/09/2021| Adição do especialista | Gabriel Bonifácio |
-|1.4|03/09/2021| Adicionando tópico Alta coesão | João Pedro e Francisco Ferreira |
-|1.5|04/09/2021| Adicionando tópico de baixo acoplamento | Francisco Ferreira e João Pedro |
-|1.7|04/09/2021| Adição da controlador e variações protegidas | Enzo Gabriel e Edson Araújo |
+|1.3|02/09/2021| Adição do polimorfismo | Nilo Mendonça |
+|1.4|03/09/2021| Adição do especialista | Gabriel Bonifácio |
+|1.5|03/09/2021| Adicionando tópico Alta coesão | João Pedro e Francisco Ferreira |
+|1.6|04/09/2021| Adicionando tópico de baixo acoplamento | Francisco Ferreira e João Pedro |
+|1.8|04/09/2021| Adição da controlador e variações protegidas | Enzo Gabriel e Edson Araújo |
+
