@@ -26,3 +26,30 @@ A [Sprint 5](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/milestone/7) t
 
 ## 3. Sprint Backlog
 Issues adicionadas: 
+
+1. **Issue:** [#141 Guia de estilo](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/141)<br> 
+**Responsáveis:** Nilo Mendonça e Gabriel Bonifácio<br>
+
+2. **Issue:** [#143 GOFs](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/143)<br> 
+**Responsáveis:** Todos os membros do grupo<br>
+
+3. **Issue:** [#131 GRASP](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/131)<br> 
+**Responsáveis:** Todos os membros do grupo<br>
+
+4. **Issue:** [#146 GOFs Comportamentais](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/146)<br> 
+**Responsáveis:** Matheus Patrício, Enzo Gabriel, Edson Soares e Daniel Porto<br>
+
+5. **Issue:** [#147 Atualizar documento do diagrama de pacotes](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/147)<br> 
+**Responsáveis:** Matheus Patrício<br>
+
+6. **Issue:** [#149 Review sprint 5](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/149)<br> 
+**Responsáveis:** Matheus Patrício<br>
+
+7. **Issue:** [#150 GOFs Criacionais](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/150)<br> 
+**Responsáveis:** Nilo Mendonça, Gabriel Bonifácio e Bruno Félix<br>
+
+8. **Issue:** [#134 Documentar Planning Sprint 5](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/134)<br> 
+**Responsáveis:** Nilo Mendonça<br>
+
+9. **Issue:** [#145 GOFS Estruturais](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/145)<br> 
+**Responsáveis:** Eliseu Kadesh, Francisco Emanuel e João Pedro<br>
