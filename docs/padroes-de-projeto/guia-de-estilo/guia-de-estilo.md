@@ -45,9 +45,42 @@ Utilizada em:
 
 ## Ícones
 
+&emsp;&emsp;Foi utilizado, para a definição dos ícones, a observação ao protótipo de alta fidelidade e adequadação à aplicação, utilizando imagens disponibilizadas pelo [Flaticon](https://www.flaticon.com/br/).
+
+<center>
+        
+| Ícones | | | |
+|:--:|:--:|:--:|:--:|
+| <span class="img-guia-de-estilo">![menu](../../../assets/imagens/guia-de-estilo/menu.png) </span> | <span class="img-guia-de-estilo">![activity](../../../assets/imagens/guia-de-estilo/activity.png) </span> | <span class="img-guia-de-estilo">![schedule](../../../assets/imagens/guia-de-estilo/schedule.png) </span> | <span class="img-guia-de-estilo">![checklist](../../../assets/imagens/guia-de-estilo/checklist.png) </span> | 
+| <span class="img-guia-de-estilo">![view](../../../assets/imagens/guia-de-estilo/view.png) </span> | <span class="img-guia-de-estilo">![eye-off](../../../assets/imagens/guia-de-estilo/eye-off.png) </span> | <span class="img-guia-de-estilo">![back](../../../assets/imagens/guia-de-estilo/back.png) </span> |  <span class="img-guia-de-estilo">![redflag](../../../assets/imagens/guia-de-estilo/red-flag.png) </span> | 
+| <span class="img-guia-de-estilo">![send](../../../assets/imagens/guia-de-estilo/send.png) </span> | <span class="img-guia-de-estilo">![arrow-down](../../../assets/imagens/guia-de-estilo/arrow-down-sign-to-navigate.png) </span> | 
+
+<figcaption>Tabela 1 - Ícones</figcaption>
+
+</center>
+
 ## Componentes
 
-## Exemplos
+&emsp;&emsp;Da mesma forma que utilizamos com os ícones, foi utilizado, para a definição dos componentes, a observação ao [protótipo de alta fidelidade](../../../base/requisitos/modelagem/lexicos/#lexico-prototipo-de-alta-fidelidade) e adequadação à aplicação, utilizando imagens disponibilizadas pelo [Flaticon](https://www.flaticon.com/br/). 
+As imagens abaixo definem um padrão geral dos nossos botões e a barra suspensa no topo da tela, como exemplos a serem seguidos.
+
+### 1. Botões
+
+&emsp;&emsp;Os botões utilizados durante toda a aplicação devem ter como predominância o [branco](#Cores) e o [roxo](#Cores), alternando entre essas duas cores o fundo, a fonte utilizada nas letras e a borda do botão, destacando também o [preto](#Cores), utilizando-o principalmente na fonte das letras. Também pode-se utilizar as outras [Cores](#Cores) quando se tem o objetivo de destacar algum botão específico, afim de melhor direcionar o [usuário](../../../base/requisitos/modelagem/lexicos/#lexico-usuario). Seguem alguns exemplos:
+
+<center>
+	<span class="img-guia-de-estilo-botao">![botao1](../../../assets/imagens/guia-de-estilo/botao1.jpg)</span>
+	<span class="img-guia-de-estilo-botao">![botao2](../../../assets/imagens/guia-de-estilo/botao2.jpg)</span>
+	<span class="img-guia-de-estilo-botao">![botao3](../../../assets/imagens/guia-de-estilo/botao3.jpg)</span>
+</center>
+
+### 2. Topo da Tela
+
+&emsp;&emsp;Para que o [usuário](../../../base/requisitos/modelagem/lexicos/#lexico-usuario) possa se orientar e poder voltar a uma tela ou acessar o menu a qualquer instante, o topo da tela deve ter um botão "voltar", quando a possibilidade voltar a uma outra tela existir, e o botão "menu", para que o [usuário](../../../base/requisitos/modelagem/lexicos/#lexico-usuario) tenha entendimento das opções e das telas que ele pode acessar. O padrão é esse, mas pode-se ter adaptações para telas especiais e na aplicação web. A ideia é que no centro também contenha uma identificação da aplicação, seja o nome "Curumim" ou a logo.
+
+<center>
+	<span class="img-guia-de-estilo-topo-tela">![topo-tela](../../../assets/imagens/guia-de-estilo/topo-tela.png)</span>
+</center>
 
 ## Bibliografia
 > - TORRES FILHOS, Flávio et al. Proposta de um guia de estilo CHESF para o Projeto de Interfaces Ergonômicas. 2008. Disponível em <http://dspace.sti.ufcg.edu.br:8080/jspui/handle/riufcg/17271>. Acesso em 07 de set. de 2021.
@@ -59,3 +92,4 @@ Utilizada em:
 | :-: | -- | -- | -- |
 | 1.0 | 07/09/2021 | Abertura do documento, adição de alguns itens a serem tratados e adição da bibliografia | Nilo Mendonça |
 | 1.1 | 07/09/2021 | Adição da introdução, tipografia, cores e atualização da bibliografia | Nilo Mendonça |
+| 1.2 | 11/09/2021 | Adição dos ícones e componentes | Gabriel Bonifácio |

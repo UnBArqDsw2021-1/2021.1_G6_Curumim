@@ -85,3 +85,19 @@ body{
     margin-top: 10px;
     margin-bottom: 10px; 
 }
+
+.img-guia-de-estilo-topo-tela{
+    width: 400px;
+    height: auto;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+
+.img-guia-de-estilo-botao{
+    width: 250px;
+    height: auto;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
