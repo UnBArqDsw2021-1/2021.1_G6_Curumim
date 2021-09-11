@@ -5,6 +5,20 @@
 
 ## Composite
 
+&emsp;&emsp;O Composite é um padrão de design de particionamento e descreve um grupo de objetos que é tratado da mesma maneira que uma única instância do mesmo tipo de objeto. O objetivo de um Composite é agrupar objetos em estruturas de árvore para representar hierarquias parte-todo. Ele permite que você tenha uma estrutura de árvore e peça a cada folha da árvore que execute uma tarefa. "O Composite é baseado no Polimorfismo e fornece variações protegidas a um cliente então não sofre impacto se seus objetos relacionados forem atômicos ou compostos" (LARMAN, 2004). 
+
+O padrão Composite possui 4 participantes:
+
+- Component: Uma interface ou classe base abstrata para os objetos na estrutura em árvore. Esta classe define o comportamento padrão para todos os objetos e comportamentos para acessar e gerenciar componentes filhos na árvore.
+- Leaf: É uma classe que estende Component para representar folhas na estrutura de árvore que não tem nenhum filho.
+- Composite: É uma classe que estende Component para representar nós na estrutura da árvore, podendo conter filhos. Esta classe armazena componentes Leaf e implementa os comportamentos definidos em Component para acessar e gerenciar componentes filhos.
+- Client: interage com o Component para acessar e manipular objetos na composição.
+
+&emsp;&emsp;Em nosso projeto, é possível utilizar o Composite para gerar o [mural](../../../base/requisitos/modelagem/lexicos/#lexico-mural), onde teremos BoardController sendo o Component, e as leaf sendo a classe Events e a classe Anotations. Abaixo temos um exemplo em javascript:
+
+![Composite code](../../assets/imagens/gofs/composite-codigo.jpeg)
+
+<center>[Figura 2: Board Composite](../../assets/imagens/gofs/composite-codigo.png)</center>
 
 
 ## Bibliografia
@@ -18,3 +32,4 @@
 | Versão | Data | Modificação | Autor |
 |--|--|--|--|
 |1.0|10/09/2021| Abertura do documento | João Pedro |
+|1.1|10/09/2021| Adicionando topico Composite | João Pedro, Eliseu Kadesh |
