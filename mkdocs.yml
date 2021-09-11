@@ -74,8 +74,7 @@ nav:
                 - Iniciativas Extras:
                         - Casos de Uso: modelagem/modelagem-dinamica/casos-de-uso.md
                         - MER: modelagem/modelagem-estatica/MER.md
-                        - DER: modelagem/modelagem-estatica/DER.md
-                        - Diagrama Lógico do Banco de Dados: modelagem/modelagem-estatica/diagrama-logico-bd.md                     
+                        - DER: modelagem/modelagem-estatica/DER.md                    
                         - Reuniões:
                                 - Sprint 1:
                                         - Planning: reunioes/sprints/planning-sprint1.md
@@ -85,7 +84,9 @@ nav:
                                         - Review: reunioes/sprints/review-sprint2.md
                 - Apresentação: apresentacoes/apresentacoes_entrega2.md
         - Padrões de Projeto:
+                - GRASP: padroes-de-projeto/grasp.md
                 - Iniciativas Extras:
+                        - Diagrama Lógico do Banco de Dados: modelagem/modelagem-estatica/diagrama-logico-bd.md 
                         - Reuniões:
                                 - Sprint 3:
                                         - Planning: reunioes/sprints/planning-sprint3.md
