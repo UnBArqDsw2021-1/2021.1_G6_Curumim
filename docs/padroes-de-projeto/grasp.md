@@ -20,7 +20,7 @@ Por um outro lado, o padrão de projeto Especialista se preocupa em atribuir res
 
 Alguns problemas foram identificados: falta de um princípio geral para atribuir responsabilidades a objetos e a necessidade de fazer escolhas sobre a atribuição de responsabilidades a entidades. Diante dessas dificuldades, veio a solução: iniciar declarando claramente a responsabilidade e atribuir uma responsabilidade de informação a uma entidade.
 
-Um malefício claro desse padrão é quando a solução sugerida pelo especialista não é desejável, o que pode acontecer em algumas situações, mas os benefícios são inquestionáveis: baixo acoplamento, o encapsulamento da informação é mantido e a definição de entidades mais fáceis de entender e manter é encojarada.
+Um malefício claro desse padrão é quando a solução sugerida pelo especialista não é desejável, o que pode acontecer em algumas situações, mas os benefícios são inquestionáveis: [baixo acoplamento](#baixo-acoplamento), o encapsulamento da informação é mantido e a definição de entidades mais fáceis de entender e manter é encojarada.
 
 ## Controlador
 
@@ -97,6 +97,8 @@ Com o objetivo de fortalecer a [alta coesão](#alta-coesao) e o [baixo acoplamen
 	![polimorfismo](../assets/imagens/GRASPs/polimorfismo.png)<br>
 	[Figura 4: Polimorfismo](../assets/imagens/GRASPs/polimorfismo.png)
 </center>
+
+
 ## Bibliografia
 
 > - [Documento GRAPS do projeto QRodízio](https://unbarqdsw.github.io/2020.1_G10_QRodizio/design_patterns/grasps/grasps.html#grasps);
@@ -122,5 +124,6 @@ Com o objetivo de fortalecer a [alta coesão](#alta-coesao) e o [baixo acoplamen
 |1.4|03/09/2021| Adição do especialista | Gabriel Bonifácio |
 |1.5|03/09/2021| Adicionando tópico Alta coesão | João Pedro e Francisco Ferreira |
 |1.6|04/09/2021| Adicionando tópico de baixo acoplamento | Francisco Ferreira e João Pedro |
-|1.8|04/09/2021| Adição da controlador e variações protegidas | Enzo Gabriel e Edson Araújo |
+|1.7|04/09/2021| Adição da controlador e variações protegidas | Enzo Gabriel e Edson Araújo |
+|1.8|11/09/2021| Correções no texto, versionamento e adição de "linkagem" de tópicos | Eliseu Kadesh
 
