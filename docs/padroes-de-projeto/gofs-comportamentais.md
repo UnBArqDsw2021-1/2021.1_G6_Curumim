@@ -4,7 +4,12 @@
 
 
 ## Iterator
+&emsp;&emsp;O padrão Iterator, ou Iterador, permite com que se navegue em coleções de elementos. Propõe a criação de classes que implementem métodos especialmente pensados para realizar as iterações dado um conunto de elementos. 
+![Observer](../assets/imagens/gofs/gof-iterator.png)
+<center>[Figura 1: Padrão iterator.](../assets/imagens/gofs/gof-iterator.png)[ Fonte: dofactory.com](https://www.dofactory.com/javascript/design-patterns/iterator#diagram)</center>
 
+&emsp;&emsp;Esse padrão pode ser aplicado nas situações de iteração de qualquer tipo de coleção de elementos mas pode ser considerada uma aplicação exagerada caso o sistema em questão trabalhe apenas com coleções simples e de baixa coomplexidade.<br>
+&emsp;&emsp;Sendo assim, como as coleções do projeto não têm uma complexidade elevada e as situações de iterações são bem específicas e pentuais, conclui-se que esse padrão não se aplicaria de forma muito vantajosa.
 
 ## Mediator
 
@@ -20,7 +25,6 @@
 
 
 ## State
-
 
 ## Strategy
 
