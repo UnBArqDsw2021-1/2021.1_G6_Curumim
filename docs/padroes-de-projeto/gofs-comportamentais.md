@@ -2,9 +2,73 @@
 
 ## Command
 
+&emsp;&emsp;O command é um padrão comportamental que transforma uma solicitação em um objeto independente que possui todas as informações sobre essa soliticação.<br>
+&emsp;&emsp;Esse padrão encapsula ações como objetos, permitindo que o sistema tenha um baixo acoplamento, separando os objetos que emitem uma soliticação dos objetos que processam a soliticação. As soliticações eo código que as processa são chamdos respectivamente de eventos e manipuladores de eventos.<br><br>
+
+&emsp;&emsp;No nosso projeto, a command é utilizada em algumas situações. No exemplo mostramos a command sendo usada para englobar as ações que o admin pode fazer envolvendo os professores.
+
+~~~javascript
+function TeacherButtons() {
+    return (
+        <div className="teacherButtonsDiv">
+            <button className="registerTeacherButton" onclick="RegisterCommand(teacher)">Registrar</button>
+            <button className="excludeTeacherButton" onclick="ExcludeCommand(teacher)">Excluir</button>
+            <button className="updateTeacherButton" onclick="UpdateCommand(teacher)">izar</button>
+            <button className="addTeacherToClassButton" onclick="addToClassCommand(teacherAtual, class)">Adicionar a uma turma</button>
+        </div>
+    )
+}
+~~~
+
+&emsp;&emsp;A própria interface da aplicação é a cliente que utiliza a command, por meio dos botões.
+
+~~~javascript
+function registerTeacher(teacher) { 
+    teachersList.push(teacher) // Registrando um professor
+}
+
+function excludeTeacher(teacher) { 
+    thisTeacher = childrenList.indexOf(teacher.name)
+    childrenList.remove(thisKid) // Excluindo um professor
+}
+
+function updateTeacher(teacher) { 
+    thisTeacher = childrenList.indexOf(teacher.name)
+    thisTeacher = thisKid // Atualizando um professor
+}
+
+function addTeacherToClass(teacher, class) { 
+    class.teacher(teacher) // Adicionando um professor a uma sala
+}
+
+var Command = function (action, teacher) {
+    this.action = execute;
+    this.value = teacher;
+}
+
+var RegisterCommand = function (value) {
+    return new Command(registerTeacher, value);
+};
+
+var ExcludeCommand = function (value) {
+    return new Command(excludeTeacher, value);
+};
+
+var UpdateCommand = function (value) {
+    return new Command(updateTeacher, value);
+};
+
+var addToClassCommand = function (value) {
+    return new Command(addTeacherToClass, value);
+};
+~~~
+
+&emsp;&emsp;Por fim as ações de registrar, excluir, atualizar e atribuir a turma, com o objeto professor, que contém os atributos capturados na interface.
+
 
 ## Iterator
-&emsp;&emsp;O padrão Iterator, ou Iterador, permite com que se navegue em coleções de elementos. Propõe a criação de classes que implementem métodos especialmente pensados para realizar as iterações dado um conunto de elementos. 
+&emsp;&emsp;O padrão Iterator, ou Iterador, permite com que se navegue em coleções de elementos. Propõe a criação de classes que implementem métodos especialmente pensados para realizar as iterações dado um conunto de elementos.
+
 ![Observer](../assets/imagens/gofs/gof-iterator.png)
 <center>[Figura 1: Padrão iterator.](../assets/imagens/gofs/gof-iterator.png)[ Fonte: dofactory.com](https://www.dofactory.com/javascript/design-patterns/iterator#diagram)</center>
 
