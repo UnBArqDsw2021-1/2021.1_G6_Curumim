@@ -2,7 +2,7 @@
 
 ## Introdução
 &emsp;&emsp;Style Guide pode ser definido como um guia visual com um conjunto de regras que busca auxiliar uma equipe a se manter alinhada quanto a aparência de todo um projeto. Para isso são definindo cores, tipografias, espaçamentos, etc.<br>
-&emsp;&emsp;Podem ser destacadas diversas vantagens com a utlização do Style Guide por uma equipe, entre elas permitir que diferentes membros da equipe vejam com clareza como ficará o produto final, permitir uma maior consistência no desenvolvimento da interface e nas aplicações de design, além de facilitar a comunicação e o trabalho da equipe.<br>
+&emsp;&emsp;Podem ser destacadas diversas vantagens com a utilização do Style Guide por uma equipe, entre elas permitir que diferentes membros da equipe vejam com clareza como ficará o produto final, permitir uma maior consistência no desenvolvimento da interface e nas aplicações de design, além de facilitar a comunicação e o trabalho da equipe.<br>
 
 <!--## Logo -->
 
@@ -18,7 +18,7 @@ Utilizada em:
 
 - Menus;
 - texto de mensagens;
-- Subtitulos;
+- Subtítulos;
 - Campos de texto;
 - Informações de componentes;
 - Botões internos da aplicação;
@@ -45,7 +45,7 @@ Utilizada em:
 
 ## Ícones
 
-&emsp;&emsp;Foi utilizado, para a definição dos ícones, a observação ao protótipo de alta fidelidade e adequadação à aplicação, utilizando imagens disponibilizadas pelo [Flaticon](https://www.flaticon.com/br/).
+&emsp;&emsp;Foi utilizado, para a definição dos ícones, a observação ao protótipo de alta fidelidade e adequação à aplicação, utilizando imagens disponibilizadas pelo [Flaticon](https://www.flaticon.com/br/).
 
 <center>
         
@@ -61,12 +61,12 @@ Utilizada em:
 
 ## Componentes
 
-&emsp;&emsp;Da mesma forma que utilizamos com os ícones, foi utilizado, para a definição dos componentes, a observação ao [protótipo de alta fidelidade](../../../base/requisitos/modelagem/lexicos/#lexico-prototipo-de-alta-fidelidade) e adequadação à aplicação, utilizando imagens disponibilizadas pelo [Flaticon](https://www.flaticon.com/br/). 
+&emsp;&emsp;Da mesma forma que utilizamos com os ícones, foi utilizado, para a definição dos componentes, a observação ao [protótipo de alta fidelidade](../../../base/requisitos/modelagem/lexicos/#lexico-prototipo-de-alta-fidelidade) e adequação à aplicação, utilizando imagens disponibilizadas pelo [Flaticon](https://www.flaticon.com/br/). 
 As imagens abaixo definem um padrão geral dos nossos botões e a barra suspensa no topo da tela, como exemplos a serem seguidos.
 
 ### 1. Botões
 
-&emsp;&emsp;Os botões utilizados durante toda a aplicação devem ter como predominância o [branco](#Cores) e o [roxo](#Cores), alternando entre essas duas cores o fundo, a fonte utilizada nas letras e a borda do botão, destacando também o [preto](#Cores), utilizando-o principalmente na fonte das letras. Também pode-se utilizar as outras [Cores](#Cores) quando se tem o objetivo de destacar algum botão específico, afim de melhor direcionar o [usuário](../../../base/requisitos/modelagem/lexicos/#lexico-usuario). Seguem alguns exemplos:
+&emsp;&emsp;Os botões utilizados durante toda a aplicação devem ter como predominância o [branco](#cores) e o [roxo](#cores), alternando entre essas duas cores o fundo, a fonte utilizada nas letras e a borda do botão, destacando também o [preto](#cores), utilizando-o principalmente na fonte das letras. Também pode-se utilizar as outras [Cores](#cores) quando se tem o objetivo de destacar algum botão específico, afim de melhor direcionar o [usuário](../../../base/requisitos/modelagem/lexicos/#lexico-usuario). Seguem alguns exemplos:
 
 <center>
 	<span class="img-guia-de-estilo-botao">![botao1](../../../assets/imagens/guia-de-estilo/botao1.jpg)</span>
