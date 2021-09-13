@@ -21,11 +21,46 @@ O padrão Composite possui 4 participantes:
 <center>[Figura 2: Board Composite](../../assets/imagens/gofs/composite-codigo.png)</center>
 
 
+## Proxy
+&emsp;&emsp; O proxy é um padrão que tem intenção de  de fornecer um substituto de localização para outro objeto, com o objetivo de controlar esse objeto. Essa é a descrição que está na literatura de design petern, mas de forma mais simplifica seria, o proxy é algo que fica no meio do caminho entre a chamada do objeto e o proprio objeto.
+
+![Proxy](../../assets/imagens/gofs/proxy.png)
+
+<center>[Figura 2: Proxy](../../assets/imagens/gofs/proxy.png)</center>
+
+
+&emsp;&emsp; Quais as principais caracteritiscas de um proxy? 
+
+* O objeto proxy finge ser o objeto real.
+* É usado para controle de acesso, logs, cache, lazy instantiation, lazy evaluation, distribuição de serviços.
+* Pode escolher como e quando repassar chamadas de método para o objeto real.
+
+
+
+&emsp;&emsp; Aleḿ dessas caracteristicas existe um variação de proxy, abaixo iremos lista algumas delas.
+
+* **Proxy Virtual:** Controla acesso a recusos que podem ser pesados para criação eutilização.
+* **Proxy Remoto:** Faz o controle de recusos que se encontram remotamente.
+* **Proxy de Proteção:** Faz o controle de autenticação  e permissão para recusos que precisem de tal.
+
+&emsp;&emsp; Na aplicação do curumim a gente acabou usando a variação de **Proxy de Proteção**, que como ja foi dito, é responsável pelo processo de autenticação, como podemos observar na imagem do código a baixo.
+
+![Proxy](../../assets/imagens/gofs/proxy-code.png)
+
+<center>[Figura 2: Proxy](../../assets/imagens/gofs/proxy-code.png)</center>
+
+
 ## Bibliografia
 
 > - LARMAN, Craig. <b>Utilizando UML e Padrões</b>: Uma introdução à análise e ao projeto orientados a objetos e ao desenvolvimento iterativo. 3. ed. [S. l.: s. n.], 2004.
 
 > - Composite Design Pattern. Geeks For Geeks Disponível em: <https://www.geeksforgeeks.org/composite-design-pattern/>. Acesso em: 10 de setembro de 2021.
+
+> - ERICH, Gamma. <b>Padrões de projeto</b>:  soluções reutilizáveis de softwareorientado a objetos. Ed. Única 2000.
+
+
+
+
 
 
 ## Versionamento
@@ -33,3 +68,4 @@ O padrão Composite possui 4 participantes:
 |--|--|--|--|
 |1.0|10/09/2021| Abertura do documento | João Pedro |
 |1.1|10/09/2021| Adicionando topico Composite | João Pedro, Eliseu Kadesh |
+|1.2|13/09/2021| Adicionando topico Proxy|Francisco Ferreira|
