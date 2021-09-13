@@ -4,9 +4,17 @@
 
 &emsp;&emsp;Diagramas de pacotes são diagramas estruturais usados para mostrar, em uma forma de pacotes, a organização e disposição de vários elementos de modelos. Um pacote é um agrupamento de elementos UML relacionados, como diagramas, documentos, classes ou até mesmo outros pacotes.
 
+### Versão 2.0
+
+![Diagrama de pacotes](../../assets/imagens/diagrama-de-pacotes/diagrama_de_pacotes_v2.png)
+
+<center>[Figura 1: Diagrama de pacotes 2.0](../../assets/imagens/diagrama-de-pacotes/diagrama_de_pacotes_v2.png)</center>
+
+### Versão 1.0
+
 ![Diagrama de pacotes](../../assets/imagens/diagrama-de-pacotes/Diagrama-de-pacotes.png)
 
-<center>[Figura 1: Diagrama de pacotes](../../assets/imagens/diagrama-de-pacotes/Diagrama-de-pacotes.png)</center>
+<center>[Figura 1: Diagrama de pacotes 1.0](../../assets/imagens/diagrama-de-pacotes/Diagrama-de-pacotes.png)</center>
 
 
 ## Bibliografia
@@ -22,3 +30,4 @@ https://www.lucidchart.com/pages/pt/diagrama-de-pacotes-uml. Acesso em: 12/08/20
 |1.1| 14/08/2021 | Resolvendo erros encontrados no diagrama    | Enzo Gabriel, Francisco Emanoel |
 |1.2| 21/08/2021 | Revisão por pares | Daniel Porto, Edson Soares|
 |1.3| 08/09/2021 | Atualizando pacotes do front-end no diagrama | João Pedro, Enzo Gabriel |
+|1.4| 13/09/2021 | Atualizando pacotes do back-end no diagrama e adição da v2 do diagrama ao documento | Mateus O. Patrício |
