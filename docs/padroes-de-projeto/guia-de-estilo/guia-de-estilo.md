@@ -93,3 +93,4 @@ As imagens abaixo definem um padrão geral dos nossos botões e a barra suspensa
 | 1.0 | 07/09/2021 | Abertura do documento, adição de alguns itens a serem tratados e adição da bibliografia | Nilo Mendonça |
 | 1.1 | 07/09/2021 | Adição da introdução, tipografia, cores e atualização da bibliografia | Nilo Mendonça |
 | 1.2 | 11/09/2021 | Adição dos ícones e componentes | Gabriel Bonifácio |
+| 1.3 | 12/09/2021 | Revisão do documento | Bruno Félix |
