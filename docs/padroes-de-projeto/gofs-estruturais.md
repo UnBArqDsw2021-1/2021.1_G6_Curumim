@@ -22,14 +22,14 @@ O padrão Composite possui 4 participantes:
 
 
 ## Proxy
-&emsp;&emsp; O proxy é um padrão que tem intenção de  de fornecer um substituto de localização para outro objeto, com o objetivo de controlar esse objeto. Essa é a descrição que está na literatura de design petern, mas de forma mais simplifica seria, o proxy é algo que fica no meio do caminho entre a chamada do objeto e o proprio objeto.
+&emsp;&emsp; O proxy é um padrão que tem intenção de fornecer um substituto de localização para outro objeto, com o objetivo de controlar esse objeto. Essa é a descrição que está na literatura de design patterns, mas de forma mais simplificada seria, o proxy é algo que fica no meio do caminho entre a chamada do objeto e o próprio objeto.
 
 ![Proxy](../../assets/imagens/gofs/proxy.png)
 
 <center>[Figura 2: Proxy](../../assets/imagens/gofs/proxy.png)</center>
 
 
-&emsp;&emsp; Quais as principais caracteritiscas de um proxy? 
+&emsp;&emsp; Quais as principais características  de um proxy? 
 
 * O objeto proxy finge ser o objeto real.
 * É usado para controle de acesso, logs, cache, lazy instantiation, lazy evaluation, distribuição de serviços.
@@ -38,12 +38,12 @@ O padrão Composite possui 4 participantes:
 
 
 &emsp;&emsp; Aleḿ dessas caracteristicas existe um variação de proxy, abaixo iremos lista algumas delas.
-
-* **Proxy Virtual:** Controla acesso a recusos que podem ser pesados para criação eutilização.
-* **Proxy Remoto:** Faz o controle de recusos que se encontram remotamente.
-* **Proxy de Proteção:** Faz o controle de autenticação  e permissão para recusos que precisem de tal.
-
-&emsp;&emsp; Na aplicação do curumim a gente acabou usando a variação de **Proxy de Proteção**, que como ja foi dito, é responsável pelo processo de autenticação, como podemos observar na imagem do código a baixo.
+ 
+* **Proxy Virtual:** Controla acesso a recursos que podem ser pesados para criação e utilização.
+* **Proxy Remoto:** Faz o controle de recursos que se encontram remotamente.
+* **Proxy de Proteção:** Faz o controle de autenticação  e permissão para recursos que precisem de tal.
+ 
+&emsp;&emsp; Na aplicação do curumim usamos a variação de **Proxy de Proteção**, que como já foi dito, é responsável pelo processo de autenticação, como podemos observar na imagem do código abaixo.
 
 ![Proxy](../../assets/imagens/gofs/proxy-code.png)
 
