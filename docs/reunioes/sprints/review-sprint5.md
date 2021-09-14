@@ -16,7 +16,7 @@
 2. **Issue:** [#141 Guia de estilo](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/141)<br> 
 **Responsável:** Nilo Mendonça e Gabriel Bonifácio<br>
 **Pontuação: 5**<br>
-**Status: Concluída.**<br>
+**Status: Dívida.**<br>
 
 3. **Issue:** [#145 GOFS Estruturais](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/145)<br> 
 **Responsáveis:** Francisco Emanuel, Eliseu Kadesh e João Pedro<br>
@@ -33,7 +33,7 @@
 **Pontuação: 5**<br>
 **Status: Dívida.**<br> 
 
-5. **Issue:** [#150 GOFS Comportamentais](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/150)<br> 
+5. **Issue:** [#150 GOFS Criacionais](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/150)<br> 
 **Responsáveis:** Nilo Mendonça, Bruno Félix e Gabriel Bonifácio<br>
 **Pontuação: 8**<br>
 **Status: Dívida.**<br> 
@@ -59,8 +59,10 @@
 **Status: Dívida.**<br>
 
 ### **Débitos técnicos para a Sprint 6**
+ - Guia de estilos;
  - GOFS Estruturais;
  - GOFS Comportamentais;
+ - GOFS Criacionais;
  - Atualizar documento do diagrama de pacotes;
  - Configurar o banco de dados;
  - Implementar o sistema de autenticação;
@@ -98,3 +100,4 @@
 |  0.1   | 11/09/2021 | Revisão e Retrospectiva com os integrantes | Todos os integrantes |
 |  1.0   | 13/09/2021 | Abertura do documento | Enzo Gabriel |
 |  1.1   | 13/09/2021 | Finalização do documento | Enzo Gabriel |
+|  1.2   | 14/09/2021 | Revisão do documento | Daniel Porto, Gabriel Bonifácio e Nilo Mendonça |
