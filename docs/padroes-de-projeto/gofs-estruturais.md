@@ -2,8 +2,23 @@
 
 ## Adapter
 
+&emsp;&emsp;Adpter é um padrão de projeto, que tem como objetivo converter a interface de uma classe em outra interface para o cliente. Os Adapters permitem que classes trabalhem juntas, mesmo que estejam em interfaces incompatíveis. [[1]](#bibliografia)
 
-## Composite
+&emsp;&emsp;Algums problemas que o Adapter pode solucionar:
+
+
+- Reutilização de interfaces;
+- Incompatibilidade de interfaces;
+  
+&emsp;&emsp;No contexto do nosso projeto, temos um exemplo de Adapter nas models da nossa aplicação, que é criada a partir da biblioteca sequelize do nodejs, e essas models funcionam como uma ponte entre o banco de dados e o app. Com isso o app fica completamente independente de qual banco de dados será utilizado.
+
+
+![Exemplo de Adapter - Model Adm](../assets/imagens/gofs-adapters/adapters-model-adm.png)
+<center>[Figura 1: Exemeplo de Adapter - Adm](../assets/imagens/gofs-adapters/adapters-model-adm.png)</center>
+
+![Exemplo de Adapter - Controller Teste](../assets/imagens/gofs-adapters/adapters-controller.png)
+<center>[Figura 2: Exemeplo de Adapter - Adm](../assets/imagens/gofs-adapters/adapters-controller.png)</center>
+
 
 &emsp;&emsp;O Composite é um padrão de design de particionamento e descreve um grupo de objetos que é tratado da mesma maneira que uma única instância do mesmo tipo de objeto. O objetivo de um Composite é agrupar objetos em estruturas de árvore para representar hierarquias parte-todo. Ele permite que você tenha uma estrutura de árvore e peça a cada folha da árvore que execute uma tarefa. "O Composite é baseado no Polimorfismo e fornece variações protegidas a um cliente então não sofre impacto se seus objetos relacionados forem atômicos ou compostos" (LARMAN, 2004). 
 
@@ -49,18 +64,18 @@ O padrão Composite possui 4 participantes:
 
 <center>[Figura 2: Proxy](../../assets/imagens/gofs/proxy-code.png)</center>
 
-
 ## Bibliografia
 
 > - LARMAN, Craig. <b>Utilizando UML e Padrões</b>: Uma introdução à análise e ao projeto orientados a objetos e ao desenvolvimento iterativo. 3. ed. [S. l.: s. n.], 2004.
+
 
 > - Composite Design Pattern. Geeks For Geeks Disponível em: <https://www.geeksforgeeks.org/composite-design-pattern/>. Acesso em: 10 de setembro de 2021.
 
 > - ERICH, Gamma. <b>Padrões de projeto</b>:  soluções reutilizáveis de softwareorientado a objetos. Ed. Única 2000.
 
+> - The GoF Design Patterns Reference. Disponível em: [http://www.w3sdesign.com/](http://www.w3sdesign.com/)
 
-
-
+> - [1] GoF, Design Patters - Elements of Reusable Object-Oriented Software. Disponível em: [http://www.uml.org.cn/c%2B%2B/pdf/DesignPatterns.pdf](http://www.uml.org.cn/c%2B%2B/pdf/DesignPatterns.pdf). Acesso em: 14 set. de 2021.
 
 
 ## Versionamento
@@ -69,3 +84,5 @@ O padrão Composite possui 4 participantes:
 |1.0|10/09/2021| Abertura do documento | João Pedro |
 |1.1|10/09/2021| Adicionando topico Composite | João Pedro, Eliseu Kadesh |
 |1.2|13/09/2021| Adicionando topico Proxy|Francisco Ferreira|
+|1.3|13/09/2021| Adicão do Adapter | Eliseu Kadesh
+
