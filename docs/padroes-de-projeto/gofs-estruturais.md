@@ -2,7 +2,7 @@
 
 ## Adapter
 
-&emsp;&emsp;Adpter é um padrão de projeto, que tem como objetivo converter a interface de uma classe em outra interface para o cliente. Os Adapters permitem que classes trabalhem juntas, mesmo que estejam em interfaces incompatíveis.
+&emsp;&emsp;Adpter é um padrão de projeto, que tem como objetivo converter a interface de uma classe em outra interface para o cliente. Os Adapters permitem que classes trabalhem juntas, mesmo que estejam em interfaces incompatíveis. [[1]](#bibliografia)
 
 &emsp;&emsp;Algums problemas que o Adapter pode solucionar:
 
@@ -22,6 +22,7 @@
 > - LARMAN, Craig. <b>Utilizando UML e Padrões</b>: Uma introdução à análise e ao projeto orientados a objetos e ao desenvolvimento iterativo. 3. ed. [S. l.: s. n.], 2004.
 
 > - The GoF Design Patterns Reference. Disponível em: [http://www.w3sdesign.com/](http://www.w3sdesign.com/)
+> - [1] GoF, Design Patters - Elements of Reusable Object-Oriented Software. Disponível em: [http://www.uml.org.cn/c%2B%2B/pdf/DesignPatterns.pdf](http://www.uml.org.cn/c%2B%2B/pdf/DesignPatterns.pdf). Acesso em: 14 set. de 2021.
 
 ## Versionamento
 | Versão | Data | Modificação | Autor |
