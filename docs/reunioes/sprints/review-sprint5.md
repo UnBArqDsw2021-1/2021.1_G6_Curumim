@@ -33,6 +33,11 @@
 **Pontuação: **<br>
 **Status: Dívida.**<br> 
 
+5. **Issue:** [#150 GOFS Comportamentais](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/150)<br> 
+**Responsáveis:** Nilo Mendonça, Bruno Félix e Gabriel Bonifácio<br>
+**Pontuação: 8**<br>
+**Status: Dívida.**<br> 
+
 6. **Issue:** [#4 Configurar o banco de dados](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim_Back-end/issues/4)<br> 
 **Responsáveis:** Daniel Porto e Eliseu Kadesh<br>
 **Pontuação: 5**<br>
