@@ -25,12 +25,12 @@
 
 4. **Issue:** [#146 GOFS Comportamentais](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/146)<br> 
 **Responsáveis:** Francisco Emanuel, Eliseu Kadesh e João Pedro<br>
-**Pontuação: **<br>
+**Pontuação: 8**<br>
 **Status: Dívida.**<br> 
 
 5. **Issue:** [#147 Atualizar documento do diagrama de pacotes](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/147)<br> 
 **Responsáveis:** Mateus Oliveira<br>
-**Pontuação: **<br>
+**Pontuação: 5**<br>
 **Status: Dívida.**<br> 
 
 5. **Issue:** [#150 GOFS Comportamentais](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/150)<br> 
