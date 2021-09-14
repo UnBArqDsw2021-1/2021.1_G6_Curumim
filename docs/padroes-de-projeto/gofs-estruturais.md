@@ -18,7 +18,7 @@ O padrão Composite possui 4 participantes:
 
 ![Composite code](../../assets/imagens/gofs/composite-codigo.jpeg)
 
-<center>[Figura 2: Board Composite](../../assets/imagens/gofs/composite-codigo.png)</center>
+<center>[Figura 2: Board Composite](../../assets/imagens/gofs/composite-codigo.jpeg)</center>
 
 
 ## Bibliografia
