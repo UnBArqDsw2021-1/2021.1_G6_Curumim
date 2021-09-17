@@ -10,7 +10,12 @@
 &emsp;&emsp;Define um objeto que encapsula como um conjunto de objetos
 interage. O Mediator promove o acoplamento fraco ao evitar que os objetos se refiram
 explicitamente uns aos outros, permitindo que você varie suas interações
-independentemente. Definição de Erich Gamma,Richard Helm, Ralph Johnson e Joh Vilisides      <br>
+independentemente. Definição de Erich Gamma, Richard Helm, Ralph Johnson e John
+Vlissides.<br>
+
+&emsp;&emsp;
+![foto](../../assets/imagens/gofs/mediator_diagrama.jpg)
+<center>[Figura ?: Mediator](../../assets/imagens/gofs/mediator_diagrama.jpg)</center>
 
 ## Observer
 
@@ -48,3 +53,4 @@ Vlissides
 |--|--|--|--|
 |1.0|10/09/2021| Abertura do documento | Mateus O. Patrício |
 |1.1|16/09/2021| Introdução ao Mediator e inclusão de bibliografia [2] | Edson Soares |
+|1.2|16/09/2021| Inclusão do diagrama Mediator | Edson Soares |
