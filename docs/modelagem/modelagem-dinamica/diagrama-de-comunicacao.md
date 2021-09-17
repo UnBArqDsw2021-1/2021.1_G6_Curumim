@@ -1,11 +1,8 @@
 ## Introdução
 
-&emsp;&emsp;
-O diagrama de comunicação é um tipo de diagrama de interação UML que mostra as interações entre objetos e/ou partes usando mensagens sequenciadas em um arranjo de forma livre. A ordem das mensagens normalmente seguem um cenário de uso. 
-
-&emsp;&emsp;
-Os diagramas de comunicação são utilizados pelos designers para definir e esclarecer as funções dos objetos que executam um fluxo específico de eventos de um caso de uso. Eles são a principal fonte de informações usada para determinar interfaces e responsabilidades de classe.
-
+&emsp;&emsp;O diagrama de comunicação é um tipo de diagrama de interação UML que mostra as interações entre objetos e/ou partes usando mensagens sequenciadas em um arranjo de forma livre. A ordem das mensagens normalmente seguem um cenário de uso.<br>
+&emsp;&emsp;Os diagramas de comunicação são utilizados pelos designers para definir e esclarecer as funções dos objetos que executam um fluxo específico de eventos de um caso de uso. Eles são a principal fonte de informações usada para determinar interfaces e responsabilidades de classe.<br>
+&emsp;&emsp;Basicamente eles tem sua utilização voltada para descrever os objetos que estão interagindo e seus principais elementos sintáticos. Este diagrama corresponde a um formato diferenciado para descrever a interação entre objetos (VARGAS, 2007);
 
 ## Diagramas
 
@@ -34,13 +31,15 @@ Os diagramas de comunicação são utilizados pelos designers para definir e esc
 
 
 ## Bibliografia
-
+> - [Diagrama de comunicação do projeto Stock](https://unbarqdsw.github.io/2020.1_G12_Stock/#/Modeling/Diagrams/Comunicacao);
 > - Fakhroutdinov, Kirill. UML Communication Diagrams Overview. UML Diagrams. Disponível em: <https://www.uml-diagrams.org/communication-diagrams.html/>. Acesso em: 19 de agosto de 2021.
 > - Diretriz: Diagrama de Comunicação. Disponível em: <https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/guidances/guidelines/communication_diagram_FFFEA1B5.html#>. Acesso em: 19 de agosto de 2021.
+> - VARGAS, Thânia C. S. (2007). A História de UML e seus Diagramas. Disponível em: <https://docplayer.com.br/394702-A-historia-de-uml-e-seus-diagramas.html>. Acesso em: 17 de setembro de 2021.
 
 ## Versionamento
 | Versão | Data | Modificação | Autor |
 |:-:|--|--|--|
 |1.0|19/08/2021| Criação do documento | João Pedro |
 |1.1|21/08/2021| Modificação da nomenclatura das classes dos diagramas | João Pedro |
-|1.2|21/08/2021| Revisão por pares | Nilo Mendonça, Bruno Félix |
+|1.2|21/08/2021| Revisão por pares | Nilo Mendonça e Bruno Félix |
+|1.3|17/09/2021| Revisão e correção do documento segundo feedback da professora | Edson Soares e Nilo Mendonça |
