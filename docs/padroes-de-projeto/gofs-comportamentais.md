@@ -3,8 +3,7 @@
 ## Command
 
 &emsp;&emsp;O command é um padrão comportamental que transforma uma solicitação em um objeto independente que possui todas as informações sobre essa soliticação.<br>
-&emsp;&emsp;Esse padrão encapsula ações como objetos, permitindo que o sistema tenha um baixo acoplamento, separando os objetos que emitem uma soliticação dos objetos que processam a soliticação. As soliticações eo código que as processa são chamdos respectivamente de eventos e manipuladores de eventos.<br><br>
-
+&emsp;&emsp;Esse padrão encapsula ações como objetos, permitindo que o sistema tenha um baixo acoplamento, separando os objetos que emitem uma soliticação dos objetos que processam a soliticação. As soliticações eo código que as processa são chamdos respectivamente de eventos e manipuladores de eventos.<br>
 &emsp;&emsp;No nosso projeto, a command é utilizada em algumas situações. No exemplo mostramos a command sendo usada para englobar as ações que o admin pode fazer envolvendo os professores.
 
 ~~~javascript
@@ -83,12 +82,114 @@ var addToClassCommand = function (value) {
 &emsp;&emsp;Esse padrão propõe a implementação de mecanismos de inscrição onde objetos possam estar contidos para receber as mudanças de estados e os eventos ocorridos no objeto observado. Praticamente, trata-se de um conjunto de métodos públicos que permitam com que os objetos observadores se incluam e se retirem do vetor de observadores também contido na classe observada. Além disso, é preciso de um método que notifique cada objeto contido no vetor de observadores.
 
 ![Observer](../assets/imagens/gofs/gof-observer.png)
-<center>[Figura 1: Padrão observer](../assets/imagens/gofs/gof-observer.png)</center>
+<center>[Figura 2: Padrão observer](../assets/imagens/gofs/gof-observer.png)</center>
 
 &emsp;&emsp;Esse padrão é muito bem aplicado em situações onde a mudança de estado de objetos pode acarretar a mudança de estado de outros objetos de forma bem específica. Sendo assim, notou-se que esse padrão não se aplicaria muito bem no escopo do nosso projeto pois não foi encontrada nenhuma situação semelhante no que tange o funcionamento do sistema.
 
 
 ## State
+&emsp;&emsp;O padrão State permite com que um objetto altere o seu comportamento de acordo com o seu estado interno. Dessa forma, esse padrão sugere a implementação de classes para representar os diferentes estados do objeto e definir o comportamento de seus métodos e funções.
+
+![State](../assets/imagens/gofs/gof-state.jpg)
+<center>[Figura 3: Padrão state.](../assets/imagens/gofs/gof-state.png)[ Fonte: dofactory.com](https://www.dofactory.com/javascript/design-patterns/state#diagram)</center>
+
+&emsp;&emsp;Esse padrão é bem aplicado quando existem objetos que possam mudar de estatus de forma a modificar os seu comportamento. Sendo assim, a equipe optou por adaptar a modelagem de forma a permitir a utilização desse padrão.<br>
+&emsp;&emsp;Basicamente, esse padrão será utilizado para trabalhar duas classes semelhantes: ActivityController e a EventController. Será implementada a classe ProjectController para identificar o contexto de utilização de forma que ActivityController e a EventController representem o seu estado ou, mais apropriadamente, tipo.<br>
+&emsp;&emsp;Para essa implementação, também será utilizado o auxílio do padrão criacional [Singleton]() na classe ProjectController.
+
+![State](../assets/imagens/gofs/gof-state-diagram.png)
+<center>[Figura 4: Padrão state.](../assets/imagens/gofs/gof-state-diagram.png)</center>
+
+&emsp;&emsp;A seguir tem-se um exemplo resumido a nível do código do que pode ser feito na implementação desse padrão.
+
+~~~javascript
+class ProjectController {
+    #currentType;
+    #instance
+
+    function creataInstance (type){
+        if(!instance){
+            instance = new ProjectController(type);
+        }else if(instance.currentType.getType != type){
+            instance.currentType.change();
+        }
+
+        return instance;
+    }
+
+    constructor(type){
+        if (type === "Activity"){
+            this.currentType = new ActivityController(this);
+
+        }else if(type === "Event"){
+            this.currentType = new EventController(this);
+        }else{
+            //Err invalid type
+        }
+    }
+    function setType(type){
+        this.currentType = type;
+    }
+
+    function create(req, res) {
+        this.currentType.create(req, res);
+    }
+
+    function update(res, res) {
+        this.currentType.creat(req, res);
+    }
+}
+
+class ActivityController{
+    #project;
+    #type = "Activity";
+
+    constructor(project){
+        this.project = project
+    }
+
+    function getType(){
+        return this.type;
+    }
+
+    function change(){
+        this.project.setType(new EventController(this.project))
+    }
+
+    function create(req, res){
+        //create an Activity
+    }
+
+    function update(req, res){
+        //update an Activity
+    }
+}
+
+class EventController{
+    #project;
+    #type = "Event";
+
+    constructor(project){
+        this.project = project
+    }
+
+    function getType(){
+        return this.type;
+    }
+
+    function change(){
+        this.project.setType(new ActivityController(this.project))
+    }
+
+    function create(req, res){
+        //create an Event
+    }
+
+    function update(req, res){
+        //update an Event
+    }
+}
+~~~
 
 ## Strategy
 
@@ -109,9 +210,12 @@ var addToClassCommand = function (value) {
 ## Bibliografia
 
 > - LARMAN, Craig. <b>Utilizando UML e Padrões</b>: Uma introdução à análise e ao projeto orientados a objetos e ao desenvolvimento iterativo. 3. ed. [S. l.: s. n.], 2004.
+> - SHVETS, Alexander. **Dive Into Design Patterns**. Disponível em <https://refactoring.guru/design-patterns>. Acesso em 18/09/2021.
+> - DOFACTORY. **Javascript Design Patterns**. Disponível em <https://www.dofactory.com/javascript/design-patterns/>. Acesso em 18/09/2021.
 
 
 ## Versionamento
 | Versão | Data | Modificação | Autor |
 |--|--|--|--|
 |1.0|10/09/2021| Abertura do documento | Mateus O. Patrício |
+|1.1|18/09/2021| Adição dos padrões Command, Iterator, Observer e State | Daniel Porto, Enzo Gabriel |
