@@ -14,6 +14,11 @@ independentemente. Definição de Erich Gamma, Richard Helm, Ralph Johnson e Joh
 Vlissides.<br>
 &emsp;&emsp;O padrão Mediator é responsável por controlar e coordenar a interação de um conjunto de objetos.
 
+### Estrutura de Objetos
+
+![foto](../../assets/imagens/gofs/estrutura_objetos.jpg)
+<center>[Figura ?: Mediator](../../assets/imagens/gofs/estrutura_objetos.jpg)</center>
+
 &emsp;&emsp;
 ![foto](../../assets/imagens/gofs/mediator_diagrama.jpg)
 <center>[Figura ?: Mediator](../../assets/imagens/gofs/mediator_diagrama.jpg)</center>
