@@ -1,15 +1,14 @@
 # First Things First <br> <span class="rotulo-extra">Iniciativa Extra</span>
 ## Introdução
-&emsp;&emsp;O First-Things-First é uma técnica de priorização utilizada baseada em custo, valor e risco dos requisitos de um projeto.
+&emsp;&emsp;O First-Things-First é uma técnica de priorização utilizada baseada em custo, valor e risco dos requisitos de um projeto. A ideia é estabelecer uma ordem de prioridades na hora em que se fará a implementação de algumas funcionalidades, utilizando, então, o valor, custo e risco para se avaliar o impacto dessas implementações.
 
 ## Metodologia
 
-&emsp;&emsp;Para a classificação dos benefícios, custo, valor e riscos dos requisitos funcionais, os 10 integrantes do grupo fizeram um debate utilizando a plataforma Microsoft Teams e chegaram a um consenso quanto a priorização de cada requisito.<br>
+&emsp;&emsp;Para a classificação dos benefícios, custo, valor e riscos dos requisitos funcionais, os [10 integrantes do grupo] fizeram um debate utilizando a plataforma [Microsoft Teams](https://www.microsoft.com/pt-br/microsoft-teams/group-chat-software) e chegaram a um consenso quanto a priorização de cada requisito.<br>
 &emsp;&emsp;Os cálculos dessa técnica são dados de forma que:
 
 - O valor total é a soma (Benefício Relativo * Peso Relativo + Penalidade Relativa * Peso Relativo);
 - A prioridade de cada requisito é igual ao valor total % / (custo % * Peso custo + risco % * Peso Risco).
-
 
 ## Requisitos Funcionais
 
@@ -37,6 +36,7 @@ ID | Requisitos | Prioridade |
 ## Bibliografia
 
 > - E. WIEGERS, Karl. 1999. First Things First: Prioritizing Requirements.
+> - First Things First - [Projeto de Requisitos de Software - Yellow](https://github.com/Requisitos-de-Software/2019.2-Yellow): [https://yellow.netlify.app/elicitacao/priorizacao/first_things_first/](https://yellow.netlify.app/elicitacao/priorizacao/first_things_first/). Último acesso em 17/09/2021.
 
 ## Versionamento
 
@@ -48,3 +48,4 @@ ID | Requisitos | Prioridade |
 | 2.0 | 05/08/2021 | Finalização da padronização do documento | Eliseu Kadesh |
 | 2.1 | 06/08/2021 | Correções após revisões | Daniel Porto |
 | 2.2 | 21/08/2021 | Correção dos links dos léxicos | Gabriel Bonifácio |
+| 2.3 | 17/09/2021 | Atualização de informações de acordo com o feedback da entrega 1 | Gabriel Bonifácio |
