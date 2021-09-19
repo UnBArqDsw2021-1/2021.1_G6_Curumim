@@ -81,3 +81,5 @@ class AdmController{
 |--|--|--|--|
 |1.0|11/09/2021| Abertura do documento | Nilo Mendonça |
 |1.1|11/09/2021| Adição da bibliografia e do padrão Factory Method | Nilo Mendonça |
+|1.2|11/09/2021| Adição padrão Singleton | Bruno Félix |
+|1.3|19/09/2021| Adição padrão Multiton e Object Pool | Bruno Félix |
