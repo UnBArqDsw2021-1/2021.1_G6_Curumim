@@ -4,7 +4,7 @@
  
 &emsp;&emsp;O Diagrama de Classes é utilizado para representar e descrever a estrutura estática de classes do sistema, definindo os atributos, métodos e relacionamentos entre as classes. Além disso, fornece uma visão geral do comportamento estático do sistema, e pode ser utilizado como base para outros diagramas UML.<br>
 &emsp;&emsp;Segundo Guedes decorre em seu livro, em alguns métodos de desenvolvimento de software, como o Processo Unificado, é recomendado utilizar o diagrama de classe ainda na fase de análise. Assim, "produzindo-se um modelo conceitual a respeito das informações necessárias ao software." (Gilleanes T. A. Guedes, 2018)[[3]](#bibliografia).<br>
-&emsp;&emsp;No modelo conceitual, nos preocupamos basicamente em apresentar as informações que a aplicação necessitará, no contexto de classes e seus atributos, assim como as associações entre as classes. Nessa etapa não modelamos características que essas classes poderão ter, como por exemplo os métodos, que serão descobertos na fase de modelagem dinâmica nos diagramas de interação. 
+&emsp;&emsp;No modelo conceitual, nos preocupamos basicamente em apresentar as informações que a aplicação necessitará, no contexto de classes e seus atributos, assim como as associações entre as classes. Nessa etapa não modelamos características que essas classes poderão ter, como por exemplo os métodos, que serão descobertos na fase de modelagem dinâmica nos diagramas de interação, como o [diagrama de sequência](../modelagem-dinamica/diagrama-de-sequencia.md). 
 
 ## Metodologia
 
