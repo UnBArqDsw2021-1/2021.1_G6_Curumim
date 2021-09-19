@@ -16,7 +16,7 @@ Vlissides.<br>
 
 ### Estrutura de Objetos
 &emsp;&emsp;Para exemplificar a aplicação do padrão Mediator na interação dos objetos do chat entre Guardian, Administrador e Professor(a). Apresentamos um diagrama de objetos que se comunicam através de um intermediário.<br>
-&emsp;&emsp;Na estrutura abaixo incluímos um componente do frontend que consiste em um botão para representar o envio de mensagem. Podemos observar a interação desse componente da seguinte maneira: O botão inicia desativado, sempre que um caractere seja digitado no campo de texto, o botão muda seu estado para ativado. Aqui podemos obeservar que o padrão mediator possibilita diversos objetos interagindo uns com os outros por meio de um mediador.
+&emsp;&emsp;Na estrutura abaixo incluímos um componente do frontend que consiste em um botão para representar o envio de mensagem. Podemos observar a interação desse componente da seguinte maneira: O botão inicia desativado, sempre que um caractere seja digitado no campo de texto, o botão muda seu estado para ativado. Aqui podemos observar que o padrão mediator possibilita diversos objetos interagindo uns com os outros por meio de um mediador.
 ![foto](../../assets/imagens/gofs/estrutura_objetos.jpg)
 <center>[Figura ?: Estrutura de objetos](../../assets/imagens/gofs/estrutura_objetos.jpg)</center>
 
@@ -82,3 +82,4 @@ Vlissides
 |1.3|17/09/2021| Explicação do diagrama de classe | Edson Soares |
 |1.4|19/09/2021| Construção da estutura de objetos | Edson Soares |
 |1.5|19/09/2021| Implementação | Edson Soares |
+|1.6|19/09/2021| Revisão do padrão Mediator | Bruno Felix e Eliseu Kadesh |
