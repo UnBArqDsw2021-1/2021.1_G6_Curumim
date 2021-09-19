@@ -22,13 +22,51 @@
 ## Builder
 
 ## Prototype
+-->
 
 ## Singleton
+&emsp;&emsp;O Singleton é um padrão bastante discutido dentro do Design Pattern devido sua caracteristica principal de ter somente uma instância de classe para toda a aplicação. Basicamente falando, especifica que apenas uma instância da classe pode existir, fornecendo assim, um ponto de acesso global para instancia, possibitando a recuperação da mesma e a utilização aonde essa instancia for chamada.
+
+
+~~~javascript
+//EC MODEL
+class Ec{
+	...
+	private Instance
+
+  	function createInstance() {
+        var object = new EC
+        return object;
+  	}
+
+	function getInstance() {
+        if (!Instance) {
+			Instance = createInstance()
+        }
+		return Instance;
+    }
+}
+
+import User from './EC.js'
+//ADMIN CONTROLLER
+class AdmController{
+    ...
+    async updateECInfo() {
+        Ec = Ec.getinstance
+		...
+    }
+}
+~~~
+<center>
+	![Factory Method](../../assets/imagens/gofs/factory-method.png)<br>
+	[Figura 1: Factory Method](../../assets/imagens/gofs/factory-method.png)
+</center>
 
 ## Multiton
+&emsp;&emsp;
 
 ## Object Pool
--->
+&emsp;&emsp;
 
 ## Bibliografia
 
