@@ -85,7 +85,12 @@ nav:
                                         - Review: reunioes/sprints/review-sprint2.md
                 - Apresentação: apresentacoes/apresentacoes_entrega2.md
         - Padrões de Projeto:
-                - GOFs Estruturais: padroes-de-projeto/gofs-estruturais.md
+
+                
+                - GOFs:
+                        - GOFs Criacionais: padroes-de-projeto/gofs-criacionais.md
+                        - GOFs Estruturais: padroes-de-projeto/gofs-estruturais.md
+                        
                 - Iniciativas Extras:
                         - Reuniões:
                                 - Sprint 3:
