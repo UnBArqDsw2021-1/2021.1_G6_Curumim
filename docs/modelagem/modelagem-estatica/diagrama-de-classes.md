@@ -21,9 +21,9 @@
 - A maioria dos métodos das classes controllers tem relação de dependência com a classe AuthController, tais relações não foram incluídas no diagrama para facilitar a visualização.
  
 ## Bibliografia
-> - [1]UML Package Diagrams Overview. Disponível em: https://www.uml-diagrams.org/package-diagrams-overview.html. Acesso em: 13/08/2021.
+> - [1]Unified Modeling Language, UML Package Diagrams Overview. uml-diagrams.org, 2015. Disponível em: <https://www.uml-diagrams.org/package-diagrams-overview.html>. Acesso em: 19/09/2021.
 > - [2]Videoaulas e materiais complementares presentes no moodle da disciplina Arquitetura e Desenho de Software. Disponível em <https://aprender3.unb.br/course/view.php?id=8603>. Acesso em: 14 ago. 2021.
-> - [3]Gilleanes T. A. Guedes, Diagrama de Classes. Google books, 2018. Disponível em: <https://books.google.com.br/books?hl=pt-BR&lr=&id=mJxMDwAAQBAJ&oi=fnd&pg=PA53&dq=diagrama+de+classe+uml&ots=x9uROl_On9&sig=xduDOmvkHH2KllmvDMq2_w9VyiQ#v=onepage&q=diagrama%20de%20classe%20uml&f=false> Acesso em: 19/09/2021.
+> - [3]Gilleanes T. A. Guedes, Diagrama de Classes. Google books, 2018. Disponível em: <https://books.google.com.br/books?hl=pt-BR&lr=&id=mJxMDwAAQBAJ&oi=fnd&pg=PA53&dq=diagrama+de+classe+uml&ots=x9uROl_On9&sig=xduDOmvkHH2KllmvDMq2_w9VyiQ#v=onepage&q=diagrama%20de%20classe%20uml&f=false>. Acesso em: 19/09/2021.
 
 ## Versionamento
 | Versão | Data | Modificação | Autor |
