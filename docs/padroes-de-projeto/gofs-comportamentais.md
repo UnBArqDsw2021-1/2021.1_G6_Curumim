@@ -37,6 +37,15 @@
 
 ## Memento
 
+&emsp;&emsp;O Memento permite salvar e restaurar estados anteriores de um objeto sem revelar os detalhes de sua implementação.
+
+### Aplicabilidade
+
+- Você deve utilizar o padrão quando quizer reproduzir cópias do estado de um objeto permitindo então restaurar a um estado anterior do mesmo. O Memento faz cópias completas do estado de um objeto, isso inclui campos privados, e as armazena separadamente do objeto. Duas grandes aplicações do padrão são para a funcionalidade de desfazer e quando se lida com transações, permitindo revertê-las.
+
+- Você pode utilizar o padrão caso o acesso direto à informações de um objeto violar o seu encapsulamento. Com o memento o próprio objeto é responsável por criar sua cópia.
+
+&emsp;&emsp;No nosso projeto faz mais sentido a utilização do padrão criacional Prototype, por ser uma alternativa mais simples.
 
 ## Chain Of Responsibility
 
