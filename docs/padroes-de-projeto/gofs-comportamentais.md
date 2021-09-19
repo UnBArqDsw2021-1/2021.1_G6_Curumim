@@ -20,12 +20,48 @@ Vlissides.<br>
 ![foto](../../assets/imagens/gofs/estrutura_objetos.jpg)
 <center>[Figura ?: Estrutura de objetos](../../assets/imagens/gofs/estrutura_objetos.jpg)</center>
 
-### Diagrama de classe (Mediator)
+### Diagrama de classe (Chat)
 &emsp;&emsp;
 ![foto](../../assets/imagens/gofs/mediator_diagrama_classe.jpg)
 <center>[Figura ?: Interação dos objetos](../../assets/imagens/gofs/mediator_diagrama_classe.jpg)</center>
 
 &emsp;&emsp;O diagrama acima demonstra a interação de objetos da seguinte situação: O sistema conta com um chat onde acontece uma troca de mensagens entre os usuários, porém essa comunicação acontece de uma forma relativamente complexa, pois o Guardian pode se comunicar com qualquer um dos outros dois usuários, Administrador ou com o(a) Professor(a). Logo, considera-se necessário criar um mediador para intermediar as mensagens e o chat fluir de uma melhor forma. Nesse caso os objetos conhecem apenas o Mediator.
+
+### Implementação (Protótipo)
+        function User(name)
+        {
+        this.name = name
+        this.chatroom = null
+        }
+
+        User.prototype = {
+        send: function(message, toUser)
+        {
+            this.chatroom.send(message, this, toUser)
+        },
+        receive: function(message, fromUser)
+        {
+            return {"sender": fromUser.name, "receiver": this.name, "message": message}
+        }
+        }
+
+        function Chatroom()
+        {
+        this.users = {}
+        }
+
+        Chatroom.prototype = {
+        addUser: function(user)
+        {
+            this.users[user.name] = user
+            user.chatroom = this
+        },
+        send: function(message, fromUser, toUser)
+        {
+            toUser.receive(message, fromUser)
+        }
+        }
+
 
 
 ## Bibliografia
@@ -45,3 +81,4 @@ Vlissides
 |1.2|16/09/2021| Inclusão do diagrama Mediator | Edson Soares |
 |1.3|17/09/2021| Explicação do diagrama de classe | Edson Soares |
 |1.4|19/09/2021| Construção da estutura de objetos | Edson Soares |
+|1.5|19/09/2021| Implementação | Edson Soares |
