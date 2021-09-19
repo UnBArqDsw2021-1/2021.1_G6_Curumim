@@ -3,7 +3,7 @@
 ## Planejamento 
 
 ## 1. Visão Geral
-**Número da Sprint:** 5;<br>
+**Número da Sprint:** 6;<br>
 **Data de Início:** 11/09/2021;<br>
 **Data de Término:** 21/09/2021;<br>
 **Duração:** 10 dias.<br>
