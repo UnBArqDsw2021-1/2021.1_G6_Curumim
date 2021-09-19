@@ -23,11 +23,28 @@
 
 ## Visitor
 
+&emsp;&emsp;O visitor permite a separação dos algoritmos com os objetos nos quais eles operam.
+
+### Aplicabilidade
+
+- Você pode utilizar o Visitor quando precisar realizar uma operação em todos os elementos da estrutura de objetos complexa. Ex: uma árvore de objetos.
+
+- Utilizando o Visitor é possível executar uma operação sobre um conjunto de objetos com diferentes classes implementando diversas variantes da mesma operação correspondentes às classes alvo.
+
+- É possível utilizar o Visitor para remover a lógica de negócio de comportamentos auxiliares.
+
+- Permite tornar classes primárias da aplicação mais focadas em seu trabalho principal.
+
+- Utilize o padrão quando um comportamento faz sentido apenas dentro de algumas classes de uma uma hierarquia de classe.
+
+- Você pode extrair esse comportamento para uma classe visitante separada e implementar somente aqueles métodos visitantes que aceitam objetos de classes relevantes, deixando o resto vazio.
+
+&emsp;&emsp;Em nosso projeto não será necessário a utilização do padrão pois não teremos uma estrutura de objetos complexa.
 
 ## Memento
 
 
-## Chain Of Responsability
+## Chain Of Responsibility
 
 
 
@@ -40,3 +57,4 @@
 | Versão | Data | Modificação | Autor |
 |--|--|--|--|
 |1.0|10/09/2021| Abertura do documento | Mateus O. Patrício |
+|1.1|13/09/2021| Adição do padrão Visitor| Mateus O. Patrício |
