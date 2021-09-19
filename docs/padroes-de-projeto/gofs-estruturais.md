@@ -16,10 +16,15 @@ O padrão Composite possui 4 participantes:
 
 &emsp;&emsp;Em nosso projeto, é possível utilizar o Composite para gerar o [mural](../../../base/requisitos/modelagem/lexicos/#lexico-mural), onde teremos BoardController sendo o Component, e as leaf sendo a classe Events e a classe Anotations. Abaixo temos um exemplo em javascript:
 
-![Composite code](../../assets/imagens/gofs/composite-codigo.jpeg)
+![Composite code](../../assets/imagens/gofs/composite-code.png)
 
-<center>[Figura 2: Board Composite](../../assets/imagens/gofs/composite-codigo.jpeg)</center>
+<center>[Figura 2: Board Composite Code](../../assets/imagens/gofs/composite-code.png)</center>
 
+&emsp;&emsp;Em nível de modelagem, temos esse exemplo onde só foram descritos os métodos e atributos específicos utilizados no composite. É possível ver as classes mais completas no [Diagrama de classes](../modelagem/modelagem-estatica/diagrama-de-classes.md) do projeto.
+
+![Composite modelagem](../../assets/imagens/gofs/CompositeModelagem.png)
+
+<center>[Figura 3: Composite](../../assets/imagens/gofs/CompositeModelagem.png)</center>
 
 ## Bibliografia
 
