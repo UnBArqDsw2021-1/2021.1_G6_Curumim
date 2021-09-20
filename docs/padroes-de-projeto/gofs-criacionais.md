@@ -66,7 +66,9 @@ class AdmController{
 &emsp;&emsp;No nosso projeto o Multiton não se aplica em nenhuma vertente justamente por não haver nenhuma classe que nos beneficiaria ter um número de n objetos, de uma mesma classe, instanciados de forma global. 
 
 ## Object Pool
-&emsp;&emsp;
+&emsp;&emsp;O Object Pool, ou piscina de objetos, é um padrão de design de criação que consiste fundamentalmente em um conjunto de objetos instanciados e alocados num espaço, denominado "pool", assim quando esse objeto é requisitado ele sai da pool não ficando mais disponível ali. Uma vez chamado esse objeto pode ser utilizado, tratado, e/ou manipulado e, após o término do processo de seu uso, ele é retornado para a poll ao invés de ser destruído, para, novamente, estar acessível para o projeto.
+
+&emsp;&emsp;No nosso projeto o Object Pool não se aplica muito pelo mesmo que o Multiton, não temos oportunidades, dentro do projeto, de termos diversos objetos instanciado em um contêiner para utilização e reutilização global. 
 
 ## Bibliografia
 
