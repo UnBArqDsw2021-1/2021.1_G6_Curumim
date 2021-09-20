@@ -19,6 +19,7 @@
 ![Exemplo de Adapter - Controller Teste](../assets/imagens/gofs-adapters/adapters-controller.png)
 <center>[Figura 2: Exemeplo de Adapter - Adm](../assets/imagens/gofs-adapters/adapters-controller.png)</center>
 
+## Composite
 
 &emsp;&emsp;O Composite é um padrão de design de particionamento e descreve um grupo de objetos que é tratado da mesma maneira que uma única instância do mesmo tipo de objeto. O objetivo de um Composite é agrupar objetos em estruturas de árvore para representar hierarquias parte-todo. Ele permite que você tenha uma estrutura de árvore e peça a cada folha da árvore que execute uma tarefa. "O Composite é baseado no Polimorfismo e fornece variações protegidas a um cliente então não sofre impacto se seus objetos relacionados forem atômicos ou compostos" (LARMAN, 2004). 
 
@@ -31,10 +32,15 @@ O padrão Composite possui 4 participantes:
 
 &emsp;&emsp;Em nosso projeto, é possível utilizar o Composite para gerar o [mural](../../../base/requisitos/modelagem/lexicos/#lexico-mural), onde teremos BoardController sendo o Component, e as leaf sendo a classe Events e a classe Anotations. Abaixo temos um exemplo em javascript:
 
-![Composite code](../../assets/imagens/gofs/composite-codigo.jpeg)
+![Composite code](../../assets/imagens/gofs/composite-code.png)
 
-<center>[Figura 2: Board Composite](../../assets/imagens/gofs/composite-codigo.png)</center>
+<center>[Figura 2: Board Composite Code](../../assets/imagens/gofs/composite-code.png)</center>
 
+&emsp;&emsp;Em nível de modelagem, temos esse exemplo onde só foram descritos os métodos e atributos específicos utilizados no composite. É possível ver as classes mais completas no [Diagrama de classes](../modelagem/modelagem-estatica/diagrama-de-classes.md) do projeto.
+
+![Composite modelagem](../../assets/imagens/gofs/CompositeModelagem.png)
+
+<center>[Figura 3: Composite](../../assets/imagens/gofs/CompositeModelagem.png)</center>
 
 ## Proxy
 &emsp;&emsp; O proxy é um padrão que tem intenção de fornecer um substituto de localização para outro objeto, com o objetivo de controlar esse objeto. Essa é a descrição que está na literatura de design patterns, mas de forma mais simplificada seria, o proxy é algo que fica no meio do caminho entre a chamada do objeto e o próprio objeto.
@@ -85,4 +91,3 @@ O padrão Composite possui 4 participantes:
 |1.1|10/09/2021| Adicionando topico Composite | João Pedro, Eliseu Kadesh |
 |1.2|13/09/2021| Adicionando topico Proxy|Francisco Ferreira|
 |1.3|13/09/2021| Adicão do Adapter | Eliseu Kadesh
-
