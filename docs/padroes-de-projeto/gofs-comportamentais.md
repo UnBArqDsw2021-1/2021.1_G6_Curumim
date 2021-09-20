@@ -329,3 +329,4 @@ Vlissides
 |2.2|20/09/2021| Introdução do documento + Bibliografia | Edson Soares |
 |2.3|20/09/2021| Breve apresentação dos não aplicáveis (Strategy, Template Method) | Edson Soares |
 |2.4|20/09/2021| Revisão do strategy e template method | Eliseu Kadesh, Francisco Emanoel |
+|2.5|20/09/2021| Revisão dos padrões comportamentais | João, Nilo Mendonça |
