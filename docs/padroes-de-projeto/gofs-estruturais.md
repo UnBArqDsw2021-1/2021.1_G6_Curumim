@@ -22,6 +22,7 @@
  
 ## Bridge
 &emsp;&emsp;O Bridge é um padrão de projeto estrutural que permite que você divida uma classe grande ou um conjunto de classes intimamente ligadas em duas hierarquias separadas: **Abstração** e **Implementação** que podem ser desenvolvidas independentemente umas das outras.
+
 &emsp;&emsp;De acordo com o GoF[[1]](#bibliografia), o padrão Bridge significa desacoplar uma abstração de sua implementação para que as duas possam variar independentemente.
 #### Abstração
 &emsp;&emsp;Também chamado de interface é uma camada de controle de alto nível para alguma entidade. Essa camada não deve fazer nenhum tipo de trabalho por conta própria. Ela deve delegar o trabalho para a camada de implementação.
@@ -72,6 +73,8 @@ O padrão Composite possui 4 participantes:
 * **Proxy Virtual:** Controla acesso a recursos que podem ser pesados para criação e utilização.
 * **Proxy Remoto:** Faz o controle de recursos que se encontram remotamente.
 * **Proxy de Proteção:** Faz o controle de autenticação  e permissão para recursos que precisem de tal.
+  
+
 &emsp;&emsp; Na aplicação do curumim usamos a variação de **Proxy de Proteção**, que como já foi dito, é responsável pelo processo de autenticação, como podemos observar na imagem do código abaixo.
  
 ![Proxy](../../assets/imagens/gofs/proxy-code.png)
@@ -113,8 +116,5 @@ O padrão Composite possui 4 participantes:
 |1.3|13/09/2021| Adição do Adapter | Eliseu Kadesh 
 |1.4|20/09/2021| Adicionando topico Flyweight e Facade |Francisco Ferreira|
 |1.5|20/09/2021| Revisão do Flyweight e Facade |Edson Soares e Eliseu Kadesh |
-|1.1|10/09/2021| Adicionando tópico Composite | João Pedro, Eliseu Kadesh |
-|1.2|13/09/2021| Adicionando tópico Proxy | Francisco Ferreira|
-|1.3|13/09/2021| Adição do Adapter | Eliseu Kadesh
-|1.4|20/09/2021| Revisão GoFs Estruturais | Mateus Oliveira, Nilo Mendonça |
+|1.6|20/09/2021| Revisão GoFs Estruturais | Mateus Oliveira, Nilo Mendonça |
 
