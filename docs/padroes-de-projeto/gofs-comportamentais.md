@@ -325,5 +325,6 @@ Vlissides
 |1.9|19/09/2021| Implementação | Edson Soares |
 |2.0|19/09/2021| Revisão do padrão Mediator | Bruno Felix e Eliseu Kadesh |
 |2.1|19/09/2021| Revisão dos padrões Observer, State, Command e Iterator | Bruno Felix e Gabriel Bonifácio |
-|2.2|19/09/2021| Introdução do documento + Bibliografia | Edson Soares |
-|2.3|19/09/2021| Breve apresentação dos não aplicáveis (Strategy, Template Method) | Edson Soares |
+|2.2|20/09/2021| Introdução do documento + Bibliografia | Edson Soares |
+|2.3|20/09/2021| Breve apresentação dos não aplicáveis (Strategy, Template Method) | Edson Soares |
+|2.4|20/09/2021| Revisão do strategy e template method | Eliseu Kadesh, Francisco Emanoel |
