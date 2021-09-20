@@ -92,7 +92,7 @@
 **Responsáveis: Nilo Mendonça e Bruno Félix**<br>
  **Pontuação: 2**<br>
  **Status: Concluída.**<br>
-### **Débitos técnicos para a Sprint 3**
+### **Débitos técnicos para a Sprint 4**
 - Modelagem lógica do banco de dados.
 
 ## 3. Retrospectiva

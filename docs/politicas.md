@@ -1,10 +1,10 @@
 # Políticas de Contribuição <br> <span class="rotulo-extra">Iniciativa Extra</span>
 
 ## Introdução
-&emsp;&emsp;O presente documento visa apresentar as políticas que serão usadas no decorrer do projeto, detalhando as politicas de branchs e seu fluxo de trabalho, commits, issues e pull requests.
+&emsp;&emsp;O presente documento visa apresentar as políticas que serão usadas no decorrer do projeto, detalhando as politicas de branches e seu fluxo de trabalho, [commits](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/commits/main), [issues](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues) e [pull requests](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/pulls).
 
-## Política de Branchs
-&emsp;&emsp;É de suma importância que toda nova branch criada esteja devidamente atribuída a um issue do projeto<br>
+## Política de Branches
+&emsp;&emsp;É de suma importância que toda nova branch criada esteja devidamente atribuída a um [issue do projeto](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues).<br>
 &emsp;&emsp;O produto que está sendo desenvolvido tem como versão inicial a **v0.0.0**.
 ### Fluxo de trabalho
 #### Main
@@ -12,7 +12,7 @@
 - Existe penas uma branch main;
 - Não é permitidos commits feitos diretamente na main;
 - Deve aceitar mesclagens apenas de branches do tipo [hotfix](#hotfix) e [releases](#release);
-- Na situação do repositório de documentação, deve aceitar mesclagem das branchs do tipo [doc](#doc);
+- Na situação do repositório de documentação, deve aceitar mesclagem das branches do tipo [doc](#doc);
 - Nome: main.
 
 #### Develop
@@ -85,12 +85,12 @@
 
 > feat(#xx) Alterando rotina de cadastro.<br>
 > Co-authored-by: Fulano de Tal <<fulanodetal@github.com>>
-
+https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/blob/main/.github/ISSUE_TEMPLATE/template-basico.md
 ## Política de Issues
 - Caso o issue esteja direcionado para o desenvolvimento de uma funcionalidade descrita no backlog, o título deve ser na forma: "USXX - Nome da história de usuário" onde XX representa o número da histíria de usuário:
 > US42 - Eu, como usuário, desejo realizar login para utilizar a aplicação 
 - Em geral, o nome do issue deve ser simples e descritivo;
-- Devem ser seguidos os templates já definidos, [Bug Report](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/blob/main/.github/ISSUE_TEMPLATE/bug-report.md) ou [Template Básico](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/blob/main/.github/ISSUE_TEMPLATE/template-basico.md);
+- Devem ser seguidos os templates já definidos, [Bug Report](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/blob/main/.github/ISSUE_TEMPLATE/template-bug.md) ou [Template Básico](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/blob/main/.github/ISSUE_TEMPLATE/template-basico.md);
 - Deve ser atribuído ao pipeline, o estado em que o issue se encontra no workflow. Será utilizado o workflow "Curumim" do ZenHub;
 - Deve ser atribuído todos os assignees definidos para o issue;
 - O issue deve ser marcado com todas a labels que são adequadas, para fins de rastreamento;
@@ -98,7 +98,7 @@
 - Deve ser adicionado ao issue, uma estimativa para a sua complexidade de execução;
 - Quando o issue estiver direcionado para a implementação de uma histórias de usuário, deve ser atribuído o épico ao qual faz parte.
 
-## Política de Pull Resquests
+## Política de Pull Requests
 - O título do Pull Request deve explicar o que está sendo inserido. Caso esteja vinculado com alguma história de usuário, indicar qual é na forma: "USXX - Nome da história de usuário" onde XX representa o número da história de usuário:
 > US42 - Eu, como usuário, desejo realizar login para utilizar a aplicação 
 - Os Pull requests devem seguir o template do repositório o qual deve ser preenchido pelo solicitante;
@@ -118,3 +118,4 @@
 |:-:|--|--|--|
 |1.0|03/08/2021| Abertura do documento | Daniel Porto |
 |1.1|04/08/2021| Adição das políticas de issues e pull requests | Daniel Porto |
+|1.2|17/09/2021| Atualização de informações de acordo com o feedback da entrega 1 | Gabriel Bonifácio |
