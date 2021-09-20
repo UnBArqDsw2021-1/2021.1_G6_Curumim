@@ -26,7 +26,7 @@
 - Product: define um objeto produto a ser criado pela fábrica específica correspondente, implementando a interface declarada em AbstractProduct;
 - Client: usa as interfaces declaradas em AbstractFactory e AbstractProduct;
 
-&emsp;&emsp;Em nosso projeto, podemos utilizar o AbstractFactory na classe "AuthController", por exemplo. Ao iniciar o processo de autenticação, será preciso fazer uma redefinição específica para cada tipo de [usuário](../../base/requisitos/modelagem/lexicos/#lexico-usuario) — com o "ConcreteFactory" —, já que o [administrador](../../base/requisitos/modelagem/lexicos/#lexico-administrador) poderá acessar por meio do "Desktop", enquanto os demais usuários pelo meio ["Mobile"](../../base/requisitos/modelagem/lexicos/#lexico-mobile).
+&emsp;&emsp;Em nosso projeto, podemos utilizar o AbstractFactory na classe "AuthController" (via [Diagrama de Classes](..)), por exemplo. Ao iniciar o processo de autenticação, será preciso fazer uma redefinição específica para cada tipo de [usuário](../../base/modelagem/modelagem-estatica/diagrama-de-classes.md) — com o "ConcreteFactory" —, já que o [administrador](../../base/requisitos/modelagem/lexicos/#lexico-administrador) poderá acessar por meio do "Desktop", enquanto os demais usuários pelo meio ["Mobile"](../../base/requisitos/modelagem/lexicos/#lexico-mobile).
 
 <center>
 	![Auth-Controller](../../assets/imagens/gofs/auth-controller.png)<br>
@@ -74,3 +74,4 @@
 |1.0|11/09/2021| Abertura do documento | Nilo Mendonça |
 |1.1|11/09/2021| Adição da bibliografia e do padrão Factory Method | Nilo Mendonça |
 |1.2|17/09/2021| Adição da bibliografia e do padrão Abstract Factory e Prototype | Gabriel Bonifácio |
+|1.3|19/09/2021| Revisão por pares | Bruno Félix e Francisco Ferreira |
