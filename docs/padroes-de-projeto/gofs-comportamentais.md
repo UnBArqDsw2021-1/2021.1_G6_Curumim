@@ -66,12 +66,12 @@ var addToClassCommand = function (value) {
 
 
 ## Iterator
-&emsp;&emsp;O padrão Iterator, ou Iterador, permite com que se navegue em coleções de elementos. Propõe a criação de classes que implementem métodos especialmente pensados para realizar as iterações dado um conunto de elementos.
+&emsp;&emsp;O padrão Iterator, ou Iterador, permite com que se navegue em coleções de elementos. Propõe a criação de classes que implementem métodos especialmente pensados para realizar as iterações dado um conjunto de elementos.
 
 ![Observer](../assets/imagens/gofs/gof-iterator.png)
 <center>[Figura 1: Padrão iterator.](../assets/imagens/gofs/gof-iterator.png)[ Fonte: dofactory.com](https://www.dofactory.com/javascript/design-patterns/iterator#diagram)</center>
 
-&emsp;&emsp;Esse padrão pode ser aplicado nas situações de iteração de qualquer tipo de coleção de elementos mas pode ser considerada uma aplicação exagerada caso o sistema em questão trabalhe apenas com coleções simples e de baixa coomplexidade.<br>
+&emsp;&emsp;Esse padrão pode ser aplicado nas situações de iteração de qualquer tipo de coleção de elementos mas pode ser considerada uma aplicação exagerada caso o sistema em questão trabalhe apenas com coleções simples e de baixa complexidade.<br>
 &emsp;&emsp;Sendo assim, como as coleções do projeto não têm uma complexidade elevada e as situações de iterações são bem específicas e pontuais, conclui-se que esse padrão não se aplicaria de forma muito vantajosa.
 
 ## Mediator
@@ -92,7 +92,7 @@ Vlissides.<br>
 ### Diagrama de classe (Chat)
 &emsp;&emsp;
 ![foto](../../assets/imagens/gofs/mediator_diagrama_classe.jpg)
-<center>[Figura ?: Interação dos objetos](../../assets/imagens/gofs/mediator_diagrama_classe.jpg)</center>
+<center>[Figura 3: Interação dos objetos](../../assets/imagens/gofs/mediator_diagrama_classe.jpg)</center>
 
 &emsp;&emsp;O diagrama acima demonstra a interação de objetos da seguinte situação: O sistema conta com um chat onde acontece uma troca de mensagens entre os usuários, porém essa comunicação acontece de uma forma relativamente complexa, pois o Guardian pode se comunicar com qualquer um dos outros dois usuários, Administrador ou com o(a) Professor(a). Logo, considera-se necessário criar um mediador para intermediar as mensagens e o chat fluir de uma melhor forma. Nesse caso os objetos conhecem apenas o Mediator.
 
@@ -137,7 +137,7 @@ Vlissides.<br>
 &emsp;&emsp;Esse padrão propõe a implementação de mecanismos de inscrição onde objetos possam estar contidos para receber as mudanças de estados e os eventos ocorridos no objeto observado. Praticamente, trata-se de um conjunto de métodos públicos que permitam com que os objetos observadores se incluam e se retirem do vetor de observadores também contido na classe observada. Além disso, é preciso de um método que notifique cada objeto contido no vetor de observadores.
 
 ![Observer](../assets/imagens/gofs/gof-observer.png)
-<center>[Figura 2: Padrão observer](../assets/imagens/gofs/gof-observer.png)</center>
+<center>[Figura 4: Padrão observer](../assets/imagens/gofs/gof-observer.png)</center>
 
 &emsp;&emsp;Esse padrão é muito bem aplicado em situações onde a mudança de estado de objetos pode acarretar a mudança de estado de outros objetos de forma bem específica. Sendo assim, notou-se que esse padrão não se aplicaria muito bem no escopo do nosso projeto pois não foi encontrada nenhuma situação semelhante no que tange o funcionamento do sistema.
 
@@ -146,14 +146,14 @@ Vlissides.<br>
 &emsp;&emsp;O padrão State permite com que um objeto altere o seu comportamento de acordo com o seu estado interno. Dessa forma, esse padrão sugere a implementação de classes para representar os diferentes estados do objeto e definir o comportamento de seus métodos e funções.
 
 ![State](../assets/imagens/gofs/gof-state.jpg)
-<center>[Figura 3: Padrão state.](../assets/imagens/gofs/gof-state.png)[ Fonte: dofactory.com](https://www.dofactory.com/javascript/design-patterns/state#diagram)</center>
+<center>[Figura 5: Padrão state.](../assets/imagens/gofs/gof-state.png)[ Fonte: dofactory.com](https://www.dofactory.com/javascript/design-patterns/state#diagram)</center>
 
 &emsp;&emsp;Esse padrão é bem aplicado quando existem objetos que possam mudar de status de forma a modificar os seus comportamentos. Sendo assim, a equipe optou por adaptar a modelagem de forma a permitir a utilização desse padrão.<br>
 &emsp;&emsp;Basicamente, esse padrão será utilizado para trabalhar duas classes semelhantes: ActivityController e a EventController. Será implementada a classe ProjectController para identificar o contexto de utilização de forma que ActivityController e a EventController representem o seu estado ou, mais apropriadamente, tipo.<br>
 &emsp;&emsp;Para essa implementação, também será utilizado o auxílio do padrão criacional [Singleton]() na classe ProjectController.
 
 ![State](../assets/imagens/gofs/gof-state-diagram.png)
-<center>[Figura 4: Padrão state.](../assets/imagens/gofs/gof-state-diagram.png)</center>
+<center>[Figura 6: Padrão state.](../assets/imagens/gofs/gof-state-diagram.png)</center>
 
 &emsp;&emsp;A seguir tem-se um exemplo resumido a nível do código do que pode ser feito na implementação desse padrão.
 
