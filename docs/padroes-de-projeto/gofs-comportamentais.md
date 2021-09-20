@@ -122,6 +122,7 @@ Vlissides.<br>
 Patterns: Elements of Reusable Object-Oriented Software. Estados Unidos:
 Hardback, 1995. 416 p. Erich Gamma, Richard Helm, Ralph Johnson, John
 Vlissides
+> - [3] Padrões de projeto comportamentais: https://refactoring.guru/pt-br/design-patterns/behavioral-patterns. Último acesso em 19/09/2021.
 
 
 ## Versionamento
