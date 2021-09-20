@@ -32,3 +32,5 @@ https://www.lucidchart.com/pages/pt/diagrama-de-pacotes-uml. Acesso em: 12/08/20
 |1.3| 08/09/2021 | Atualizando pacotes do front-end no diagrama | João Pedro, Enzo Gabriel |
 |1.4| 13/09/2021 | Atualizando pacotes do back-end no diagrama e adição da v2 do diagrama ao documento | Mateus O. Patrício |
 |1.5| 19/09/2021 | Revisão do diagrama v2.0 do back-end e do documento | Mateus O. Patrício e Daniel Porto |
+|1.6| 20/09/2021 | Correções no diagrama v2.0 | Enzo Gabriel |
+|1.7| 20/09/2021 | Revisão por pares | Mateus O. Patrício e Bruno Félix |
