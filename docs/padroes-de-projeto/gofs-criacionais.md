@@ -25,7 +25,9 @@
 -->
 
 ## Singleton
-&emsp;&emsp;O Singleton é um padrão bastante discutido dentro do Design Pattern devido sua caracteristica principal de ter somente uma instância de classe para toda a aplicação. Basicamente falando, especifica que apenas uma instância da classe pode existir, fornecendo assim, um ponto de acesso global para instancia, possibitando a recuperação da mesma e a utilização aonde essa instancia for chamada.
+&emsp;&emsp;O Singleton é um padrão bastante discutido dentro do Design Pattern devido sua característica principal de ter somente uma instância de classe para toda a aplicação. Basicamente falando, especifica que apenas uma instância da classe pode existir, fornecendo assim, um ponto de acesso global para instância, possibilitando a recuperação da mesma e a utilização onde essa instância for chamada.
+
+&emsp;&emsp;No nosso projeto esse padrão poderá ser aplicado na implementação da classe Ec, onde somente um objeto será instanciado para todo o código. Só deverá existir um único Centro Educacional e o mesmo deverá estar acessível, de forma global, para toda atividade que requisitá-lo.
 
 
 ~~~javascript
@@ -47,8 +49,8 @@ class Ec{
     }
 }
 
-import User from './EC.js'
 //ADMIN CONTROLLER
+import User from './EC.js'
 class AdmController{
     ...
     async updateECInfo() {
@@ -57,13 +59,11 @@ class AdmController{
     }
 }
 ~~~
-<center>
-	![Factory Method](../../assets/imagens/gofs/factory-method.png)<br>
-	[Figura 1: Factory Method](../../assets/imagens/gofs/factory-method.png)
-</center>
 
 ## Multiton
-&emsp;&emsp;
+&emsp;&emsp;O Multiton é um padrão derivado do Singleton, mas com o intuito de ter um número delimitado de objetos instanciados de classe para toda a aplicação. Ao contrário do Singleton, que somente um objeto deve existir, o Multiton fornece múltiplos objetos para ser usado em caráter global para todo o projeto.
+
+&emsp;&emsp;No nosso projeto o Multiton não se aplica em nenhuma vertente justamente por não haver nenhuma classe que nos beneficiaria ter um número de n objetos, de uma mesma classe, instanciados de forma global. 
 
 ## Object Pool
 &emsp;&emsp;
