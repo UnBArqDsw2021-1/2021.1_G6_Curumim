@@ -87,8 +87,8 @@ nav:
         
                 - GRASP: padroes-de-projeto/grasp.md
                 - GOFs:
-                        - Estruturais: padroes-de-projeto/gofs-estruturais.md
                         - Criacionais: padroes-de-projeto/gofs-criacionais.md
+                        - Estruturais: padroes-de-projeto/gofs-estruturais.md
                         - Comportamentais: padroes-de-projeto/gofs-comportamentais.md
                 - Padrões Emergentes: padroes-de-projeto/padroes_emergentes.md
                 - Iniciativas Extras:
