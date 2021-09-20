@@ -84,10 +84,13 @@ nav:
                                         - Review: reunioes/sprints/review-sprint2.md
                 - Apresentação: apresentacoes/apresentacoes_entrega2.md
         - Padrões de Projeto:
+           
                 - GRASP: padroes-de-projeto/grasp.md
                 - GOFs:
-                        - GOFs Criacionais: padroes-de-projeto/gofs-criacionais.md
+                        - Criacionais: padroes-de-projeto/gofs-criacionais.md
+                        - Comportamentais: padroes-de-projeto/gofs-comportamentais.md
                 - Padroẽs Emergentes: padroes-de-projeto/padroes_emergentes.md
+
                 - Iniciativas Extras:
                         - Guia de estilo: padroes-de-projeto/guia-de-estilo/guia-de-estilo.md
                         - Diagrama Lógico do Banco de Dados: modelagem/modelagem-estatica/diagrama-logico-bd.md 
