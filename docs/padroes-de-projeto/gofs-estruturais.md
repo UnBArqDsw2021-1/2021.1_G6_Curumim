@@ -75,9 +75,21 @@ O padrão Composite possui 4 participantes:
 &emsp;&emsp; Na aplicação do curumim usamos a variação de **Proxy de Proteção**, que como já foi dito, é responsável pelo processo de autenticação, como podemos observar na imagem do código abaixo.
  
 ![Proxy](../../assets/imagens/gofs/proxy-code.png)
- 
 <center>[Figura 6: Proxy](../../assets/imagens/gofs/proxy-code.png)</center>
+
+
+## Facade
+&emsp;&emsp; Tem como objetivo fornecer uma interface unificada para um conjunto de interface de nível mais alto em um subsistema. Vale ressaltar que o Facade não tem a intenção de esconder ou ocultar nada do código cliente, o objetivo é facilitar o uso do sistema.
  
+&emsp;&emsp; Depois de algumas análises foi decidido que esse padrão não vai ser aplicado, visto que no uso desse padrão é bem comum ser criada **God Classes**(Uma classe que faz tudo), quebrando outros padrões, principalmente o princípio da responsabilidade única.
+
+## Flyweight
+
+&emsp;&emsp; O padrão flyweight tem como objetivo de compartilhar com eficiência grande quantidades  de objetos, assim sanando alguns problemas de poder computacional, visto que ele economiza memória RAM quando existem grandes números de objetos na aplicação.
+ 
+&emsp;&emsp; Esse padrão não se aplica ao projeto curumim, visto que ele é recomendado quando existe uma grande quantidade de objetos, e assim ter problema com alto consumo de memória RAM.
+
+
 ## Bibliografia
  
 > - LARMAN, Craig. <b>Utilizando UML e Padrões</b>: Uma introdução à análise e ao projeto orientados a objetos e ao desenvolvimento iterativo. 3. ed. [S. l.: s. n.], 2004.
@@ -96,7 +108,13 @@ O padrão Composite possui 4 participantes:
 | Versão | Data | Modificação | Autor |
 |--|--|--|--|
 |1.0|10/09/2021| Abertura do documento | João Pedro |
+|1.1|10/09/2021| Adicionando topico Composite | João Pedro, Eliseu Kadesh |
+|1.2|13/09/2021| Adicionando topico Proxy|Francisco Ferreira|
+|1.3|13/09/2021| Adicão do Adapter | Eliseu Kadesh 
+|1.4|20/09/2021| Adicionando topico Flyweight e Facade |Francisco Ferreira|
+|1.5|20/09/2021| Revisão do Flyweight e Facade |Edson Soares e Eliseu Kadesh |
 |1.1|10/09/2021| Adicionando tópico Composite | João Pedro, Eliseu Kadesh |
 |1.2|13/09/2021| Adicionando tópico Proxy | Francisco Ferreira|
 |1.3|13/09/2021| Adicão do Adapter | Eliseu Kadesh
 |1.4|20/09/2021| Revisão GoFs Estruturais | Mateus Oliveira, Nilo Mendonça |
+
