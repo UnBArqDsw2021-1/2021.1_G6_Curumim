@@ -49,6 +49,19 @@ O padrão Composite possui 4 participantes:
 
 <center>[Figura 2: Proxy](../../assets/imagens/gofs/proxy-code.png)</center>
 
+## Facade
+&emsp;&emsp; Tem como objetivo fornecer uma interface unificada para um conjunto de interface de nível mais alto em um subsistema. Vale ressaltar que o Facade não tem a intenção de esconder ou ocultar nada do código cliente, o objetivo é facilitar o uso do sistema.
+ 
+&emsp;&emsp; Depois de algumas análises foi decidido que esse padrão não vai ser aplicado, visto que no uso desse padrão é bem comum ser criada **God Classes**(Uma classe que faz tudo), quebrando outros padrões, principalmente o princípio da responsabilidade única.
+
+## Flyweight
+
+&emsp;&emsp; O padrão flyweight tem como objetivo de compartilhar com eficiência grande quantidades  de objetos, assim sanando alguns problemas de poder computacional, visto que ele economiza memória RAM quando existem grandes números de objetos na aplicação.
+ 
+&emsp;&emsp; Esse padrão não se aplica ao projeto curumim, visto que ele é recomendado quando existe uma grande quantidade de objetos, e assim ter problema com alto consumo de memória RAM.
+
+
+
 
 ## Bibliografia
 
@@ -69,3 +82,5 @@ O padrão Composite possui 4 participantes:
 |1.0|10/09/2021| Abertura do documento | João Pedro |
 |1.1|10/09/2021| Adicionando topico Composite | João Pedro, Eliseu Kadesh |
 |1.2|13/09/2021| Adicionando topico Proxy|Francisco Ferreira|
+|1.3|20/09/2021| Adicionando topico Flyweight e Facade |Francisco Ferreira|
+
