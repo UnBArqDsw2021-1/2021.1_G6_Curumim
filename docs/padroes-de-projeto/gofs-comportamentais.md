@@ -3,7 +3,7 @@
 ## Introdução
 &emsp;&emsp;Diferentemente dos padrões de objetos criacionais, que buscam criar objetos de forma controlada, procurando diminuir a complexidade e instabilidade na criação dos objetos, como o [Factory Method](./gofs-criacionais.md), por exemplo. Aqui nos padrões comportamentais que enfatiza como "descrever como um grupos de objetos coopera para realizar uma tarefa que nenhum objeto individualmente pode realizar sozinho." (Gama et al. Design Patterns: Elements os
 Reusable Object-Oriented Software. 1995) [[4]](#bibliografia).<br>
-&emsp;&emsp;Neste documento apresentamos alguns padrões comportamentais que serão implementados no escopo do nosso projeto e uma breve introdução do que é os outros padrões comportamentais que não serão utilizados no contexto da aplicação Curumim.
+&emsp;&emsp;Neste documento apresentamos alguns padrões comportamentais que serão implementados no escopo do nosso projeto e uma breve introdução do que são os outros padrões comportamentais que não serão utilizados no contexto da aplicação Curumim.
 
 ## Command
 
@@ -151,7 +151,7 @@ Vlissides.<br>
 &emsp;&emsp;O padrão State permite com que um objeto altere o seu comportamento de acordo com o seu estado interno. Dessa forma, esse padrão sugere a implementação de classes para representar os diferentes estados do objeto e definir o comportamento de seus métodos e funções.
 
 ![State](../assets/imagens/gofs/gof-state.jpg)
-<center>[Figura 5: Padrão state.](../assets/imagens/gofs/gof-state.png)[ Fonte: dofactory.com](https://www.dofactory.com/javascript/design-patterns/state#diagram)</center>
+<center>[Figura 5: Padrão state.](../assets/imagens/gofs/gof-state.jpg)[ Fonte: dofactory.com](https://www.dofactory.com/javascript/design-patterns/state#diagram)</center>
 
 &emsp;&emsp;Esse padrão é bem aplicado quando existem objetos que possam mudar de status de forma a modificar os seus comportamentos. Sendo assim, a equipe optou por adaptar a modelagem de forma a permitir a utilização desse padrão.<br>
 &emsp;&emsp;Basicamente, esse padrão será utilizado para trabalhar duas classes semelhantes: ActivityController e a EventController. Será implementada a classe ProjectController para identificar o contexto de utilização de forma que ActivityController e a EventController representem o seu estado ou, mais apropriadamente, tipo.<br>
