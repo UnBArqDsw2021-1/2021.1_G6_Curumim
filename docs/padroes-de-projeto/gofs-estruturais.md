@@ -14,10 +14,10 @@
  
  
 ![Exemplo de Adapter - Model Adm](../assets/imagens/gofs-adapters/adapters-model-adm.png)
-<center>[Figura 1: Exemeplo de Adapter - Adm](../assets/imagens/gofs-adapters/adapters-model-adm.png)</center>
+<center>[Figura 1: Exemplo de Adapter - Adm](../assets/imagens/gofs-adapters/adapters-model-adm.png)</center>
  
 ![Exemplo de Adapter - Controller Teste](../assets/imagens/gofs-adapters/adapters-controller.png)
-<center>[Figura 2: Exemeplo de Adapter - Adm](../assets/imagens/gofs-adapters/adapters-controller.png)</center>
+<center>[Figura 2: Exemplo de Adapter - Adm](../assets/imagens/gofs-adapters/adapters-controller.png)</center>
  
  
 ## Bridge
