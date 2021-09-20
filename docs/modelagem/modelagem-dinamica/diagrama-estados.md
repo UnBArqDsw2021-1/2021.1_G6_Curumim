@@ -31,7 +31,7 @@
 ![Gerenciamento de turmas](../../../assets/imagens/diagrama-estados/gerencia-turma.png)
 <center>[Figura 3: Gerenciamento de turmas](../../../assets/imagens/diagrama-estados/gerencia-turma.png)</center><br>
 &emsp;&emsp;No diagrama 3 foram retratados os estados durante a realização do gerenciamento de turmas.<br>
-&emsp;&emsp;O processo se inicia em <b>buscando pela turma ou evento</b>, se ramificando em <b>cadastrando nova turma/evento</b> caso não exista, ou <b>visualizando a turma/evento</b> caso exista, sendo possível entrar em dois outros estados, o de <b>editando a turma/evento</b> ou <b>removendo a turma/evento</b>, sendo então nos estados de editar e cadastrar turma/evento a possibilidade de dois estado, o de <b>salvando</b> ou o <b>descartando</b> a criação/edição, sendo por fim finalizada a atividade.<br>
+&emsp;&emsp;O processo se inicia em <b>buscando pela turma ou evento</b>, se ramificando em <b>cadastrando nova turma/evento</b> caso não exista, ou <b>visualizando a turma/evento</b> caso exista, sendo possível entrar em dois outros estados, o de <b>editando a turma/evento</b> ou <b>removendo a turma/evento</b>, sendo então nos estados de editar e cadastrar turma/evento a possibilidade de dois estados, o de <b>salvando</b> ou o <b>descartando</b> a criação/edição, sendo por fim finalizada a atividade.<br>
 
 #### [Lançamento de presenças](../../../base/requisitos/modelagem/lexicos/#lexico-lancar-presenca)
 ![Lançamento de presenças](../../../assets/imagens/diagrama-estados/lancamento-presenca.png)
