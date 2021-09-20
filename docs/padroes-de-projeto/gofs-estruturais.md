@@ -116,5 +116,5 @@ O padrão Composite possui 4 participantes:
 |1.1|10/09/2021| Adicionando tópico Composite | João Pedro, Eliseu Kadesh |
 |1.2|13/09/2021| Adicionando tópico Proxy | Francisco Ferreira|
 |1.3|13/09/2021| Adicão do Adapter | Eliseu Kadesh
-|1.4|20/09/2021| Revisão por pares | Mateus Oliveira, Nilo Mendonça |
+|1.4|20/09/2021| Revisão GoFs Estruturais | Mateus Oliveira, Nilo Mendonça |
 
