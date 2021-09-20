@@ -3,8 +3,8 @@
 ## Command
 
 &emsp;&emsp;O command é um padrão comportamental que transforma uma solicitação em um objeto independente que possui todas as informações sobre essa solicitação.<br>
-&emsp;&emsp;Esse padrão encapsula ações como objetos, permitindo que o sistema tenha um baixo acoplamento, separando os objetos que emitem uma soliticação dos objetos que processam a soliticação. As soliticações eo código que as processa são chamados respectivamente de eventos e manipuladores de eventos.<br>
-&emsp;&emsp;No nosso projeto, a command é utilizada em algumas situações. No exemplo mostramos a command sendo usada para englobar as ações que o admin pode fazer envolvendo os professores.
+&emsp;&emsp;Esse padrão encapsula ações como objetos, permitindo que o sistema tenha um baixo acoplamento, separando os objetos que emitem solicitações dos objetos que as processam. Tais soliticações e o código que as processam são chamados respectivamente de eventos e manipuladores de eventos.<br>
+&emsp;&emsp;No nosso projeto, a command é utilizada em algumas situações. No exemplo mostramos a command sendo usada para englobar as ações que o [administrador](../../base/requisitos/modelagem/lexicos/#lexico-administrador) pode fazer envolvendo os [professores](../../base/requisitos/modelagem/lexicos/#lexico-professor).
 
 ~~~javascript
 function TeacherButtons() {
@@ -311,7 +311,7 @@ Vlissides
 |1.2|16/09/2021| Introdução ao Mediator e inclusão de bibliografia [2] | Edson Soares |
 |1.3|16/09/2021| Inclusão do diagrama Mediator | Edson Soares |
 |1.4|17/09/2021| Explicação do diagrama de classe | Edson Soares |
-|1.5|18/09/2021| Adição dos padrões Command, Iterator, Observer e State | Daniel Porto, Enzo Gabriel |
+|1.5|18/09/2021| Adição dos padrões Command, Iterator, Observer e State | Daniel Porto e Enzo Gabriel |
 |1.6|19/09/2021| Adição dos padrões Memento e Chain of Responsibility | Mateus O. Patrício |
 |1.7|19/09/2021| Revisão por pares | Daniel Porto e Edson Araujo |
 |1.8|19/09/2021| Construção da estutura de objetos | Edson Soares |
