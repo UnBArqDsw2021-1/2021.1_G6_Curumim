@@ -119,3 +119,4 @@ https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/blob/main/.github/ISSUE_TEM
 |1.0|03/08/2021| Abertura do documento | Daniel Porto |
 |1.1|04/08/2021| Adição das políticas de issues e pull requests | Daniel Porto |
 |1.2|17/09/2021| Atualização de informações de acordo com o feedback da entrega 1 | Gabriel Bonifácio |
+|1.3|19/09/2021| Revisão por pares | Bruno Félix e Daniel Porto |

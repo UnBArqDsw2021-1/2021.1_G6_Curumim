@@ -50,3 +50,4 @@
 | 1.4 | 11/08/2021 | Correção dos hiperlinks dos léxicos | Daniel Porto |
 | 1.5 | 25/08/2021 | Ajuste para navegabilidade nos requisitos | Daniel Porto |
 | 1.6 | 17/09/2021 | Atualização de informações de acordo com o feedback da entrega 1 | Gabriel Bonifácio |
+| 1.7 | 19/09/2021 | Revisão por pares | Bruno Félix e Daniel Porto |
