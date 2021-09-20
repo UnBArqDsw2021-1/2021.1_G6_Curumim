@@ -24,7 +24,7 @@
  
 &emsp;&emsp;O Bridge é um padrão de projeto estrutural que permite que você divida uma classe grande ou um conjunto de classes intimamente ligadas em duas hierarquias separadas: **Abstração** e **Implementação** que podem ser desenvolvidas independentemente umas das outras.
  
-&emsp;&emsp;De acordo com o GoF[[1]](#bibliografia), o padrão Brigde significa é desacoplar uma abstração de sua implementação para que as duas possam variar independentemente
+&emsp;&emsp;De acordo com o GoF[[1]](#bibliografia), o padrão Bridge significa é desacoplar uma abstração de sua implementação para que as duas possam variar independentemente.
  
 #### Abstração
  
@@ -50,20 +50,20 @@ O padrão Composite possui 4 participantes:
 
 ![Composite code](../../assets/imagens/gofs/composite-code.png)
 
-<center>[Figura 2: Board Composite Code](../../assets/imagens/gofs/composite-code.png)</center>
+<center>[Figura 3: Board Composite Code](../../assets/imagens/gofs/composite-code.png)</center>
 
 &emsp;&emsp;Em nível de modelagem, temos esse exemplo onde só foram descritos os métodos e atributos específicos utilizados no composite. É possível ver as classes mais completas no [Diagrama de classes](../modelagem/modelagem-estatica/diagrama-de-classes.md) do projeto.
 
 ![Composite modelagem](../../assets/imagens/gofs/CompositeModelagem.png)
 
-<center>[Figura 3: Composite](../../assets/imagens/gofs/CompositeModelagem.png)</center>
+<center>[Figura 4: Composite](../../assets/imagens/gofs/CompositeModelagem.png)</center>
 
 ## Proxy
 &emsp;&emsp; O proxy é um padrão que tem intenção de fornecer um substituto de localização para outro objeto, com o objetivo de controlar esse objeto. Essa é a descrição que está na literatura de design patterns, mas de forma mais simplificada seria, o proxy é algo que fica no meio do caminho entre a chamada do objeto e o próprio objeto.
 
 ![Proxy](../../assets/imagens/gofs/proxy.png)
 
-<center>[Figura 2: Proxy](../../assets/imagens/gofs/proxy.png)</center>
+<center>[Figura 5: Proxy](../../assets/imagens/gofs/proxy.png)</center>
 
 
 &emsp;&emsp; Quais as principais características  de um proxy? 
@@ -84,7 +84,7 @@ O padrão Composite possui 4 participantes:
 
 ![Proxy](../../assets/imagens/gofs/proxy-code.png)
 
-<center>[Figura 2: Proxy](../../assets/imagens/gofs/proxy-code.png)</center>
+<center>[Figura 6: Proxy](../../assets/imagens/gofs/proxy-code.png)</center>
 
 ## Bibliografia
 
@@ -106,4 +106,4 @@ O padrão Composite possui 4 participantes:
 |1.0|10/09/2021| Abertura do documento | João Pedro |
 |1.1|10/09/2021| Adicionando topico Composite | João Pedro, Eliseu Kadesh |
 |1.2|13/09/2021| Adicionando topico Proxy | Francisco Ferreira|
-|1.3|13/09/2021| Adicão do Adapter | Eliseu Kadesh
+|1.3|13/09/2021| Adicão do Adapter | Eliseu Kadesh 
