@@ -49,3 +49,4 @@ ID | Requisitos | Prioridade |
 | 2.1 | 06/08/2021 | Correções após revisões | Daniel Porto |
 | 2.2 | 21/08/2021 | Correção dos links dos léxicos | Gabriel Bonifácio |
 | 2.3 | 17/09/2021 | Atualização de informações de acordo com o feedback da entrega 1 | Gabriel Bonifácio |
+| 2.4 | 19/09/2021 | Revisão por pares | Bruno Félix e Daniel Porto |

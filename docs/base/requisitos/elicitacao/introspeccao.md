@@ -39,3 +39,4 @@
 |2.2|06/08/2021| Adição e correção de hiperlinks dos léxicos | Gabriel Bonifácio |
 |2.3|09/08/2021| Correção de hiperlinks dos léxicos | Gabriel Bonifácio |
 |2.4|17/09/2021| Atualização de informações de acordo com o feedback da entrega 1 | Gabriel Bonifácio |
+|2.5|19/09/2021| Revisão por pares | Bruno Félix e Daniel Porto |
