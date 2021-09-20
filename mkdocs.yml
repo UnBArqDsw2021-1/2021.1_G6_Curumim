@@ -85,6 +85,8 @@ nav:
                 - Apresentação: apresentacoes/apresentacoes_entrega2.md
         - Padrões de Projeto:
                 - GRASP: padroes-de-projeto/grasp.md
+                - GOFs:
+                        - GOFs Criacionais: padroes-de-projeto/gofs-criacionais.md
                 - Padroẽs Emergentes: padroes-de-projeto/padroes_emergentes.md
                 - Iniciativas Extras:
                         - Guia de estilo: padroes-de-projeto/guia-de-estilo/guia-de-estilo.md
