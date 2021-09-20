@@ -123,3 +123,5 @@ class AdmController{
 |1.3|17/09/2021| Adição da bibliografia e do padrão Abstract Factory e Prototype | Gabriel Bonifácio |
 |1.4|19/09/2021| Adição padrão Multiton e Object Pool | Bruno Félix |
 |1.5|19/09/2021| Revisão por pares | Bruno Félix e Francisco Ferreira |
+|1.6|20/09/2021| Adição da introdução | Nilo Mendonça |
+|1.7|20/09/2021| Revisão por pares | Eliseu Kadesh e João Pedro |
