@@ -2,7 +2,7 @@
  
 ## Introdução
  
-&emsp;&emsp;O Diagrama de Classes é utilizado para representar e descrever a estrutura estática de classes do sistema, definindo os atributos, métodos e relacionamentos entre as classes. Além disso, fornece uma visão geral do comportamento estático do sistema, e pode ser utilizado como base para outros diagramas UML.
+&emsp;&emsp;De acordo com artigo da plataforma Lucidchart[1], o Diagrama de Classes é utilizado para representar e descrever a estrutura estática de classes do sistema, definindo os atributos, métodos e relacionamentos entre as classes. Além disso, fornece uma visão geral do comportamento estático do sistema, e pode ser utilizado como base para outros diagramas UML.
 
 ## Metodologia
 
@@ -29,7 +29,9 @@
 - A maioria dos métodos das classes controllers tem relação de dependência com a classe AuthController, tais relações não foram incluídas no diagrama para facilitar a visualização.
  
 ## Bibliografia
-> - UML Package Diagrams Overview. Disponível em: <https://www.uml-diagrams.org/class-diagrams-overview.html>. Acesso em: 13/08/2021.
+
+> - [1] O que é um diagrama de classes UML?. lucidchart.com. Disponível em <https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml>. Acesso em: 19 set. 2021.
+> - UML Class Diagrams Overview. uml-diagrams.org. Disponível em: <https://www.uml-diagrams.org/class-diagrams-overview.html> Acesso em: 13/08/2021.
 > - Videoaulas e materiais complementares presentes no moodle da disciplina Arquitetura e Desenho de Software. Disponível em <https://aprender3.unb.br/course/view.php?id=8603>. Acesso em: 14 ago. 2021.
 
 ## Versionamento
