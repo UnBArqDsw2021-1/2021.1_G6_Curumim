@@ -83,6 +83,9 @@ O padrão Composite possui 4 participantes:
 &emsp;&emsp; Na aplicação do curumim usamos a variação de **Proxy de Proteção**, que como já foi dito, é responsável pelo processo de autenticação, como podemos observar na imagem do código abaixo.
 
 ![Proxy](../../assets/imagens/gofs/proxy-code.png)
+<center>[Figura 6: Proxy](../../assets/imagens/gofs/proxy-code.png)</center>
+
+
 
 
 ## Facade
@@ -95,8 +98,6 @@ O padrão Composite possui 4 participantes:
 &emsp;&emsp; O padrão flyweight tem como objetivo de compartilhar com eficiência grande quantidades  de objetos, assim sanando alguns problemas de poder computacional, visto que ele economiza memória RAM quando existem grandes números de objetos na aplicação.
  
 &emsp;&emsp; Esse padrão não se aplica ao projeto curumim, visto que ele é recomendado quando existe uma grande quantidade de objetos, e assim ter problema com alto consumo de memória RAM.
-
-<center>[Figura 6: Proxy](../../assets/imagens/gofs/proxy-code.png)</center>
 
 
 ## Bibliografia
@@ -121,4 +122,6 @@ O padrão Composite possui 4 participantes:
 |1.2|13/09/2021| Adicionando topico Proxy|Francisco Ferreira|
 |1.3|13/09/2021| Adicão do Adapter | Eliseu Kadesh 
 |1.4|20/09/2021| Adicionando topico Flyweight e Facade |Francisco Ferreira|
+|1.5|20/09/2021| Revisão do Flyweight e Facade |Edson Soares e Eliseu Kadesh |
+
 
