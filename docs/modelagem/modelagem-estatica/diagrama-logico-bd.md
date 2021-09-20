@@ -14,20 +14,20 @@ Depois de algumas discussões durante a construção do modelo lógico, foi obse
 ### Versão 1.0
 &emsp;&emsp;
 ![Diagrama lógico do Banco de Dados](../../assets/imagens/diagrama-logico-bd/diagrama-logico-bd-curumin-v1.png)
-<center>[Figura 1: Diagrama lógico do Banco de Dados V1](../../assets/imagens/diagrama-logico-bd/diagrama-logico-bd-curumin-v1.png)</center>
+<center>[Figura 1: Diagrama lógico do Banco de Dados v1.](../../assets/imagens/diagrama-logico-bd/diagrama-logico-bd-curumin-v1.png)</center>
 
 ### Versão 2.0
-&emsp;&emsp;A seguir temos a segunda versão do diagrama lógico do banco de dados, com algumas mudanças após a modelagem física<br>
+&emsp;&emsp;A seguir temos a segunda versão do diagrama lógico do banco de dados, com algumas mudanças após a modelagem física.<br>
 &emsp;&emsp;Nessa versão, o nome das tabelas foram alteradas para o plural, por questões de padronização, foram também simplificadas algumas tabelas, como por exemplo a tabela [Teacher](../../../base/requisitos/modelagem/lexicos/#lexico-professor), e a tabela [Adm](../../../base/requisitos/modelagem/lexicos/#lexico-administrador) que agora foram substituida por outra tabela Professional, que possui uma string indicando o tipo do profissional. Também foi simplificada as tabelas [Activity](../../../base/requisitos/modelagem/lexicos/#lexico-atividade) e [Event](../../../base/requisitos/modelagem/lexicos/#lexico-evento) para uma única tabela Projects, que indica também através de uma string que tipo de projeto se trata.
 
 &emsp;&emsp;
 ![Diagrama lógico do Banco de Dados](../../assets/imagens/diagrama-logico-bd/diagrama-logico-bd-curumin-v2.png)
-<center>[Figura 2: Diagrama lógico do Banco de Dados v2](../../assets/imagens/diagrama-logico-bd/diagrama-logico-bd-curumin-v2.png)</center>
+<center>[Figura 2: Diagrama lógico do Banco de Dados v2.](../../assets/imagens/diagrama-logico-bd/diagrama-logico-bd-curumin-v2.png)</center>
 
  
-#### **Legenda dos simbolos**:<br>
-- Chave preta: Chave primária
-- Chave verde: Chave estrangeira
+#### **Legenda dos símbolos**:<br>
+- Chave preta: Chave primária;
+- Chave verde: Chave estrangeira;
  
 #### **Observações**:<br>
 - As tabelas [Adm](../../../base/requisitos/modelagem/lexicos/#lexico-administador), [Teacher](../../../base/requisitos/modelagem/lexicos/#lexico-professor) e [Guardian](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel), cada uma possuem uma chave primária que também é uma chave estrangeira que faz referência a tabela [User](../../../base/requisitos/modelagem/lexicos/#lexico-usuario), que será a tabela que possui de fato as informações pessoais de cada tipo de [usuário](../../../base/requisitos/modelagem/lexicos/#lexico-usuario), e um identificar de qual tipo é aquele [usuário](../../../base/requisitos/modelagem/lexicos/#lexico-usuario).
