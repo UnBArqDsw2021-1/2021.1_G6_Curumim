@@ -1,5 +1,9 @@
 # GOFs Comportamentais
 
+&emsp;&emsp;Diferentemente dos padrões de objetos estruturais, como o [Factory Method](./gofs-criacionais.md) que busca criar objetos de forma controlada, procurando diminuir a complexidade e instabilidade na criação dos objetos. Aqui nos padrões comportamentais que enfatiza como "descrever como um grupos de objetos coopera para realizar uma tarefa que nenhum objeto individualmente pode realizar sozinho." (Design Patterns: Elements os
+Reusable Object-Oriented Software. Addison-Wesley, 1995) [[4]](#bibliografia). Apresentamos alguns padrões comportamentais como o [Command](#command), [Iterator](#iterator), [Mediator](#mediator), [Observer](#observer), [State](#state), [Visitor](#visitor), [Memento](#memento) e [Chain Of Responsibility](#ChainOfResponsibility).
+
+
 ## Command
 
 &emsp;&emsp;O command é um padrão comportamental que transforma uma solicitação em um objeto independente que possui todas as informações sobre essa solicitação.<br>
@@ -246,11 +250,6 @@ class EventController{
 }
 ~~~
 
-## Strategy
-
-
-## Template Method
-
 
 ## Visitor
 
@@ -303,6 +302,8 @@ Vlissides
 > - SHVETS, Alexander. **Dive Into Design Patterns**. Disponível em <https://refactoring.guru/design-patterns>. Acesso em 18/09/2021.
 > - DOFACTORY. **Javascript Design Patterns**. Disponível em <https://www.dofactory.com/javascript/design-patterns/>. Acesso em 18/09/2021.
 
+> - [4] Design Patterns: Elements os Reusable Object-Oriented Software. Addison-Wesley, 1995. Disponível em: <http://www.uml.org.cn/c%2B%2B/pdf/DesignPatterns.pdf>. Acesso em 19/09/2021.
+
 ## Versionamento
 | Versão | Data | Modificação | Autor |
 |--|--|--|--|
@@ -318,3 +319,4 @@ Vlissides
 |1.9|19/09/2021| Implementação | Edson Soares |
 |2.0|19/09/2021| Revisão do padrão Mediator | Bruno Felix e Eliseu Kadesh |
 |2.1|19/09/2021| Revisão dos padrões Observer, State, Command e Iterator | Bruno Felix e Gabriel Bonifácio |
+|2.2|19/09/2021| Introdução do documento + Bibliografia | Edson Soares |
