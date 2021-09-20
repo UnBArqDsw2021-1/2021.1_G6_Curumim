@@ -1,5 +1,6 @@
 # GOFs Comportamentais
 
+## Introdução
 &emsp;&emsp;Diferentemente dos padrões de objetos criacionais, que buscam criar objetos de forma controlada, procurando diminuir a complexidade e instabilidade na criação dos objetos, como o [Factory Method](./gofs-criacionais.md), por exemplo. Aqui nos padrões comportamentais que enfatiza como "descrever como um grupos de objetos coopera para realizar uma tarefa que nenhum objeto individualmente pode realizar sozinho." (Gama et al. Design Patterns: Elements os
 Reusable Object-Oriented Software. 1995) [[4]](#bibliografia).<br>
 &emsp;&emsp;Neste documento apresentamos alguns padrões comportamentais que serão implementados no escopo do nosso projeto e uma breve introdução do que é os outros padrões comportamentais que não serão utilizados no contexto da aplicação Curumim.
