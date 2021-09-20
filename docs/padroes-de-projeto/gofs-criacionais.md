@@ -26,7 +26,7 @@
 - Product: define um objeto produto a ser criado pela fábrica específica correspondente, implementando a interface declarada em AbstractProduct;
 - Client: usa as interfaces declaradas em AbstractFactory e AbstractProduct;
 
-&emsp;&emsp;Em nosso projeto, podemos utilizar o AbstractFactory na classe "AuthController" (via [Diagrama de Classes](..)), por exemplo. Ao iniciar o processo de autenticação, será preciso fazer uma redefinição específica para cada tipo de [usuário](../../base/modelagem/modelagem-estatica/diagrama-de-classes.md) — com o "ConcreteFactory" —, já que o [administrador](../../base/requisitos/modelagem/lexicos/#lexico-administrador) poderá acessar por meio do "Desktop", enquanto os demais usuários pelo meio ["Mobile"](../../base/requisitos/modelagem/lexicos/#lexico-mobile).
+&emsp;&emsp;Em nosso projeto, podemos utilizar o AbstractFactory na classe "AuthController" (via [Diagrama de Classes](../../modelagem/modelagem-estatica/diagrama-de-classes)), por exemplo. Ao iniciar o processo de autenticação, será preciso fazer uma redefinição específica para cada tipo de [usuário](../../modelagem/modelagem-estatica/diagrama-de-classes/#metodologia) — com o "ConcreteFactory" —, já que o [administrador](../../base/requisitos/modelagem/lexicos/#lexico-administrador) poderá acessar por meio do "Desktop", enquanto os demais usuários pelo meio ["Mobile"](../../base/requisitos/modelagem/lexicos/#lexico-mobile).
 
 <center>
 	![Auth-Controller](../../assets/imagens/gofs/auth-controller.png)<br>
@@ -41,7 +41,6 @@
 </center>
 
 ## Prototype
--->
 
 &emsp;&emsp;O padrão de projeto Prototype nos permitirá copiar objetos existentes sem que essa parte do código tenha dependência em classes. Quando quisermos criar um objeto igual, não precisamos acionar essas classes, basta fazer a exata cópia do objeto já criado. 
 
