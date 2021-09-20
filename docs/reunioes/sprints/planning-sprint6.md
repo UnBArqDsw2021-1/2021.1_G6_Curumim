@@ -16,8 +16,8 @@ A [Sprint 6](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/milestone/8) t
 - Finalizar e revisar os documentos referente aos [GRASPs](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/131) e [GOFs](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/143);<br>
 - Finalizar a [autenticação](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim_Back-end/issues/5);<br>
 - Realizar a implementação de algumas telas pela equipe do front-end;<br>
-- Criar a documentação referente aos Padrões e Projetos Emergentes.<br>
-- Fazer entrega referente ao módulo Padrões de Proejto;<br>
+- Criar a documentação referente aos Padrões de Projetos Emergentes.<br>
+- Fazer entrega referente ao módulo Padrões de Projeto;<br>
 
 
 ## 3. Sprint Backlog
