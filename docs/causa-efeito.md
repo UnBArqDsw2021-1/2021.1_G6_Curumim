@@ -20,3 +20,4 @@
 |:-:|--|--|--|
 |1.0|02/08/2021| Criação do documento | João Pedro |
 |1.1|17/09/2021| Atualização de informações de acordo com o feedback da entrega 1 | Gabriel Bonifácio |
+|1.2|19/09/2021| Revisão por pares | Bruno Félix e Daniel Porto |

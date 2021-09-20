@@ -74,3 +74,4 @@
 |1.2|06/08/2021| Adição de hiperlinks dos léxicos | Mateus O. Patrício |
 |1.3|21/08/2021| Correção dos links dos léxicos | Gabriel Bonifácio |
 |1.4|17/09/2021| Atualização de informações de acordo com o feedback da entrega 1 | Gabriel Bonifácio |
+|1.5|19/09/2021| Revisão por pares | Bruno Félix e Daniel Porto |
