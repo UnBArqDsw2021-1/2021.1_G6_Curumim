@@ -27,7 +27,7 @@ Depois de algumas discussões durante a construção do modelo lógico, foi obse
  
 #### **Legenda dos símbolos**:<br>
 - Chave preta: Chave primária;
-- Chave verde: Chave estrangeira;
+- Chave verde: Chave estrangeira.
  
 #### **Observações**:<br>
 - As tabelas [Adm](../../../base/requisitos/modelagem/lexicos/#lexico-administador), [Teacher](../../../base/requisitos/modelagem/lexicos/#lexico-professor) e [Guardian](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel), cada uma possuem uma chave primária que também é uma chave estrangeira que faz referência a tabela [User](../../../base/requisitos/modelagem/lexicos/#lexico-usuario), que será a tabela que possui de fato as informações pessoais de cada tipo de [usuário](../../../base/requisitos/modelagem/lexicos/#lexico-usuario), e um identificar de qual tipo é aquele [usuário](../../../base/requisitos/modelagem/lexicos/#lexico-usuario).
