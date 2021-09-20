@@ -27,7 +27,7 @@
 ## Singleton
 &emsp;&emsp;O Singleton é um padrão bastante discutido dentro do Design Pattern devido sua característica principal de ter somente uma instância de classe para toda a aplicação. Basicamente falando, especifica que apenas uma instância da classe pode existir, fornecendo assim, um ponto de acesso global para instância, possibilitando a recuperação da mesma e a utilização onde essa instância for chamada.
 
-&emsp;&emsp;No nosso projeto esse padrão poderá ser aplicado na implementação da classe Ec, onde somente um objeto será instanciado para todo o código. Só deverá existir um único Centro Educacional e o mesmo deverá estar acessível, de forma global, para toda atividade que requisitá-lo.
+&emsp;&emsp;No nosso projeto esse padrão poderá ser aplicado na implementação da [classe Ec](../../modelagem/modelagem-estatica/diagrama-de-classes/#metodologia), onde somente um objeto será instanciado para todo o código. Só deverá existir um único [Centro Educacional](../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional) e o mesmo deverá estar acessível, de forma global, para toda atividade que requisitá-lo.
 
 
 ~~~javascript
@@ -68,7 +68,7 @@ class AdmController{
 ## Object Pool
 &emsp;&emsp;O Object Pool, ou piscina de objetos, é um padrão de design de criação que consiste fundamentalmente em um conjunto de objetos instanciados e alocados num espaço, denominado "pool", assim quando esse objeto é requisitado ele sai da pool não ficando mais disponível ali. Uma vez chamado esse objeto pode ser utilizado, tratado, e/ou manipulado e, após o término do processo de seu uso, ele é retornado para a poll ao invés de ser destruído, para, novamente, estar acessível para o projeto.
 
-&emsp;&emsp;No nosso projeto o Object Pool não se aplica muito pelo mesmo que o Multiton, não temos oportunidades, dentro do projeto, de termos diversos objetos instanciado em um contêiner para utilização e reutilização global. 
+&emsp;&emsp;No nosso projeto o Object Pool não se aplica muito pelo mesmo que o Multiton, não temos oportunidades, dentro do projeto, de termos diversos objetos instanciados em um contêiner para utilização e reutilização global. 
 
 ## Bibliografia
 
