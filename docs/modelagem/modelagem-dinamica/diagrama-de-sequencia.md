@@ -40,3 +40,4 @@
 |1.2| 21/08/2021 | Revisão por pares| Nilo Mendonça e Eliseu Kadesh |
 |1.3| 19/09/2021 | Adicionando diagrama de administrador cadastrando evento | Enzo Gabriel |
 |1.4| 20/09/2021 | Adicionando metodologia | Enzo Gabriel |
+|1.5| 20/09/2021 | Revisão por pares| Nilo Mendonça e Daniel Porto |
