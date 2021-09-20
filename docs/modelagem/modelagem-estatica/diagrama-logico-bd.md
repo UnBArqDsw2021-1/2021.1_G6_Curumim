@@ -52,4 +52,4 @@ Depois de algumas discussões durante a construção do modelo lógico, foi obse
 | 1.2 | 30/08/2021 | Revisão por pares              | Gabriel Bonifácio, Francisco Ferreira |
 | 1.3 | 30/08/2021 | Alterações no diagrama e novas observações | Eliseu Kadesh |
 | 2.0 | 19/09/2021 | Adição da segunda versão do diagrama | Eliseu Kadesh |
-| 2.1 | 19/09/2021 | Revisão por pares | Daniel Porto, Edson Soares |
+| 2.1 | 19/09/2021 | Revisão por pares                    | Bruno Felix, Edson Soares |
