@@ -87,4 +87,4 @@
 | 1.1| 20/09/2021| Adicionando imagens | Francisco |
 | 1.2| 20/09/2021| Adicionado padrão MVC | Bruno Felix e Francisco Ferreira |
 | 1.3| 20/09/2021| Adicionado padrão middleware | Bruno Felix e Francisco Ferreira |
-| 1.4| 20/09/2021| Revisão do documento | Nilo Mendonça e Enzo Gabriel |
+| 1.4| 20/09/2021| Revisando documento | Nilo Mendonça e Enzo Gabriel |
