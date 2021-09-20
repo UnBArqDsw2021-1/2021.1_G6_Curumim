@@ -19,6 +19,22 @@
 ![Exemplo de Adapter - Controller Teste](../assets/imagens/gofs-adapters/adapters-controller.png)
 <center>[Figura 2: Exemeplo de Adapter - Adm](../assets/imagens/gofs-adapters/adapters-controller.png)</center>
 
+
+## Bridge
+ 
+&emsp;&emsp;O Bridge é um padrão de projeto estrutural que permite que você divida uma classe grande ou um conjunto de classes intimamente ligadas em duas hierarquias separadas: **Abstração** e **Implementação** que podem ser desenvolvidas independentemente umas das outras.
+ 
+&emsp;&emsp;De acordo com o GoF[[1]](#bibliografia), o padrão Brigde significa é desacoplar uma abstração de sua implementação para que as duas possam variar independentemente
+ 
+#### Abstração
+ 
+&emsp;&emsp;Também chamado de interface é uma camada de controle de alto nível para alguma entidade. Essa camada não deve fazer nenhum tipo de trabalho por conta própria. Ela deve delegar o trabalho para a camada de implementação.
+ 
+#### Implementação
+ 
+&emsp;&emsp;Camada de que terá a responsabilidade de implementar um comportamento específico de um objeto.
+
+
 ## Composite
 
 &emsp;&emsp;O Composite é um padrão de design de particionamento e descreve um grupo de objetos que é tratado da mesma maneira que uma única instância do mesmo tipo de objeto. O objetivo de um Composite é agrupar objetos em estruturas de árvore para representar hierarquias parte-todo. Ele permite que você tenha uma estrutura de árvore e peça a cada folha da árvore que execute uma tarefa. "O Composite é baseado no Polimorfismo e fornece variações protegidas a um cliente então não sofre impacto se seus objetos relacionados forem atômicos ou compostos" (LARMAN, 2004). 
@@ -89,5 +105,5 @@ O padrão Composite possui 4 participantes:
 |--|--|--|--|
 |1.0|10/09/2021| Abertura do documento | João Pedro |
 |1.1|10/09/2021| Adicionando topico Composite | João Pedro, Eliseu Kadesh |
-|1.2|13/09/2021| Adicionando topico Proxy|Francisco Ferreira|
+|1.2|13/09/2021| Adicionando topico Proxy | Francisco Ferreira|
 |1.3|13/09/2021| Adicão do Adapter | Eliseu Kadesh
