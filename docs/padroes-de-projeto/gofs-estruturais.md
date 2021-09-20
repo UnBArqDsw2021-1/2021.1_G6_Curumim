@@ -40,7 +40,7 @@ O padrão Composite possui 4 participantes:
 - Composite: É uma classe que estende Component para representar nós na estrutura da árvore, podendo conter filhos. Esta classe armazena componentes Leaf e implementa os comportamentos definidos em Component para acessar e gerenciar componentes filhos.
 - Client: interage com o Component para acessar e manipular objetos na composição.
  
-&emsp;&emsp;Em nosso projeto, é possível utilizar o Composite para gerar o [mural](../../../base/requisitos/modelagem/lexicos/#lexico-mural), onde teremos BoardController sendo o Component, e as leaf sendo a classe Events e a classe Anotations. Abaixo temos um exemplo em javascript:
+&emsp;&emsp;Em nosso projeto, é possível utilizar o Composite para gerar o [mural](../../../base/requisitos/modelagem/lexicos/#lexico-mural), onde teremos BoardController sendo o Component, e as leaf sendo a classe Events, a classe Anotations e a classe Activity. Abaixo temos um exemplo em javascript:
  
 ![Composite code](../../assets/imagens/gofs/composite-code.png)
  
