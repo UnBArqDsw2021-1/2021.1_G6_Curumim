@@ -62,7 +62,7 @@ var addToClassCommand = function (value) {
 };
 ~~~
 
-&emsp;&emsp;Por fim as ações de registrar, excluir, atualizar e atribuir a turma, com o objeto professor, que contém os atributos capturados na interface.
+&emsp;&emsp;Por fim as ações de registrar, excluir, atualizar e atribuir a [turma](../../base/requisitos/modelagem/lexicos/#lexico-turma), com o objeto [professor](../../base/requisitos/modelagem/lexicos/#lexico-turma), que contém os atributos capturados na interface.
 
 
 ## Iterator
