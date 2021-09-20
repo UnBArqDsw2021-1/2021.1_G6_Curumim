@@ -1,8 +1,8 @@
 # GOFs Comportamentais
 
-&emsp;&emsp;Diferentemente dos padrões de objetos estruturais, como o [Factory Method](./gofs-criacionais.md) que busca criar objetos de forma controlada, procurando diminuir a complexidade e instabilidade na criação dos objetos. Aqui nos padrões comportamentais que enfatiza como "descrever como um grupos de objetos coopera para realizar uma tarefa que nenhum objeto individualmente pode realizar sozinho." (Design Patterns: Elements os
-Reusable Object-Oriented Software. Addison-Wesley, 1995) [[4]](#bibliografia). Apresentamos alguns padrões comportamentais como o [Command](#command), [Iterator](#iterator), [Mediator](#mediator), [Observer](#observer), [State](#state), [Visitor](#visitor), [Memento](#memento) e [Chain Of Responsibility](#ChainOfResponsibility).
-
+&emsp;&emsp;Diferentemente dos padrões de objetos criacionais, que buscam criar objetos de forma controlada, procurando diminuir a complexidade e instabilidade na criação dos objetos, como o [Factory Method](./gofs-criacionais.md), por exemplo. Aqui nos padrões comportamentais que enfatiza como "descrever como um grupos de objetos coopera para realizar uma tarefa que nenhum objeto individualmente pode realizar sozinho." (Gama et al. Design Patterns: Elements os
+Reusable Object-Oriented Software. 1995) [[4]](#bibliografia).<br>
+&emsp;&emsp;Neste documento apresentamos alguns padrões comportamentais que serão implementados no escopo do nosso projeto e uma breve introdução do que é os outros padrões comportamentais que não serão utilizados no contexto da aplicação Curumim.
 
 ## Command
 
@@ -250,6 +250,12 @@ class EventController{
 }
 ~~~
 
+## Strategy
+&emsp;&emsp;O padrão Strategy é utilizado para encapsular algoritmos semelhantes a fim de definir novas operações sem alterar as classes dos elementos sobre os quais opera. (Gamma et al. 1995)[[4]](#bibliografia), afirma que a grande vantagem de utilizar o padrão strategy é que além de permitir reutilização de código, as funcionalidades do projeto são facilmente estendidas e as manutenções no projeto acabam sendo menos custosas.
+
+
+## Template Method
+&emsp;&emsp;Seguindo as definições dos autores de Design Patterns, é dito que o padrão Template Method, "permite que as subclasses redefinam certas etapas de um algoritmo sem alterar a estrutura do algoritmo," (Gamma et al. 1995)[[4]](#bibliografia). Isso porque esse padrão é representado como um método em uma classe base, geralmente uma classe abstrata, contendo a estrutura das partes invariáveis do algoritmo. O padrão template method garante que o modelo geral seja sempre seguido.
 
 ## Visitor
 
@@ -320,3 +326,4 @@ Vlissides
 |2.0|19/09/2021| Revisão do padrão Mediator | Bruno Felix e Eliseu Kadesh |
 |2.1|19/09/2021| Revisão dos padrões Observer, State, Command e Iterator | Bruno Felix e Gabriel Bonifácio |
 |2.2|19/09/2021| Introdução do documento + Bibliografia | Edson Soares |
+|2.3|19/09/2021| Breve apresentação dos não aplicáveis (Strategy, Template Method) | Edson Soares |
