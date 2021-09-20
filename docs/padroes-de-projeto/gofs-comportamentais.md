@@ -3,7 +3,7 @@
 ## Command
 
 &emsp;&emsp;O command é um padrão comportamental que transforma uma solicitação em um objeto independente que possui todas as informações sobre essa solicitação.<br>
-&emsp;&emsp;Esse padrão encapsula ações como objetos, permitindo que o sistema tenha um baixo acoplamento, separando os objetos que emitem solicitações dos objetos que as processam. Tais soliticações e o código que as processam são chamados respectivamente de eventos e manipuladores de eventos.<br>
+&emsp;&emsp;Esse padrão encapsula ações como objetos, permitindo que o sistema tenha um baixo acoplamento, separando os objetos que emitem solicitações dos objetos que as processam. Tais solicitações e o código que as processam são chamados respectivamente de eventos e manipuladores de eventos.<br>
 &emsp;&emsp;No nosso projeto, a command é utilizada em algumas situações. No exemplo mostramos a command sendo usada para englobar as ações que o [administrador](../../base/requisitos/modelagem/lexicos/#lexico-administrador) pode fazer envolvendo os [professores](../../base/requisitos/modelagem/lexicos/#lexico-professor).
 
 ~~~javascript
