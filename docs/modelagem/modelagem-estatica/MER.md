@@ -2,14 +2,14 @@
 
 ## Introdução
 
-&emsp;&emsp;O Modelo de Entidade relacionamento também conhecido como MER, é um modelo conceitual usado para descrver as entidades em um domínio de negócio, assim listando suas caracteriscas e como elas se relacionam entre si. No geral esse modelo é utilizado para representar uma forma abstrata da estrutura que possuirá o banco de dados da aplicação.
+&emsp;&emsp;O Modelo de Entidade relacionamento também conhecido como MER, é um modelo conceitual usado para descrever as entidades em um domínio de negócio, assim listando suas características e como elas se relacionam entre si. No geral esse modelo é utilizado para representar uma forma abstrata da estrutura que possuirá o banco de dados da aplicação.
 
 ## Metodologia
 &emsp;&emsp;Para realizar essa especificação inicial do modelo, primeiramente foram definidas todas as entidades mais concretas que estarão presentes no banco de dados. Dessa forma, para cada entidade, foi preenchida uma tabela com as seguintes colunas:
 
 - Atributos: todos os atributos necessários para representar uma instância da entidade;
 - Propriedades: o que caracteriza aquele atributo, podendo ser uma chave primária, estrangeira, um atributo obrigatório ou opcional;
-- Tipo: basicamnete se refere ao tipo de dado do atributo em questão;
+- Tipo: basicamente se refere ao tipo de dado do atributo em questão;
 - Descrição: uma breve explicação sobre o que o atributo representa.
 
 &emsp;&emsp;Feito isso, foram descritas e analisadas as relações entre as entidades e suas respectivas cardinalidades. Sendo assim, ao final foi possível concluir sobre a modelagem do banco de dados de forma que possibilite uma representação gráfica coerente com o escopo do projeto e as necessidades do desenvolvimento.
@@ -17,11 +17,12 @@
 ## Entidades
 &emsp;&emsp;A seguir estão descritas as entidades conforme citado anteriormente. Os nomes das entidades e seus atributos estarão em Inglês no padrão CamelCase para já iniciar e introduzir uma padronização do que será implementado no código.
 
+
 ### [Guardian](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel)
 
 |Atributos | Propriedade | Tipo | Descrição |
 |----------|-------------|------|-----------|
-|IdGuardian|Chave primária|Inteiro|Indetificação do [responsável](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel)|
+|IdGuardian|Chave primária|Inteiro|Identificação do [responsável](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel)|
 |Name|Obrigatório|String|Nome do [responsável](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel)|
 |CPF|Obrigatório|String|CPF do [responsável](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel)|
 |Email|Obrigatório|String| Email do  [responsável](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel) |
@@ -32,7 +33,7 @@
 
 |Atributos | Propriedade | Tipo | Descrição |
 |----------|-------------|------|-----------|
-|IdAdm|Chave primária|Inteiro|Indetificação do [administrador](../../../base/requisitos/modelagem/lexicos/#lexico-administrador)|
+|IdAdm|Chave primária|Inteiro|Identificação do [administrador](../../../base/requisitos/modelagem/lexicos/#lexico-administrador)|
 |Name|Obrigatório|String| Nome do [administrador](../../../base/requisitos/modelagem/lexicos/#lexico-administrador) |
 |CPF|Obrigatório|String| CPF do [administrador](../../../base/requisitos/modelagem/lexicos/#lexico-administrador)|
 |Email|Obrigatório|String|Email do [administrador](../../../base/requisitos/modelagem/lexicos/#lexico-administrador) |
@@ -43,7 +44,7 @@
 
 |Atributos | Propriedade | Tipo | Descrição |
 |----------|-------------|------|-----------|
-|IdTeacher|Chave primária|Inteiro|Indetificação do [professor](../../../base/requisitos/modelagem/lexicos/#lexico-professor)|
+|IdTeacher|Chave primária|Inteiro|Identificação do [professor](../../../base/requisitos/modelagem/lexicos/#lexico-professor)|
 |Name|Obrigatório|String| Nome do [professor](../../../base/requisitos/modelagem/lexicos/#lexico-professor)|
 |CPF|Obrigatório|String| CPF do [professor](../../../base/requisitos/modelagem/lexicos/#lexico-professor)|
 |Email|Obrigatório|String| Email do [professor](../../../base/requisitos/modelagem/lexicos/#lexico-professor)|
@@ -54,9 +55,9 @@
 
 |Atributos | Propriedade | Tipo | Descrição |
 |----------|-------------|------|-----------|
-|IdChild|Chave primária|Inteiro| Indetificação da [criança](../../../base/requisitos/modelagem/lexicos/#lexico-crianca)|
-|IdResponsavel|Chave estrangeira |Inteiro| Indetificação do [responsável](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel)|
-|IdClass|Chave estrangeira|Inteiro| Indetificação da [turma](../../../base/requisitos/modelagem/lexicos/#lexico-turma)|
+|IdChild|Chave primária|Inteiro| Identificação da [criança](../../../base/requisitos/modelagem/lexicos/#lexico-crianca)|
+|IdResponsavel|Chave estrangeira |Inteiro| Identificação do [responsável](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel)|
+|IdClass|Chave estrangeira|Inteiro| Identificação da [turma](../../../base/requisitos/modelagem/lexicos/#lexico-turma)|
 |Name|Obrigatório|String| Nome da [criança](../../../base/requisitos/modelagem/lexicos/#lexico-crianca)|
 |Registration|Obrigatório|Inteiro| Registro da [criança](../../../base/requisitos/modelagem/lexicos/#lexico-crianca)|
 
@@ -65,9 +66,9 @@
 
 |Atributos | Propriedade | Tipo | Descrição |
 |----------|-------------|------|-----------|
-|IdClass|Chave primária|Inteiro|Indetificação da [turma](../../../base/requisitos/modelagem/lexicos/#lexico-turma)|
-|IdTeacher|Chave estrangeira|Inteiro| Indetificação do [professor](../../../base/requisitos/modelagem/lexicos/#lexico-professor)|
-|IdChild|Chave estrangeira|Inteiro| Indetificação da [criança](../../../base/requisitos/modelagem/lexicos/#lexico-crianca)| 
+|IdClass|Chave primária|Inteiro|Identificação da [turma](../../../base/requisitos/modelagem/lexicos/#lexico-turma)|
+|IdTeacher|Chave estrangeira|Inteiro| Identificação do [professor](../../../base/requisitos/modelagem/lexicos/#lexico-professor)|
+|IdChild|Chave estrangeira|Inteiro| Identificação da [criança](../../../base/requisitos/modelagem/lexicos/#lexico-crianca)| 
 |Code|Obrigatório| String| Codigo da [turma](../../../base/requisitos/modelagem/lexicos/#lexico-turma)|
 |Capacity|Obrigatório|Inteiro| Capacidade da [turma](../../../base/requisitos/modelagem/lexicos/#lexico-turma)|
 
@@ -75,11 +76,11 @@
 
 |Atributos | Propriedade | Tipo | Descrição |
 |----------|-------------|------|-----------|
-|IdEvent|Chave primária|Inteiro|Indetificação do [evento](../../../base/requisitos/modelagem/lexicos/#lexico-evento)|
-|IdAdm|Chave estrangeira|Inteiro|Indetificação do [administrador](../../../base/requisitos/modelagem/lexicos/#lexico-administrador)|
-|IdClass|Chave estrangeira|Inteiro| Indetificação da [turma](../../../base/requisitos/modelagem/lexicos/#lexico-turma)|
+|IdEvent|Chave primária|Inteiro|Identificação do [evento](../../../base/requisitos/modelagem/lexicos/#lexico-evento)|
+|IdAdm|Chave estrangeira|Inteiro|Identificação do [administrador](../../../base/requisitos/modelagem/lexicos/#lexico-administrador)|
+|IdClass|Chave estrangeira|Inteiro| Identificação da [turma](../../../base/requisitos/modelagem/lexicos/#lexico-turma)|
 |Description|Obrigatório|String| Descrição do [evento](../../../base/requisitos/modelagem/lexicos/#lexico-evento)|
-|Title|Obrigatório|String| Titulo do [evento](../../../base/requisitos/modelagem/lexicos/#lexico-evento)|
+|Title|Obrigatório|String| Título do [evento](../../../base/requisitos/modelagem/lexicos/#lexico-evento)|
 |Date|Obrigatório|Date| Data do [evento](../../../base/requisitos/modelagem/lexicos/#lexico-evento) |
 
 ### [Activity](../../../base/requisitos/modelagem/lexicos/#lexico-atividade)
@@ -88,7 +89,7 @@
 |----------|-------------|------|-----------|
 |IdActivity|Chave primária|Inteiro|Identificação da [atividade](../../../base/requisitos/modelagem/lexicos/#lexico-atividade)|
 |IdTeacher|Chave estrangeira|Inteiro| Identificação do [professor](../../../base/requisitos/modelagem/lexicos/#lexico-professor)|
-|Title|Obrigatório|String| Titulo da [atividade](../../../base/requisitos/modelagem/lexicos/#lexico-atividade)|
+|Title|Obrigatório|String| Título da [atividade](../../../base/requisitos/modelagem/lexicos/#lexico-atividade)|
 |Description|Obrigatório|String| Descrição da [atividade](../../../base/requisitos/modelagem/lexicos/#lexico-atividade)|
 |Date|Obrigatório|Date| Data da [atividade](../../../base/requisitos/modelagem/lexicos/#lexico-atividade)|
 
@@ -99,7 +100,7 @@
 |IdAnotation|Chave primária|Inteiro| Identificação da [anotação](../../../base/requisitos/modelagem/lexicos/#lexico-anotacao)|
 |IdTeacher|Chave estrangeira|Inteiro| Identificação do [professor](../../../base/requisitos/modelagem/lexicos/#lexico-professor)|
 |IdChild|Chave estrangeira|Inteiro| Identificação da [criança](../../../base/requisitos/modelagem/lexicos/#lexico-crianca)|
-|Title|Obrigatório|String| Titulo da [anotação](../../../base/requisitos/modelagem/lexicos/#lexico-anotacao)|
+|Title|Obrigatório|String| Título da [anotação](../../../base/requisitos/modelagem/lexicos/#lexico-anotacao)|
 |Description|Obrigatório|String| Descrição da [anotação](../../../base/requisitos/modelagem/lexicos/#lexico-anotacao)|
 
 ### [Board](../../../base/requisitos/modelagem/lexicos/#lexico-mural) 
@@ -110,16 +111,16 @@
 |IdChild|Chave estrangeira|Inteiro| Identificação da [criança](../../../base/requisitos/modelagem/lexicos/#lexico-crianca)|
 |IdAnotation|Chave estrangeira|Inteiro|Identificação da [anotação](../../../base/requisitos/modelagem/lexicos/#lexico-anotacao)|
 |IdActivity|Chave estrangeira|Inteiro|Identificação da [atividade](../../../base/requisitos/modelagem/lexicos/#lexico-atividade)|
-|IdEvent|Chave estranfeira|Inteiro|Indetificação do [evento](../../../base/requisitos/modelagem/lexicos/#lexico-evento)|
+|IdEvent|Chave estranfeira|Inteiro|Identificação do [evento](../../../base/requisitos/modelagem/lexicos/#lexico-evento)|
 
 ### [EC](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional)
 
 |Atributos | Propriedade | Tipo | Descrição |
 |----------|-------------|------|-----------|
 |IdEC|Chave primária|Inteiro|Identificação do [centro educacional](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional)|
-|IdAdm|Chave estrangeira|Inteiro|Indetificação do [administrador](../../../base/requisitos/modelagem/lexicos/#lexico-administrador)|
-|IdTeacher|Chave estrangeira|Inteiro|Indetificação do [professor](../../../base/requisitos/modelagem/lexicos/#lexico-professor)|
-|IdClass|Chave estrangeira|Inteiro|Indetificação da [turma](../../../base/requisitos/modelagem/lexicos/#lexico-turma)|
+|IdAdm|Chave estrangeira|Inteiro|Identificação do [administrador](../../../base/requisitos/modelagem/lexicos/#lexico-administrador)|
+|IdTeacher|Chave estrangeira|Inteiro|Identificação do [professor](../../../base/requisitos/modelagem/lexicos/#lexico-professor)|
+|IdClass|Chave estrangeira|Inteiro|Identificação da [turma](../../../base/requisitos/modelagem/lexicos/#lexico-turma)|
 |Name|Obrigatório|String| Nome do [centro educacional](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional)|
 |Adress|Obrigatório|String| Endereço do [centro educacional](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional)|
 |Description|Obrigatório|String| Descrição do [centro educacional](../../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional)|
@@ -129,8 +130,8 @@
 |Atributos | Propriedade | Tipo | Descrição |
 |----------|-------------|------|-----------|
 |IdReport|Chave primária|Inteiro|Identificação do [relatório](../../../base/requisitos/modelagem/lexicos/#lexico-relatorio)|
-|IdAdm|Chave estrangeira|Inteiro|Indetificação do [administrador](../../../base/requisitos/modelagem/lexicos/#lexico-administrador)|
-|Title|Obrigatório|String| Titulo do [relatório](../../../base/requisitos/modelagem/lexicos/#lexico-relatorio)|
+|IdAdm|Chave estrangeira|Inteiro|Identificação do [administrador](../../../base/requisitos/modelagem/lexicos/#lexico-administrador)|
+|Title|Obrigatório|String| Título do [relatório](../../../base/requisitos/modelagem/lexicos/#lexico-relatorio)|
 |Description|Obrigatório|String| Descriçaõ do [relatório](../../../base/requisitos/modelagem/lexicos/#lexico-relatorio)|
 
 ### Chat
@@ -163,7 +164,7 @@
 |Status|Obrigatório|Integer|Presente = 1, falta=0|
 
 ## Relacionamentos
-1. [**RESPOSÁVEL**](#guardian) -- possui -- [**CRIANÇA**](#child): Um [reponsável](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel) possui [crianças](../../../base/requisitos/modelagem/lexicos/#lexico-crianca) e uma criança está atrelada a [responsáveis](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel).<br>
+1. [**RESPONSÁVEL**](#guardian) -- possui -- [**CRIANÇA**](#child): Um [responsável](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel) possui [crianças](../../../base/requisitos/modelagem/lexicos/#lexico-crianca) e uma criança está atrelada a [responsáveis](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel).<br>
 (Cardinalidade: n:m)
 
 2. [**ADMINISTRADOR**](#adm) -- registra -- [**TURMA**](#class): Um [administrador](../../../base/requisitos/modelagem/lexicos/#lexico-administrador) registra [turmas](../../../base/requisitos/modelagem/lexicos/#lexico-turma) e uma [turma](../../../base/requisitos/modelagem/lexicos/#lexico-turma) é registrada por uma [administrador](../../../base/requisitos/modelagem/lexicos/#lexico-administrador).<br>
@@ -228,3 +229,4 @@
 | 1.2 | 20/08/2021 | Adição dos léxicos | Daniel Porto |
 | 1.3 | 20/08/2021 | Adição das entidades chat, mensage, presence e seus relacionamentos| Daniel Porto |
 | 1.4 | 21/08/2021 | Revisão por pares | Mateus O. Patrício, Edson Soares |
+| 1.5 | 21/09/2021 | Corrreção dos erros de escrita (revisão ent.2) | Edson Soares, Nilo Medonça|
