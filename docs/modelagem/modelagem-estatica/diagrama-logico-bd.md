@@ -10,18 +10,28 @@ Depois de algumas discussões durante a construção do modelo lógico, foi obse
  
 ## Diagrama Lógico
 &emsp;&emsp;O diagrama lógico representa de forma gráfica a modelagem lógica do banco de dados, geralmente utilizando a notação UML. Este modelo possui um nível de abstração menor que o [DER](../modelagem-estatica/DER.md), já que o diagrama lógico define as relações e atributos das tabelas no banco de dados, adaptando-os especificamente para o banco de dados escolhido,  que no caso do projeto será um banco de dados [PostgreSQL](https://www.postgresql.org/).
- 
+
+### Versão 1.0
 &emsp;&emsp;
-![foto](../../assets/imagens/diagrama-logico-bd/diagrama-logico-bd-curumin.png)
-<center>[Figura 1: Diagrama Lógico](../../assets/imagens/diagrama-logico-bd/diagrama-logico-bd-curumin.png)</center>
+![Diagrama lógico do Banco de Dados](../../assets/imagens/diagrama-logico-bd/diagrama-logico-bd-curumin-v1.png)
+<center>[Figura 1: Diagrama lógico do Banco de Dados v1.](../../assets/imagens/diagrama-logico-bd/diagrama-logico-bd-curumin-v1.png)</center>
+
+### Versão 2.0
+&emsp;&emsp;A seguir temos a segunda versão do diagrama lógico do banco de dados, com algumas mudanças após a modelagem física.<br>
+&emsp;&emsp;Nessa versão, o nome das tabelas foram alteradas para o plural, por questões de padronização, foram também simplificadas algumas tabelas, como por exemplo a tabela [Teacher](../../../base/requisitos/modelagem/lexicos/#lexico-professor), e a tabela [Adm](../../../base/requisitos/modelagem/lexicos/#lexico-administrador) que agora foram substituida por outra tabela Professional, que possui uma string indicando o tipo do profissional. Também foi simplificada as tabelas [Activity](../../../base/requisitos/modelagem/lexicos/#lexico-atividade) e [Event](../../../base/requisitos/modelagem/lexicos/#lexico-evento) para uma única tabela Projects, que indica também através de uma string que tipo de projeto se trata.
+
+&emsp;&emsp;
+![Diagrama lógico do Banco de Dados](../../assets/imagens/diagrama-logico-bd/diagrama-logico-bd-curumin-v2.png)
+<center>[Figura 2: Diagrama lógico do Banco de Dados v2.](../../assets/imagens/diagrama-logico-bd/diagrama-logico-bd-curumin-v2.png)</center>
+
  
-#### **Legenda dos simbolos**:<br>
-- Chave preta: Chave primária
-- Chave verde: Chave estrangeira
+#### **Legenda dos símbolos**:<br>
+- Chave preta: Chave primária;
+- Chave verde: Chave estrangeira.
  
 #### **Observações**:<br>
-- As tabelas [Adm](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-administrador), [Teacher](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-professor) e [Guardian](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-responsavel), cada uma possuem uma chave primária que também é uma chave estrangeira que faz referência a tabela [User](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-usuario), que será a tabela que possui de fato as informações pessoais de cada tipo de [usuário](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-usuario), e um identificar de qual tipo é aquele [usuário](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-usuario).
-- O [Board](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-mural) que antes estava presente no [MER](../modelagem-estatica/MER.md) e [DER](../modelagem-estatica/DER.md), pela sua cardinalidade em relação a tabela [Child](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-crianca) seria adequado que fosse incorporada a tabela [Child](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-crianca), porém depois de alguns debates e análises, foi evidenciado que os atributos presentes na tabela [Board](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-mural) não teriam utilidade no desenvolvimento, e deixaria a tabela [Child](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-crianca) com muita informação desnecessariamente, por isso o [Board](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-mural) acabou ficando de fora da modelagem final.
+- As tabelas [Adm](../../../base/requisitos/modelagem/lexicos/#lexico-administador), [Teacher](../../../base/requisitos/modelagem/lexicos/#lexico-professor) e [Guardian](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel), cada uma possuem uma chave primária que também é uma chave estrangeira que faz referência a tabela [User](../../../base/requisitos/modelagem/lexicos/#lexico-usuario), que será a tabela que possui de fato as informações pessoais de cada tipo de [usuário](../../../base/requisitos/modelagem/lexicos/#lexico-usuario), e um identificar de qual tipo é aquele [usuário](../../../base/requisitos/modelagem/lexicos/#lexico-usuario).
+- O [Board](../../../base/requisitos/modelagem/lexicos/#lexico-mural) que antes estava presente no [MER](../modelagem-estatica/MER.md) e [DER](../modelagem-estatica/DER.md), pela sua cardinalidade em relação a tabela [Child](../../../base/requisitos/modelagem/lexicos/#lexico-crianca) seria adequado que fosse incorporada a tabela [Child](../../../base/requisitos/modelagem/lexicos/#lexico-crianca), porém depois de alguns debates e análises, foi evidenciado que os atributos presentes na tabela [Board](../../../base/requisitos/modelagem/lexicos/#lexico-mural) não teriam utilidade no desenvolvimento, e deixaria a tabela [Child](../../../base/requisitos/modelagem/lexicos/#lexico-crianca) com muita informação desnecessariamente, por isso o [Board](../../../base/requisitos/modelagem/lexicos/#lexico-mural) acabou ficando de fora da modelagem final.
  
  
 ## Bibliografia
@@ -40,4 +50,6 @@ Depois de algumas discussões durante a construção do modelo lógico, foi obse
 | 1.0 | 30/08/2021 | Abertura do documento          | Edson Soares, Eliseu Kadesh |
 | 1.1 | 30/08/2021 | Adição de link para o léxicos  | Eliseu Kadesh |
 | 1.2 | 30/08/2021 | Revisão por pares              | Gabriel Bonifácio, Francisco Ferreira |
-| 2.0 | 30/08/2021 | Alterações no diagrama e novas observações | Eliseu Kadesh |
+| 1.3 | 30/08/2021 | Alterações no diagrama e novas observações | Eliseu Kadesh |
+| 2.0 | 19/09/2021 | Adição da segunda versão do diagrama | Eliseu Kadesh |
+| 2.1 | 19/09/2021 | Revisão por pares                    | Bruno Felix, Edson Soares |

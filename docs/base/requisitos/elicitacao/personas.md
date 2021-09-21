@@ -19,22 +19,22 @@ Fizemos a divisão dessas personas em alguns elementos caractéristicos:
 &emsp;&emsp;
 ## Objetivo
 &emsp;&emsp;
-O objetivo principal da criação das personas foi justamente para ter um auxílio na hora de usar a técnica de introspecção para elicitar requisitos e criação dos storyboards.
+O objetivo principal da criação das personas foi justamente para ter um auxílio na hora de usar a técnica de [introspecção](./introspeccao.md) para elicitar requisitos e fazer a criação dos [storyboards](./storyboards.md).
 
 ## Personas
 &emsp;&emsp;
 Seguem as figuras das personas, retratando sua função, perfil, comportamentos e necessidades. 
 
-### 1. Suzana (administradora):
+### 1. Suzana ([administradora](../../modelagem/lexicos/#lexico-administrador)):
 ![Personas](../../../assets/imagens/personas/1persona-suzana-administradora.jpg)
 <center>[Figura 1: Persona 1 - Suzana Moura](../../../assets/imagens/personas/1persona-suzana-administradora.jpg)</center>
 
-### 2. Poliana (professora):
+### 2. Poliana ([professora](../../modelagem/lexicos/#lexico-professor)):
 
 ![Personas](../../../assets/imagens/personas/2persona-poliana-professora.jpg)
 <center>[Figura 2: Persona 2 - Poliana Vitória](../../../assets/imagens/personas/2persona-poliana-professora.jpg)</center>
 
-### 3. Gustavo (responsável):
+### 3. Gustavo ([responsável](../../modelagem/lexicos/#lexico-responsavel)):
 
 ![Personas](../../../assets/imagens/personas/3persona-gustavo-responsavel.jpg)
 <center>[Figura 3: Persona 3 - Gustavo Borges](../../../assets/imagens/personas/3persona-gustavo-responsavel.jpg)</center>
@@ -60,3 +60,5 @@ Segue a figura da anti-persona, retratando sua função, perfil, comportamentos 
 |2.0|04/08/2021| Vetorização das personas e ajuste de espaçamento | Gabriel Bonifácio |
 |2.1|05/08/2021| Ajustando vetorização das personas | Gabriel Bonifácio |
 |2.2|06/08/2021| Adição e correção de hiperlinks dos léxicos | Gabriel Bonifácio |
+|2.3|17/09/2021| Atualização de informações de acordo com o feedback da entrega 1 | Gabriel Bonifácio |
+|2.4|19/09/2021| Revisão por pares | Bruno Félix e Daniel Porto |

@@ -78,7 +78,7 @@ Demais diretrizes sobre a organização da wiki constam no Moodle Aprender 3.
 - [Vídeo 2 da segunda entrega: modelagem dinâmica](https://www.youtube.com/watch?v=KigxCIalYMk)
 - [Vídeo 3 da segunda entrega: modelagem ágil](https://www.youtube.com/watch?v=a6LLD7Fk-SY)
 
-## Wiki do Projeto - Primeira Entrega:
+## Wiki do Projeto - Segunda Entrega:
 
 - Imagem 5 - Wiki - Diagrama de Pacotes:
 
@@ -101,6 +101,37 @@ Demais diretrizes sobre a organização da wiki constam no Moodle Aprender 3.
 ![Wiki](docs/assets/imagens/sobre/entrega2/img3.png)
 <br>
 [Figura 7: Wiki - Diagrama de Estados](docs/assets/imagens/sobre/entrega2/img3.png)
+
+<br>
+
+## Vídeos Terceira Entrega: DSW(Modelagem)
+- [Vídeo 1 da terceira entrega: GRASPs](https://youtu.be/mbvHbWMJyx8)
+- [Vídeo 2 da terceira entrega: GOFs](https://youtu.be/lU1N1XQrQQg)
+- [Vídeo 3 da terceira entrega: Emergentes e iniciativas extras](https://youtu.be/jgxKgl4xUcA)
+
+## Wiki do Projeto - Terceira Entrega:
+
+- Imagem 8 - Wiki - GRASPs:
+
+![Wiki](docs/assets/imagens/sobre/entrega3/img1.png)
+<br>
+[Figura 8: Wiki - GRASPs](docs/assets/imagens/sobre/entrega3/img1.png)
+
+<br>
+
+ Imagem 9 - Wiki - GOFs:
+
+![Wiki](docs/assets/imagens/sobre/entrega3/img2.png)
+<br>
+[Figura 9: Wiki - GOFs](docs/assets/imagens/sobre/entrega3/img2.png)
+
+<br>
+
+ Imagem 10 - Wiki - Emergentes:
+
+![Wiki](docs/assets/imagens/sobre/entrega3/img3.png)
+<br>
+[Figura 10: Wiki - Emergentes](docs/assets/imagens/sobre/entrega3/img3.png)
 
 <br>
 

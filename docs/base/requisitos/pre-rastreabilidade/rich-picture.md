@@ -1,15 +1,15 @@
 # Rich Picture
 
 ## Introdução
-&emsp;&emsp;O rich picture é um artefato composto por desenhos que identificam os [stakeholders](../../modelagem/lexicos/#lexico-stakeholder), suas preocupações e as informações à se modelar. A ferramenta mantém registros e relacionamentos incluindo seus efeitos.
+&emsp;&emsp;O rich picture é um artefato composto por desenhos que identificam os [stakeholders](../../modelagem/lexicos/#lexico-stakeholder), suas preocupações e as informações a se modelar. A ferramenta mantém registros e relacionamentos incluindo seus efeitos. O objetivo se dá pela ilustração necessária de uma situação que representa os elementos principais e os relacionamentos que precisam ser considerados para se buscar alguma evolução.
 
 ## Metodologia
 
-&emsp;&emsp;Para a confecção dos rich pictures o grupo decidiu que cada membro criaria uma versão inicial e depois um integrante faria um geral com todas as informações.
+&emsp;&emsp;Para a confecção dos Rich Pictures o grupo decidiu que cada membro criaria uma versão inicial e depois um integrante faria um geral com todas as informações. Assim foi feito por meio de uma [issue](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/10) no [GitHub](https://github.com/) que trouxe todas essas visões individuais de cada integrante, com o objetivo de se unificar e entender esse Rich Picture como um todo.
 
 ## Visão do grupo
 
-&emsp;&emsp;A partir das versões produzidas individualmente, o time optou por unificar as mesmas gerando apenas um artefato que possuísse toda a ideia da aplicação.
+&emsp;&emsp;A partir das versões produzidas individualmente, o time optou por unificar as mesmas gerando apenas um artefato que possuísse toda a ideia da aplicação. Os debates do grupo tiveram como base principal a [issue (#10)](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/10) que foi feita no [GitHub](https://github.com/).
 
 ![Figura 1: Rich picture do grupo](https://user-images.githubusercontent.com/37383185/128434621-b4e08140-bb09-4aa6-8907-5b8d0adf3524.png)
 <center>[Figura 1: Rich picture do grupo](https://user-images.githubusercontent.com/37383185/128434621-b4e08140-bb09-4aa6-8907-5b8d0adf3524.png)</center>
@@ -60,8 +60,9 @@
 
 ## Referências
 > -   MONK, Andrew; HOWARD, Steve. The Rich Picture: A Tool for Reasoning about Work Context. Methods and Tools, ACM 1072-5220/98/0300, pp. 21-30, April 1998.
-> -   Rich Pictures: https://www.betterevaluation.org/en/evaluation-options/richpictures. Último acesso em 05/08/2021.
-> -   The Rich Picture: A Tool for Reasoning About Work Context: https://www.ics.uci.edu/~wscacchi/Software-Process/Readings/RichPicture.pdf. Último acesso em 05/08/2021.
+> -   Rich Pictures: [https://www.betterevaluation.org/en/evaluation-options/richpictures](https://www.betterevaluation.org/en/evaluation-options/richpictures). Último acesso em 05/08/2021.
+> -   The Rich Picture: A Tool for Reasoning About Work Context: [https://www.ics.uci.edu/~wscacchi/Software-Process/Readings/RichPicture.pdf](https://www.ics.uci.edu/~wscacchi/Software-Process/Readings/RichPicture.pdf). Último acesso em 05/08/2021.
+> -   Rich Pictures: [http://www.mspguide.org/tool/rich-picture](http://www.mspguide.org/tool/rich-picture). Último acesso em 17/09/2021.
 
 ## Versionamento
 | Versão | Data | Modificação | Autor |
@@ -72,3 +73,5 @@
 |1.1|05/08/2021| Padronização do documento | Mateus O. Patrício |
 |1.2|06/08/2021| Adição de hiperlinks dos léxicos | Mateus O. Patrício |
 |1.3|21/08/2021| Correção dos links dos léxicos | Gabriel Bonifácio |
+|1.4|17/09/2021| Atualização de informações de acordo com o feedback da entrega 1 | Gabriel Bonifácio |
+|1.5|19/09/2021| Revisão por pares | Bruno Félix e Daniel Porto |

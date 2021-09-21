@@ -5,12 +5,13 @@
 
 ## Metodologia
 
-&emsp;&emsp;Utilizando a ferramenta Google Jamboard, foi feita uma bateria com três rounds de um minuto e meio. Para cada round, cada integrante usou a funcionalidade de post-it do Jamboard para colocar uma ideia ou opinião sobre o que o sistema do projeto em questão deveria conter. No fim de cada round foi dado tempo para que todos os integrantes lessem os post-it dos demais com o intuito de inspirar novas ideias a partir do que já está no quadro.<br>
-&emsp;&emsp;Ao final dos três rounds, começam as discurssões. Foi dada a oportunidade para cada participante defender suas ideias e questionar as dos demais para que todos escolherem, juntos, um conjunto de requisitos iniciais.
+&emsp;&emsp;Utilizando a ferramenta [Google Jamboard](https://edu.google.com/intl/ALL_br/products/jamboard/), foi feita uma bateria com três rounds de um minuto e meio. Para cada round, cada integrante usou a funcionalidade de post-it do Jamboard para colocar uma ideia ou opinião sobre o que o sistema do projeto em questão deveria conter. No fim de cada round foi dado tempo para que todos os integrantes lessem os post-it dos demais com o intuito de inspirar novas ideias a partir do que já está no quadro.<br>
+&emsp;&emsp;Ao final dos três rounds, começam as discussões. Foi dada a oportunidade para cada participante defender suas ideias e questionar as dos demais para que todos escolherem, juntos, um conjunto de requisitos iniciais.<br>
+&emsp;&emsp;Após essas discussões, o grupo compreendeu melhor o escopo do projeto e se decidiu pela elicitação de 14 requisitos. Nesse Brainstorming, o grupo não elicitou requisitos não funcionais, tratando desses na utilização de outra técnica de elicitação ([Introspecção](./introspeccao.md)).
 
 ![Brainstorming](../../../assets/imagens/brainstorming/brainstorming.png)
 
-<center>[Figura 1: Quadro de Braistoming](../../../assets/imagens/brainstorming/brainstorming.png)</center>
+<center>[Figura 1: Quadro de Brainstorming](../../../assets/imagens/brainstorming/brainstorming.png)</center>
 
 ## Requisitos Elicitados
 
@@ -48,3 +49,5 @@
 | 1.3 | 06/08/2021 | Adição dos hiperlinks dos léxicos | Daniel Porto |
 | 1.4 | 11/08/2021 | Correção dos hiperlinks dos léxicos | Daniel Porto |
 | 1.5 | 25/08/2021 | Ajuste para navegabilidade nos requisitos | Daniel Porto |
+| 1.6 | 17/09/2021 | Atualização de informações de acordo com o feedback da entrega 1 | Gabriel Bonifácio |
+| 1.7 | 19/09/2021 | Revisão por pares | Bruno Félix e Daniel Porto |
