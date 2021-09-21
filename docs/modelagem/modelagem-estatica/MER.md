@@ -2,7 +2,11 @@
 
 ## Introdução
 
-&emsp;&emsp;O Modelo de Entidade relacionamento também conhecido como MER, é um modelo conceitual usado para descrever as entidades em um domínio de negócio, assim listando suas características e como elas se relacionam entre si. No geral esse modelo é utilizado para representar uma forma abstrata da estrutura que possuirá o banco de dados da aplicação.
+&emsp;&emsp;O Modelo de Entidade relacionamento também conhecido como MER, é um modelo conceitual usado para descrever as entidades em um domínio de negócio, assim listando suas características e como elas se relacionam entre si. No geral esse modelo é utilizado para representar uma forma abstrata da estrutura que possuirá o banco de dados da aplicação. Assim, posteriormente conseguimos construir um artefato [DER](./DER.md) com as relações criadas aqui no MER.
+
+&emsp;&emsp;"O MER baseia-se na observação de que o mundo pode ser percebido como um
+conjunto de objetos, denominados entidades, e pelo conjunto dos relacionamentos entre essas
+entidades. As entidades são caracterizadas por um conjunto de atributos" (MAIA, 2013; Alvarenga, 2013)[[4]](#bibliografia)
 
 ## Metodologia
 &emsp;&emsp;Para realizar essa especificação inicial do modelo, primeiramente foram definidas todas as entidades mais concretas que estarão presentes no banco de dados. Dessa forma, para cada entidade, foi preenchida uma tabela com as seguintes colunas:
@@ -215,10 +219,16 @@
 ## Conclusão
 &emsp;&emsp;Tendo em vista as entidades e os relacionamentos aqui demonstrados, pode-se notar a necessidade da criação de tabelas associativas para melhor representar as relações de cardinalidade n:m apresentados nos relacionamentos 1, 9, 10, 11, 13 e 14. Além disso, nota-se que, pela cardinalidade do relacionamento 12, que a entidade Mural deve ser acoplada a entidade [criança](../../../base/requisitos/modelagem/lexicos/#lexico-crianca), tendo seus atributos e relacionamentos transferidos.
 
-## Bibliogarafia
-> - [Documento de Arquitetura do projeto Acácia](https://fga-eps-mds.github.io/2019.2-Acacia/#/architecture_document);
-> - [Documento de Arquitetura do projeto Ziguen](https://github.com/francisco1code/2020-1-Ziguen/blob/master/docs/wiki/Documento_arquitetura.md#4---Vis%C3%A3o-de-Dados);
-> - JOEL. Modelo Entidade Relacionamento (MER) e Diagrama Entidade-Relacionamento (DER). DevMedia, 2014. Disponível em: <https://www.devmedia.com.br/modelo-entidade-relacionamento-mer-e-diagrama-entidade-relacionamento-der/14332>. Acesso em: 18 ago. 2021.
+## Bibliografia
+> - [1] [Documento de Arquitetura do projeto Acácia](https://fga-eps-mds.github.io/2019.2-Acacia/#/architecture_document);
+
+> - [2] [Documento de Arquitetura do projeto Ziguen](https://github.com/francisco1code/2020-1-Ziguen/blob/master/docs/wiki/Documento_arquitetura.md#4---Vis%C3%A3o-de-Dados);
+
+> - [3] JOEL. Modelo Entidade Relacionamento (MER) e Diagrama Entidade-Relacionamento (DER). DevMedia, 2014. Disponível em: <https://www.devmedia.com.br/modelo-entidade-relacionamento-mer-e-diagrama-entidade-relacionamento-der/14332>. Acesso em: 18 ago. 2021.
+
+> - [4] Maia, Regina. Alvarenga, Lídia. INTERCONEXÕES ENTRE A TEORIA DA CLASSIFICAÇÃO FACETADA
+(TCF) DE RANGANATHAN E O MODELO ENTIDADE-RELACIONAMENTO
+(MER) DE PETER CHEN. 2013. Disponível em: <http://repositorios.questoesemrede.uff.br/repositorios/bitstream/handle/123456789/2336/INTERCONEX%c3%95ES.pdf?sequence=1> Acesso em: 21/09/2021.
 
 ## Versionamento
 | Versão | Data | Modificação | Autor |
@@ -229,4 +239,4 @@
 | 1.2 | 20/08/2021 | Adição dos léxicos | Daniel Porto |
 | 1.3 | 20/08/2021 | Adição das entidades chat, mensage, presence e seus relacionamentos| Daniel Porto |
 | 1.4 | 21/08/2021 | Revisão por pares | Mateus O. Patrício, Edson Soares |
-| 1.5 | 21/09/2021 | Corrreção dos erros de escrita (revisão ent.2) | Edson Soares, Nilo Medonça|
+| 1.5 | 21/09/2021 | Revisão segundo feedback da professora (entrega 2) | Edson Soares, Nilo Medonça|
