@@ -53,9 +53,5 @@
 |1.0| 18/08/2021 | Adição da introduçao, da metodologia, dos diagramas e da bibliografia  | Nilo Mendonça |
 |1.1| 21/08/2021 | Adição da léxicos  | Bruno Félix |
 |1.2| 21/08/2021 | Revisão por pares  | Enzo Gabriel e Gabriel Bonifácio |
-<<<<<<< HEAD
 |1.3| 17/09/2021 | Revisão e correção do documento segundo feedback da professora | Edson Soares e Nilo Mendonça |
-=======
-|1.3| 18/09/2021 | Revisão do documento segundo feedback da professora  | Nilo Mendonça |
 |1.4| 19/09/2021 | Revisão do documento segundo feedback da professora | Bruno Félix |
->>>>>>> a00ecc8cf0325f66992f77992500f73bd65d3e9d

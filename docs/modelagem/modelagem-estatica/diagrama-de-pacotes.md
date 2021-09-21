@@ -35,18 +35,12 @@
 ## Versionamento
 | Versão | Data | Modificação | Autor |
 | :-: | -- | -- | -- |
-<<<<<<< HEAD
-|1.0| 12/08/2021 | Criando documento e Diagrama de pacotes | Enzo Gabriel e Francisco Emanoel  |
-|1.1| 14/08/2021 | Resolvendo erros encontrados no diagrama    | Enzo Gabriel e Francisco Emanoel |
-|1.2| 21/08/2021 | Revisão por pares | Daniel Porto e Edson Soares|
-|1.3| 17/09/2021 | Revisão e correção do documento segundo feedback da professora | Edson Soares e Nilo Mendonça |
-=======
 |1.0| 12/08/2021 | Criando documento e Diagrama de pacotes | Enzo Gabriel, Francisco Emanoel  |
 |1.1| 14/08/2021 | Resolvendo erros encontrados no diagrama    | Enzo Gabriel, Francisco Emanoel |
 |1.2| 21/08/2021 | Revisão por pares | Daniel Porto, Edson Soares|
 |1.3| 08/09/2021 | Atualizando pacotes do front-end no diagrama | João Pedro, Enzo Gabriel |
 |1.4| 13/09/2021 | Atualizando pacotes do back-end no diagrama e adição da v2 do diagrama ao documento | Mateus O. Patrício |
-|1.5| 19/09/2021 | Revisão do diagrama v2.0 do back-end e do documento | Mateus O. Patrício e Daniel Porto |
-|1.6| 20/09/2021 | Correções no diagrama v2.0 | Enzo Gabriel |
-|1.7| 20/09/2021 | Revisão por pares | Mateus O. Patrício e Bruno Félix |
->>>>>>> a00ecc8cf0325f66992f77992500f73bd65d3e9d
+|1.5| 17/09/2021 | Revisão e correção do documento segundo feedback da professora | Edson Soares e Nilo Mendonça |
+|1.6| 19/09/2021 | Revisão do diagrama v2.0 do back-end e do documento | Mateus O. Patrício e Daniel Porto |
+|1.7| 20/09/2021 | Correções no diagrama v2.0 | Enzo Gabriel |
+|1.8| 20/09/2021 | Revisão por pares | Mateus O. Patrício e Bruno Félix |
