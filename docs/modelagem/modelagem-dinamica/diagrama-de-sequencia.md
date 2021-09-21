@@ -23,10 +23,10 @@
 ![Administrador cadastrando professor](../../../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-admin-cadastrando-evento.png)
 <center>[Figura 1: Diagrama de sequência do administrador cadastrando professor](../../../assets/imagens/diagrama-de-sequencia/../../../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-admin-cadastrando-evento.png)</center>
 
-### [Responsável](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-responsavel) fazendo [login](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-login) 
+### [Guardian](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-responsavel) fazendo [login](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-login) 
 
 ![Responsável fazendo login](../../../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-pais-responsaveis-login.png)
-<center>[Figura 2: Diagrama de sequência do responsável fazendo login](../../../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-pais-responsaveis-login.png)</center>
+<center>[Figura 2: Diagrama de sequência do guardian fazendo login](../../../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-pais-responsaveis-login.png)</center>
 
 ## Bibliografia
 
@@ -46,4 +46,5 @@
 |1.4| 20/09/2021 | Adicionando metodologia | Enzo Gabriel |
 |1.5| 20/09/2021 | Revisão por pares| Nilo Mendonça e Daniel Porto |
 |2.0| 21/09/2021 | Revisão segundo feedback da professora | Edson Soares, Nilo Mendonça |
+
 
