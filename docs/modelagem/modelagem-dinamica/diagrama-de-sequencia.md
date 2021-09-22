@@ -18,12 +18,12 @@
 ![Administrador cadastrando professor](../../../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-admin-cadastrando-prof.png)
 <center>[Figura 1: Diagrama de sequência do administrador cadastrando professor](../../../assets/imagens/diagrama-de-sequencia/../../../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-admin-cadastrando-prof.png)</center>
 
-### [Administrador](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-administrador) cadastrando [evento](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-evento)
+### [Administrador](../../../base/requisitos/modelagem/lexicos/#lexico-administrador) cadastrando [evento](../../../base/requisitos/modelagem/lexicos/#lexico-evento)
 
 ![Administrador cadastrando professor](../../../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-admin-cadastrando-evento.png)
 <center>[Figura 1: Diagrama de sequência do administrador cadastrando professor](../../../assets/imagens/diagrama-de-sequencia/../../../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-admin-cadastrando-evento.png)</center>
 
-### [Guardian](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-responsavel) fazendo [login](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-login) 
+### [Guardian](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel) fazendo [login](../../../base/requisitos/modelagem/lexicos/#lexico-login) 
 
 ![Responsável fazendo login](../../../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-pais-responsaveis-login.png)
 <center>[Figura 2: Diagrama de sequência do guardian fazendo login](../../../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-pais-responsaveis-login.png)</center>
