@@ -1,7 +1,11 @@
 ## Introdução
 
 &emsp;&emsp;
-O diagrama de atividades é um diagrama de comportamento UML que mostra o fluxo de controle ou fluxo de objetos com ênfase na sequência e nas condições do fluxo. Diagramas de atividade ajudam a unir as pessoas das áreas de negócios e de desenvolvimento de uma organização para entender o mesmo processo e comportamento. As ações coordenadas por modelos de atividades podem ser iniciadas porque outras ações terminaram suas execuções, ou porque ocorrem alguns eventos externos ao fluxo. 
+Os diagramas de atividades são diagramas de comportamento UML que mostram os fluxos de controle ou os fluxos de objetos com ênfase na sequência e nas condições de cada fluxo. Os diagramas de atividades mostram o fluxo entre as ações de uma determinada atividade. Segundo a documentação da IBM Corporation [[3]](#bibliografia), "Os diagramas de atividades também podem mostrar fluxos paralelos ou simultâneos e fluxos alternativos." <br>
+&emsp;&emsp;
+Enquanto os diagramas de interação, como o [diagrama de sequência](./diagrama-de-sequencia.md), tem como ênfase o fluxo de controle de um objeto para outro, os diagramas de atividades por outro lado, dão ênfase ao fluxo de controle de uma atividade para outra;<br>
+&emsp;&emsp;
+Em diagramas de atividades, são utilizados nós de atividades e bordas de atividades para modelar o fluxo de controle e dados entre as ações. De acordo com as especificações da (OMG Unified Modeling Language (OMG UML), v2.1.2) [[4]](#bibliografia). "Uma atividade especifica a coordenação de execuções de comportamentos subordinados, utilizando um modelo de controle e fluxo de dados." As atividades podem representar hierarquias de invocação, invocando outras atividades. Podemos incluir nos nós de atividades, estruturas de controle de fluxo, tomada de decisão, sincronização e controle de simultaneidade.
 
 ## Diagramas
 
@@ -31,9 +35,13 @@ O diagrama de atividades é um diagrama de comportamento UML que mostra o fluxo 
 
 ## Bibliografia
 
-> - Fakhroutdinov, Kirill. Activity Diagrams. UML Diagrams. Disponível em: <https://www.uml-diagrams.org/activity-diagrams.html/>. Acesso em: 14 de agosto de 2021.
+> - [1]Fakhroutdinov, Kirill. Activity Diagrams. UML Diagrams. Disponível em: <https://www.uml-diagrams.org/activity-diagrams.html/>. Acesso em: 14 de agosto de 2021.
 
-> - O que é diagrama de atividades UML?. Lucidchart. Disponível em: <https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-atividades-uml/#section_0/>. Acesso em: 14 de agosto de 2021.
+> - [2]O que é diagrama de atividades UML?. Lucidchart. Disponível em: <https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-atividades-uml/#section_0/>. Acesso em: 14 de agosto de 2021.
+
+> - [3]IBM Corporation, Diagramas de atividades, v2.1.2, IBM. Disponível em: <https://www.ibm.com/docs/en/rsas/7.5.0?topic=diagrams-activity>. Acesso em: 19/09/2021
+
+> - [4]OMG Unified Modeling Language (OMG UML), Activity, Superstructure, V2.1.2, OMG. Disponível em: <https://www.omg.org/spec/UML/2.1.2/Superstructure/PDF/>, p.316-324. Acesso em: 19/09/2021
 
 ## Versionamento
 | Versão | Data | Modificação | Autor |
@@ -43,3 +51,4 @@ O diagrama de atividades é um diagrama de comportamento UML que mostra o fluxo 
 |1.2|14/08/2021| Correção da numeração das figuras | Edson |
 |1.3|14/08/2021| Mudança no caminho das imagens | Edson e Francisco Emanoel|
 |1.4|21/08/2021| Revisão por pares | Nilo Mendonça, Francisco Emanoel |
+|1.5|19/09/2021| Revisão segundo feedback da professora | Edson Soares, Nilo Mendonça |

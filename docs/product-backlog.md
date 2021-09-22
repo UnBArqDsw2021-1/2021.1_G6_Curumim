@@ -7,6 +7,7 @@
 &emsp;&emsp;Dessa forma, foram analizados os artefatos até então produzidos e definidos os itens que estão presentes em três níveis de granularidade (épicos, features e histórias de usuário), sempre levando em consideração as prioridades e a rastreabilidade.
 
 ## 1. Épicos
+&emsp;&emsp;Um Épico é um contêiner para uma iniciativa de desenvolvimento de solução significativa que captura os investimentos mais substanciais que ocorrem em um portfólio (Scaled Agile, 2021).<br>
 &emsp;&emsp;Um épico determina um conjunto de features que precisam ser desenvolvidas e tem o objetivo de realizar um Tema o qual seria um grau de granularidade superior que englobaria um conjunto de épicos<br>
 &emsp;&emsp;Como foram poucos os temas identificados no projeto de forma que sempre abordariam grupos bem definidos de funcionalidades e não haveriam muitas subdivisões em épicos diferentes, a equipe optou por trabalhar com os épicos sendo o primeiro grau de granularidae e definiu os quatro épicos a seguir.
 
@@ -19,6 +20,7 @@
 
 
 ## 2. Features
+&emsp;&emsp;Uma Feature é um serviço que atende a uma necessidade das partes interessadas. Cada recurso inclui uma hipótese de benefício e critérios de aceitação (Scaled Agile, 2021).<br>
 &emsp;&emsp;Uma feature determina um conjunto de histórias de usuário que precisam ser implementadas e satisfeitas e tem o objetivo de realizar um épico<br>
 &emsp;&emsp;Segue a lista de features definida.
 
@@ -35,6 +37,7 @@
 
 
 ## 3. Histórias de Usuário
+&emsp;&emsp;As Histórias de Usuário são descrições curtas e simples de funcionalidade, geralmente contadas da perspectiva do usuário e escritas em seu idioma. Cada um se destina a permitir a implementação de uma pequena fatia vertical do comportamento do sistema que oferece suporte ao desenvolvimento incremental (Scaled Agile, 2021).<br>
 &emsp;&emsp;Descrita da perspectiva de um [usuário](../base/requisitos/modelagem/lexicos/#lexico-usuario) final, uma história de usuário determina um objetivo final do mesmo na utilização de funcionalidades da aplicação desenvolvida. Para a presente especificação, esse item será a menor unidade de trabalho de forma com que a implementação precise satisfaze-la<br>
 &emsp;&emsp;O padrão de escrita das histórias será o seguinte:
 > Eu, como << TIPO DE [USUÁRIO](../base/requisitos/modelagem/lexicos/#lexico-usuario) >>, desejo << OBJETIVO >>.
@@ -106,6 +109,7 @@
 > - RADIGAN, Dan. O backlog do produto: sua lista de tarefas definitiva. Atlassian. Disponível em <https://www.atlassian.com/br/agile/scrum/backlogs>. Acesso em: 27/08/2021.
 > - REHKOPF, Max. User Stories with Examples and Template. Atlassian. Disponível em <https://www.atlassian.com/agile/project-management/user-stories>. Acesso em: 27/08/2021.
 > - Ventura, Plínio. Epic, Feature e User Story: O que são e como se relacionam estes três artefatos no contexto de um product backlog. Até o momento. Disponível em <https://www.ateomomento.com.br/epic-feature-e-user-story/>. Acesso em: 27/08/2021.
+> - Scaled Agile, Inc. Safe Scaled Agile. Disponível em: <https://www.scaledagileframework.com/>. Acesso em: 17/09/2021.
 
 ## Versionamento
 

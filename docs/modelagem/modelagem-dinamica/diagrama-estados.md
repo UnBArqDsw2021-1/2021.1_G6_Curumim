@@ -1,5 +1,6 @@
 ## Introdução
-&emsp;&emsp;Os diagramas de estados, também chamados de diagrama de máquina de estados, é um dos tipos de diagramas UML que visa demonstrar as transições entre os diferentes objetos que compõem o sistema. Basicamente ele visa armazenar o status de um objeto em um determinado momento para então poder modificar essa tal status de acordo com a entrada recebida.
+&emsp;&emsp;Os diagramas de estados, também chamados de diagrama de máquina de estados, é um dos tipos de diagramas UML que visa demonstrar as transições entre os diferentes objetos que compõem o sistema. Basicamente ele visa armazenar o status de um objeto em um determinado momento para então poder modificar essa tal status de acordo com a entrada recebida.<br>
+&emsp;&emsp;O uso do diagrama de estados normalmente está voltado para a modelagem dinâmica de classes, assim como os diagramas de atividades, porém o foco deste diagrama é descrever a evolução de estados de um objeto da classe (SILVA, 2007).<br>
 
 &emsp;&emsp;Os principais elementos que constituem um diagrama de estados são:
 
@@ -40,8 +41,11 @@
 &emsp;&emsp;O processo se inicia no estado <b>buscando turma</b> que se ramifica em dois estados, um em que a <b>turma não foi encontrada</b>, então a tarefa é encerrada. O outro é o estado em que a turma foi encontrada, aí o caminho continua com os estados <b>visualizando alunos</b>, <b>marcando alunos presentes</b> e por fim, <b>salvando cadastro</b>.<br>
 
 ## Bibliografia
+> - [Diagrama de estados do projeto QRodízio](https://unbarqdsw.github.io/2020.1_G10_QRodizio/modelagem/diagramas_dinamicos/diagramas_estado.html#introducao);
+> - [Diagrama de estados do projeto Stock](https://unbarqdsw.github.io/2020.1_G12_Stock/#/Modeling/Diagrams/Estado);
 > - LUCIDCHART. O que é um diagrama de máquina de estados?. Disponível em: <https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-maquina-de-estados-uml>. Acesso em: 17 de ago. 2021.
 > - Máquina de Estados. Disponível em: <http://msoo.pbworks.com/f/Diagrama+de+Estados.pdf>. Acesso em: 17 de ago. 2021.
+> - SILVA, R. P. (2007). “UML 2 em Modelagem Orientada a Objetos”, 1ª ed., Florianópolis, SC, Brasil, Visual Books.
 
 ## Versionamento
 | Versão | Data | Modificação | Autor |
@@ -49,5 +53,5 @@
 |1.0| 18/08/2021 | Adição da introduçao, da metodologia, dos diagramas e da bibliografia  | Nilo Mendonça |
 |1.1| 21/08/2021 | Adição da léxicos  | Bruno Félix |
 |1.2| 21/08/2021 | Revisão por pares  | Enzo Gabriel e Gabriel Bonifácio |
-|1.3| 18/09/2021 | Revisão do documento segundo feedback da professora  | Nilo Mendonça |
+|1.3| 17/09/2021 | Revisão e correção do documento segundo feedback da professora | Edson Soares e Nilo Mendonça |
 |1.4| 19/09/2021 | Revisão do documento segundo feedback da professora | Bruno Félix |
