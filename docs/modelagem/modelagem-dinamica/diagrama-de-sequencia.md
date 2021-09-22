@@ -47,5 +47,7 @@
 |1.5| 20/09/2021 | Revisão por pares| Nilo Mendonça e Daniel Porto |
 |2.0| 21/09/2021 | Revisão segundo feedback da professora | Edson Soares, Nilo Mendonça |
 |2.1| 21/09/2021 | Feedback da professora (ajustes no Login) | Edson Soares |
+|2.2| 21/09/2021 | Revisores do documento | Gabriel Bonifácio, Mateus O. Patrício |
+
 
 
