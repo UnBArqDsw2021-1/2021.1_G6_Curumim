@@ -23,17 +23,25 @@ A [Sprint 6](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/milestone/8) t
 ## 3. Sprint Backlog
 Issues adicionadas: 
 
-1. **Issue:** [#154 Atualizar e Revisar todos os diagramas](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/154)<br> 
+1. **Issue:** [#5 Implementar o sistema de autenticação](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim_Back-end/issues/5)<br>
+**Responsáveis:** Mateus O. Patrício e Edson Soares<br>
+
+2. **Issue:** [#6 Criar Telas](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim_Front-end/issues/3)
+**Responsáveis:** Nilo Mendonça, Enzo, Bruno, Gabriel e João<br>
+
+3. **Issue:** [#154 Atualizar e Revisar todos os diagramas](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/154)<br> 
 **Responsáveis:** Todos os membros do grupo.<br>
 
-2. **Issue:** [#161 Revisão da documentação - Entrega 2 ](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/161)<br> 
+5. **Issue:** [#161 Revisão da documentação - Entrega 2 ](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/161)<br> 
 **Responsáveis:** Edson Soares e Nilo Mendonça.<br>
 
-3. **Issue:** [#162 Revisão de Documentação - Entrega 1 - Documentos Restantes](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/162)<br> 
+6. **Issue:** [#162 Revisão de Documentação - Entrega 1 - Documentos Restantes](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/162)<br> 
 **Responsáveis:** Gabriel Bonifácio.<br>
 
-4. **Issue:** [#167 Padrões Emergentes ](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/167)<br> 
+7. **Issue:** [#167 Padrões Emergentes ](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/167)<br> 
 **Responsáveis:** Bruno Félix e Francisco Emanuel.<br>
 
-5. **Issue:** [#169 Documentar Planning Sprint 6](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/issues/169)<br> 
-**Responsáveis:** João Pedro.<br>
+
+## 4. Notas da reunião
+
+- Durante a reunião foi decidido mudar o dia da planning/review para terças feiras, logo essa sprint será maior com 10 dias.
