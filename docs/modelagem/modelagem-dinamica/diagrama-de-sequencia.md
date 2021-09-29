@@ -13,7 +13,7 @@
 
 &emsp;&emsp;Nas figuras abaixo temos exemplos de diagramas de sequência de algumas features:
 
-### [Administrador](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-administrador) cadastrando [professor](/2021.1_G6_Curumim/base/requisitos/modelagem/lexicos/#lexico-professores)
+### [Administrador](../../../base/requisitos/modelagem/lexicos/#lexico-administrador) cadastrando [professor](../../../base/requisitos/modelagem/lexicos/#lexico-professores)
 
 ![Administrador cadastrando professor](../../../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-admin-cadastrando-prof.png)
 <center>[Figura 1: Diagrama de sequência do administrador cadastrando professor](../../../assets/imagens/diagrama-de-sequencia/../../../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-admin-cadastrando-prof.png)</center>
@@ -21,12 +21,12 @@
 ### [Administrador](../../../base/requisitos/modelagem/lexicos/#lexico-administrador) cadastrando [evento](../../../base/requisitos/modelagem/lexicos/#lexico-evento)
 
 ![Administrador cadastrando professor](../../../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-admin-cadastrando-evento.png)
-<center>[Figura 1: Diagrama de sequência do administrador cadastrando professor](../../../assets/imagens/diagrama-de-sequencia/../../../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-admin-cadastrando-evento.png)</center>
+<center>[Figura 2: Diagrama de sequência do administrador cadastrando evento](../../../assets/imagens/diagrama-de-sequencia/../../../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-admin-cadastrando-evento.png)</center>
 
 ### [Guardian](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel) fazendo [login](../../../base/requisitos/modelagem/lexicos/#lexico-login) 
 
 ![Responsável fazendo login](../../../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-pais-responsaveis-login.png)
-<center>[Figura 2: Diagrama de sequência do guardian fazendo login](../../../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-pais-responsaveis-login.png)</center>
+<center>[Figura 3: Diagrama de sequência do guardian fazendo login](../../../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-pais-responsaveis-login.png)</center>
 
 ## Bibliografia
 
