@@ -84,7 +84,6 @@ nav:
                                         - Review: reunioes/sprints/review-sprint2.md
                 - Apresentação: apresentacoes/apresentacoes_entrega2.md
         - Padrões de Projeto:
-        
                 - GRASP: padroes-de-projeto/grasp.md
                 - GOFs:
                         - Criacionais: padroes-de-projeto/gofs-criacionais.md
@@ -106,3 +105,10 @@ nav:
                                         - Review: reunioes/sprints/review-sprint5.md
                                 - Sprint 6:
                                         - Planning: reunioes/sprints/planning-sprint6.md
+                                        - Review: reunioes/sprints/review-sprint6.md
+        - Arquitetura de Software e Reutilização:
+                - Iniciativas Extras:
+                        - Reuniões:
+                                - Sprint 7:
+                                        - Planning: reunioes/sprints/planning-sprint7.md
+                                        - Review: reunioes/sprints/review-sprint7.md
