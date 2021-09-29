@@ -3,7 +3,7 @@
 &emsp;&emsp;O diagrama de componentes é fundamental na criação de um sistema de software. É feito utilizando a linguagem UML, facilitando o entendimento da estrutura dos sistemas existentes, tornando possível ver os relacionamentos entre os componentes de todo o sistema. 
 
 ## Metodologia
-&emsp;&emsp;O desenvolvimento do diagrama de componentes levou em consideração as decisões de técnologias e estruturas que serão utilizadas no projeto. Sendo assim, o diagrama de componentes aborda a representação dos componentes que serão desenvolvidos na API do projeto, a qual contará com arquitetura MVC.<br>
+&emsp;&emsp;O desenvolvimento do diagrama de componentes levou em consideração as decisões de tecnologias e estruturas que serão utilizadas no projeto. Sendo assim, o diagrama de componentes aborda a representação dos componentes que serão desenvolvidos na API do projeto, a qual contará com arquitetura MVC.<br>
 
 ![Diagrama de componentes](../../assets/imagens/diagrama-de-componentes/diagrama-de-componentes.png)
 

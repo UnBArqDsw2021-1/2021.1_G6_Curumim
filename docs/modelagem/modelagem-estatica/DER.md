@@ -1,10 +1,10 @@
 # Diagrama entidade relacionamento <br> <span class="rotulo-extra">Iniciativa Extra</span>
 
 ## Introdução
-&emsp;&emsp;O Diagrama entidade relacionamento, também conhecido como DER, aborda uma forma de representar gráficamente a modelagem do banco de dados. Basicamente, tem como objetivo organizar de forma conceitual e logica utilizando algum tipo de notação, as entiades que compõem o banco de dados e seus relacionamentos. Segundo Machado, Felipe Nery Rodrigues[[5]](#bibliografia), "O DER descreve a estrutura conceitual e lógica geral de um banco de dados."
+&emsp;&emsp;O Diagrama entidade relacionamento, também conhecido como DER, aborda uma forma de representar graficamente a modelagem do banco de dados. Basicamente, tem como objetivo organizar de forma conceitual e logica utilizando algum tipo de notação, as entiades que compõem o banco de dados e seus relacionamentos. Segundo Machado, Felipe Nery Rodrigues[[5]](#bibliografia), "O DER descreve a estrutura conceitual e lógica geral de um banco de dados."
 
 ## Metodologia
-&emsp;&emsp;Para o desenvolvimento do diagrama conceitual, foi feita a leitura e analise do [MER](./MER.md) procurando elucidar gráficamente as ideias contidas no artefato. Sendo assim, o diagrama conceitual possui descrito com as entidades, atributos e relacionamentos em Inglẽs, senguindo o padrão CamelCase de forma a já iniciar uma padronização do que será implementada em nível de código.<br>
+&emsp;&emsp;Para o desenvolvimento do diagrama conceitual, foi feita a leitura e análise do [MER](./MER.md) procurando elucidar graficamente as ideias contidas no artefato. Sendo assim, o diagrama conceitual possui descrito com as entidades, atributos e relacionamentos em Inglẽs, seguindo o padrão CamelCase de forma a já iniciar uma padronização do que será implementada em nível de código.<br>
 &emsp;&emsp;Foi utilizada a ferramenta [Br Modelo](https://app.brmodeloweb.com) para a diagramação.
 
 ## Diagrama Conceitual

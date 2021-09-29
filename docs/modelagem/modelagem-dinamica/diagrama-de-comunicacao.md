@@ -4,7 +4,7 @@
 &emsp;&emsp;Os diagramas de comunicação são utilizados pelos designers para definir e esclarecer as funções dos objetos que executam um fluxo específico de eventos de um caso de uso. Eles são a principal fonte de informações usada para determinar interfaces e responsabilidades de classe.<br>
 &emsp;&emsp;Basicamente eles tem sua utilização voltada para descrever os objetos que estão interagindo e seus principais elementos sintáticos. Este diagrama corresponde a um formato diferenciado para descrever a interação entre objetos (VARGAS, 2007);
 
-## Diagramas
+## Diagramas - Versão 1.0
 
 ### Diagrama de comunicação - [Administrador](/base/requisitos/modelagem/lexicos/#lexico-administrador)
 
@@ -28,7 +28,29 @@
 ![Diagrama de comunicação - Chat](../../assets/imagens/comunicacao/comunicacao-chat.png)
 <center>[Figura 4: Diagrama de comunicação - Chat](../../assets/imagens/comunicacao/comunicacao-chat.png)</center>
 
+## Diagramas - Versão 2.0
 
+### Diagrama de comunicação - [Administrador](/base/requisitos/modelagem/lexicos/#lexico-administrador)
+
+![Diagrama de comunicação 2.0 - Adm](../../assets/imagens/comunicacao/adm-v2.png)
+<center>[Figura 5: Diagrama de comunicação versão 2 - Adm](../../assets/imagens/comunicacao/adm-v2.png)</center>
+
+### Diagrama de comunicação - [Responsável](/base/requisitos/modelagem/lexicos/#lexico-responsavel)
+
+![Diagrama de comunicação 2.0 - Guardian](../../assets/imagens/comunicacao/guardian-v2.png)
+<center>[Figura 6: Diagrama de comunicação versão 2 - Guardian](../../assets/imagens/comunicacao/guardian-v2.png)</center>
+
+
+### Diagrama de comunicação - [Professor](/base/requisitos/modelagem/lexicos/#lexico-professor)
+
+![Diagrama de comunicação 2.0 - Teacher](../../assets/imagens/comunicacao/teacher-v2.png)
+<center>[Figura 7: Diagrama de comunicação versão 2 - Teacher](../../assets/imagens/comunicacao/teacher-v2.png)</center>
+
+
+### Diagrama de comunicação - Chat
+
+![Diagrama de comunicação 2.0 - Chat](../../assets/imagens/comunicacao/chat-v2.png)
+<center>[Figura 8: Diagrama de comunicação versão 2 - Chat](../../assets/imagens/comunicacao/chat-v2.png)</center>
 
 ## Bibliografia
 > - [Diagrama de comunicação do projeto Stock](https://unbarqdsw.github.io/2020.1_G12_Stock/#/Modeling/Diagrams/Comunicacao);
@@ -43,3 +65,4 @@
 |1.1|21/08/2021| Modificação da nomenclatura das classes dos diagramas | João Pedro |
 |1.2|21/08/2021| Revisão por pares | Nilo Mendonça e Bruno Félix |
 |1.3|17/09/2021| Revisão e correção do documento segundo feedback da professora | Edson Soares e Nilo Mendonça |
+|1.4|21/09/2021| Adição da versão 2 dos diagramas | João Pedro |
