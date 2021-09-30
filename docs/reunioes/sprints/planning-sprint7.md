@@ -1,4 +1,4 @@
-# Sprint 67 <br> <span class="rotulo-extra">Iniciativa Extra</span>
+# Sprint 7 <br> <span class="rotulo-extra">Iniciativa Extra</span>
 
 ## Planejamento 
 
