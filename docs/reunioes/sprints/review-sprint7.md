@@ -144,4 +144,4 @@
 | :----: | ---------- | ------------------------------------------ | -------------------- |
 |  0.1   | 28/09/2021 | Revisão e Retrospectiva com os integrantes | Todos os integrantes |
 |  1.0   | 29/09/2021 | Abertura e adição da informações ao documento | Nilo Mendonça |
-|  1.1   | 29/09/2021 | Revisão do documento | Gabriel Bonifácio e Eliseu Kadesh |
+|  1.1   | 29/09/2021 | Revisão do documento | Gabriel Bonifácio e Daniel Porto |
