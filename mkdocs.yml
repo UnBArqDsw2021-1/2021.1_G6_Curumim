@@ -107,6 +107,8 @@ nav:
                                         - Planning: reunioes/sprints/planning-sprint6.md
                                         - Review: reunioes/sprints/review-sprint6.md
         - Arquitetura de Software e Reutilização:
+                - Documento de Arquitetura: arquitetura-reutilizacao/arquitetura.md
+                - Reutilização de Software: arquitetura-reutilizacao/reutilizacao.md
                 - Iniciativas Extras:
                         - Reuniões:
                                 - Sprint 7:
