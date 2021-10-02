@@ -45,50 +45,51 @@
 
 ## Visão de Implementação
 
-### Introdução
-&emsp;&emsp;A visão de implementação se caracteriza como uma das cinco visões de arquitetura de um sistema e sua finalidade é captar as decisões de arquitetura tomadas para a implementação, buscando descrever como os artefatos de desenvolvimento estão organizados.<br> Geralmente, a visão de implementação possui:
-    - Uma enumeração de todos os subsistemas no modelo de implementação;
-    - Diagramas de componentes que ilustram os susbsistemas, organizados em camadas e hierarquias;
-    - Ilustrações de dependências de importação entre subsistemas;<br>
+&emsp;&emsp;A visão de implementação se caracteriza como uma das cinco visões de arquitetura de um sistema e sua finalidade é captar as decisões de arquitetura tomadas para a implementação, buscando descrever como os artefatos de desenvolvimento estão organizados.<br>
+&emsp;&emsp;Geralmente, a visão de implementação possui:
+
+- Uma enumeração de todos os subsistemas no modelo de implementação;
+- Diagramas de componentes que ilustram os susbsistemas, organizados em camadas e hierarquias;
+- Ilustrações de dependências de importação entre subsistemas;
+
 &emsp;&emsp;Sendo considerado extremamente útil em questões relacionadas a atribuição do trabalho de implementação a indivíduos e equipes, na avaliação da quantidade de código que será excluído, modificado ou desenvolvido e também para discursões a respeito de reutilização em larga escala e estratégias de release.
 
 ### Padrão MVC
 #### Camadas
-&emsp;&emsp;Model- Essa camada na aplicação curumim, tem a responsabilidade de encapsular estados da aplicação, assim é possível tratar modificação de estado e notificação de estado. 
 
-&emsp;&emsp;View- Essa segunda camada tem como objetivo apresentar a interface para usuário, na aplicação curumim ela é a principal responsável por mostrar informações modelo para a interface do cliente.
+- Model: Essa camada na aplicação Curumim tem a responsabilidade de encapsular estados da aplicação, assim é possível tratar modificações de estado e notificações de estado;
+- View: Essa segunda camada tem como objetivo apresentar a interface para o usuário, na aplicação Curumim ela é a principal responsável por mostrar informações da Model para a interface do cliente;
+- Controller: Essa é camada que faz o intermédio entre as camadas View e Model, assim mapeando as ações do usuário na view para possíveis mudanças na Model;
 
-&emsp;&emsp;Controler- Essa é camada que faz o intermédio entre as camadas view e model, assim mapeando as ações do usuário na viewl para possíveis mudanças na model.
+#### Conclusão
+&emsp;&emsp;Algumas literaturas ao falar do padrão MVC acabam abordando a aplicabilidade dessa arquitetura principalmente a aplicações web, visto sua facilidade e flexibilidade de interação e visualização de dados, além disso a arquitetura MVC trás alguns padrões já conhecidos como os:
 
-#### Coclusão.
-&emsp;&emsp;Algumas literaturas ao falar do padrão mvc acabam abordando a aplicabilidade desta arquitetura principalmente a aplicações web, visto sua facilidade e flexibilidade de interação e visualização de dados, além disso a arquitetura MVC trás alguns padrões já conhecidos como os:
+- GRASPs(Indireções e Controller);
+- GoFs Estruturais (Facade)
+- GoFs Comportamentais (Observer)
 
-* GRASPs(Indireções e Controller
-* GoFs Estruturais (Facade)
-* GoFs Comportamentais (Observer)
-
-&emsp;&emsp; Essa foi a principal arquitetura aplica no projeto curumim, visto sua eficiência e simplicidade, e por fim trazendo um código mais manutenível [[2]](#bibliografia). 
+&emsp;&emsp; Essa foi a principal arquitetura aplicada no projeto Curumim, visto sua eficiência e simplicidade, e por fim trazendo um código mais manutenível [[2]](#bibliografia). 
 
 ### API
-&emsp;&emsp;API pode ser definida como um conjunto de protocolos e definições usados na integração e no desenvolvimento de softwares de aplicações, permitindo que uma solução ou serviço se comunique com outros produtos e serviços sem haver a necessidade de saber como eles foram implementados, simplificando assim o desenvolvimento de aplicações.
-&emsp;&emsp;No projeto Curumim o objetivo da divisão em camadas é possibilitar a reutilização da solução para diversas interfaces. Especificamente no back-end da aplicação a estrutura foi dividida em três componentes principais:<br>
+&emsp;&emsp;API pode ser definida como um conjunto de protocolos e definições usados na integração e no desenvolvimento de softwares de aplicações, permitindo que uma solução ou serviço se comunique com outros produtos e serviços sem haver a necessidade de saber como eles foram implementados, simplificando assim o desenvolvimento de aplicações.<br>
+&emsp;&emsp;No projeto Curumim o objetivo da divisão em camadas é possibilitar a reutilização da solução para diversas interfaces. Especificamente no back-end da aplicação a estrutura foi dividida em três componentes principais:
+
 - Models: Assim como explicado no item anterior, tem a responsabilidade de encapsular os estados da aplicação;
 - Controllers: Que realiza a ponte entre as Model e o cliente que consome a API;
 - Middlewares: Que são representados por uma pipeline de processamentos, com funções pré-definidas que são handles, units e filters.
 
-4 - Diagrama de camadas
+### Diagrama de camadas
+
+&emsp;&emsp;Para melhor visualização das camadas da aplicação, foi elaborado um diagrama, composto pelas três principais camadas da aplicação:
+
+- Client: Representa o [Front-end](../../base/requisitos/modelagem/lexicos/#front-end) , sendo implementado utilizando o React js;
+- API: Representa o [Back-end](../../base/requisitos/modelagem/lexicos/#back-end), sendo implementado em Node js e utilizando o Express js;
+- Database: Representa o banco de dados, utilizando o Postgresql;
+
 <center>
-![](../assets/imagens/arquitetura-reutilizacao/Diagrama-de-camadas.png)
-
+![](../assets/imagens/arquitetura-reutilizacao/Diagrama-de-camadas.png)<br>
+[Figura 1 - Diagrama de camadas](../assets/imagens/arquitetura-reutilizacao/Diagrama-de-camadas.png)
 </center>
-
-<center>
-[](../assets/imagens/arquitetura-reutilizacao/Diagrama-de-camadas.png)
-
-
-</center>
-
-
 
 ## Visão de Dados
 
@@ -99,12 +100,12 @@
 ## Bibliografia
 
 > - [1] Visões Arquiteturais. Disponível em <https://www.inf.ufpr.br/andrey/ci163/VisoesAl.pdf>. Acesso em 29 set. 2021.
-> - [2] O que é MVC?. Disponível em <https://www.treinaweb.com.br/blog/o-que-e-mvc>. Acessado em: 02 de out. 2021
-> - [3] UniGrade. Documento de Arquitetura de Software. Disponível em: https://ads-unigrade-2019-1.github.io/Wiki/dinamica06/DAS/#7-visao-da-implementacao. Acesso em: em 02 de out. 2021
+> - [2] O que é MVC?. Disponível em <https://www.treinaweb.com.br/blog/o-que-e-mvc>. Acesso em 02 de out. 2021
+> - [3] UniGrade. Documento de Arquitetura de Software. Disponível em: <https://ads-unigrade-2019-1.github.io/Wiki/dinamica06/DAS/#7-visao-da-implementacao>. Acesso em 02 de out. 2021
 
 ## Versionamento
 
 | Versão | Data | Modificação | Autor |
 |:-:|--|--|--|
 |1.0|29/09/2021| Abertura do documento e inclusão da introdução | Daniel Porto |
-|1.2|02/10/2021| Criando topico de visão de implementação | Francisco Ferreira e Nilo Mendonça|
+|1.2|02/10/2021| Criando tópico de visão de implementação | Francisco Ferreira e Nilo Mendonça|
