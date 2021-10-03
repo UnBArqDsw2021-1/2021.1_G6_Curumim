@@ -38,6 +38,16 @@
 ## Visão de Casos de Uso
 
 ## Visão Lógica
+&emsp;&emsp;blablabla
+
+### Back End
+    Imagem
+	PARÁGRAFO: explicar específico (Model e Controller | gerar link pro artefato diagrama de pacotes /#metodologia)
+
+### Front End
+    Imagem
+    PARÁGRAFO: explicar específico (View | gerar link pro artefato diagrama /#metodologia)
+
 
 ## Visão de Processos
 
@@ -60,3 +70,4 @@
 | Versão | Data | Modificação | Autor |
 |:-:|--|--|--|
 |1.0|29/09/2021| Abertura do documento e inclusão da introdução | Daniel Porto |
+|   |03/10/2021| Criação da estrutura Visão Lógica | Bruno Félix e Edson Soares |
