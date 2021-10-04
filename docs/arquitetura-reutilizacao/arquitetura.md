@@ -78,7 +78,9 @@
 - Controllers: Que realiza a ponte entre as Model e o cliente que consome a API;
 - Middlewares: Que são representados por uma pipeline de processamentos, com funções pré-definidas que são handles, units e filters.
 
-### Diagrama de camadas
+&emsp;&emsp;O [diagrama de componentes](../../modelagem/modelagem-estatica/diagrama-de-componentes) ilustra bem as camadas e subcamadas da aplicação. Já para um melhor entendimento de cada subcamada se faz necessário uma análise do [diagrama de classes](../../modelagem/modelagem-estatica/diagrama-de-classes) onde é mostrado com mais detalhes cada método de cada subcamada.
+
+<!-- ### Diagrama de camadas
 
 &emsp;&emsp;Para melhor visualização das camadas da aplicação, foi elaborado um diagrama, composto pelas três principais camadas da aplicação:
 
@@ -90,7 +92,7 @@
 ![](../assets/imagens/arquitetura-reutilizacao/Diagrama-de-camadas.png)<br>
 [Figura 1 - Diagrama de camadas](../assets/imagens/arquitetura-reutilizacao/Diagrama-de-camadas.png)
 </center>
-
+ -->
 ## Visão de Dados
 
 ## Tamanho e Desempenho
