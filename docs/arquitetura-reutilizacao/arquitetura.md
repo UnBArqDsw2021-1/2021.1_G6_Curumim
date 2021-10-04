@@ -49,10 +49,10 @@
 &emsp;&emsp;Geralmente, a visão de implementação possui:
 
 - Uma enumeração de todos os subsistemas no modelo de implementação;
-- Diagramas de componentes que ilustram os susbsistemas, organizados em camadas e hierarquias;
+- Diagramas de componentes que ilustram os subsistemas, organizados em camadas e hierarquias;
 - Ilustrações de dependências de importação entre subsistemas;
 
-&emsp;&emsp;Sendo considerado extremamente útil em questões relacionadas a atribuição do trabalho de implementação a indivíduos e equipes, na avaliação da quantidade de código que será excluído, modificado ou desenvolvido e também para discursões a respeito de reutilização em larga escala e estratégias de release.
+&emsp;&emsp;Sendo considerado extremamente útil em questões relacionadas a atribuição do trabalho de implementação a indivíduos e equipes, na avaliação da quantidade de código que será excluído, modificado ou desenvolvido e também para discussões a respeito de reutilização em larga escala e estratégias de release.
 
 ### Padrão MVC
 #### Camadas
