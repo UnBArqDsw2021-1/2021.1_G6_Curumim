@@ -40,29 +40,63 @@
 &emsp;&emsp;A seguir iremos descrever nossa visão dos [casos de uso](../../modelagem/modelagem-dinamica/casos-de-uso) da arquitetura de software. Contendo cenários e/ou [casos de uso](../../modelagem/modelagem-dinamica/casos-de-uso) que representam o funcionamento do sistema.</br>
 &emsp;&emsp;Nossos [casos de uso](../../modelagem/modelagem-dinamica/casos-de-uso) estão listados abaixo, juntamente com as descrições dos de maior impacto.
 
-- UC01 - Cadastrar criança
+- UC01 - Cadastrar [criança](../../base/requisitos/modelagem/lexicos/#lexico-aluno)
 - UC02 - Gerenciar turmas
-- UC03 - Cadastrar professor
+- UC03 - Cadastrar [professor](../../base/requisitos/modelagem/lexicos/#lexico-professor)
 - UC04 - Gerenciar eventos
-- UC05 - Gerenciar anotações sobre os alunos
+- UC05 - Gerenciar anotações sobre os [alunos](../../base/requisitos/modelagem/lexicos/#lexico-aluno)
 - UC06 - Gerenciar atividades da turma
 - UC07 - Efetuar login
 - UC08 - Verificar senha
 - UC09 - Exibir mensagem de erro
 - UC10 - Visualizar todas as minhas turmas
-- UC11 - Lançar presença dos alunos
+- UC11 - [Lançar presença](../../base/requisitos/modelagem/lexicos/#lexico-lancar-presenca) dos alunos
 - UC12 - Efetuar cadastro
 - UC13 - Conversar com o centro educacional
-- UC14 - Conversar com os administradores
-- UC15 - Conversar com os professores da turma da minha criança
-- UC16 - Obter informações da minha criança
+- UC14 - Conversar com os [administradores](../../base/requisitos/modelagem/lexicos/#lexico-administrador)
+- UC15 - Conversar com os [professores](../../base/requisitos/modelagem/lexicos/#lexico-professor) da turma da minha [criança](../../base/requisitos/modelagem/lexicos/#lexico-aluno)
+- UC16 - Obter informações da minha [criança](../../base/requisitos/modelagem/lexicos/#lexico-aluno)
 - UC17 - Visualizar presenças
 - UC18 - Visualizar atividades
 - UC19 - Visualizar agenda
 - UC20 - Visualizar anotações
 - UC21 - Visualizar eventos
-- UC22 - Receber notificações com informações da minha criança
-- UC23 - Receber relatórios com o desempenho da minha criança
+- UC22 - Receber notificações com informações da minha [criança](../../base/requisitos/modelagem/lexicos/#lexico-aluno)
+- UC23 - Receber relatórios com o desempenho da minha [criança](../../base/requisitos/modelagem/lexicos/#lexico-aluno)
+
+#### Descrição dos casos de uso significativos
+
+- UC01 - Cadastrar [criança](../../base/requisitos/modelagem/lexicos/#lexico-aluno): <descrição aqui\>
+
+- UC02 - Gerenciar turmas: <descrição aqui\>
+
+- UC03 - Cadastrar [professor](../../base/requisitos/modelagem/lexicos/#lexico-professor): <descrição aqui\>
+
+- UC04 - Gerenciar eventos: <descrição aqui\>
+
+- UC05 - Gerenciar anotações sobre os [alunos](../../base/requisitos/modelagem/lexicos/#lexico-aluno): <descrição aqui\>
+
+- UC06 - Gerenciar atividades da turma: <descrição aqui\>
+
+- UC07 - Efetuar login: <descrição aqui\>
+
+- UC08 - Verificar senha: <descrição aqui\>
+
+- UC09 - Exibir mensagem de erro: <descrição aqui\>
+
+- UC10 - Visualizar todas as minhas turmas: <descrição aqui\>
+
+- UC11 - [Lançar presença](../../base/requisitos/modelagem/lexicos/#lexico-lancar-presenca) dos [alunos](../../base/requisitos/modelagem/lexicos/#lexico-aluno): Este caso de uso é exclusivo para o ator [professor](../../base/requisitos/modelagem/lexicos/#lexico-professor) e consiste em confirmar a [presença](../../base/requisitos/modelagem/lexicos/#lexico-presenca) de [alunos](../../base/requisitos/modelagem/lexicos/#lexico-aluno) à aula.
+
+- UC12 - Efetuar cadastro: Este caso de uso é exclusivo para o ator [responsável](../../base/requisitos/modelagem/lexicos/#lexico-responsavel), onde apenas um [responsável](../../base/requisitos/modelagem/lexicos/#lexico-responsavel) pode realizar o seu cadastro na plataforma.
+
+- UC13 - Conversar com o [centro educacional](../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional): Este caso consiste em um [responsável](../../base/requisitos/modelagem/lexicos/#lexico-responsavel) entrar em contato com um [professor](../../base/requisitos/modelagem/lexicos/#lexico-professor) ou [administrador](../../base/requisitos/modelagem/lexicos/#lexico-administrador) por meio do chat da plataforma.
+
+- UC16 - Obter informações da minha [criança](../../base/requisitos/modelagem/lexicos/#lexico-aluno): O caso ocorre caso um responsável queira visualizar as [presenças](../../base/requisitos/modelagem/lexicos/#lexico-presenca), as [atividades](../../base/requisitos/modelagem/lexicos/#lexico-atividade), a [agenda](../../base/requisitos/modelagem/lexicos/#lexico-agenda), as [anotações](../../base/requisitos/modelagem/lexicos/#lexico-anotacao) ou os [eventos](../../base/requisitos/modelagem/lexicos/#lexico-evento) de sua [criança](../../base/requisitos/modelagem/lexicos/#lexico-aluno).
+
+- UC22 - Receber [notificações](../../base/requisitos/modelagem/lexicos/#lexico-notificacao) com informações da minha [criança](../../base/requisitos/modelagem/lexicos/#lexico-aluno): Caso exista alguma informação nova da [criança](../../base/requisitos/modelagem/lexicos/#lexico-aluno) o [responsável](../../base/requisitos/modelagem/lexicos/#lexico-responsavel) deve ser notificado.
+
+- UC23 - Receber relatórios com o desempenho da minha [criança](../../base/requisitos/modelagem/lexicos/#lexico-aluno): Neste caso o responsável deve receber periodicamente relatórios contendo informações sobre o desempenho de sua [criança](../../base/requisitos/modelagem/lexicos/#lexico-aluno).
 
 
 ## Visão Lógica
