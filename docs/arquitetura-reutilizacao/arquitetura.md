@@ -37,6 +37,34 @@
 
 ## Visão de Casos de Uso
 
+&emsp;&emsp;A seguir iremos descrever nossa visão dos [casos de uso](../../modelagem/modelagem-dinamica/casos-de-uso) da arquitetura de software. Contendo cenários e/ou [casos de uso](../../modelagem/modelagem-dinamica/casos-de-uso) que representam o funcionamento do sistema.</br>
+&emsp;&emsp;Nossos [casos de uso](../../modelagem/modelagem-dinamica/casos-de-uso) estão listados abaixo, juntamente com as descrições dos de maior impacto.
+
+- UC01 - Cadastrar criança
+- UC02 - Gerenciar turmas
+- UC03 - Cadastrar professor
+- UC04 - Gerenciar eventos
+- UC05 - Gerenciar anotações sobre os alunos
+- UC06 - Gerenciar atividades da turma
+- UC07 - Efetuar login
+- UC08 - Verificar senha
+- UC09 - Exibir mensagem de erro
+- UC10 - Visualizar todas as minhas turmas
+- UC11 - Lançar presença dos alunos
+- UC12 - Efetuar cadastro
+- UC13 - Conversar com o centro educacional
+- UC14 - Conversar com os administradores
+- UC15 - Conversar com os professores da turma da minha criança
+- UC16 - Obter informações da minha criança
+- UC17 - Visualizar presenças
+- UC18 - Visualizar atividades
+- UC19 - Visualizar agenda
+- UC20 - Visualizar anotações
+- UC21 - Visualizar eventos
+- UC22 - Receber notificações com informações da minha criança
+- UC23 - Receber relatórios com o desempenho da minha criança
+
+
 ## Visão Lógica
 
 ## Visão de Processos
@@ -60,3 +88,4 @@
 | Versão | Data | Modificação | Autor |
 |:-:|--|--|--|
 |1.0|29/09/2021| Abertura do documento e inclusão da introdução | Daniel Porto |
+|x.x|05/10/2021 | Adição da visão dos casos de uso | Mateus O. Patrício e Gabriel Bonifácio |
