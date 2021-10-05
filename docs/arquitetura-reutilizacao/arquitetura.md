@@ -48,9 +48,9 @@
 &emsp;&emsp;As regras de negócios estão contidas na camada lógica da aplicação, com as classes de domínio do sistema, que contém os dados que serão persistidos no banco de dados. Essa é a camada de modelo da arquitetura utilizada no projeto Curumim.
 
 ### Front End
-    Imagem
-    PARÁGRAFO: explicar específico (View | gerar link pro artefato diagrama /#metodologia)
+![Diagrama de Pacote - Front End](../../assets/imagens/arquitetura/front_end_visao_logica.png) 
 
+&emsp;&emsp;O frontend, onde habita a camada de view, é responsável pela interação e apresentação das informações ao usuário. Todas as pastas estão alocadas de forma paralela no pacote App. O ponto de partida é a pasta **Routes**, onde se tem as rotas e a chamada do conteúdo da aplicação, conteúdo esse que pode ser oriundo tanto dos arquivos da pasta **Pages** quanto da pasta **Components**. Além disso, temos as pastas de **Assets** e a **Styles** com caráter de armazenamento de media estática e configuração estilo, e a pasta **Utils** para funções auxiliares ao projeto. Por fim temos a pasta **Services** responsável pela lógica de comunicação com a API do sistema e da lógica de autenticação.
 
 ## Visão de Processos
 
@@ -74,5 +74,7 @@
 | Versão | Data | Modificação | Autor |
 |:-:|--|--|--|
 |1.0|29/09/2021| Abertura do documento e inclusão da introdução | Daniel Porto |
-|  1.1 |03/10/2021| Criação da estrutura Visão Lógica | Bruno Félix e Edson Soares |
-| 1.2  |05/10/2021| Argumentação da Visão Lógica | Bruno Félix e Edson Soares |
+|   |03/10/2021| Criação da estrutura Visão Lógica | Bruno Félix e Edson Soares |
+|   |05/10/2021| Argumentação da Visão Lógica (Intro/backend) | Bruno Félix e Edson Soares |
+|   |05/10/2021| Inserção do tópico Front End da Visão Lógica | Bruno Félix |
+
