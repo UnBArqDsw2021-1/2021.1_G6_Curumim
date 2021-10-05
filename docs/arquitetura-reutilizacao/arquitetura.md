@@ -38,17 +38,20 @@
 ## Visão de Casos de Uso
 
 ## Visão Lógica
-&emsp;&emsp;A visão lógica consiste na organização conceitual do projeto, podendo ser visualizado por meio do diagrama de classes, [pacotes](../modelagem/modelagem-estatica/diagrama-de-pacotes.md) e diagrama interação. O artefato de visão lógica é utilizado para mostrar o agrupamento das classes da arquitetura do sistema.
+&emsp;&emsp;A visão lógica consiste na organização conceitual do projeto, podendo ser visualizado por meio do diagrama de [classes](../modelagem/modelagem-estatica/diagrama-de-classes.md), [pacotes](../modelagem/modelagem-estatica/diagrama-de-pacotes.md) e [diagrama interação](../modelagem/modelagem-dinamica/diagrama-de-sequencia.md). O artefato de visão lógica é utilizado para mostrar o agrupamento das classes da arquitetura do sistema.
 
-&emsp;&emsp;O projeto Curumim é estruturado no padrão MVC, o qual consiste em três camadas lógicas que interagem entre si. Aqui dividimos os pacotes em agrupamentos lógicos e apresentamos suas dependências entre eles.
+&emsp;&emsp;O projeto Curumim é estruturado no padrão [MVC](../padroes-de-projeto/padroes_emergentes.md), o qual consiste em três camadas lógicas que interagem entre si. Aqui dividimos os pacotes em agrupamentos lógicos e apresentamos suas dependências entre eles.
 
 ### Back End
+![Diagrama de Pacote](../../assets/imagens/arquitetura/front_end_visao_logica.png)<center>
+[Figura 4 : Diagrama de Pacote - Back End](../assets/imagens/arquitetura/back_end_visao_logica.png)</center> 
 &emsp;&emsp;No back end contém a camada de controle, onde os componentes recebem requisições de componentes externos. Conforme o necessário, a camada de controle cuida das solicitações de requisições enviadas pela visão. Segundo os autores do artigo, Arquitetura de Software de Referência para Sistemas de Informação Governamentais. “Deve-se considerar que a camada de controle é responsável por colaborar com a camada de modelo.” (XI Brazilian Symposium on Information System, Goiânia, GO, Maio 26-29, 2015, p.81)[[]](#bibliografia)
 
 &emsp;&emsp;As regras de negócios estão contidas na camada lógica da aplicação, com as classes de domínio do sistema, que contém os dados que serão persistidos no banco de dados. Essa é a camada de modelo da arquitetura utilizada no projeto Curumim.
 
 ### Front End
-![Diagrama de Pacote - Front End](../../assets/imagens/arquitetura/front_end_visao_logica.png) 
+![Diagrama de Pacote - Front End](../../assets/imagens/arquitetura/front_end_visao_logica.png)<center>
+[Figura 4 : Diagrama de Pacote - Front End](../assets/imagens/arquitetura/front_end_visao_logica.png)</center> 
 
 &emsp;&emsp;O frontend, onde habita a camada de view, é responsável pela interação e apresentação das informações ao usuário. Todas as pastas estão alocadas de forma paralela no pacote App. O ponto de partida é a pasta **Routes**, onde se tem as rotas e a chamada do conteúdo da aplicação, conteúdo esse que pode ser oriundo tanto dos arquivos da pasta **Pages** quanto da pasta **Components**. Além disso, temos as pastas de **Assets** e a **Styles** com caráter de armazenamento de media estática e configuração estilo, e a pasta **Utils** para funções auxiliares ao projeto. Por fim temos a pasta **Services** responsável pela lógica de comunicação com a API do sistema e da lógica de autenticação.
 
