@@ -64,16 +64,15 @@
 #### Conclusão
 &emsp;&emsp;Algumas literaturas ao falar do padrão MVC acabam abordando a aplicabilidade dessa arquitetura principalmente a aplicações web, visto sua facilidade e flexibilidade de interação e visualização de dados, além disso a arquitetura MVC trás alguns padrões já conhecidos como os:
 
-- GRASPs(Indireções e Controller);
-- GoFs Estruturais (Facade)
-- GoFs Comportamentais (Observer)
+* [GRASPs(Indireções e Controller)](../padroes-de-projeto/grasp.md)
+* [GoFs Estruturais (Facade)](../padroes-de-projeto/gofs-estruturais.md)
+* [GoFs Comportamentais (Observer)](../padroes-de-projeto/gofs-comportamentais.md)
 
 &emsp;&emsp; Essa foi a principal arquitetura aplicada no projeto Curumim, visto sua eficiência e simplicidade, e por fim trazendo um código mais manutenível [[2]](#bibliografia). 
 
 ### API
-&emsp;&emsp;API pode ser definida como um conjunto de protocolos e definições usados na integração e no desenvolvimento de softwares de aplicações, permitindo que uma solução ou serviço se comunique com outros produtos e serviços sem haver a necessidade de saber como eles foram implementados, simplificando assim o desenvolvimento de aplicações.<br>
-&emsp;&emsp;No projeto Curumim o objetivo da divisão em camadas é possibilitar a reutilização da solução para diversas interfaces. Especificamente no back-end da aplicação a estrutura foi dividida em três componentes principais:
-
+&emsp;&emsp;API pode ser definida como um conjunto de protocolos e definições usados na integração e no desenvolvimento de softwares de aplicações, permitindo que uma solução ou serviço se comunique com outros produtos e serviços sem haver a necessidade de saber como eles foram implementados, simplificando assim o desenvolvimento de aplicações.
+&emsp;&emsp;No projeto Curumim o objetivo da divisão em camadas é possibilitar a reutilização da solução para diversas interfaces. Especificamente no [back-end](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim_Back-end) da aplicação a estrutura foi dividida em três componentes principais:<br>
 - Models: Assim como explicado no item anterior, tem a responsabilidade de encapsular os estados da aplicação;
 - Controllers: Que realiza a ponte entre as Model e o cliente que consome a API;
 - Middlewares: Que são representados por uma pipeline de processamentos, com funções pré-definidas que são handles, units e filters.
