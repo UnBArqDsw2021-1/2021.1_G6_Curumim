@@ -144,8 +144,18 @@
 
 ## 4. Burndown
 
+![Velocity Tracking](../../assets/imagens/sprint-review/sprint8/Burndown.png)
+<center>[Figura 2: Velocity Tracking gerado pelo Zenhub](../../assets/imagens/sprint-review/sprint8/Burndown.png)</center>
+
+
+
+## 5. Velocity
+![Velocity Tracking](../../assets/imagens/sprint-review/sprint8/Velocity.png)
+<center>[Figura 2: Velocity Tracking gerado pelo Zenhub](../../assets/imagens/sprint-review/sprint8/Velocity.png)</center>
+
 
 ## Versionamento
 | Versão | Data       | Modificação                                | Autor                |
 | :----: | ---------- | ------------------------------------------ | -------------------- |
 |  1.0  | 05/10/2021 | Revisão e Retrospectiva com os integrantes | Todos os integrantes |
+| 1.2 | 05/10/2021 | Adicionando imagens do Velocity e Burndown | Francisco Emanoel |
