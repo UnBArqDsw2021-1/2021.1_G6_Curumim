@@ -100,6 +100,22 @@
 
 
 ## Visão Lógica
+&emsp;&emsp;A visão lógica consiste na organização conceitual do projeto, podendo ser visualizado por meio do diagrama de [classes](../modelagem/modelagem-estatica/diagrama-de-classes.md), [pacotes](../modelagem/modelagem-estatica/diagrama-de-pacotes.md) e [diagrama interação](../modelagem/modelagem-dinamica/diagrama-de-sequencia.md). O artefato de visão lógica é utilizado para mostrar o agrupamento das classes da arquitetura do sistema.
+
+&emsp;&emsp;O projeto Curumim é estruturado no padrão [MVC](../padroes-de-projeto/padroes_emergentes.md), o qual consiste em três camadas lógicas que interagem entre si. Aqui dividimos os pacotes em agrupamentos lógicos e apresentamos suas dependências entre eles.
+
+### Back End
+![Diagrama de Pacote](../../assets/imagens/arquitetura/back_end_visao_logica.png)<center>
+[Figura ?? : Diagrama de Pacotes - Back End](../assets/imagens/arquitetura/back_end_visao_logica.png)</center> 
+&emsp;&emsp;No back end contém a camada de controle, onde os componentes recebem requisições de componentes externos. Conforme o necessário, a camada de controle cuida das solicitações de requisições enviadas pela visão. Segundo os autores do artigo, Arquitetura de Software de Referência para Sistemas de Informação Governamentais. “Deve-se considerar que a camada de controle é responsável por colaborar com a camada de modelo.” (XI Brazilian Symposium on Information System, Goiânia, GO, Maio 26-29, 2015, p.81)[[]](#bibliografia)
+
+&emsp;&emsp;As regras de negócios estão contidas na camada lógica da aplicação, com as classes de domínio do sistema, que contém os dados que serão persistidos no banco de dados. Essa é a camada de modelo da arquitetura utilizada no projeto Curumim.
+
+### Front End
+![Diagrama de Pacote - Front End](../../assets/imagens/arquitetura/front_end_visao_logica.png)<center>
+[Figura ?? : Diagrama de Pacotes - Front End](../assets/imagens/arquitetura/front_end_visao_logica.png)</center> 
+
+&emsp;&emsp;O frontend, onde habita a camada de view, é responsável pela interação e apresentação das informações ao usuário. Todas as pastas estão alocadas de forma paralela no pacote App. O ponto de partida é a pasta **Routes**, onde se tem as rotas e a chamada do conteúdo da aplicação, conteúdo esse que pode ser oriundo tanto dos arquivos da pasta **Pages** quanto da pasta **Components**. Além disso, temos as pastas de **Assets** e a **Styles** com caráter de armazenamento de mídia estática e configuração estilo, e a pasta **Utils** para funções auxiliares ao projeto. Por fim temos a pasta **Services** responsável pela lógica de comunicação com a API do sistema e da lógica de autenticação.
 
 ## Visão de Processos
 
@@ -185,7 +201,7 @@
 > - [1] Visões Arquiteturais. Disponível em <https://www.inf.ufpr.br/andrey/ci163/VisoesAl.pdf>. Acesso em 29 set. 2021.
 > - [2] O que é MVC?. Disponível em <https://www.treinaweb.com.br/blog/o-que-e-mvc>. Acesso em 02 de out. 2021
 > - [3] UniGrade. Documento de Arquitetura de Software. Disponível em: <https://ads-unigrade-2019-1.github.io/Wiki/dinamica06/DAS/#7-visao-da-implementacao>. Acesso em 02 de out. 2021
-
+> - [ ] SERRANO,Milene; SERRANO, Maurício; CALVACANTE,André Cruz. Arquitetura de Software deReferência para Sistemas de Informação Governamentais. In: XI Brazilian Symposium on Information System, Goiânia, Maio 26-29, 2015. Disponível em: <https://sol.sbc.org.br/index.php/sbsi/article/view/5886/5784>. Acesso em: 04/10/2021 
 > - [2] Documento de Arquitetura de Software. Disponível em <https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/guidances/guidelines/software_architecture_document_F4C93435.html>. Acesso em: 04 de out. de 2021.    
 
 ## Versionamento
@@ -193,6 +209,9 @@
 | Versão | Data | Modificação | Autor |
 |:-:|--|--|--|
 |1.0|29/09/2021| Abertura do documento e inclusão da introdução | Daniel Porto |
+|   |03/10/2021| Criação da estrutura Visão Lógica | Bruno Félix e Edson Soares |
+|   |05/10/2021| Argumentação da Visão Lógica (Intro/backend) | Bruno Félix e Edson Soares |
+|   |05/10/2021| Inserção do tópico Front End da Visão Lógica | Bruno Félix |
 |1.1|02/10/2021| Criando tópico de visão de implementação | Francisco Ferreira e Nilo Mendonça|
 |1.2|05/10/2021 | Adição da visão dos casos de uso | Mateus O. Patrício e Gabriel Bonifácio |
 |1.3|04/10/2021| Adição da Visão de Processos | João Pedro, Enzo Gabriel |
