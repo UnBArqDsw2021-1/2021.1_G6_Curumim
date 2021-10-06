@@ -98,7 +98,7 @@
 
 ### **Débitos técnicos para a Sprint 9**
 
-- [#5](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim_Front-end/issues/5)Pareamento Nilo - João | Sprint 7 (Débito Técnico)
+- [#5](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim_Front-end/issues/5) Pareamento Nilo - João | Sprint 7 (Débito Técnico)
 [Front-end](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim_Front-end)
 
 - [#7](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim_Front-end/issues/7) Telas Enzo e Gabriel
@@ -110,14 +110,14 @@
 - [#12](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim_Back-end/issues/12) Eu, como responsável, desejo ter um espaço que contenha as atividades, eventos e agenda dos próximos dias
 [Back-end](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim_Back-end)
 
-- [#14 ](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim_Back-end/issues/14)Eu, como responsável, desejo visualizar a lista de todas as atividades da minha criança (Débito Técnico
+- [#14 ](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim_Back-end/issues/14) Eu, como responsável, desejo visualizar a lista de todas as atividades da minha criança (Débito Técnico
 [Back-end](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim_Back-end)
 
-- [#15 ](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim_Back-end/issues/15)Eu, como administrador, desejo criar, editar e excluir uma turma para o centro educacional 
+- [#15 ](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim_Back-end/issues/15) Eu, como administrador, desejo criar, editar e excluir uma turma para o centro educacional 
 [Back-end](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim_Back-end)
 
 
-- [#21 ](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim_Back-end/issues/21)Eu, como responsável, desejo visualizar a lista de todos os eventos do centro educacional 
+- [#21 ](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim_Back-end/issues/21) Eu, como responsável, desejo visualizar a lista de todos os eventos do centro educacional 
 [Back-end](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim_Back-end)
 
 
@@ -144,8 +144,8 @@
 
 ## 4. Burndown
 
-![Velocity Tracking](../../assets/imagens/sprint-review/sprint8/Burndown.png)
-<center>[Figura 2: Velocity Tracking gerado pelo Zenhub](../../assets/imagens/sprint-review/sprint8/Burndown.png)</center>
+![Burndown](../../assets/imagens/sprint-review/sprint8/Burndown.png)
+<center>[Figura 1: Burndown gerado pelo Zenhub](../../assets/imagens/sprint-review/sprint8/Burndown.png)</center>
 
 
 
@@ -159,3 +159,4 @@
 | :----: | ---------- | ------------------------------------------ | -------------------- |
 |  1.0  | 05/10/2021 | Revisão e Retrospectiva com os integrantes | Todos os integrantes |
 | 1.2 | 05/10/2021 | Adicionando imagens do Velocity e Burndown | Francisco Emanoel |
+| 1.3 | 05/10/2021 | Revisor| Edson Soares|
