@@ -191,6 +191,15 @@
 
 ## Qualidade
 
+&emsp;&emsp;A arquitetura adotada pelo grupo para construção da aplicação utiliza o padrão MVC, possibilitando a divisão dos principais componentes do projeto em camadas e subcamadas bem definidas, conferindo uma maior organização ao projeto e facilitando o desenvolvimente pelos diferentes integrantes do grupo. Foram seguidos alguns padrões [GRASP](../padroes-de-projeto/grasp.md) como o [Controlador](../padroes-de-projeto/grasp.md), o [Invenção pura](../padroes-de-projeto/grasp.md) e o [Polimorfismo](../padroes-de-projeto/grasp.md). Para a manutenção, portabilidade e futuras features foram utilizados padrões criacionais entre eles o [Factory Method](../padroes-de-projeto/gofs-criacionais.md), o [Abstract Factory](../padroes-de-projeto/gofs-criacionais.md) e o [Singleton](../padroes-de-projeto/gofs-criacionais.md). Além de serem seguidos alguns padrões comportamentais capazes de trazer confiabilidade tais como o [Command](../padroes-de-projeto/gofs-comportamentais.md), o [Iterator](../padroes-de-projeto/gofs-comportamentais.md) e o [Observer](../padroes-de-projeto/gofs-comportamentais.md).
+
+| Critérios| Descrição|
+|-------|---------|
+|Portabilidade| Em relação a portabilidade o projeto foi baseado em divisões entre o [Front-end](../../base/requisitos/modelagem/lexicos/#front-end) e o [Back-end](../../base/requisitos/modelagem/lexicos/#Back-end), sendo o [Back-end](../../base/requisitos/modelagem/lexicos/#Back-end) nossa API, onde se localizar as principais features, pensando nesse modelo, qualquer outra stack pode consumir essa API, assim garantindo a portabilidade para vários [Front-end](../../base/requisitos/modelagem/lexicos/#front-end) diferentes.|
+|Segurança| Na aplicação da API do Curumim foram adicionados alguns gatilhos que melhoram nossa segurança, principalmente no banco de dados, como a biblioteca bcrypt, além disso usamos um sistema de autenticação que usa token para verificações, usando o JWT.|
+|Usabilidade| Para a aplicação Curumim foi escolhido algumas stack bem utilizadas no mercado de trabalho para construção de aplicação web, focamos em uma linguagem de programação que foi o javascript com auxílios de bibliotecas e frameworks.|
+
+
 ## Bibliografia
 
 > - [1] Visões Arquiteturais. Disponível em <https://www.inf.ufpr.br/andrey/ci163/VisoesAl.pdf>. Acesso em 29 set. 2021.
@@ -211,3 +220,4 @@
 |1.6|05/10/2021| Inserção do tópico Front End da Visão Lógica | Bruno Félix |
 |1.7|05/10/2021| Adição da visão dos casos de uso | Mateus O. Patrício e Gabriel Bonifácio |
 |1.8|08/10/2021| Ajustes das visões de casos de uso, lógica, de processos e de implementação | Daniel Porto |
+|1.9|10/10/2021| Criando tópico de qualidade | Francisco Ferreira e Nilo Mendonça|
