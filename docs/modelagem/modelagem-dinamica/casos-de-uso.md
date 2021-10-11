@@ -8,10 +8,17 @@
 <center>[Figura 1: Componentes do diagrama de casos de uso](../../../assets/imagens/casos-de-uso/componentes.png)</center>
 
 ## Diagrama
-&emsp;&emsp;Como proposta, o grupo elaborou o diagrama abaixo para representar as interações entre a aplicação Curumim e os atores.
+&emsp;&emsp;Como proposta, o grupo elaborou os diagramas abaixo para representar as interações entre a aplicação Curumim e os atores.
 
-![Diagrama de casos de uso](../../../assets/imagens/casos-de-uso/casos-de-uso.png)
-<center>[Figura 2: Diagrama de casos de uso](../../../assets/imagens/casos-de-uso/casos-de-uso.png)</center>
+### Versão 2.0
+
+![Diagrama de casos de uso 2.0](../../../assets/imagens/casos-de-uso/casos-de-uso-v2.png)
+<center>[Figura 2: Diagrama de casos de uso versão 2.0](../../../assets/imagens/casos-de-uso/casos-de-uso-v2.png)</center>
+
+### Versão 1.0
+
+![Diagrama de casos de uso 1.0](../../../assets/imagens/casos-de-uso/casos-de-uso.png)
+<center>[Figura 3: Diagrama de casos de uso versão 1.0](../../../assets/imagens/casos-de-uso/casos-de-uso.png)</center>
 
 ## Bibliografia
 > - [Diagrama de Casos de Uso do projeto QRodízio](https://unbarqdsw.github.io/2020.1_G10_QRodizio/modelagem/diagramas_dinamicos/diagrama_casos_de_uso.html#introducao);
@@ -24,3 +31,4 @@
 |1.0| 10/08/2021 | Adição da introdução, do diagrama de casos de uso e da bibliografia | Nilo Mendonça |
 |1.1| 15/08/2021 | Revisão por pares | Edson Soares e Francisco Emanoel |
 |1.2| 17/09/2021 | Revisão e correção do documento segundo feedback da professora | Edson Soares e Nilo Mendonça |
+|2.0| 05/10/2021 | Edição e adição da versão 2.0 do diagrama | Mateus O. Patrício |
