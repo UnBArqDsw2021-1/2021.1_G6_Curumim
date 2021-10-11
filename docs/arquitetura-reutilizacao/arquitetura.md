@@ -20,7 +20,7 @@
 
  - [Introdução](#introducao): Provê uma visão ampla sobre o presente documento.
  - [Representação da arquitetura](#representacao-da-arquitetura): Descreve e representa a arquitetura escolhida para o projeto;
- - [Metas Arquiteturais e Restrições](#metas-arquiteturais-e-restrições): Descreve as metas arquiteturais e as restrições que têm impacto significativo na arquitetura;
+ - [Metas Arquiteturais e Restrições](#metas-arquiteturais-e-restricoes): Descreve as metas arquiteturais e as restrições que têm impacto significativo na arquitetura;
  - [Visão de Casos de Uso](#visao-de-casos-de-uso): Descreve e detalha os casos de uso;
  - [Visão Lógica](#visao-logica): Descreve as partes arquitetonicamente significativas do modelo de projeto;
  - [Visão de Processos](#visao-de-processos): Descreve a decomposição do sistema em processos menores e seus agrupamentos;
@@ -84,13 +84,13 @@
 
 #### Front-End
 ![Diagrama de Pacote - Front End](../../assets/imagens/arquitetura/front_end_visao_logica.png)<center>
-[Figura ?? : Diagrama de Pacotes - Front End](../assets/imagens/arquitetura/front_end_visao_logica.png)</center> 
+[Figura 01 : Diagrama de Pacotes - Front End](../assets/imagens/arquitetura/front_end_visao_logica.png)</center> 
 
 &emsp;&emsp;O front-end, o qual contém a camada de view, é responsável pela interação e apresentação das informações ao usuário. Todas as pastas estão alocadas de forma paralela no pacote App. O ponto de partida é a pasta **Routes**, onde se tem as rotas e a chamada do conteúdo da aplicação, conteúdo esse que pode ser oriundo tanto dos arquivos da pasta **Pages** quanto da pasta **Components**. Além disso, temos as pastas de **Assets** e a **Styles** com caráter de armazenamento de mídia estática e configuração de estilo, e a pasta **Utils** para funções auxiliares ao projeto. Por fim temos a pasta **Services** responsável pela lógica de comunicação com a API do sistema e da lógica de autenticação.
 
 #### Back-End
 ![Diagrama de Pacote](../../assets/imagens/arquitetura/back_end_visao_logica.png)<center>
-[Figura ?? : Diagrama de Pacotes - Back End](../assets/imagens/arquitetura/back_end_visao_logica.png)</center> 
+[Figura 02 : Diagrama de Pacotes - Back End](../assets/imagens/arquitetura/back_end_visao_logica.png)</center> 
 &emsp;&emsp;No back-end está contida a camada de controle (controller do MVC), onde os componentes recebem requisições de componentes externos. Conforme o necessário, a camada de controle cuida das solicitações de requisições enviadas pela visão. Segundo os autores do artigo, Arquitetura de Software de Referência para Sistemas de Informação Governamentais. “Deve-se considerar que a camada de controle é responsável por colaborar com a camada de modelo.” (XI Brazilian Symposium on Information System, Goiânia, GO, Maio 26-29, 2015, p.81)[[4]](#bibliografia)<br>
 &emsp;&emsp;As classes de domínio do sistema estão contidas na camada de modelo (model do MVC), que contém, também, as relações entre as classes bem como a definição das informações que serão persistidas no banco de dados e suas regras.<br>
 &emsp;&emsp;Controller e model estão representadas no [diagrama de pacotes](../../modelagem/modelagem-estatica/diagrama-de-pacotes) pelos diretórios **controllers** e **models** que estão dentro do diretório **app**.<br>
@@ -116,17 +116,17 @@
 #### [Administrador](../../../base/requisitos/modelagem/lexicos/#lexico-administrador) cadastrando [Professor](../../../base/requisitos/modelagem/lexicos/#lexico-professor)
 
 ![Administrador cadastrando professor](../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-admin-cadastrando-prof.png)
-<center>[Figura x: Diagrama de sequência do administrador cadastrando professor](../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-admin-cadastrando-prof.png)</center>
+<center>[Figura 04: Diagrama de sequência do administrador cadastrando professor](../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-admin-cadastrando-prof.png)</center>
 
 #### [Administrador](../../../base/requisitos/modelagem/lexicos/#lexico-administrador) cadastrando [Evento](../../../base/requisitos/modelagem/lexicos/#lexico-evento)
 
 ![Administrador cadastrando professor](../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-admin-cadastrando-evento.png)
-<center>[Figura x: Diagrama de sequência do administrador cadastrando evento](../assets/imagens/diagrama-de-sequencia/../../../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-admin-cadastrando-evento.png)</center>
+<center>[Figura 05: Diagrama de sequência do administrador cadastrando evento](../assets/imagens/diagrama-de-sequencia/../../../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-admin-cadastrando-evento.png)</center>
 
 #### [Responsável](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel) fazendo Login
 
 ![Responsável fazendo login](../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-pais-responsaveis-login.png)
-<center>[Figura x: Diagrama de sequência do guardian fazendo login](../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-pais-responsaveis-login.png)</center>
+<center>[Figura 06: Diagrama de sequência do guardian fazendo login](../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-pais-responsaveis-login.png)</center>
 
 ### Diagrama de Atividades
 &emsp;&emsp;Se tratam de diagramas de comportamento UML que demonstram os fluxos de controle ou os fluxos de objetos focados na sequência e nas condições de cada um de forma a elucidar o fluxo entre as ações de uma determinada atividade.<br>
@@ -204,10 +204,10 @@
 | Versão | Data | Modificação | Autor |
 |:-:|--|--|--|
 |1.0|29/09/2021| Abertura do documento e inclusão da introdução | Daniel Porto |
-|1.2|02/10/2021| Criando tópico de visão de implementação | Francisco Ferreira e Nilo Mendonça|
-|1.3|03/10/2021| Criação da estrutura Visão Lógica | Bruno Félix e Edson Soares |
-|1.4|04/10/2021| Adição da Visão de Processos | João Pedro, Enzo Gabriel |
-|1.5|05/10/2021| Argumentação da Visão Lógica (Intro/backend) | Bruno Félix e Edson Soares |
-|1.6|05/10/2021| Inserção do tópico Front End da Visão Lógica | Bruno Félix |
-|1.7|05/10/2021| Adição da visão dos casos de uso | Mateus O. Patrício e Gabriel Bonifácio |
-|1.8|08/10/2021| Ajustes das visões de casos de uso, lógica, de processos e de implementação | Daniel Porto |
+|1.1|02/10/2021| Criando tópico de visão de implementação | Francisco Ferreira e Nilo Mendonça|
+|1.2|03/10/2021| Criação da estrutura Visão Lógica | Bruno Félix e Edson Soares |
+|1.3|04/10/2021| Adição da Visão de Processos | João Pedro, Enzo Gabriel |
+|1.4|05/10/2021| Argumentação da Visão Lógica (Intro/backend) | Bruno Félix e Edson Soares |
+|1.5|05/10/2021| Inserção do tópico Front End da Visão Lógica | Bruno Félix |
+|1.6|05/10/2021| Adição da visão dos casos de uso | Mateus O. Patrício e Gabriel Bonifácio |
+|1.7|08/10/2021| Ajustes das visões de casos de uso, lógica, de processos e de implementação | Daniel Porto |
