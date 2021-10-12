@@ -5,8 +5,8 @@
 ## 1. Visão Geral
 **Número da Sprint:** 9;<br>
 **Data de Início:** 06/10/2021;<br>
-**Data de Término:** 12/10/2021;<br>
-**Duração:** 7 dias.<br>
+**Data de Término:** 14/10/2021;<br>
+**Duração:** 9 dias.<br>
  
  
 ## 2. Objetivos
