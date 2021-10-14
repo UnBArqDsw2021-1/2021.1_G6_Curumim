@@ -47,6 +47,23 @@
 
 ## Metas Arquiteturais e Restrições
 
+### Metas
+| Metas | Descrição |
+| :-: | -- |
+| Responsividade | A aplicação deve ser responsiva e ser usável em todas as interfaces sem que haja comprometimento nas funções da aplicação |
+| Usabilidade | O usuário deverá ser capaz de realizar as tarefas no menor tempo possível |
+| Escalabilidade | A aplicação deve ser capaz de crescer junto com a ascensão de novos usuários. Assim, como ser escalável para implementação de novas funcionalidades |
+| Segurança | O aplicativo deve ser seguro e lidar com os dados confidenciais dos usuários com segurança |
+
+### Restrições
+| Restrições | Descrição |
+| :-: | -- |
+| Público | O aplicativo será voltado para administradores, professores, pais e responsáveis por crianças matriculadas no Centro Educacional que utiliza o aplicativo Curumim |
+| Conectividade | É necessário conexão com a internet para usar a aplicação |
+| Língua | A aplicação tem idioma somente para o português do Brasil |
+| Prazo final| O escopo proposto deve ser concluído até o final do curso, Arquitetura e Desenho de Software |
+
+
 ## Visão de Casos de Uso
 &emsp;&emsp;Apresentando uma representação mais próxima do usuário, a visão de casos de uso auxilia no entendimento das interações dos atores com o sistema de forma a descrever os cenários de uso da aplicação. O diagrama de casos de uso do projeto Curumim pode ser acessado pelo [documento de casos de uso](../../modelagem/modelagem-dinamica/casos-de-uso) desenvolvido anteriormente.<br>
 &emsp;&emsp;A seguir, tem-se uma descrição resumida dos casos de uso mais significativos do projeto, os quais contemplam as funcionalidades mais prioritárias do sistema.
@@ -231,3 +248,4 @@
 |1.6|05/10/2021| Adição da visão dos casos de uso | Mateus O. Patrício e Gabriel Bonifácio |
 |1.7|08/10/2021| Ajustes das visões de casos de uso, lógica, de processos e de implementação | Daniel Porto |
 |1.8|14/10/2021| Representação da arquitetura (Backend) + (Banco de Dados) | Edson Soares |
+|1.9|14/10/2021| Representação da arquitetura (Metas e Restrições) | Edson Soares |
