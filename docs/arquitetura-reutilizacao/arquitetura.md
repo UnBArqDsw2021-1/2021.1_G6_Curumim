@@ -216,6 +216,8 @@
 
 > - [ ] Milani, André. PostgreSQL: guia do programador. São Paulo. Novatec, 2008. Disponível em: <https://books.google.com.br/books?hl=pt-BR&lr=&id=eb7fXbM70F4C&oi=fnd&pg=PA19&dq=postgresql&ots=FWcgYx_Oo1&sig=8Qv1Kfrdfj9Bzqz7ywREjIgBYZM#v=onepage&q=postgresql&f=false> Acesso em: 14/10/2021.
 
+> - [ ] Sequelize ORG. Documentação do Sequelize. Disponível em: <https://sequelize.org/>. Acesso em: 14/10/2021
+
 ## Versionamento
 
 | Versão | Data | Modificação | Autor |
