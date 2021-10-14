@@ -116,24 +116,36 @@
 #### [Administrador](../../../base/requisitos/modelagem/lexicos/#lexico-administrador) cadastrando [Professor](../../../base/requisitos/modelagem/lexicos/#lexico-professor)
 
 ![Administrador cadastrando professor](../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-admin-cadastrando-prof.png)
-<center>[Figura 04: Diagrama de sequência do administrador cadastrando professor](../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-admin-cadastrando-prof.png)</center>
+<center>[Figura 03: Diagrama de sequência do administrador cadastrando professor](../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-admin-cadastrando-prof.png)</center>
 
 #### [Administrador](../../../base/requisitos/modelagem/lexicos/#lexico-administrador) cadastrando [Evento](../../../base/requisitos/modelagem/lexicos/#lexico-evento)
 
 ![Administrador cadastrando professor](../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-admin-cadastrando-evento.png)
-<center>[Figura 05: Diagrama de sequência do administrador cadastrando evento](../assets/imagens/diagrama-de-sequencia/../../../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-admin-cadastrando-evento.png)</center>
+<center>[Figura 04: Diagrama de sequência do administrador cadastrando evento](../assets/imagens/diagrama-de-sequencia/../../../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-admin-cadastrando-evento.png)</center>
 
 #### [Responsável](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel) fazendo Login
 
 ![Responsável fazendo login](../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-pais-responsaveis-login.png)
-<center>[Figura 06: Diagrama de sequência do guardian fazendo login](../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-pais-responsaveis-login.png)</center>
+<center>[Figura 05: Diagrama de sequência do guardian fazendo login](../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-pais-responsaveis-login.png)</center>
 
 ### Diagrama de Atividades
 &emsp;&emsp;Se tratam de diagramas de comportamento UML que demonstram os fluxos de controle ou os fluxos de objetos focados na sequência e nas condições de cada um de forma a elucidar o fluxo entre as ações de uma determinada atividade.<br>
 &emsp;&emsp;Para complementar a representação da visão de processos da arquitetura, e tomando uma abordagem com ênfase no fluxo de controle de atividades, podem ser utilizados os [diagramas de atividades](../../modelagem/modelagem-dinamica/diagrama-de-atividades) desenvolvidos anteriormente.
 
 ## Visão de Implantação
+&emsp;&emsp;A visão de implantação aborda a disponibilização da aplicação para uso. Dessa forma o seguinte fluxo elucida como se dá a implantação do projeto curumim:
 
+- **Desenvolvimento de funcionalidade:** Etapa na qual os desenvolvedores aplicam as [metodologias](../base/metodologia/metodologia.md) de acordo com as [políticas](../politicas.md) para criar novas funcionalidades;
+- **Pull-request para a branch develop:** Um pull-request do código desenvolvido é criado para a branch de desenvolvimento;
+- **Build do software através de um sistema de integração contínua:** Utilizando o GitHub, é realizado o build da branch da nova funcionalidade para certificar a consistência do código da aplicação na branch de desenvolvimeto da nova funcionalidade;
+- **Realização de revisão por pares:** Os revisores avaliam se o que foi desenvolvido atendem aos critérios de aceitação e está dentro dos padrões;
+- **Mesclagem do código na branch develop:** É realizada a mesclagem do código desenvolvido com o da branch de desenvolvimento;
+- **Deploy do software para o ambiente de homologação:** É realizado o deploy da branch de desenvolvimento para o ambiente de homologação;
+- **Fechamento de Release:** É criada uma branch release para o fechamento de uma versão da aplicação;
+- **Mesclagem do código na branch main:** A branch release é mesclada na branch main e, caso tenha ajustes, na de desenvolvimento;
+- **Deploy do software para o ambiente de produção:** É realizado o deploy da branch main para o ambiente de produção;
+
+&emsp;&emsp;Para tal implantação, são utilizadas as ferramentas **Docker** para padronização de recursos e empacotamento do software, **GitHub** para controle de versões e realização de rotinas CI/CD e **Heroku** para deploy da aplicação em homologação e produção.
 ## Visão de Implementação
 
 &emsp;&emsp;A visão de implementação se caracteriza como uma das cinco visões de arquitetura de um sistema e sua finalidade é captar as decisões de arquitetura tomadas para a implementação, buscando descrever como os artefatos de desenvolvimento estão organizados.<br>
