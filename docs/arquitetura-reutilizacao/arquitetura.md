@@ -34,6 +34,17 @@
 
 ## Representação da arquitetura
 
+### Back-End
+&emsp;&emsp;O **NodeJs** é uma estrutura do lado do servidor, útil para construir aplicações altamente escaláveis, rápidas e de fácil manuntenção. O NodeJs foi projetado para lidar com facilidade com aplicações de entradas/saídas intensivas que são projetadas na arquitetura bloqueante, blocking-thread. "Embora o Nodejs possa servir funções de maneira síncrona, ele geralmente executa operações de forma assíncrona "(Gackenheimer, Cory. Node.Js Recipes: A Problem-Solution Approach, 2013).
+
+ &emsp;&emsp;O "**Express.js** é  um  web  framework  que  atua  como  uma  camada  no  topo  do  Node.js, facilitando e deixando o desenvolvimento de APIs em node mais prático", [[BARSOTI, N.; GIBERTONI, D. 2020]](#bibliografia). Com o express fica mais fácil organizar as funcionalidades da aplicação usando _middleware_ e roteamento, contribuindo para a renderização de páginas HTML dinâmicas.
+
+ &emsp;&emsp;O **Sequelize** Sequelize é um Node.js ORM baseado em promises para Postgres, MySQL, MariaDB, SQLite e Microsoft SQL Server(SEQUELIZE ORG). Essa tecnologia oferece suporte a transações sólidas, relações, replicações de leituras. Além disso, essa tecnologia permite criar, buscar, alterar e remover dados da base de dados e, para isso utiliza métodos JavaScript. O framework Sequelize permite também que os desenvolvedores modifiquem estruturas de tabelas e isso facilita bastante na criação, população e migração de banco de dados.
+
+### Banco de Dados
+ &emsp;&emsp;Segundo André Milani, "O **PostgreSQL** é um Sistema de Banco de Dados (SGBD) Relacional, utilizado para armazenar informações de soluções de informática em todas as áreas de negócios existentes" (Milani, André. PostgreSQL: Guia do Programador. Novatec. 2008). O Sequelize integra muito bem com o Sequelize, tem uma imensa comunidade bastante ativa. A estabilidade do PostgreSQL é um de seus recursos muito interessante, o mesmo foi projetado para ser capaz de executar no modelo 24/7 (24 horas por dia, sete dias por semana). Por essas características esse Banco de Dados tem sido bastante utilizado no contexto geral de negócios, sites, lojas virtuais, portais ou soluções de informática.
+
+
 ## Metas Arquiteturais e Restrições
 
 ## Visão de Casos de Uso
@@ -197,7 +208,13 @@
 > - [2] O que é MVC?. Disponível em <https://www.treinaweb.com.br/blog/o-que-e-mvc>. Acesso em 02 de out. 2021
 > - [3] UniGrade. Documento de Arquitetura de Software. Disponível em: <https://ads-unigrade-2019-1.github.io/Wiki/dinamica06/DAS/#7-visao-da-implementacao>. Acesso em 02 de out. 2021
 > - [4] SERRANO,Milene; SERRANO, Maurício; CAVALCANTE, André Cruz. Arquitetura de Software deReferência para Sistemas de Informação Governamentais. In: XI Brazilian Symposium on Information System, Goiânia, Maio 26-29, 2015. Disponível em: <https://sol.sbc.org.br/index.php/sbsi/article/view/5886/5784>. Acesso em: 04/10/2021 
-> - [5] Documento de Arquitetura de Software. Disponível em <https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/guidances/guidelines/software_architecture_document_F4C93435.html>. Acesso em: 04 de out. de 2021.    
+> - [5] Documento de Arquitetura de Software. Disponível em <https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/guidances/guidelines/software_architecture_document_F4C93435.html>. Acesso em: 04 de out. de 2021.
+
+> - [ ] Gackenheimer, Cory. Node.Js Recipes: A Problem-Solution Approach. Apress; 1ª edição, 23 out 2013. Disponível em <https://books.google.com.br/books?hl=pt-BR&lr=&id=6VTBAQAAQBAJ&oi=fnd&pg=PP3&dq=whats+this+node+js&ots=oCJUN2cXNE&sig=cTq2dgKCdbDI35etZ6WIbh1uj5U#v=onepage&q=whats%20this%20node%20js&f=false>. Acesso em: 14 de out. de 2021.
+
+> - [ ] BARSOTI, N.; GIBERTONI, D. IMPACTO QUE O SEQUELIZE TRAZ PARA O DESENVOLVIMENTO DE UMA API CONSTRUÍDA EM NODE.JS COM EXPRESS.JS. Revista Interface Tecnológica, [S. l.], v. 17, n. 2, p. 231-243, 2020. DOI: 10.31510/infa.v17i2.964. Disponível em: https://revista.fatectq.edu.br/index.php/interfacetecnologica/article/view/964. Acesso em: 14 out. 2021.
+
+> - [ ] Milani, André. PostgreSQL: guia do programador. São Paulo. Novatec, 2008. Disponível em: <https://books.google.com.br/books?hl=pt-BR&lr=&id=eb7fXbM70F4C&oi=fnd&pg=PA19&dq=postgresql&ots=FWcgYx_Oo1&sig=8Qv1Kfrdfj9Bzqz7ywREjIgBYZM#v=onepage&q=postgresql&f=false> Acesso em: 14/10/2021.
 
 ## Versionamento
 
@@ -211,3 +228,4 @@
 |1.5|05/10/2021| Inserção do tópico Front End da Visão Lógica | Bruno Félix |
 |1.6|05/10/2021| Adição da visão dos casos de uso | Mateus O. Patrício e Gabriel Bonifácio |
 |1.7|08/10/2021| Ajustes das visões de casos de uso, lógica, de processos e de implementação | Daniel Porto |
+|1.8|14/10/2021| Representação da arquitetura (Backend) + (Banco de Dados) | Edson Soares |
