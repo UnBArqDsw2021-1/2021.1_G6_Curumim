@@ -15,6 +15,12 @@
 ## Metodologia
 &emsp;&emsp;O desenvolvimento do diagrama de pacotes levou em consideração as decisões de técnologias e estruturas que serão utilizadas no projeto. Sendo assim, o diagrama de pacotes aborda a representação dos módulos que serão desenvolvidos na API do projeto, a qual contará com arquitetura MVC.<br>
 
+### Versão 3.0
+
+![Diagrama de pacotes](../../assets/imagens/diagrama-de-pacotes/diagrama-pacotes-v3.png)
+
+<center>[Figura 1: Diagrama de pacotes 3.0](../../assets/imagens/diagrama-de-pacotes/diagrama-pacotes-v3.png)</center>
+
 ### Versão 2.0
 
 ![Diagrama de pacotes](../../assets/imagens/diagrama-de-pacotes/diagrama_de_pacotes_v2.png)
@@ -44,3 +50,5 @@
 |1.6| 19/09/2021 | Revisão do diagrama v2.0 do back-end e do documento | Mateus O. Patrício e Daniel Porto |
 |1.7| 20/09/2021 | Correções no diagrama v2.0 | Enzo Gabriel |
 |1.8| 20/09/2021 | Revisão por pares | Mateus O. Patrício e Bruno Félix |
+|1.9| 14/10/2021 | Adição da versão 3 | Daniel Porto |
+|2.0| 14/10/2021 | Revisão por pares | Bruno Félix e João Pedro |
