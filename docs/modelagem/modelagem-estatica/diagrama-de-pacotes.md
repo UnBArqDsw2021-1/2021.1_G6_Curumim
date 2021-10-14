@@ -51,4 +51,4 @@
 |1.7| 20/09/2021 | Correções no diagrama v2.0 | Enzo Gabriel |
 |1.8| 20/09/2021 | Revisão por pares | Mateus O. Patrício e Bruno Félix |
 |1.9| 14/10/2021 | Adição da versão 3 | Daniel Porto |
-|2.0| 14/10/2021 | Revisão por pares | Bruno Félix e João Pedro |
+|2.0| 14/10/2021 | Revisão por pares | Francisco e Nilo |
