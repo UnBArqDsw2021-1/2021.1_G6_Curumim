@@ -223,3 +223,4 @@
 |1.5|05/10/2021| Inserção do tópico Front End da Visão Lógica | Bruno Félix |
 |1.6|05/10/2021| Adição da visão dos casos de uso | Mateus O. Patrício e Gabriel Bonifácio |
 |1.7|08/10/2021| Ajustes das visões de casos de uso, lógica, de processos e de implementação | Daniel Porto |
+|1.8|14/10/2021| Adição da visão de implantação e atualização do diagrama de pacotes | Daniel Porto |
