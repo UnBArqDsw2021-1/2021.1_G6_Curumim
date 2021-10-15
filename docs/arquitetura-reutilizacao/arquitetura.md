@@ -244,6 +244,9 @@ basicamente um "LocalStorage" é acionado, afim de conseguir identificar um "tok
 
 ## Tamanho e Desempenho
 
+&emsp;&emsp;Levando em conta seus repositórios, ambos juntos dão menos que 1GB, sendo que não é necessária a instalação de nenhum outro programa para seu funcionamento.
+&emsp;&emsp;Sobre o desempenho da aplicação, para que seja possível seu funcionamento, é necessário conexão com a internet e por ser uma PWA, a opção de dispositivo é flexível, podendo ser um dispositivo mobile ou um computador. Além disso, a aplicação deve suportar muitas conexões simultâneas, por se tratar de uma plataforma que deve ser usada diariamente por um grupo de pessoas.
+
 ## Qualidade
 
 &emsp;&emsp;A arquitetura adotada pelo grupo para construção da aplicação utiliza o padrão MVC, possibilitando a divisão dos principais componentes do projeto em camadas e subcamadas bem definidas, conferindo uma maior organização ao projeto e facilitando o desenvolvimento pelos diferentes integrantes do grupo. Foram seguidos alguns padrões [GRASP](../padroes-de-projeto/grasp.md) como o [Controlador](../padroes-de-projeto/grasp.md), o [Invenção pura](../padroes-de-projeto/grasp.md) e o [Polimorfismo](../padroes-de-projeto/grasp.md). Para a manutenção, portabilidade e futuras features foram utilizados padrões criacionais entre eles o [Factory Method](../padroes-de-projeto/gofs-criacionais.md), o [Abstract Factory](../padroes-de-projeto/gofs-criacionais.md) e o [Singleton](../padroes-de-projeto/gofs-criacionais.md). Além de serem seguidos alguns padrões comportamentais capazes de trazer confiabilidade tais como o [Command](../padroes-de-projeto/gofs-comportamentais.md), o [Iterator](../padroes-de-projeto/gofs-comportamentais.md) e o [Observer](../padroes-de-projeto/gofs-comportamentais.md).
@@ -292,3 +295,5 @@ basicamente um "LocalStorage" é acionado, afim de conseguir identificar um "tok
 |2.1|14/10/2021| Revisão do tópico de qualidade | Daniel Porto, Mateus O. Patrício e Gabriel Bonifácio |
 |2.2|14/10/2021| Criação do tópico Visão de Dados | Mateus O. Patrício e Gabriel Bonifácio |
 |2.3|14/10/2021| Adição da visão de implantação e atualização do diagrama de pacotes | Daniel Porto |
+|2.4|15/10/2021| Criação do tamanho e desempenho | João Pedro, Enzo Gabriel |
+
