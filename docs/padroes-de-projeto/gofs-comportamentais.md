@@ -73,7 +73,7 @@ var addToClassCommand = function (value) {
 ## Iterator
 &emsp;&emsp;O padrão Iterator, ou Iterador, permite com que se navegue em coleções de elementos. Propõe a criação de classes que implementem métodos especialmente pensados para realizar as iterações dado um conjunto de elementos.
 
-![Observer](../assets/imagens/gofs/gof-iterator.png)
+<center>![Observer](../assets/imagens/gofs/gof-iterator.png)</center>
 <center>[Figura 1: Padrão iterator.](../assets/imagens/gofs/gof-iterator.png)[ Fonte: dofactory.com](https://www.dofactory.com/javascript/design-patterns/iterator#diagram)</center>
 
 &emsp;&emsp;Esse padrão pode ser aplicado nas situações de iteração de qualquer tipo de coleção de elementos mas pode ser considerada uma aplicação exagerada caso o sistema em questão trabalhe apenas com coleções simples e de baixa complexidade.<br>
@@ -91,12 +91,12 @@ Vlissides.<br>
 ### Estrutura de Objetos
 &emsp;&emsp;Para exemplificar a aplicação do padrão Mediator na interação dos objetos do chat entre Guardian, Administrador e Professor(a). Apresentamos um diagrama de objetos que se comunicam através de um intermediário.<br>
 &emsp;&emsp;Na estrutura abaixo incluímos um componente do frontend que consiste em um botão para representar o envio de mensagem. Podemos observar a interação desse componente da seguinte maneira: O botão inicia desativado, sempre que um caractere seja digitado no campo de texto, o botão muda seu estado para ativado. Aqui podemos observar que o padrão mediator possibilita diversos objetos interagindo uns com os outros por meio de um mediador.
-![foto](../../assets/imagens/gofs/estrutura_objetos.jpg)
+<center>![foto](../../assets/imagens/gofs/estrutura_objetos.jpg)</center>
 <center>[Figura 2: Estrutura de objetos](../../assets/imagens/gofs/estrutura_objetos.jpg)</center>
 
 ### Diagrama de classe (Chat)
 &emsp;&emsp;
-![foto](../../assets/imagens/gofs/mediator_diagrama_classe.jpg)
+<center>![foto](../../assets/imagens/gofs/mediator_diagrama_classe.jpg)</center>
 <center>[Figura 3: Interação dos objetos](../../assets/imagens/gofs/mediator_diagrama_classe.jpg)</center>
 
 &emsp;&emsp;O diagrama acima demonstra a interação de objetos da seguinte situação: O sistema conta com um chat onde acontece uma troca de mensagens entre os usuários, porém essa comunicação acontece de uma forma relativamente complexa, pois o Guardian pode se comunicar com qualquer um dos outros dois usuários, Administrador ou com o(a) Professor(a). Logo, considera-se necessário criar um mediador para intermediar as mensagens e o chat fluir de uma melhor forma. Nesse caso os objetos conhecem apenas o Mediator.
@@ -141,7 +141,7 @@ Vlissides.<br>
 &emsp;&emsp;O padrão de projeto Observer, ou Observador, permite que objetos interessados sejam notificados sobre mudanças de estado ou ocorrência de eventos em outros objetos que estão sendo observado por eles.<br>
 &emsp;&emsp;Esse padrão propõe a implementação de mecanismos de inscrição onde objetos possam estar contidos para receber as mudanças de estados e os eventos ocorridos no objeto observado. Praticamente, trata-se de um conjunto de métodos públicos que permitam com que os objetos observadores se incluam e se retirem do vetor de observadores também contido na classe observada. Além disso, é preciso de um método que notifique cada objeto contido no vetor de observadores.
 
-![Observer](../assets/imagens/gofs/gof-observer.png)
+<center>![Observer](../assets/imagens/gofs/gof-observer.png)</center>
 <center>[Figura 4: Padrão observer](../assets/imagens/gofs/gof-observer.png)</center>
 
 &emsp;&emsp;Esse padrão é muito bem aplicado em situações onde a mudança de estado de objetos pode acarretar a mudança de estado de outros objetos de forma bem específica. Sendo assim, notou-se que esse padrão não se aplicaria muito bem no escopo do nosso projeto pois não foi encontrada nenhuma situação semelhante no que tange o funcionamento do sistema.
@@ -150,14 +150,14 @@ Vlissides.<br>
 ## State
 &emsp;&emsp;O padrão State permite com que um objeto altere o seu comportamento de acordo com o seu estado interno. Dessa forma, esse padrão sugere a implementação de classes para representar os diferentes estados do objeto e definir o comportamento de seus métodos e funções.
 
-![State](../assets/imagens/gofs/gof-state.jpg)
+<center>![State](../assets/imagens/gofs/gof-state.jpg)</center>
 <center>[Figura 5: Padrão state.](../assets/imagens/gofs/gof-state.jpg)[ Fonte: dofactory.com](https://www.dofactory.com/javascript/design-patterns/state#diagram)</center>
 
 &emsp;&emsp;Esse padrão é bem aplicado quando existem objetos que possam mudar de status de forma a modificar os seus comportamentos. Sendo assim, a equipe optou por adaptar a modelagem de forma a permitir a utilização desse padrão.<br>
 &emsp;&emsp;Basicamente, esse padrão será utilizado para trabalhar duas classes semelhantes: ActivityController e a EventController. Será implementada a classe ProjectController para identificar o contexto de utilização de forma que ActivityController e a EventController representem o seu estado ou, mais apropriadamente, tipo.<br>
 &emsp;&emsp;Para essa implementação, também será utilizado o auxílio do padrão criacional [Singleton]() na classe ProjectController.
 
-![State](../assets/imagens/gofs/gof-state-diagram.png)
+<center>![State](../assets/imagens/gofs/gof-state-diagram.png)</center>
 <center>[Figura 6: Padrão state.](../assets/imagens/gofs/gof-state-diagram.png)</center>
 
 &emsp;&emsp;A seguir tem-se um exemplo resumido a nível do código do que pode ser feito na implementação desse padrão.
@@ -264,9 +264,9 @@ class EventController{
 
 ### Aplicabilidade
 
-- Você pode utilizar o Visitor quando precisar realizar uma operação em todos os elementos da estrutura de objetos complexa. Ex: uma árvore de objetos. Ou seja, é possível executar uma operação sobre um conjunto de objetos com diferentes classes implementando diversas variantes da mesma operação correspondentes às classes alvo.
+- Você pode utilizar o Visitor quando precisar realizar uma operação em todos os elementos da estrutura de objetos complexa. Ex: uma árvore de objetos. Ou seja, é possível executar uma operação sobre um conjunto de objetos com diferentes classes, implementando diversas variantes da mesma operação correspondentes às classes alvo.
 
-- É possível utilizar o Visitor para remover a lógica de negócio de comportamentos auxiliares. Pois o mesmo permite tornar classes primárias da aplicação mais focadas em seu trabalho principal.
+- É possível utilizar o Visitor para remover a lógica de negócio de comportamentos auxiliares. Pois o mesmo permite tornar as classes primárias da aplicação mais focadas em seu trabalho principal.
 
 - Utilize o padrão quando um comportamento faz sentido apenas dentro de algumas classes de uma uma hierarquia de classe. Você pode extrair esse comportamento para uma classe visitante separada e implementar somente aqueles métodos visitantes que aceitam objetos de classes relevantes, deixando o resto vazio.
 
@@ -278,9 +278,9 @@ class EventController{
 
 ### Aplicabilidade
 
-- É possível utilizar o padrão quando quizer reproduzir cópias do estado de um objeto permitindo então restaurar a um estado anterior do mesmo. O Memento faz cópias completas do estado de um objeto, isso inclui campos privados, e as armazena separadamente do objeto. Duas grandes aplicações do padrão são para a funcionalidade de desfazer e quando se lida com transações, permitindo revertê-las.
+- É possível utilizar o padrão quando quiser reproduzir cópias do estado de um objeto permitindo então restaurar a um estado anterior do mesmo. O Memento faz cópias completas do estado de um objeto, isso inclui campos privados, e as armazena separadamente do objeto. Duas grandes aplicações do padrão são para a funcionalidade de desfazer e quando se lida com transações, permitindo revertê-las.
 
-- Você pode utilizar o padrão caso o acesso direto à informações de um objeto violar o seu encapsulamento. Com o memento o próprio objeto é responsável por criar sua cópia.
+- Você pode utilizar o padrão caso o acesso direto à informações de um objeto viola o seu encapsulamento. Com o memento o próprio objeto é responsável por criar sua cópia.
 
 &emsp;&emsp;No nosso projeto faz mais sentido a utilização do padrão criacional Prototype, por se tratar de objetos intuitivos.
 
@@ -290,9 +290,9 @@ class EventController{
 
 ### Aplicabilidade
 
-- Utilize o padrão se for esperado que seu programa processse diferentes tipos de pedido em várias maneiras, mas os exatos tipos de pedidos e suas sequências não são previamente conhecidos. O padrão permite a ligação de vários handlers em sequência, quando um handler recebe um pedido o mesmo decide se pode ou não processá-lo, desta forma todos os handlers podem processar o pedido.
+- Utilize o padrão se for esperado que seu programa processe diferentes tipos de pedido em várias maneiras, mas os exatos tipos de pedidos e suas sequências não são previamente conhecidos. O padrão permite a ligação de vários handlers em sequência, quando um handler recebe um pedido o mesmo decide se pode ou não processá-lo, desta forma todos os handlers podem processar o pedido.
 
-- Se for necessário a execução de vários handlers em uma ordem pre-determinada. Como é possível escolher a ordem da corrente de handlers, todos os pedidos irão passar pelos handlers na ordem planejada.
+- Se for necessário a execução de vários handlers em uma ordem pré-determinada. Como é possível escolher a ordem da corrente de handlers, todos os pedidos irão passar pelos handlers na ordem planejada.
 
 - Caso necessário mudar o conjunto de handlers e suas encomendas em tempo de execução. Ao providenciar setters para campos de referência dentro das classes handlers, é possível inserir, remover ou reordenar os handlers de forma dinâmica.
 
@@ -322,7 +322,7 @@ Vlissides
 |1.5|18/09/2021| Adição dos padrões Command, Iterator, Observer e State | Daniel Porto e Enzo Gabriel |
 |1.6|19/09/2021| Adição dos padrões Memento e Chain of Responsibility | Mateus O. Patrício |
 |1.7|19/09/2021| Revisão por pares | Daniel Porto e Edson Araujo |
-|1.8|19/09/2021| Construção da estutura de objetos | Edson Soares |
+|1.8|19/09/2021| Construção da estrutura de objetos | Edson Soares |
 |1.9|19/09/2021| Implementação | Edson Soares |
 |2.0|19/09/2021| Revisão do padrão Mediator | Bruno Felix e Eliseu Kadesh |
 |2.1|19/09/2021| Revisão dos padrões Observer, State, Command e Iterator | Bruno Felix e Gabriel Bonifácio |
@@ -330,3 +330,4 @@ Vlissides
 |2.3|20/09/2021| Breve apresentação dos não aplicáveis (Strategy, Template Method) | Edson Soares |
 |2.4|20/09/2021| Revisão do strategy e template method | Eliseu Kadesh, Francisco Emanoel |
 |2.5|20/09/2021| Revisão dos padrões comportamentais | João, Nilo Mendonça |
+|2.6|14/10/2021| Padronização do documento | Bruno Félix e Nilo Mendonça |

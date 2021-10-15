@@ -34,10 +34,41 @@
 
 ## Representação da arquitetura
 
+### Back-End
+&emsp;&emsp;O **NodeJs** é uma estrutura do lado do servidor, útil para construir aplicações altamente escaláveis, rápidas e de fácil manutenção. O NodeJs foi projetado para lidar com facilidade com aplicações de entradas/saídas intensivas que são projetadas na arquitetura bloqueante, blocking-thread. "Embora o Nodejs possa servir funções de maneira síncrona, ele geralmente executa operações de forma assíncrona "[(Gackenheimer, Cory. Node.Js Recipes: A Problem-Solution Approach, 2013)](#bibliografia).
+
+ &emsp;&emsp;O "**Express.js** é  um  web  framework  que  atua  como  uma  camada  no  topo  do  Node.js, facilitando e deixando o desenvolvimento de APIs em node mais prático", [(BARSOTI, N.; GIBERTONI, D. 2020)](#bibliografia). Com o express fica mais fácil organizar as funcionalidades da aplicação usando _middleware_ e roteamento, contribuindo para a renderização de páginas HTML dinâmicas.
+
+ &emsp;&emsp;O **Sequelize** Sequelize é um Node.js ORM baseado em promises para Postgres, MySQL, MariaDB, SQLite e Microsoft SQL Server[(SEQUELIZE ORG)](#bibliografia). Essa tecnologia oferece suporte a transações sólidas, relações, replicações de leituras. Além disso, essa tecnologia permite criar, buscar, alterar e remover dados da base de dados e, para isso utiliza métodos JavaScript. O framework Sequelize permite também que os desenvolvedores modifiquem estruturas de tabelas e isso facilita bastante na criação, população e migração de banco de dados.
+
+### Front-End
+&emsp;&emsp;O **React.js** é a representação da camada de view no MVC, no front-end é onde ocorre a interação e apresentação das informações ao [usuário](../../base/requisitos/modelagem/lexicos/#lexico-usuario) da aplicação. React.js é um framework Javascript utilizado para desenvolver interfaces com alto nível de valor agregado e qualidade final no produto, com fácil aprendizagem e facilidade de aplicação por parte da equipe.
+
+### Banco de Dados
+ &emsp;&emsp;Segundo André Milani, "O **PostgreSQL** é um Sistema de Banco de Dados (SGBD) Relacional, utilizado para armazenar informações de soluções de informática em todas as áreas de negócios existentes" [(Milani, André. PostgreSQL: Guia do Programador. Novatec. 2008)](#bibliografia). O Sequelize integra muito bem com o Sequelize, tem uma imensa comunidade bastante ativa. A estabilidade do PostgreSQL é um de seus recursos muito interessante, o mesmo foi projetado para ser capaz de executar no modelo 24/7 (24 horas por dia, sete dias por semana). Por essas características esse Banco de Dados tem sido bastante utilizado no contexto geral de negócios, sites, lojas virtuais, portais ou soluções de informática.
+
+
 ## Metas Arquiteturais e Restrições
 
+### Metas
+| Metas | Descrição |
+| :-: | -- |
+| Responsividade | A aplicação deve ser responsiva e ser usável em todas as interfaces sem que haja comprometimento nas funções da aplicação |
+| Usabilidade | O [usuário](../../base/requisitos/modelagem/lexicos/#lexico-usuario) deverá ser capaz de realizar as tarefas no menor tempo possível |
+| Escalabilidade | A aplicação deve ser capaz de crescer junto com a ascensão de novos [usuários](../../base/requisitos/modelagem/lexicos/#lexico-usuario). Assim, como ser escalável para implementação de novas funcionalidades |
+| Segurança | O aplicativo deve ser seguro e lidar com os dados confidenciais dos [usuários](../../base/requisitos/modelagem/lexicos/#lexico-usuario) com segurança |
+
+### Restrições
+| Restrições | Descrição |
+| :-: | -- |
+| Público | O aplicativo será voltado para [administradores](../../base/requisitos/modelagem/lexicos/#lexico-administrador), [professores](../../base/requisitos/modelagem/lexicos/#lexico-professor), [pais e responsáveis](../../base/requisitos/modelagem/lexicos/#lexico-responsavel) por [crianças](../../base/requisitos/modelagem/lexicos/#lexico-crianca) matriculadas no [centro educacional](../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional) que utiliza o aplicativo Curumim |
+| Conectividade | É necessário conexão com a internet para usar a aplicação |
+| Língua | A aplicação tem idioma somente para o português do Brasil |
+| Prazo final| O escopo proposto deve ser concluído até o final do curso, Arquitetura e Desenho de Software |
+
+
 ## Visão de Casos de Uso
-&emsp;&emsp;Apresentando uma representação mais próxima do usuário, a visão de casos de uso auxilia no entendimento das interações dos atores com o sistema de forma a descrever os cenários de uso da aplicação. O diagrama de casos de uso do projeto Curumim pode ser acessado pelo [documento de casos de uso](../../modelagem/modelagem-dinamica/casos-de-uso) desenvolvido anteriormente.<br>
+&emsp;&emsp;Apresentando uma representação mais próxima do [usuário](../../base/requisitos/modelagem/lexicos/#lexico-usuario), a visão de casos de uso auxilia no entendimento das interações dos atores com o sistema de forma a descrever os cenários de uso da aplicação. O diagrama de casos de uso do projeto Curumim pode ser acessado pelo [documento de casos de uso](../../modelagem/modelagem-dinamica/casos-de-uso) desenvolvido anteriormente.<br>
 &emsp;&emsp;A seguir, tem-se uma descrição resumida dos casos de uso mais significativos do projeto, os quais contemplam as funcionalidades mais prioritárias do sistema.
 #### Descrição dos casos de uso mais significativos
 
@@ -53,7 +84,7 @@
 
 - **UC06 - Gerenciar [atividades](../../base/requisitos/modelagem/lexicos/#lexico-atividade) da [turma](../../base/requisitos/modelagem/lexicos/#lexico-turma):** este caso de uso é exclusivo do ator [professor](../../base/requisitos/modelagem/lexicos/#lexico-professor) e consiste em fazer o gerenciamento de [atividades](../../base/requisitos/modelagem/lexicos/#lexico-atividade) da [turma](../../base/requisitos/modelagem/lexicos/#lexico-turma) com o objetivo de apresentar aos [responsáveis](../../base/requisitos/modelagem/lexicos/#lexico-responsavel) as [atividades](../../base/requisitos/modelagem/lexicos/#lexico-atividade) que foram pedidas aos [alunos](../../base/requisitos/modelagem/lexicos/#lexico-aluno) do [centro educacional](../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional).
 
-- **UC07 - Efetuar login:** este caso de uso pode ser feito pelos atores [professor](../../base/requisitos/modelagem/lexicos/#lexico-professor), [responsável](../../base/requisitos/modelagem/lexicos/#lexico-responsavel) e [administrador](../../base/requisitos/modelagem/lexicos/#lexico-administrador), e consiste em se conectar à aplicação por parte desses atores, utilizando um registro próprio com seu devido usuário e senha.
+- **UC07 - Efetuar login:** este caso de uso pode ser feito pelos atores [professor](../../base/requisitos/modelagem/lexicos/#lexico-professor), [responsável](../../base/requisitos/modelagem/lexicos/#lexico-responsavel) e [administrador](../../base/requisitos/modelagem/lexicos/#lexico-administrador), e consiste em se conectar à aplicação por parte desses atores, utilizando um registro próprio com seu devido [usuário](../../base/requisitos/modelagem/lexicos/#lexico-usuario) e senha.
 
 - **UC08 - Verificar senha:** este caso de uso pode ser feito pelos atores [professor](../../base/requisitos/modelagem/lexicos/#lexico-professor), [responsável](../../base/requisitos/modelagem/lexicos/#lexico-responsavel) e [administrador](../../base/requisitos/modelagem/lexicos/#lexico-administrador), e consiste na verificação da senha digitada por parte desses atores, para que possa se analisar se o seu registro inicial coincide com o digitado no momento. 
 
@@ -86,7 +117,7 @@
 ![Diagrama de Pacote - Front End](../../assets/imagens/arquitetura/front_end_visao_logica.png)<center>
 [Figura 01 : Diagrama de Pacotes - Front End](../assets/imagens/arquitetura/front_end_visao_logica.png)</center> 
 
-&emsp;&emsp;O front-end, o qual contém a camada de view, é responsável pela interação e apresentação das informações ao usuário. Todas as pastas estão alocadas de forma paralela no pacote App. O ponto de partida é a pasta **Routes**, onde se tem as rotas e a chamada do conteúdo da aplicação, conteúdo esse que pode ser oriundo tanto dos arquivos da pasta **Pages** quanto da pasta **Components**. Além disso, temos as pastas de **Assets** e a **Styles** com caráter de armazenamento de mídia estática e configuração de estilo, e a pasta **Utils** para funções auxiliares ao projeto. Por fim temos a pasta **Services** responsável pela lógica de comunicação com a API do sistema e da lógica de autenticação.
+&emsp;&emsp;O front-end, o qual contém a camada de view, é responsável pela interação e apresentação das informações ao [usuário](../../base/requisitos/modelagem/lexicos/#lexico-usuario). Todas as pastas estão alocadas de forma paralela no pacote App. O ponto de partida é a pasta **Routes**, onde se tem as rotas e a chamada do conteúdo da aplicação, conteúdo esse que pode ser oriundo tanto dos arquivos da pasta **Pages** quanto da pasta **Components**. Além disso, temos as pastas de **Assets** e a **Styles** com caráter de armazenamento de mídia estática e configuração de estilo, e a pasta **Utils** para funções auxiliares ao projeto. Por fim temos a pasta **Services** responsável pela lógica de comunicação com a API do sistema e da lógica de autenticação.
 
 #### Back-End
 ![Diagrama de Pacote](../../assets/imagens/arquitetura/back_end_visao_logica.png)<center>
@@ -161,8 +192,8 @@
 #### Camadas
 
 - Model: Essa camada na aplicação Curumim tem a responsabilidade de encapsular estados da aplicação, assim é possível tratar modificações de estado e notificações de estado;
-- View: Essa segunda camada tem como objetivo apresentar a interface para o usuário, na aplicação Curumim ela é a principal responsável por mostrar informações da Model para a interface do cliente;
-- Controller: Essa é camada que faz o intermédio entre as camadas View e Model, assim mapeando as ações do usuário na view para possíveis mudanças na Model;
+- View: Essa segunda camada tem como objetivo apresentar a interface para o [usuário](../../base/requisitos/modelagem/lexicos/#lexico-usuario), na aplicação Curumim ela é a principal responsável por mostrar informações da Model para a interface do cliente;
+- Controller: Essa é camada que faz o intermédio entre as camadas View e Model, assim mapeando as ações do [usuário](../../base/requisitos/modelagem/lexicos/#lexico-usuario) na view para possíveis mudanças na Model;
 
 #### Conclusão
 &emsp;&emsp;Algumas literaturas ao falar do padrão MVC acabam abordando a aplicabilidade dessa arquitetura principalmente a aplicações web, visto sua facilidade e flexibilidade de interação e visualização de dados, além disso a arquitetura MVC trás alguns padrões já conhecidos como os:
@@ -209,7 +240,7 @@
 &emsp;&emsp;Nota-se também que podemos citar o [Diagrama Lógico](../modelagem/modelagem-estatica/diagrama-logico-bd.md) ao entendê-lo como uma descrição de um banco de dados, se diferenciando do [DER](../modelagem/modelagem-estatica/DER.md) por ter um nível de abstração menor.
  
 &emsp;&emsp;Por fim, parte dessa persistência se encaixa no nosso projeto no [Front-End](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim_Front-end) quando o [usuário](../../base/requisitos/modelagem/lexicos/#lexico-usuario), após o login, fica com acesso contínuo às suas funções. Para detalhar mais,
-basicamente um "LocalStorage" é acionado, afim de conseguir identificar um "token", que é uma identificação individual dos usuários. Caso esse "token" seja identificado e realmente exista, a aplicação apresentará uma tela ao usuário, caso não, o usuário é redirecionado para a tela de Login. Nesse caso, a persistência é um aspecto realmente significativo.
+basicamente um "LocalStorage" é acionado, afim de conseguir identificar um "token", que é uma identificação individual dos [usuários](../../base/requisitos/modelagem/lexicos/#lexico-usuario). Caso esse "token" seja identificado e realmente exista, a aplicação apresentará uma tela ao [usuário](../../base/requisitos/modelagem/lexicos/#lexico-usuario), caso não, o [usuário](../../base/requisitos/modelagem/lexicos/#lexico-usuario) é redirecionado para a tela de Login. Nesse caso, a persistência é um aspecto realmente significativo.
 
 ## Tamanho e Desempenho
 
@@ -222,7 +253,7 @@ basicamente um "LocalStorage" é acionado, afim de conseguir identificar um "tok
 |Portabilidade| Em relação a portabilidade o projeto foi baseado em divisões entre o [Front-end](../../base/requisitos/modelagem/lexicos/#front-end) e o [Back-end](../../base/requisitos/modelagem/lexicos/#Back-end), sendo o [Back-end](../../base/requisitos/modelagem/lexicos/#Back-end) nossa API, onde se localizar as principais features, pensando nesse modelo, qualquer outra stack pode consumir essa API, assim garantindo a portabilidade para vários [Front-end](../../base/requisitos/modelagem/lexicos/#front-end) diferentes.|
 |Segurança| Na aplicação da API do Curumim foram adicionados alguns gatilhos que melhoram nossa segurança, principalmente no banco de dados, como a biblioteca bcrypt, além disso usamos um sistema de autenticação que usa token para verificações, usando o JWT.|
 |Usabilidade| Para a aplicação Curumim foi escolhido algumas stack bem utilizadas no mercado de trabalho para construção de aplicação web, focamos em uma linguagem de programação que foi o javascript com auxílios de bibliotecas e frameworks.|
-|Eficiência| Utilizamos padrões de projeto principalmente na API resolvendo um problema de design existente e a escolha por WebApp permite uma fácil execução por parte dos usuários.|
+|Eficiência| Utilizamos padrões de projeto principalmente na API resolvendo um problema de design existente e a escolha por WebApp permite uma fácil execução por parte dos [usuários](../../base/requisitos/modelagem/lexicos/#lexico-usuario).|
 |Manutenibilidade| Foram utilizadas ferramentas populares no mercado o que tanto facilitou no desenvolvimento do projeto quanto poderá facilitar futuras manutenções uma vez que existe uma grande comunidade de desenvolvedores, além de como já citado terem sido empregados padrões de projeto que facilitam por terem caracteristicas como o alto desacoplamento. |
 
 &emsp;&emsp;Para ter uma melhor visão dos principais requisitos não funcionais do projeto tem os documentos [NFR-FRAMEWORK](../../base/requisitos/modelagem/nfr-framework) e a [Especificação Suplementar](../../base/requisitos/modelagem/especificacao-suplementar).
@@ -233,10 +264,15 @@ basicamente um "LocalStorage" é acionado, afim de conseguir identificar um "tok
 > - [2] O que é MVC?. Disponível em <https://www.treinaweb.com.br/blog/o-que-e-mvc>. Acesso em 02 de out. 2021
 > - [3] UniGrade. Documento de Arquitetura de Software. Disponível em: <https://ads-unigrade-2019-1.github.io/Wiki/dinamica06/DAS/#7-visao-da-implementacao>. Acesso em 02 de out. 2021
 > - [4] SERRANO,Milene; SERRANO, Maurício; CAVALCANTE, André Cruz. Arquitetura de Software deReferência para Sistemas de Informação Governamentais. In: XI Brazilian Symposium on Information System, Goiânia, Maio 26-29, 2015. Disponível em: <https://sol.sbc.org.br/index.php/sbsi/article/view/5886/5784>. Acesso em: 04/10/2021 
-> - [5] Documento de Arquitetura de Software. Disponível em <https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/guidances/guidelines/software_architecture_document_F4C93435.html>. Acesso em: 04 de out. de 2021.    
-> - Videoaulas e materiais complementares presentes no moodle da disciplina Arquitetura e Desenho de Software. Disponível em <https://aprender3.unb.br/course/view.php?id=8603>. Acesso em: 14 de out. 2021.  
-> - "Diretriz. Visão Arquitetural". Disponível em <https://www.trt9.jus.br/pds/pdstrt9/guidances/guidelines/architectural_view_FF6EDA37.html>. Acesso em 14 de out. 2021.
-> - "Artefato: Documento de Arquitetura de Software". Disponível em <https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/workproducts/rup_software_architecture_document_C367485C.html?nodeId=8d5440e6>. Acesso em 14 de out. 2021.
+> - [5] Documento de Arquitetura de Software. Disponível em <https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/guidances/guidelines/software_architecture_document_F4C93435.html>. Acesso em: 04 de out. de 2021.
+> - [6] Gackenheimer, Cory. Node.Js Recipes: A Problem-Solution Approach. Apress; 1ª edição, 23 out 2013. Disponível em <https://books.google.com.br/books?hl=pt-BR&lr=&id=6VTBAQAAQBAJ&oi=fnd&pg=PP3&dq=whats+this+node+js&ots=oCJUN2cXNE&sig=cTq2dgKCdbDI35etZ6WIbh1uj5U#v=onepage&q=whats%20this%20node%20js&f=false>. Acesso em: 14 de out. de 2021.
+> - [7] BARSOTI, N.; GIBERTONI, D. IMPACTO QUE O SEQUELIZE TRAZ PARA O DESENVOLVIMENTO DE UMA API CONSTRUÍDA EM NODE.JS COM EXPRESS.JS. Revista Interface Tecnológica, [S. l.], v. 17, n. 2, p. 231-243, 2020. DOI: 10.31510/infa.v17i2.964. Disponível em: https://revista.fatectq.edu.br/index.php/interfacetecnologica/article/view/964. Acesso em: 14 out. 2021.
+> - [8] Milani, André. PostgreSQL: guia do programador. São Paulo. Novatec, 2008. Disponível em: <https://books.google.com.br/books?hl=pt-BR&lr=&id=eb7fXbM70F4C&oi=fnd&pg=PA19&dq=postgresql&ots=FWcgYx_Oo1&sig=8Qv1Kfrdfj9Bzqz7ywREjIgBYZM#v=onepage&q=postgresql&f=false> Acesso em: 14/10/2021.
+> - [9] Sequelize ORG. Documentação do Sequelize. Disponível em: <https://sequelize.org/>. Acesso em: 14/10/2021
+> - [10] Documento de Arquitetura de Software. Disponível em <https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/guidances/guidelines/software_architecture_document_F4C93435.html>. Acesso em: 04 de out. de 2021.    
+> - [11] Videoaulas e materiais complementares presentes no moodle da disciplina Arquitetura e Desenho de Software. Disponível em <https://aprender3.unb.br/course/view.php?id=8603>. Acesso em: 14 de out. 2021.  
+> - [12] "Diretriz. Visão Arquitetural". Disponível em <https://www.trt9.jus.br/pds/pdstrt9/guidances/guidelines/architectural_view_FF6EDA37.html>. Acesso em 14 de out. 2021.
+> - [13] "Artefato: Documento de Arquitetura de Software". Disponível em <https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/workproducts/rup_software_architecture_document_C367485C.html?nodeId=8d5440e6>. Acesso em 14 de out. 2021.
 
 ## Versionamento
 
@@ -250,6 +286,9 @@ basicamente um "LocalStorage" é acionado, afim de conseguir identificar um "tok
 |1.5|05/10/2021| Inserção do tópico Front End da Visão Lógica | Bruno Félix |
 |1.6|05/10/2021| Adição da visão dos casos de uso | Mateus O. Patrício e Gabriel Bonifácio |
 |1.7|08/10/2021| Ajustes das visões de casos de uso, lógica, de processos e de implementação | Daniel Porto |
-|1.9|14/10/2021| Revisão do tópico de qualidade | Daniel Porto, Mateus O. Patrício e Gabriel Bonifácio |
-|2.0|14/10/2021| Criação do tópico Visão de Dados | Mateus O. Patrício e Gabriel Bonifácio |
-|2.1|14/10/2021| Adição da visão de implantação e atualização do diagrama de pacotes | Daniel Porto |
+|1.8|10/10/2021| Criando tópico de qualidade | Francisco Ferreira e Nilo Mendonça|
+|1.9|14/10/2021| Representação da arquitetura: Backend, Banco de Dados, Metas e Restrições | Edson Soares |
+|2.0|14/10/2021| Representação da arquitetura: Frontend | Bruno Félix |
+|2.1|14/10/2021| Revisão do tópico de qualidade | Daniel Porto, Mateus O. Patrício e Gabriel Bonifácio |
+|2.2|14/10/2021| Criação do tópico Visão de Dados | Mateus O. Patrício e Gabriel Bonifácio |
+|2.3|14/10/2021| Adição da visão de implantação e atualização do diagrama de pacotes | Daniel Porto |
