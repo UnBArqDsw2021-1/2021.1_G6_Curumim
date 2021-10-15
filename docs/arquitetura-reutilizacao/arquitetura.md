@@ -116,17 +116,17 @@
 #### [Administrador](../../../base/requisitos/modelagem/lexicos/#lexico-administrador) cadastrando [Professor](../../../base/requisitos/modelagem/lexicos/#lexico-professor)
 
 ![Administrador cadastrando professor](../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-admin-cadastrando-prof.png)
-<center>[Figura 04: Diagrama de sequência do administrador cadastrando professor](../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-admin-cadastrando-prof.png)</center>
+<center>[Figura 03: Diagrama de sequência do administrador cadastrando professor](../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-admin-cadastrando-prof.png)</center>
 
 #### [Administrador](../../../base/requisitos/modelagem/lexicos/#lexico-administrador) cadastrando [Evento](../../../base/requisitos/modelagem/lexicos/#lexico-evento)
 
 ![Administrador cadastrando professor](../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-admin-cadastrando-evento.png)
-<center>[Figura 05: Diagrama de sequência do administrador cadastrando evento](../assets/imagens/diagrama-de-sequencia/../../../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-admin-cadastrando-evento.png)</center>
+<center>[Figura 04: Diagrama de sequência do administrador cadastrando evento](../assets/imagens/diagrama-de-sequencia/../../../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-admin-cadastrando-evento.png)</center>
 
 #### [Responsável](../../../base/requisitos/modelagem/lexicos/#lexico-responsavel) fazendo Login
 
 ![Responsável fazendo login](../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-pais-responsaveis-login.png)
-<center>[Figura 06: Diagrama de sequência do guardian fazendo login](../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-pais-responsaveis-login.png)</center>
+<center>[Figura 05: Diagrama de sequência do guardian fazendo login](../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-pais-responsaveis-login.png)</center>
 
 ### Diagrama de Atividades
 &emsp;&emsp;Se tratam de diagramas de comportamento UML que demonstram os fluxos de controle ou os fluxos de objetos focados na sequência e nas condições de cada um de forma a elucidar o fluxo entre as ações de uma determinada atividade.<br>
@@ -201,6 +201,9 @@ basicamente um "LocalStorage" é acionado, afim de conseguir identificar um "tok
 
 ## Tamanho e Desempenho
 
+&emsp;&emsp;O tamanho do software não pode ser mensurado até o hoje, dia 15/10/2021, pois ainda encontra-se em construção. Mas levando em conta seus repositórios, ambos juntos dão menos que 1GB, sendo que não é necessária a instalação de nenhum outro programa para seu funcionamento.
+&emsp;&emsp;Sobre o desempenho da aplicação, para que seja possível seu funcionamento, é necessário conexão com a internet e por ser uma PWA, a opção de dispositivo é flexível, podendo sendo ser um dispositivo mobile ou um computado.
+
 ## Qualidade
 
 &emsp;&emsp;A arquitetura adotada pelo grupo para construção da aplicação utiliza o padrão MVC, possibilitando a divisão dos principais componentes do projeto em camadas e subcamadas bem definidas, conferindo uma maior organização ao projeto e facilitando o desenvolvimento pelos diferentes integrantes do grupo. Foram seguidos alguns padrões [GRASP](../padroes-de-projeto/grasp.md) como o [Controlador](../padroes-de-projeto/grasp.md), o [Invenção pura](../padroes-de-projeto/grasp.md) e o [Polimorfismo](../padroes-de-projeto/grasp.md). Para a manutenção, portabilidade e futuras features foram utilizados padrões criacionais entre eles o [Factory Method](../padroes-de-projeto/gofs-criacionais.md), o [Abstract Factory](../padroes-de-projeto/gofs-criacionais.md) e o [Singleton](../padroes-de-projeto/gofs-criacionais.md). Além de serem seguidos alguns padrões comportamentais capazes de trazer confiabilidade tais como o [Command](../padroes-de-projeto/gofs-comportamentais.md), o [Iterator](../padroes-de-projeto/gofs-comportamentais.md) e o [Observer](../padroes-de-projeto/gofs-comportamentais.md).
@@ -241,6 +244,4 @@ basicamente um "LocalStorage" é acionado, afim de conseguir identificar um "tok
 |1.8|10/10/2021| Criando tópico de qualidade | Francisco Ferreira e Nilo Mendonça|
 |1.9|14/10/2021| Revisão do tópico de qualidade | Daniel Porto, Mateus O. Patrício e Gabriel Bonifácio |
 |2.0|14/10/2021| Criação do tópico Visão de Dados | Mateus O. Patrício e Gabriel Bonifácio |
-
-
-
+|2.1|15/10/2021| Criação do tamanho e desempenho | João Pedro, Enzo Gabriel |
