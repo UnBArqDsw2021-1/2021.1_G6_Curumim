@@ -35,14 +35,14 @@
 ## Representação da arquitetura
 
 ### Back-End
-&emsp;&emsp;O **NodeJs** é uma estrutura do lado do servidor, útil para construir aplicações altamente escaláveis, rápidas e de fácil manuntenção. O NodeJs foi projetado para lidar com facilidade com aplicações de entradas/saídas intensivas que são projetadas na arquitetura bloqueante, blocking-thread. "Embora o Nodejs possa servir funções de maneira síncrona, ele geralmente executa operações de forma assíncrona "(Gackenheimer, Cory. Node.Js Recipes: A Problem-Solution Approach, 2013).
+&emsp;&emsp;O **NodeJs** é uma estrutura do lado do servidor, útil para construir aplicações altamente escaláveis, rápidas e de fácil manuntenção. O NodeJs foi projetado para lidar com facilidade com aplicações de entradas/saídas intensivas que são projetadas na arquitetura bloqueante, blocking-thread. "Embora o Nodejs possa servir funções de maneira síncrona, ele geralmente executa operações de forma assíncrona "[(Gackenheimer, Cory. Node.Js Recipes: A Problem-Solution Approach, 2013)](#bibliografia).
 
- &emsp;&emsp;O "**Express.js** é  um  web  framework  que  atua  como  uma  camada  no  topo  do  Node.js, facilitando e deixando o desenvolvimento de APIs em node mais prático", [[BARSOTI, N.; GIBERTONI, D. 2020]](#bibliografia). Com o express fica mais fácil organizar as funcionalidades da aplicação usando _middleware_ e roteamento, contribuindo para a renderização de páginas HTML dinâmicas.
+ &emsp;&emsp;O "**Express.js** é  um  web  framework  que  atua  como  uma  camada  no  topo  do  Node.js, facilitando e deixando o desenvolvimento de APIs em node mais prático", [(BARSOTI, N.; GIBERTONI, D. 2020)](#bibliografia). Com o express fica mais fácil organizar as funcionalidades da aplicação usando _middleware_ e roteamento, contribuindo para a renderização de páginas HTML dinâmicas.
 
- &emsp;&emsp;O **Sequelize** Sequelize é um Node.js ORM baseado em promises para Postgres, MySQL, MariaDB, SQLite e Microsoft SQL Server(SEQUELIZE ORG). Essa tecnologia oferece suporte a transações sólidas, relações, replicações de leituras. Além disso, essa tecnologia permite criar, buscar, alterar e remover dados da base de dados e, para isso utiliza métodos JavaScript. O framework Sequelize permite também que os desenvolvedores modifiquem estruturas de tabelas e isso facilita bastante na criação, população e migração de banco de dados.
+ &emsp;&emsp;O **Sequelize** Sequelize é um Node.js ORM baseado em promises para Postgres, MySQL, MariaDB, SQLite e Microsoft SQL Server[(SEQUELIZE ORG)](#bibliografia). Essa tecnologia oferece suporte a transações sólidas, relações, replicações de leituras. Além disso, essa tecnologia permite criar, buscar, alterar e remover dados da base de dados e, para isso utiliza métodos JavaScript. O framework Sequelize permite também que os desenvolvedores modifiquem estruturas de tabelas e isso facilita bastante na criação, população e migração de banco de dados.
 
 ### Banco de Dados
- &emsp;&emsp;Segundo André Milani, "O **PostgreSQL** é um Sistema de Banco de Dados (SGBD) Relacional, utilizado para armazenar informações de soluções de informática em todas as áreas de negócios existentes" (Milani, André. PostgreSQL: Guia do Programador. Novatec. 2008). O Sequelize integra muito bem com o Sequelize, tem uma imensa comunidade bastante ativa. A estabilidade do PostgreSQL é um de seus recursos muito interessante, o mesmo foi projetado para ser capaz de executar no modelo 24/7 (24 horas por dia, sete dias por semana). Por essas características esse Banco de Dados tem sido bastante utilizado no contexto geral de negócios, sites, lojas virtuais, portais ou soluções de informática.
+ &emsp;&emsp;Segundo André Milani, "O **PostgreSQL** é um Sistema de Banco de Dados (SGBD) Relacional, utilizado para armazenar informações de soluções de informática em todas as áreas de negócios existentes" [(Milani, André. PostgreSQL: Guia do Programador. Novatec. 2008)](#bibliografia). O Sequelize integra muito bem com o Sequelize, tem uma imensa comunidade bastante ativa. A estabilidade do PostgreSQL é um de seus recursos muito interessante, o mesmo foi projetado para ser capaz de executar no modelo 24/7 (24 horas por dia, sete dias por semana). Por essas características esse Banco de Dados tem sido bastante utilizado no contexto geral de negócios, sites, lojas virtuais, portais ou soluções de informática.
 
 
 ## Metas Arquiteturais e Restrições
@@ -58,7 +58,7 @@
 ### Restrições
 | Restrições | Descrição |
 | :-: | -- |
-| Público | O aplicativo será voltado para administradores, professores, pais e responsáveis por crianças matriculadas no Centro Educacional que utiliza o aplicativo Curumim |
+| Público | O aplicativo será voltado para [administradores](../../base/requisitos/modelagem/lexicos/#lexico-administrador), [professores](../../base/requisitos/modelagem/lexicos/#lexico-professor), [pais e responsáveis](../../base/requisitos/modelagem/lexicos/#lexico-responsavel) por [crianças](../../base/requisitos/modelagem/lexicos/#lexico-crianca) matriculadas no [centro educacional](../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional) que utiliza o aplicativo Curumim |
 | Conectividade | É necessário conexão com a internet para usar a aplicação |
 | Língua | A aplicação tem idioma somente para o português do Brasil |
 | Prazo final| O escopo proposto deve ser concluído até o final do curso, Arquitetura e Desenho de Software |
@@ -247,5 +247,4 @@
 |1.5|05/10/2021| Inserção do tópico Front End da Visão Lógica | Bruno Félix |
 |1.6|05/10/2021| Adição da visão dos casos de uso | Mateus O. Patrício e Gabriel Bonifácio |
 |1.7|08/10/2021| Ajustes das visões de casos de uso, lógica, de processos e de implementação | Daniel Porto |
-|1.8|14/10/2021| Representação da arquitetura (Backend) + (Banco de Dados) | Edson Soares |
-|1.9|14/10/2021| Representação da arquitetura (Metas e Restrições) | Edson Soares |
+|1.8|14/10/2021| Representação da arquitetura: Backend, Banco de Dados, Metas e Restrições | Edson Soares |
