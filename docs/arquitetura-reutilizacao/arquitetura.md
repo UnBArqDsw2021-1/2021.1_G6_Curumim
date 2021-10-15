@@ -201,8 +201,8 @@ basicamente um "LocalStorage" é acionado, afim de conseguir identificar um "tok
 
 ## Tamanho e Desempenho
 
-&emsp;&emsp;O tamanho do software não pode ser mensurado até o hoje, dia 15/10/2021, pois ainda encontra-se em construção. Mas levando em conta seus repositórios, ambos juntos dão menos que 1GB, sendo que não é necessária a instalação de nenhum outro programa para seu funcionamento.
-&emsp;&emsp;Sobre o desempenho da aplicação, para que seja possível seu funcionamento, é necessário conexão com a internet e por ser uma PWA, a opção de dispositivo é flexível, podendo sendo ser um dispositivo mobile ou um computado.
+&emsp;&emsp;Levando em conta seus repositórios, ambos juntos dão menos que 1GB, sendo que não é necessária a instalação de nenhum outro programa para seu funcionamento.
+&emsp;&emsp;Sobre o desempenho da aplicação, para que seja possível seu funcionamento, é necessário conexão com a internet e por ser uma PWA, a opção de dispositivo é flexível, podendo ser um dispositivo mobile ou um computado. Além disso, a aplicação deve suportar muitas conexões simultâneas, por ser tratar de uma plataforma que deve ser usada diariamente por um gurpo de pessoas.
 
 ## Qualidade
 
