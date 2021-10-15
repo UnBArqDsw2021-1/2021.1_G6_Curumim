@@ -187,6 +187,18 @@
  -->
 ## Visão de Dados
 
+&emsp;&emsp;Enquanto a [visão lógica](#visao-logica) descreve como o sistema é estruturado, a visão de dados vem com o objetivo de se tratar de uma especialização nessa mesma visão lógica. A ideia principal é que essa visão seja utilizada se a persistência for um aspecto realmente significativo do sistema e se a conversão do modelo de design — para o modelo de dados — não for feita automaticamente pelos mecanimos de persistência. É possível considerar diversas visões, mas nem todas são relevantes, e a visão de dados muitas vezes é considerada uma dessas opcionais.
+
+&emsp;&emsp;Tratamos dessa visão quando o sistema tem camadas de persistência, visto que também ela contém um detalhamento do banco de dados. Um exemplo utilizado pelo projeto [Curumim](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim) é o modelo conceitual ([MER](../modelagem/modelagem-estatica/MER.md)), o Modelo de Entidade-Relacionamento. Um outro que podemos utilizar como referência nessa visão de dados, é justamente o [DER](../modelagem/modelagem-estatica/DER.md),  o diagrama de Entidade-Relacionamento, que aborda uma forma de representar graficamente a modelagem do banco de dados. A figura abaixo representa o DER Conceitual.
+
+![DER](../assets/imagens/DER/der-conceitual-curumim.png)
+<center>[Figura 06: Diagrama Conceitual - DER](../assets/imagens/DER/der-conceitual-curumim.png)</center>
+
+&emsp;&emsp;Nota-se também que podemos citar o [Diagrama Lógico](../modelagem/modelagem-estatica/diagrama-logico-bd.md) ao entendê-lo como uma descrição de um banco de dados, se diferenciando do [DER](../modelagem/modelagem-estatica/DER.md) por ter um nível de abstração menor.
+ 
+&emsp;&emsp;Por fim, parte dessa persistência se encaixa no nosso projeto no [Front-End](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim_Front-end) quando o [usuário](../../base/requisitos/modelagem/lexicos/#lexico-usuario), após o login, fica com acesso contínuo às suas funções. Para detalhar mais,
+basicamente um "LocalStorage" é acionado, afim de conseguir identificar um "token", que é uma identificação individual dos usuários. Caso esse "token" seja identificado e realmente exista, a aplicação apresentará uma tela ao usuário, caso não, o usuário é redirecionado para a tela de Login. Nesse caso, a persistência é um aspecto realmente significativo.
+
 ## Tamanho e Desempenho
 
 ## Qualidade
@@ -198,6 +210,9 @@
 > - [3] UniGrade. Documento de Arquitetura de Software. Disponível em: <https://ads-unigrade-2019-1.github.io/Wiki/dinamica06/DAS/#7-visao-da-implementacao>. Acesso em 02 de out. 2021
 > - [4] SERRANO,Milene; SERRANO, Maurício; CAVALCANTE, André Cruz. Arquitetura de Software deReferência para Sistemas de Informação Governamentais. In: XI Brazilian Symposium on Information System, Goiânia, Maio 26-29, 2015. Disponível em: <https://sol.sbc.org.br/index.php/sbsi/article/view/5886/5784>. Acesso em: 04/10/2021 
 > - [5] Documento de Arquitetura de Software. Disponível em <https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/guidances/guidelines/software_architecture_document_F4C93435.html>. Acesso em: 04 de out. de 2021.    
+> - Videoaulas e materiais complementares presentes no moodle da disciplina Arquitetura e Desenho de Software. Disponível em <https://aprender3.unb.br/course/view.php?id=8603>. Acesso em: 14 de out. 2021.  
+> - "Diretriz. Visão Arquitetural". Disponível em <https://www.trt9.jus.br/pds/pdstrt9/guidances/guidelines/architectural_view_FF6EDA37.html>. Acesso em 14 de out. 2021.
+> - "Artefato: Documento de Arquitetura de Software". Disponível em <https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/workproducts/rup_software_architecture_document_C367485C.html?nodeId=8d5440e6>. Acesso em 14 de out. 2021.
 
 ## Versionamento
 
@@ -211,3 +226,4 @@
 |1.5|05/10/2021| Inserção do tópico Front End da Visão Lógica | Bruno Félix |
 |1.6|05/10/2021| Adição da visão dos casos de uso | Mateus O. Patrício e Gabriel Bonifácio |
 |1.7|08/10/2021| Ajustes das visões de casos de uso, lógica, de processos e de implementação | Daniel Porto |
+|1.8|14/10/2021| Criação do tópico Visão de Dados | Mateus O. Patrício e Gabriel Bonifácio |
