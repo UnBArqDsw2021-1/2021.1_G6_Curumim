@@ -194,6 +194,11 @@
 ![DER](../assets/imagens/DER/der-conceitual-curumim.png)
 <center>[Figura 06: Diagrama Conceitual - DER](../assets/imagens/DER/der-conceitual-curumim.png)</center>
 
+&emsp;&emsp;Nota-se também que podemos citar o [Diagrama Lógico](../modelagem/modelagem-estatica/diagrama-logico-bd.md) ao entendê-lo como uma descrição de um banco de dados, se diferenciando do [DER](../modelagem/modelagem-estatica/DER.md) por ter um nível de abstração menor.
+ 
+&emsp;&emsp;Por fim, parte dessa persistência se encaixa no nosso projeto no [Front-End](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim_Front-end) quando o [usuário](../../base/requisitos/modelagem/lexicos/#lexico-usuario), após o login, fica com acesso contínuo às suas funções. Para detalhar mais,
+basicamente um "LocalStorage" é acionado, afim de conseguir identificar um "token", que é uma identificação individual dos usuários. Caso esse "token" seja identificado e realmente exista, a aplicação apresentará uma tela ao usuário, caso não, o usuário é redirecionado para a tela de Login. Nesse caso, a persistência é um aspecto realmente significativo.
+
 ## Tamanho e Desempenho
 
 ## Qualidade
