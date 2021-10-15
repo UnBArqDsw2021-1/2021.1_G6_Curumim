@@ -4,7 +4,7 @@
 
 ## Criador
 
-&emsp;&emsp;A instanciação de objetos é uma atividade comum em todo sistema orientado a objetos. Entender qual classe deve ser responsável por instanciar objetos e reduzir complexidade desnecessária do sistema.
+&emsp;&emsp;A instanciação de objetos é uma atividade comum em todo sistema orientado a objetos. Entender qual classe deve ser responsável por instanciar objetos e reduzir a complexidade desnecessária do sistema.
 
 &emsp;&emsp;Segundo Larman (2004), uma classe B deve ser responsável por criar instâncias de classe A se uma, ou quanto mais melhor, das seguintes afirmações se aplicarem:
 
@@ -32,7 +32,7 @@ Antes de definir exatamente o que é o "Especialista", é importante entender qu
 - **UserController:**
 
 ![User Controller](../assets/imagens/GRASPs/user_controller.png)
-<center>[Figura 1: Classe User Controllerr](../assets/imagens/GRASPs/user_controller.png)</center>
+<center>[Figura 1: Classe User Controller](../assets/imagens/GRASPs/user_controller.png)</center>
 
 &emsp;&emsp;A classe **UserController** basicamente lida com tudo que pode envolver os [usuários](../../base/requisitos/modelagem/lexicos/#lexico-usuario) e distribui suas atividades para os devidos responsáveis.
 
@@ -53,7 +53,7 @@ Com o objetivo de fortalecer a [alta coesão](#alta-coesao) e o [baixo acoplamen
 
 &emsp;&emsp;A classe [**Board**](../../base/requisitos/modelagem/lexicos/#lexico-mural) surgiu na necessidade de atribuir a responsabilidade de agrupar [atividades](../../base/requisitos/modelagem/lexicos/#lexico-atividade), [anotações](../../base/requisitos/modelagem/lexicos/#lexico-anotacao) e [eventos](../../base/requisitos/modelagem/lexicos/#lexico-evento) para a visualização por parte dos [responsáveis](../../base/requisitos/modelagem/lexicos/#lexico-responsavel). Essa classe tem sua validação na aplicação de regras específicas, como, por exemplo, a visualização de dados contidos nessas classes, em uma única tela, com a possibilidades de filtrar em um tipo de classe específica.
 
-&emsp;&emsp;Tais funcionalidades estão especificadas na [US06](../../product-backlog/#US06) e podem ser melhor visualizadas no [prótotipo de alta fidelidade](../../base/design-sprint/prototipo-alta/#prototipo-produzido).
+&emsp;&emsp;Tais funcionalidades estão especificadas na [US06](../../product-backlog/#US06) e podem ser melhor visualizadas no [protótipo de alta fidelidade](../../base/design-sprint/prototipo-alta/#prototipo-produzido).
 
 ![Board](../assets/imagens/GRASPs/invencao_board.png)
 <center>[Figura 3: Classe Board](../assets/imagens/GRASPs/invencao_board.png)</center>
@@ -70,7 +70,7 @@ Com o objetivo de fortalecer a [alta coesão](#alta-coesao) e o [baixo acoplamen
 
 &emsp;&emsp;Um dos grandes problemas relacionado ao planejamento de um grande projeto está atrelado a seguinte pergunta, "Como criar uma aplicação com baixa dependência, baixo impacto de mudança e maior reutilização?", pensado nisso, a literatura aborda o tema sobre design patterns, mais exatamente sobre os padrões GRASP.
 
-&emsp;&emsp;Antes de falarmos de [baixo acoplamento](#baixo-acoplamento), primeiro vamos falar de acoplamento, é uma forma medir o quão um elemento está conectado a outro elemento, tem conhecimento de outros elementos, ou depende de outros elementos. Depois de conhecer o que é acoplamento, fica mais fácil descrever o que é um [baixo acoplamento](#baixo-acoplamento). É um elemento que não depende de muitos outros elementos, somente o necessário, esses elementos incluem classes, subsistemas, sistemas e assim por diante.
+&emsp;&emsp;Antes de falarmos de [baixo acoplamento](#baixo-acoplamento), primeiro vamos falar de acoplamento, é uma forma de medir o quão um elemento está conectado a outro elemento, tem conhecimento de outros elementos, ou depende de outros elementos. Depois de conhecer o que é acoplamento, fica mais fácil descrever o que é um [baixo acoplamento](#baixo-acoplamento). É um elemento que não depende de muitos outros elementos, somente o necessário, esses elementos incluem classes, subsistemas, sistemas e assim por diante.
 
 &emsp;&emsp;Para deixar o contexto mais rico, iremos falar sobre alto acoplamento. No caso, seria um elemento que depende de muitos outros elementos, assim acarretando alguns problemas já conhecidos pela literatura.
    
@@ -92,7 +92,7 @@ Com o objetivo de fortalecer a [alta coesão](#alta-coesao) e o [baixo acoplamen
 &emsp;&emsp;**Middlewares:** Além disso, o nosso projeto utilizará middlewares que são classes utilizadas internamente na api, pelos controllers na execução das regras de negócio, de forma a desacoplar métodos e rotinas estratégicas. Os middlewares do projeto estão contidos nesse diretório.
 
 ## Variações protegidas
-&emsp;&emsp;O padrão Variações protegidas se caracteriza por tentar manter possível o isolamento de componentes, sem fazer comunicações desnecessárias, buscando eliminar impactos indesejáveis de elementos em outros elementos. Portanto aqui, nós buscamos identificar pontos de variação ou instabilidade previsíveis e atribuir responsabilidades para criar uma interface estável em torno deles.
+&emsp;&emsp;O padrão Variações protegidas se caracteriza por tentar manter possível o isolamento de componentes, sem fazer comunicações desnecessárias, buscando eliminar impactos indesejáveis de elementos em outros elementos. Portanto, aqui nós buscamos identificar pontos de variação ou instabilidade previsíveis e atribuir responsabilidades para criar uma interface estável em torno deles.
 
 ## Polimorfismo
 
