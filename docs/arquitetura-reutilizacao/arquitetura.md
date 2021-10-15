@@ -41,6 +41,9 @@
 
  &emsp;&emsp;O **Sequelize** Sequelize é um Node.js ORM baseado em promises para Postgres, MySQL, MariaDB, SQLite e Microsoft SQL Server[(SEQUELIZE ORG)](#bibliografia). Essa tecnologia oferece suporte a transações sólidas, relações, replicações de leituras. Além disso, essa tecnologia permite criar, buscar, alterar e remover dados da base de dados e, para isso utiliza métodos JavaScript. O framework Sequelize permite também que os desenvolvedores modifiquem estruturas de tabelas e isso facilita bastante na criação, população e migração de banco de dados.
 
+### Front-End
+&emsp;&emsp;O **React.js** é a representação da camada de view no MVC, no front-end é onde ocorre a interação e apresentação das informações ao usuário da aplicação. React.js é um framework Javascript utilizado para desenvolver interfaces com alto nível de valor agregado e qualidade final no produto, com fácil aprendizagem e facilidade de aplicação por parte da equipe.
+
 ### Banco de Dados
  &emsp;&emsp;Segundo André Milani, "O **PostgreSQL** é um Sistema de Banco de Dados (SGBD) Relacional, utilizado para armazenar informações de soluções de informática em todas as áreas de negócios existentes" [(Milani, André. PostgreSQL: Guia do Programador. Novatec. 2008)](#bibliografia). O Sequelize integra muito bem com o Sequelize, tem uma imensa comunidade bastante ativa. A estabilidade do PostgreSQL é um de seus recursos muito interessante, o mesmo foi projetado para ser capaz de executar no modelo 24/7 (24 horas por dia, sete dias por semana). Por essas características esse Banco de Dados tem sido bastante utilizado no contexto geral de negócios, sites, lojas virtuais, portais ou soluções de informática.
 
@@ -248,3 +251,4 @@
 |1.6|05/10/2021| Adição da visão dos casos de uso | Mateus O. Patrício e Gabriel Bonifácio |
 |1.7|08/10/2021| Ajustes das visões de casos de uso, lógica, de processos e de implementação | Daniel Porto |
 |1.8|14/10/2021| Representação da arquitetura: Backend, Banco de Dados, Metas e Restrições | Edson Soares |
+|1.8|14/10/2021| Representação da arquitetura: Frontend | Bruno Félix |
