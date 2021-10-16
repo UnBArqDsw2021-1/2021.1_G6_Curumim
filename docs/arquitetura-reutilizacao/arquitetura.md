@@ -211,7 +211,7 @@
 - Models: Assim como explicado no item anterior, tem a responsabilidade de encapsular os estados da aplicação;
 - Controllers: Que realiza a ponte entre as Model e o cliente que consome a API;
 - Middlewares: Que são representados por uma pipeline de processamentos, com funções pré-definidas que são handles, units e filters;
-- Others: Que auxilia a implementação dos padrões de projetos provendo interfaces e classes mais complementares.
+- Utils: Que auxilia a implementação dos padrões de projetos provendo interfaces e classes mais complementares.
 
 &emsp;&emsp;O [diagrama de componentes](../../modelagem/modelagem-estatica/diagrama-de-componentes) ilustra bem as camadas e subcamadas da aplicação. Já para um melhor entendimento de cada subcamada se faz necessário uma análise do [diagrama de classes](../../modelagem/modelagem-estatica/diagrama-de-classes) o qual mostra com mais detalhes os métodos e as relações entre as classes contidas nas camadas de Model e Controller.
 
