@@ -1,4 +1,5 @@
-## Modelagem Estática
+## Entrega 2
+### Modelagem Estática
 - Diagrama de Classes;
 - Diagrama de Pacotes;
 - Diagrama de Componentes. 
@@ -7,7 +8,7 @@
 
 <hr>
 
-## Modelagem Dinâmica
+### Modelagem Dinâmica
 - Diagrama de Atividades;
 - Diagrama de Comunicação;
 - Diagrama de Estados;
@@ -17,7 +18,7 @@
 
 <hr>
 
-## Modelagem Ágil e Iniciativas Extras
+### Modelagem Ágil e Iniciativas Extras
 - Product Backlog;
 - Caso de Uso;
 - MER;
