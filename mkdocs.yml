@@ -58,6 +58,7 @@ nav:
                                                 - Planning: reunioes/sprints/planning-sprint0.md
                                                 - Review: reunioes/sprints/review-sprint0.md
                 - Apresentação: apresentacoes/apresentacoes_entrega1.md
+
         - Modelagem:
                 - Projeto Orientado a Abordagens Tradicionais:
                         - Modelagem Estática:
@@ -83,6 +84,7 @@ nav:
                                         - Planning: reunioes/sprints/planning-sprint2.md
                                         - Review: reunioes/sprints/review-sprint2.md
                 - Apresentação: apresentacoes/apresentacoes_entrega2.md
+
         - Padrões de Projeto:
                 - GRASP: padroes-de-projeto/grasp.md
                 - GOFs:
@@ -106,6 +108,8 @@ nav:
                                 - Sprint 6:
                                         - Planning: reunioes/sprints/planning-sprint6.md
                                         - Review: reunioes/sprints/review-sprint6.md
+                - Apresentação: apresentacoes/apresentacoes_entrega3.md
+
         - Arquitetura de Software e Reutilização:
                 - Documento de Arquitetura: arquitetura-reutilizacao/arquitetura.md
                 - Reutilização de Software: arquitetura-reutilizacao/reutilizacao.md
@@ -119,3 +123,4 @@ nav:
                                         - Review: reunioes/sprints/review-sprint8.md
                                 - Sprint 9:
                                         - Planning: reunioes/sprints/planning-sprint9.md
+                - Apresentação: apresentacoes/apresentacoes_entrega4.md
