@@ -1,0 +1,3806 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-7.3.3">
+    
+    
+      
+        <title>Documento de Arquitetura - Curumim</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.5143246d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.3f5d1f46.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/extra.css">
+    
+    
+      
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#introducao" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Curumim" class="md-header__button md-logo" aria-label="Curumim" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Curumim
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Documento de Arquitetura
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Limpar" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        
+<a href="https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../base/design-sprint/doc-design-sprint/" class="md-tabs__link">
+        Base
+      </a>
+    </li>
+  
+
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../modelagem/modelagem-estatica/diagrama-de-classes/" class="md-tabs__link">
+        Modelagem
+      </a>
+    </li>
+  
+
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../padroes-de-projeto/grasp/" class="md-tabs__link">
+        Padrões de Projeto
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="./" class="md-tabs__link md-tabs__link--active">
+        Arquitetura de Software e Reutilização
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Curumim" class="md-nav__button md-logo" aria-label="Curumim" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Curumim
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Base
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Base" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Base
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1">
+          Projeto Não Orientado a Abordagens Específicas
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Projeto Não Orientado a Abordagens Específicas" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Projeto Não Orientado a Abordagens Específicas
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1" type="checkbox" id="__nav_2_1_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1">
+          Design Sprint
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Design Sprint" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          Design Sprint
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base/design-sprint/doc-design-sprint/" class="md-nav__link">
+        Documento de Design Sprint
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1_2" type="checkbox" id="__nav_2_1_1_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1_2">
+          Prototipação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Prototipação" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_1_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          Prototipação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base/design-sprint/prototipos/" class="md-nav__link">
+        Introdução
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base/design-sprint/prototipo-baixa/" class="md-nav__link">
+        Protótipo de Baixa Fidelidade
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base/design-sprint/plan-test/" class="md-nav__link">
+        Planejamento da Avaliação do Protótipo de alta fidelidade
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base/design-sprint/prototipo-alta/" class="md-nav__link">
+        Protótipo de Alta Fidelidade
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_2" type="checkbox" id="__nav_2_1_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_2">
+          Requisitos
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Requisitos" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          Requisitos
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_2_1" type="checkbox" id="__nav_2_1_2_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_2_1">
+          Pré-Rastreabilidade
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Pré-Rastreabilidade" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_1_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Pré-Rastreabilidade
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base/requisitos/pre-rastreabilidade/5w2h/" class="md-nav__link">
+        5W2H
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../causa-efeito/" class="md-nav__link">
+        Causa e Efeito
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base/requisitos/pre-rastreabilidade/mapa-mental/" class="md-nav__link">
+        Mapa Mental
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base/requisitos/pre-rastreabilidade/rich-picture/" class="md-nav__link">
+        Rich Picture
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_2_2" type="checkbox" id="__nav_2_1_2_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_2_2">
+          Elicitação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Elicitação" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_1_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Elicitação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base/requisitos/elicitacao/brainstorming/" class="md-nav__link">
+        Brainstorming
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base/requisitos/elicitacao/storyboards/" class="md-nav__link">
+        StoryBoards
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base/requisitos/elicitacao/introspeccao/" class="md-nav__link">
+        Introspecção
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_2_3" type="checkbox" id="__nav_2_1_2_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_2_3">
+          Priorização
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Priorização" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_1_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Priorização
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base/requisitos/priorizacao/moscow/" class="md-nav__link">
+        MoSCoW
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_2_4" type="checkbox" id="__nav_2_1_2_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_2_4">
+          Modelagem
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Modelagem" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_1_2_4">
+          <span class="md-nav__icon md-icon"></span>
+          Modelagem
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base/requisitos/modelagem/especificacao-suplementar/" class="md-nav__link">
+        Especificação Suplementar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base/requisitos/modelagem/lexicos/" class="md-nav__link">
+        Léxicos
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_2">
+          Processos, Metodologias e Abordagens
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Processos, Metodologias e Abordagens" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Processos, Metodologias e Abordagens
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base/metodologia/metodologia/" class="md-nav__link">
+        Metodologia
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base/metodologia/bpmn/" class="md-nav__link">
+        Modelagem BPMN
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3">
+          Iniciativas Extras
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Iniciativas Extras" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Iniciativas Extras
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_1" type="checkbox" id="__nav_2_3_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3_1">
+          Contribuição
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Contribuição" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          Contribuição
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-contrib/" class="md-nav__link">
+        Guia de Contribuição
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../politicas/" class="md-nav__link">
+        Políticas de Contribuição
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base/tap/tap/" class="md-nav__link">
+        TAP
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base/requisitos/pre-rastreabilidade/argumentacao/" class="md-nav__link">
+        Argumentação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base/requisitos/elicitacao/personas/" class="md-nav__link">
+        Personas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base/requisitos/modelagem/nfr-framework/" class="md-nav__link">
+        NFR Framework
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base/requisitos/modelagem/i-star/" class="md-nav__link">
+        iStar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base/requisitos/priorizacao/first-things-first/" class="md-nav__link">
+        First Things First
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../product-backlog/" class="md-nav__link">
+        Product Backlog
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_9" type="checkbox" id="__nav_2_3_9" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3_9">
+          Reuniões
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Reuniões" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_9">
+          <span class="md-nav__icon md-icon"></span>
+          Reuniões
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/r1-ata-26-07/" class="md-nav__link">
+        ATA reunião 26/07
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/r2-ata-28-07/" class="md-nav__link">
+        ATA reunião 28/07
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_9_3" type="checkbox" id="__nav_2_3_9_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3_9_3">
+          Sprints
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sprints" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_3_9_3">
+          <span class="md-nav__icon md-icon"></span>
+          Sprints
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_9_3_1" type="checkbox" id="__nav_2_3_9_3_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3_9_3_1">
+          Sprint 0
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sprint 0" data-md-level="5">
+        <label class="md-nav__title" for="__nav_2_3_9_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 0
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/sprints/planning-sprint0/" class="md-nav__link">
+        Planning
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/sprints/review-sprint0/" class="md-nav__link">
+        Review
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacoes_entrega1/" class="md-nav__link">
+        Apresentação
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Modelagem
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Modelagem" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Modelagem
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1">
+          Projeto Orientado a Abordagens Tradicionais
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Projeto Orientado a Abordagens Tradicionais" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          Projeto Orientado a Abordagens Tradicionais
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_1" type="checkbox" id="__nav_3_1_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1_1">
+          Modelagem Estática
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Modelagem Estática" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          Modelagem Estática
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/modelagem-estatica/diagrama-de-classes/" class="md-nav__link">
+        Diagrama de Classes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/modelagem-estatica/diagrama-de-pacotes/" class="md-nav__link">
+        Diagrama de Pacotes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/modelagem-estatica/diagrama-de-componentes/" class="md-nav__link">
+        Diagrama de Componentes
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_2" type="checkbox" id="__nav_3_1_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1_2">
+          Modelagem Dinâmica
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Modelagem Dinâmica" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          Modelagem Dinâmica
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/modelagem-dinamica/diagrama-de-atividades/" class="md-nav__link">
+        Diagrama de Atividades
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/modelagem-dinamica/diagrama-de-comunicacao/" class="md-nav__link">
+        Diagrama de Comunicação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/modelagem-dinamica/diagrama-estados/" class="md-nav__link">
+        Diagrama de Estados
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/modelagem-dinamica/diagrama-de-sequencia/" class="md-nav__link">
+        Diagrama de Sequência
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_3" type="checkbox" id="__nav_3_1_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1_3">
+          Modelagem Ágil
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Modelagem Ágil" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_1_3">
+          <span class="md-nav__icon md-icon"></span>
+          Modelagem Ágil
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../product-backlog/" class="md-nav__link">
+        Product Backlog
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2">
+          Iniciativas Extras
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Iniciativas Extras" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          Iniciativas Extras
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/modelagem-dinamica/casos-de-uso/" class="md-nav__link">
+        Casos de Uso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/modelagem-estatica/MER/" class="md-nav__link">
+        MER
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/modelagem-estatica/DER/" class="md-nav__link">
+        DER
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2_4" type="checkbox" id="__nav_3_2_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2_4">
+          Reuniões
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Reuniões" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_2_4">
+          <span class="md-nav__icon md-icon"></span>
+          Reuniões
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2_4_1" type="checkbox" id="__nav_3_2_4_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2_4_1">
+          Sprint 1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sprint 1" data-md-level="4">
+        <label class="md-nav__title" for="__nav_3_2_4_1">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/sprints/planning-sprint1/" class="md-nav__link">
+        Planning
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/sprints/review-sprint1/" class="md-nav__link">
+        Review
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2_4_2" type="checkbox" id="__nav_3_2_4_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2_4_2">
+          Sprint 2
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sprint 2" data-md-level="4">
+        <label class="md-nav__title" for="__nav_3_2_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 2
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/sprints/planning-sprint2/" class="md-nav__link">
+        Planning
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/sprints/review-sprint2/" class="md-nav__link">
+        Review
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacoes_entrega2/" class="md-nav__link">
+        Apresentação
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Padrões de Projeto
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Padrões de Projeto" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Padrões de Projeto
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../padroes-de-projeto/grasp/" class="md-nav__link">
+        GRASP
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_2">
+          GOFs
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="GOFs" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          GOFs
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../padroes-de-projeto/gofs-criacionais/" class="md-nav__link">
+        Criacionais
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../padroes-de-projeto/gofs-estruturais/" class="md-nav__link">
+        Estruturais
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../padroes-de-projeto/gofs-comportamentais/" class="md-nav__link">
+        Comportamentais
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../padroes-de-projeto/padroes_emergentes/" class="md-nav__link">
+        Padrões Emergentes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_4" type="checkbox" id="__nav_4_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_4">
+          Iniciativas Extras
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Iniciativas Extras" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_4">
+          <span class="md-nav__icon md-icon"></span>
+          Iniciativas Extras
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../padroes-de-projeto/guia-de-estilo/guia-de-estilo/" class="md-nav__link">
+        Guia de estilo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/modelagem-estatica/diagrama-logico-bd/" class="md-nav__link">
+        Diagrama Lógico do Banco de Dados
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_4_3" type="checkbox" id="__nav_4_4_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_4_3">
+          Reuniões
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Reuniões" data-md-level="3">
+        <label class="md-nav__title" for="__nav_4_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          Reuniões
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_4_3_1" type="checkbox" id="__nav_4_4_3_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_4_3_1">
+          Sprint 3
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sprint 3" data-md-level="4">
+        <label class="md-nav__title" for="__nav_4_4_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 3
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/sprints/planning-sprint3/" class="md-nav__link">
+        Planning
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/sprints/review-sprint3/" class="md-nav__link">
+        Review
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_4_3_2" type="checkbox" id="__nav_4_4_3_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_4_3_2">
+          Sprint 4
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sprint 4" data-md-level="4">
+        <label class="md-nav__title" for="__nav_4_4_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 4
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/sprints/planning-sprint4/" class="md-nav__link">
+        Planning
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/sprints/review-sprint4/" class="md-nav__link">
+        Review
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_4_3_3" type="checkbox" id="__nav_4_4_3_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_4_3_3">
+          Sprint 5
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sprint 5" data-md-level="4">
+        <label class="md-nav__title" for="__nav_4_4_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 5
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/sprints/planning-sprint5/" class="md-nav__link">
+        Planning
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/sprints/review-sprint5/" class="md-nav__link">
+        Review
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_4_3_4" type="checkbox" id="__nav_4_4_3_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_4_3_4">
+          Sprint 6
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sprint 6" data-md-level="4">
+        <label class="md-nav__title" for="__nav_4_4_3_4">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 6
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/sprints/planning-sprint6/" class="md-nav__link">
+        Planning
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/sprints/review-sprint6/" class="md-nav__link">
+        Review
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacoes_entrega3/" class="md-nav__link">
+        Apresentação
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Arquitetura de Software e Reutilização
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Arquitetura de Software e Reutilização" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Arquitetura de Software e Reutilização
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Documento de Arquitetura
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Documento de Arquitetura
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+    <nav class="md-nav" aria-label="Introdução">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#objetivo" class="md-nav__link">
+    Objetivo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#escopo" class="md-nav__link">
+    Escopo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#definicoes-acronimos-e-abreviacoes" class="md-nav__link">
+    Definições, Acrônimos e Abreviações
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visao-geral" class="md-nav__link">
+    Visão geral
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#representacao-da-arquitetura" class="md-nav__link">
+    Representação da arquitetura
+  </a>
+  
+    <nav class="md-nav" aria-label="Representação da arquitetura">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#back-end" class="md-nav__link">
+    Back-End
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#front-end" class="md-nav__link">
+    Front-End
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#banco-de-dados" class="md-nav__link">
+    Banco de Dados
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metas-arquiteturais-e-restricoes" class="md-nav__link">
+    Metas Arquiteturais e Restrições
+  </a>
+  
+    <nav class="md-nav" aria-label="Metas Arquiteturais e Restrições">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#metas" class="md-nav__link">
+    Metas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#restricoes" class="md-nav__link">
+    Restrições
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visao-de-casos-de-uso" class="md-nav__link">
+    Visão de Casos de Uso
+  </a>
+  
+    <nav class="md-nav" aria-label="Visão de Casos de Uso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#descricao-dos-casos-de-uso-mais-significativos" class="md-nav__link">
+    Descrição dos casos de uso mais significativos
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visao-logica" class="md-nav__link">
+    Visão Lógica
+  </a>
+  
+    <nav class="md-nav" aria-label="Visão Lógica">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagrama-de-pacotes" class="md-nav__link">
+    Diagrama de Pacotes
+  </a>
+  
+    <nav class="md-nav" aria-label="Diagrama de Pacotes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#front-end_1" class="md-nav__link">
+    Front-End
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#back-end_1" class="md-nav__link">
+    Back-End
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#diagrama-de-comunicacao" class="md-nav__link">
+    Diagrama de Comunicação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#diagrama-de-estados" class="md-nav__link">
+    Diagrama de Estados
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visao-de-processos" class="md-nav__link">
+    Visão de Processos
+  </a>
+  
+    <nav class="md-nav" aria-label="Visão de Processos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagrama-de-sequencia" class="md-nav__link">
+    Diagrama de Sequência
+  </a>
+  
+    <nav class="md-nav" aria-label="Diagrama de Sequência">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#administrador-cadastrando-professor" class="md-nav__link">
+    Administrador cadastrando Professor
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#administrador-cadastrando-evento" class="md-nav__link">
+    Administrador cadastrando Evento
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#responsavel-fazendo-login" class="md-nav__link">
+    Responsável fazendo Login
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#diagrama-de-atividades" class="md-nav__link">
+    Diagrama de Atividades
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visao-de-implantacao" class="md-nav__link">
+    Visão de Implantação
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visao-de-implementacao" class="md-nav__link">
+    Visão de Implementação
+  </a>
+  
+    <nav class="md-nav" aria-label="Visão de Implementação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#padrao-mvc" class="md-nav__link">
+    Padrão MVC
+  </a>
+  
+    <nav class="md-nav" aria-label="Padrão MVC">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#camadas" class="md-nav__link">
+    Camadas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conclusao" class="md-nav__link">
+    Conclusão
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#api" class="md-nav__link">
+    API
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visao-de-dados" class="md-nav__link">
+    Visão de Dados
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tamanho-e-desempenho" class="md-nav__link">
+    Tamanho e Desempenho
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#qualidade" class="md-nav__link">
+    Qualidade
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bibliografia" class="md-nav__link">
+    Bibliografia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#versionamento" class="md-nav__link">
+    Versionamento
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reutilizacao/" class="md-nav__link">
+        Reutilização de Software
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_3" type="checkbox" id="__nav_5_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_3">
+          Iniciativas Extras
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Iniciativas Extras" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_3">
+          <span class="md-nav__icon md-icon"></span>
+          Iniciativas Extras
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_3_1" type="checkbox" id="__nav_5_3_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_3_1">
+          Reuniões
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Reuniões" data-md-level="3">
+        <label class="md-nav__title" for="__nav_5_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          Reuniões
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_3_1_1" type="checkbox" id="__nav_5_3_1_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_3_1_1">
+          Sprint 7
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sprint 7" data-md-level="4">
+        <label class="md-nav__title" for="__nav_5_3_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 7
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/sprints/planning-sprint7/" class="md-nav__link">
+        Planning
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/sprints/review-sprint7/" class="md-nav__link">
+        Review
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_3_1_2" type="checkbox" id="__nav_5_3_1_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_3_1_2">
+          Sprint 8
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sprint 8" data-md-level="4">
+        <label class="md-nav__title" for="__nav_5_3_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 8
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/sprints/planning-sprint8/" class="md-nav__link">
+        Planning
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/sprints/review-sprint8/" class="md-nav__link">
+        Review
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_3_1_3" type="checkbox" id="__nav_5_3_1_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_3_1_3">
+          Sprint 9
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sprint 9" data-md-level="4">
+        <label class="md-nav__title" for="__nav_5_3_1_3">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 9
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/sprints/planning-sprint9/" class="md-nav__link">
+        Planning
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacoes_entrega4/" class="md-nav__link">
+        Apresentação
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+    <nav class="md-nav" aria-label="Introdução">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#objetivo" class="md-nav__link">
+    Objetivo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#escopo" class="md-nav__link">
+    Escopo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#definicoes-acronimos-e-abreviacoes" class="md-nav__link">
+    Definições, Acrônimos e Abreviações
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visao-geral" class="md-nav__link">
+    Visão geral
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#representacao-da-arquitetura" class="md-nav__link">
+    Representação da arquitetura
+  </a>
+  
+    <nav class="md-nav" aria-label="Representação da arquitetura">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#back-end" class="md-nav__link">
+    Back-End
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#front-end" class="md-nav__link">
+    Front-End
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#banco-de-dados" class="md-nav__link">
+    Banco de Dados
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metas-arquiteturais-e-restricoes" class="md-nav__link">
+    Metas Arquiteturais e Restrições
+  </a>
+  
+    <nav class="md-nav" aria-label="Metas Arquiteturais e Restrições">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#metas" class="md-nav__link">
+    Metas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#restricoes" class="md-nav__link">
+    Restrições
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visao-de-casos-de-uso" class="md-nav__link">
+    Visão de Casos de Uso
+  </a>
+  
+    <nav class="md-nav" aria-label="Visão de Casos de Uso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#descricao-dos-casos-de-uso-mais-significativos" class="md-nav__link">
+    Descrição dos casos de uso mais significativos
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visao-logica" class="md-nav__link">
+    Visão Lógica
+  </a>
+  
+    <nav class="md-nav" aria-label="Visão Lógica">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagrama-de-pacotes" class="md-nav__link">
+    Diagrama de Pacotes
+  </a>
+  
+    <nav class="md-nav" aria-label="Diagrama de Pacotes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#front-end_1" class="md-nav__link">
+    Front-End
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#back-end_1" class="md-nav__link">
+    Back-End
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#diagrama-de-comunicacao" class="md-nav__link">
+    Diagrama de Comunicação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#diagrama-de-estados" class="md-nav__link">
+    Diagrama de Estados
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visao-de-processos" class="md-nav__link">
+    Visão de Processos
+  </a>
+  
+    <nav class="md-nav" aria-label="Visão de Processos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagrama-de-sequencia" class="md-nav__link">
+    Diagrama de Sequência
+  </a>
+  
+    <nav class="md-nav" aria-label="Diagrama de Sequência">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#administrador-cadastrando-professor" class="md-nav__link">
+    Administrador cadastrando Professor
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#administrador-cadastrando-evento" class="md-nav__link">
+    Administrador cadastrando Evento
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#responsavel-fazendo-login" class="md-nav__link">
+    Responsável fazendo Login
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#diagrama-de-atividades" class="md-nav__link">
+    Diagrama de Atividades
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visao-de-implantacao" class="md-nav__link">
+    Visão de Implantação
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visao-de-implementacao" class="md-nav__link">
+    Visão de Implementação
+  </a>
+  
+    <nav class="md-nav" aria-label="Visão de Implementação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#padrao-mvc" class="md-nav__link">
+    Padrão MVC
+  </a>
+  
+    <nav class="md-nav" aria-label="Padrão MVC">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#camadas" class="md-nav__link">
+    Camadas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conclusao" class="md-nav__link">
+    Conclusão
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#api" class="md-nav__link">
+    API
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visao-de-dados" class="md-nav__link">
+    Visão de Dados
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tamanho-e-desempenho" class="md-nav__link">
+    Tamanho e Desempenho
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#qualidade" class="md-nav__link">
+    Qualidade
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bibliografia" class="md-nav__link">
+    Bibliografia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#versionamento" class="md-nav__link">
+    Versionamento
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/edit/master/docs/arquitetura-reutilizacao/arquitetura.md" title="Editar esta página" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                  <h1>Documento de Arquitetura</h1>
+                
+                <h2 id="introducao">Introdução</h2>
+<h3 id="objetivo">Objetivo</h3>
+<p>&emsp;&emsp;O presente documento de arquitetura tem como objetivo elucidar e descrever os aspectos mais importantes no que tange os estilos e padrões arquiteturais acerca da concepção e desenvolvimento do projeto Curumim.</p>
+<h3 id="escopo">Escopo</h3>
+<p>&emsp;&emsp;Através desse documento é possível se ter um entendimento detalhado sobre os aspectos inerentes ao projetos contidos no conjunto "4 + 1" de visões arquiteturais definido pelo RUP<a href="#bibliografia">[1]</a> e a visão de dados.<br>
+&emsp;&emsp;Além disso, esse documento aborda uma representação mais detalhada da arquitetura, as metas arquiteturais, restrições e aspectos acerca da qualidade, tamanho e desempenho do produto<br>
+&emsp;&emsp;Sendo assim, esse documento serve de guia para o entendimento do design e desenvolvimento do projeto.</p>
+<h3 id="definicoes-acronimos-e-abreviacoes">Definições, Acrônimos e Abreviações</h3>
+<p>&emsp;&emsp;A tabela a seguir contém as definições dos mais variados termos utilizados neste documento de arquitetura. Mais definições sobre termos pertencentes ao domínio do projeto podem ser encontrados no documento de <a href="../../base/requisitos/modelagem/lexicos"><strong><em>Léxicos</em></strong></a>.</p>
+<table>
+<thead>
+<tr>
+<th align="center">Termo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">RUP</td>
+<td>Rational Unified Process</td>
+</tr>
+<tr>
+<td align="center">MVC</td>
+<td>Model View Controller</td>
+</tr>
+</tbody>
+</table>
+<h3 id="visao-geral">Visão geral</h3>
+<p>&emsp;&emsp;Esse documento de arquitetura é composto pelos seguintes tópicos:</p>
+<ul>
+<li><a href="#introducao">Introdução</a>: Provê uma visão ampla sobre o presente documento.</li>
+<li><a href="#representacao-da-arquitetura">Representação da arquitetura</a>: Descreve e representa a arquitetura escolhida para o projeto;</li>
+<li><a href="#metas-arquiteturais-e-restricoes">Metas Arquiteturais e Restrições</a>: Descreve as metas arquiteturais e as restrições que têm impacto significativo na arquitetura;</li>
+<li><a href="#visao-de-casos-de-uso">Visão de Casos de Uso</a>: Descreve e detalha os casos de uso;</li>
+<li><a href="#visao-logica">Visão Lógica</a>: Descreve as partes arquitetonicamente significativas do modelo de projeto;</li>
+<li><a href="#visao-de-processos">Visão de Processos</a>: Descreve a decomposição do sistema em processos menores e seus agrupamentos;</li>
+<li><a href="#visao-de-implantacao">Visão de Implantação</a>: Descreve a disponibilização da aplicação para uso;</li>
+<li><a href="#visao-de-implementacao">Visão de Implementação</a>: Descreve a estrutura e decomposição do modelo de implementação do projeto;</li>
+<li><a href="#visao-de-dados">Visão de Dados</a>: Descreve a persistência de dados armazenados;</li>
+<li><a href="#tamanho-e-desempenho">Tamanho e Desempenho</a>: Descreve as principais características de dimensionamento afetam a arquitetura, bem como as restrições de desempenho;</li>
+<li><a href="#qualidade">Qualidade</a>: Descreve como a arquitetura contribui com as mais variadas características de qualidade.</li>
+<li><a href="#bibliografia">Bibliografia</a>: Fontes utilizadas para a construção desse artefato;</li>
+<li><a href="#versionamento">Versionamento</a>: Histórico de alterações do documento.</li>
+</ul>
+<h2 id="representacao-da-arquitetura">Representação da arquitetura</h2>
+<h3 id="back-end">Back-End</h3>
+<p>&emsp;&emsp;O <strong>NodeJs</strong> é uma estrutura do lado do servidor, útil para construir aplicações altamente escaláveis, rápidas e de fácil manutenção. O NodeJs foi projetado para lidar com facilidade com aplicações de entradas/saídas intensivas que são projetadas na arquitetura bloqueante, blocking-thread. "Embora o Nodejs possa servir funções de maneira síncrona, ele geralmente executa operações de forma assíncrona "<a href="#bibliografia">(Gackenheimer, Cory. Node.Js Recipes: A Problem-Solution Approach, 2013)</a>.</p>
+<p>&emsp;&emsp;O "<strong>Express.js</strong> é  um  web  framework  que  atua  como  uma  camada  no  topo  do  Node.js, facilitando e deixando o desenvolvimento de APIs em node mais prático", <a href="#bibliografia">(BARSOTI, N.; GIBERTONI, D. 2020)</a>. Com o express fica mais fácil organizar as funcionalidades da aplicação usando <em>middleware</em> e roteamento, contribuindo para a renderização de páginas HTML dinâmicas.</p>
+<p>&emsp;&emsp;O <strong>Sequelize</strong> Sequelize é um Node.js ORM baseado em promises para Postgres, MySQL, MariaDB, SQLite e Microsoft SQL Server<a href="#bibliografia">(SEQUELIZE ORG)</a>. Essa tecnologia oferece suporte a transações sólidas, relações, replicações de leituras. Além disso, essa tecnologia permite criar, buscar, alterar e remover dados da base de dados e, para isso utiliza métodos JavaScript. O framework Sequelize permite também que os desenvolvedores modifiquem estruturas de tabelas e isso facilita bastante na criação, população e migração de banco de dados.</p>
+<h3 id="front-end">Front-End</h3>
+<p>&emsp;&emsp;O <strong>React.js</strong> é a representação da camada de view no MVC, no front-end é onde ocorre a interação e apresentação das informações ao <a href="../../base/requisitos/modelagem/lexicos/#lexico-usuario">usuário</a> da aplicação. React.js é um framework Javascript utilizado para desenvolver interfaces com alto nível de valor agregado e qualidade final no produto, com fácil aprendizagem e facilidade de aplicação por parte da equipe.</p>
+<h3 id="banco-de-dados">Banco de Dados</h3>
+<p>&emsp;&emsp;Segundo André Milani, "O <strong>PostgreSQL</strong> é um Sistema de Banco de Dados (SGBD) Relacional, utilizado para armazenar informações de soluções de informática em todas as áreas de negócios existentes" <a href="#bibliografia">(Milani, André. PostgreSQL: Guia do Programador. Novatec. 2008)</a>. O Sequelize integra muito bem com o Sequelize, tem uma imensa comunidade bastante ativa. A estabilidade do PostgreSQL é um de seus recursos muito interessante, o mesmo foi projetado para ser capaz de executar no modelo 24/7 (24 horas por dia, sete dias por semana). Por essas características esse Banco de Dados tem sido bastante utilizado no contexto geral de negócios, sites, lojas virtuais, portais ou soluções de informática.</p>
+<h2 id="metas-arquiteturais-e-restricoes">Metas Arquiteturais e Restrições</h2>
+<h3 id="metas">Metas</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Metas</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Responsividade</td>
+<td>A aplicação deve ser responsiva e ser usável em todas as interfaces sem que haja comprometimento nas funções da aplicação</td>
+</tr>
+<tr>
+<td align="center">Usabilidade</td>
+<td>O <a href="../../base/requisitos/modelagem/lexicos/#lexico-usuario">usuário</a> deverá ser capaz de realizar as tarefas no menor tempo possível</td>
+</tr>
+<tr>
+<td align="center">Escalabilidade</td>
+<td>A aplicação deve ser capaz de crescer junto com a ascensão de novos <a href="../../base/requisitos/modelagem/lexicos/#lexico-usuario">usuários</a>. Assim, como ser escalável para implementação de novas funcionalidades</td>
+</tr>
+<tr>
+<td align="center">Segurança</td>
+<td>O aplicativo deve ser seguro e lidar com os dados confidenciais dos <a href="../../base/requisitos/modelagem/lexicos/#lexico-usuario">usuários</a> com segurança</td>
+</tr>
+</tbody>
+</table>
+<h3 id="restricoes">Restrições</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Restrições</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Público</td>
+<td>O aplicativo será voltado para <a href="../../base/requisitos/modelagem/lexicos/#lexico-administrador">administradores</a>, <a href="../../base/requisitos/modelagem/lexicos/#lexico-professor">professores</a>, <a href="../../base/requisitos/modelagem/lexicos/#lexico-responsavel">pais e responsáveis</a> por <a href="../../base/requisitos/modelagem/lexicos/#lexico-crianca">crianças</a> matriculadas no <a href="../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional">centro educacional</a> que utiliza o aplicativo Curumim</td>
+</tr>
+<tr>
+<td align="center">Conectividade</td>
+<td>É necessário conexão com a internet para usar a aplicação</td>
+</tr>
+<tr>
+<td align="center">Língua</td>
+<td>A aplicação tem idioma somente para o português do Brasil</td>
+</tr>
+<tr>
+<td align="center">Prazo final</td>
+<td>O escopo proposto deve ser concluído até o final do curso, Arquitetura e Desenho de Software</td>
+</tr>
+</tbody>
+</table>
+<h2 id="visao-de-casos-de-uso">Visão de Casos de Uso</h2>
+<p>&emsp;&emsp;Apresentando uma representação mais próxima do <a href="../../base/requisitos/modelagem/lexicos/#lexico-usuario">usuário</a>, a visão de casos de uso auxilia no entendimento das interações dos atores com o sistema de forma a descrever os cenários de uso da aplicação. O diagrama de casos de uso do projeto Curumim pode ser acessado pelo <a href="../../modelagem/modelagem-dinamica/casos-de-uso">documento de casos de uso</a> desenvolvido anteriormente.<br>
+&emsp;&emsp;A seguir, tem-se uma descrição resumida dos casos de uso mais significativos do projeto, os quais contemplam as funcionalidades mais prioritárias do sistema.</p>
+<h4 id="descricao-dos-casos-de-uso-mais-significativos">Descrição dos casos de uso mais significativos</h4>
+<ul>
+<li>
+<p><strong>UC01 - Cadastrar <a href="../../base/requisitos/modelagem/lexicos/#lexico-crianca">criança</a>:</strong> este caso de uso é exclusivo do ator <a href="../../base/requisitos/modelagem/lexicos/#lexico-administrador">administrador</a> e consiste em registrar uma <a href="../../base/requisitos/modelagem/lexicos/#lexico-crianca">criança</a> dentro do sistema da aplicação com o objetivo de colocá-la no banco de dados, tornando essa <a href="../../base/requisitos/modelagem/lexicos/#lexico-crianca">criança</a> uma <a href="../../base/requisitos/modelagem/lexicos/#lexico-aluno">aluna</a> no <a href="../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional">centro educacional</a>.</p>
+</li>
+<li>
+<p><strong>UC02 - Gerenciar <a href="../../base/requisitos/modelagem/lexicos/#lexico-turma">turmas</a>:</strong> este caso de uso é exclusivo do ator <a href="../../base/requisitos/modelagem/lexicos/#lexico-administrador">administrador</a> e consiste em fazer o gerenciamento das <a href="../../base/requisitos/modelagem/lexicos/#lexico-turma">turmas</a>. O <a href="../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional">centro educacional</a> pode possuir diversas divisões de <a href="../../base/requisitos/modelagem/lexicos/#lexico-aluno">alunos</a> que estejam no mesmo nível educacional, o que podemos definir como <a href="../../base/requisitos/modelagem/lexicos/#lexico-turma">turmas</a>, e esse caso de uso trata justamente do gerenciamento de todas essas divisões por parte do <a href="../../base/requisitos/modelagem/lexicos/#lexico-administrador">administrador</a>.</p>
+</li>
+<li>
+<p><strong>UC03 - Cadastrar <a href="../../base/requisitos/modelagem/lexicos/#lexico-professor">professor</a>:</strong> este caso de uso é exclusivo do ator <a href="../../base/requisitos/modelagem/lexicos/#lexico-administrador">administrador</a> e consiste em registrar um <a href="../../base/requisitos/modelagem/lexicos/#lexico-professor">professor</a> dentro do sistema da aplicação com o objetivo de dar-lhe permissão à funcionalidades na aplicação exclusivas do <a href="../../base/requisitos/modelagem/lexicos/#lexico-professor">professor</a> e cadastrá-lo no sistema. </p>
+</li>
+<li>
+<p><strong>UC04 - Gerenciar <a href="../../base/requisitos/modelagem/lexicos/#lexico-evento">eventos</a>:</strong> este caso de uso é exclusivo do ator <a href="../../base/requisitos/modelagem/lexicos/#lexico-administrador">administrador</a> e consiste em fazer o gerenciamento de <a href="../../base/requisitos/modelagem/lexicos/#lexico-evento">eventos</a>. Durante toda a temporada escolar, diversos <a href="../../base/requisitos/modelagem/lexicos/#lexico-evento">eventos</a> podem acontecer. Para que <a href="../../base/requisitos/modelagem/lexicos/#lexico-responsavel">responsável</a> e <a href="../../base/requisitos/modelagem/lexicos/#lexico-professor">professores</a> tenham conhecimento desses <a href="../../base/requisitos/modelagem/lexicos/#lexico-evento">eventos</a>, o <a href="../../base/requisitos/modelagem/lexicos/#lexico-administrador">administrador</a> pode fazer todo o gerenciamento com o objetivo de expô-los na aplicação.</p>
+</li>
+<li>
+<p><strong>UC05 - Gerenciar <a href="../../base/requisitos/modelagem/lexicos/#lexico-anotacao">anotações</a> sobre os <a href="../../base/requisitos/modelagem/lexicos/#lexico-aluno">alunos</a>:</strong> este caso de uso é exclusivo do ator <a href="../../base/requisitos/modelagem/lexicos/#lexico-professor">professor</a> e consiste em fazer o gerenciamento das <a href="../../base/requisitos/modelagem/lexicos/#lexico-anotacao">anotações</a> sobre os <a href="../../base/requisitos/modelagem/lexicos/#lexico-aluno">alunos</a> de acordo com os acontecimentos diários observados pelo <a href="../../base/requisitos/modelagem/lexicos/#lexico-professor">professor</a> no <a href="../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional">centro educacional</a>.</p>
+</li>
+<li>
+<p><strong>UC06 - Gerenciar <a href="../../base/requisitos/modelagem/lexicos/#lexico-atividade">atividades</a> da <a href="../../base/requisitos/modelagem/lexicos/#lexico-turma">turma</a>:</strong> este caso de uso é exclusivo do ator <a href="../../base/requisitos/modelagem/lexicos/#lexico-professor">professor</a> e consiste em fazer o gerenciamento de <a href="../../base/requisitos/modelagem/lexicos/#lexico-atividade">atividades</a> da <a href="../../base/requisitos/modelagem/lexicos/#lexico-turma">turma</a> com o objetivo de apresentar aos <a href="../../base/requisitos/modelagem/lexicos/#lexico-responsavel">responsáveis</a> as <a href="../../base/requisitos/modelagem/lexicos/#lexico-atividade">atividades</a> que foram pedidas aos <a href="../../base/requisitos/modelagem/lexicos/#lexico-aluno">alunos</a> do <a href="../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional">centro educacional</a>.</p>
+</li>
+<li>
+<p><strong>UC07 - Efetuar login:</strong> este caso de uso pode ser feito pelos atores <a href="../../base/requisitos/modelagem/lexicos/#lexico-professor">professor</a>, <a href="../../base/requisitos/modelagem/lexicos/#lexico-responsavel">responsável</a> e <a href="../../base/requisitos/modelagem/lexicos/#lexico-administrador">administrador</a>, e consiste em se conectar à aplicação por parte desses atores, utilizando um registro próprio com seu devido <a href="../../base/requisitos/modelagem/lexicos/#lexico-usuario">usuário</a> e senha.</p>
+</li>
+<li>
+<p><strong>UC08 - Verificar senha:</strong> este caso de uso pode ser feito pelos atores <a href="../../base/requisitos/modelagem/lexicos/#lexico-professor">professor</a>, <a href="../../base/requisitos/modelagem/lexicos/#lexico-responsavel">responsável</a> e <a href="../../base/requisitos/modelagem/lexicos/#lexico-administrador">administrador</a>, e consiste na verificação da senha digitada por parte desses atores, para que possa se analisar se o seu registro inicial coincide com o digitado no momento. </p>
+</li>
+<li>
+<p><strong>UC09 - Exibir mensagem de erro:</strong> este caso de uso pode ser feito pelos atores <a href="../../base/requisitos/modelagem/lexicos/#lexico-professor">professor</a>, <a href="../../base/requisitos/modelagem/lexicos/#lexico-responsavel">responsável</a> e <a href="../../base/requisitos/modelagem/lexicos/#lexico-administrador">administrador</a> e consiste na exibição de uma mensagem de erro, caso a senha digitada no caso de uso 07 (<a href="#visao-de-casos-de-uso">UC07</a>) não coincida com a senha registrada anteriormente.</p>
+</li>
+<li>
+<p><strong>UC10 - Visualizar todas as minhas <a href="../../base/requisitos/modelagem/lexicos/#lexico-turma">turmas</a>:</strong> este caso de uso é exclusivo do ator <a href="../../base/requisitos/modelagem/lexicos/#lexico-professor">professor</a> e consiste na visualização de todas as  <a href="../../base/requisitos/modelagem/lexicos/#lexico-turma">turmas</a> por parte do <a href="../../base/requisitos/modelagem/lexicos/#lexico-professor">professor</a> para que ele possa analisar todos os aspectos que envolvem uma  <a href="../../base/requisitos/modelagem/lexicos/#lexico-turma">turma</a>.</p>
+</li>
+<li>
+<p><strong>UC11 - <a href="../../base/requisitos/modelagem/lexicos/#lexico-lancar-presenca">Lançar presença</a> dos <a href="../../base/requisitos/modelagem/lexicos/#lexico-aluno">alunos</a>:</strong> este caso de uso é exclusivo para o ator <a href="../../base/requisitos/modelagem/lexicos/#lexico-professor">professor</a> e consiste em confirmar a <a href="../../base/requisitos/modelagem/lexicos/#lexico-presenca">presença</a> de <a href="../../base/requisitos/modelagem/lexicos/#lexico-aluno">alunos</a> à aula.</p>
+</li>
+<li>
+<p><strong>UC12 - Efetuar cadastro:</strong> este caso de uso é exclusivo para o ator <a href="../../base/requisitos/modelagem/lexicos/#lexico-responsavel">responsável</a>, onde apenas um <a href="../../base/requisitos/modelagem/lexicos/#lexico-responsavel">responsável</a> pode realizar o seu cadastro na plataforma.</p>
+</li>
+<li>
+<p><strong>UC13 - Conversar com o <a href="../../base/requisitos/modelagem/lexicos/#lexico-centro-educacional">centro educacional</a>:</strong> este caso consiste em um <a href="../../base/requisitos/modelagem/lexicos/#lexico-responsavel">responsável</a> entrar em contato com um <a href="../../base/requisitos/modelagem/lexicos/#lexico-professor">professor</a> ou <a href="../../base/requisitos/modelagem/lexicos/#lexico-administrador">administrador</a> por meio do chat da plataforma.</p>
+</li>
+<li>
+<p><strong>UC16 - Obter informações da minha <a href="../../base/requisitos/modelagem/lexicos/#lexico-crianca">criança</a>:</strong> o caso ocorre caso um <a href="../../base/requisitos/modelagem/lexicos/#lexico-responsavel">responsável</a> queira visualizar as <a href="../../base/requisitos/modelagem/lexicos/#lexico-presenca">presenças</a>, as <a href="../../base/requisitos/modelagem/lexicos/#lexico-atividade">atividades</a>, a <a href="../../base/requisitos/modelagem/lexicos/#lexico-agenda">agenda</a>, as <a href="../../base/requisitos/modelagem/lexicos/#lexico-anotacao">anotações</a> ou os <a href="../../base/requisitos/modelagem/lexicos/#lexico-evento">eventos</a> de sua <a href="../../base/requisitos/modelagem/lexicos/#lexico-crianca">criança</a>.</p>
+</li>
+<li>
+<p><strong>UC22 - Receber <a href="../../base/requisitos/modelagem/lexicos/#lexico-notificacao">notificações</a> com informações da minha <a href="../../base/requisitos/modelagem/lexicos/#lexico-crianca">criança</a>:</strong> caso exista alguma informação nova da <a href="../../base/requisitos/modelagem/lexicos/#lexico-crianca">criança</a> o <a href="../../base/requisitos/modelagem/lexicos/#lexico-responsavel">responsável</a> deve ser notificado.</p>
+</li>
+<li>
+<p><strong>UC23 - Receber <a href="../../base/requisitos/modelagem/lexicos/#lexico-relatorio">relatórios</a> com o desempenho da minha <a href="../../base/requisitos/modelagem/lexicos/#lexico-crianca">criança</a>:</strong> neste caso o <a href="../../base/requisitos/modelagem/lexicos/#lexico-responsavel">responsável</a> deve receber periodicamente <a href="../../base/requisitos/modelagem/lexicos/#lexico-relatorio">relatórios</a> contendo informações sobre o desempenho de sua <a href="../../base/requisitos/modelagem/lexicos/#lexico-crianca">criança</a>.</p>
+</li>
+</ul>
+<h2 id="visao-logica">Visão Lógica</h2>
+<p>&emsp;&emsp;A visão lógica consiste na organização conceitual do projeto. O tópico de visão lógica é utilizado para mostrar de forma a decompor o agrupamento dos subsistemas e pacotes da arquitetura do sistema.<br>
+&emsp;&emsp;O projeto Curumim é estruturado no padrão <a href="../../padroes-de-projeto/padroes_emergentes/">MVC</a>, o qual consiste em três camadas lógicas que interagem entre si. Aqui dividimos os pacotes em agrupamentos lógicos e apresentamos suas dependências entre eles.</p>
+<h3 id="diagrama-de-pacotes">Diagrama de Pacotes</h3>
+<p>&emsp;&emsp;O <a href="../../modelagem/modelagem-estatica/diagrama-de-pacotes">diagrama de pacotes</a> será utilizado para representar a visão lógica da arquitetura empregada no projeto Curumim pois aborda de forma bem decomposta as camadas e pacotes utilizados no sistema.<br>
+&emsp;&emsp;A seguir, tem-se um melhor detalhamento desse diagrama de acordo com as duas frentes de implementação do projeto.</p>
+<h4 id="front-end_1">Front-End</h4>
+<p><img alt="Diagrama de Pacote - Front End" src="../../assets/imagens/arquitetura/front_end_visao_logica.png" /><center>
+<a href="../../assets/imagens/arquitetura/front_end_visao_logica.png">Figura 01 : Diagrama de Pacotes - Front End</a></center> </p>
+<p>&emsp;&emsp;O front-end, o qual contém a camada de view, é responsável pela interação e apresentação das informações ao <a href="../../base/requisitos/modelagem/lexicos/#lexico-usuario">usuário</a>. Todas as pastas estão alocadas de forma paralela no pacote App. O ponto de partida é a pasta <strong>Routes</strong>, onde se tem as rotas e a chamada do conteúdo da aplicação, conteúdo esse que pode ser oriundo tanto dos arquivos da pasta <strong>Pages</strong> quanto da pasta <strong>Components</strong>. Além disso, temos as pastas de <strong>Assets</strong> e a <strong>Styles</strong> com caráter de armazenamento de mídia estática e configuração de estilo, e a pasta <strong>Utils</strong> para funções auxiliares ao projeto. Por fim temos a pasta <strong>Services</strong> responsável pela lógica de comunicação com a API do sistema e da lógica de autenticação.</p>
+<h4 id="back-end_1">Back-End</h4>
+<p><img alt="Diagrama de Pacote" src="../../assets/imagens/arquitetura/back_end_visao_logica.png" /><center>
+<a href="../../assets/imagens/arquitetura/back_end_visao_logica.png">Figura 02 : Diagrama de Pacotes - Back End</a></center> 
+&emsp;&emsp;No back-end está contida a camada de controle (controller do MVC), onde os componentes recebem requisições de componentes externos. Conforme o necessário, a camada de controle cuida das solicitações de requisições enviadas pela visão. Segundo os autores do artigo, Arquitetura de Software de Referência para Sistemas de Informação Governamentais. “Deve-se considerar que a camada de controle é responsável por colaborar com a camada de modelo.” (XI Brazilian Symposium on Information System, Goiânia, GO, Maio 26-29, 2015, p.81)<a href="#bibliografia">[4]</a><br>
+&emsp;&emsp;As classes de domínio do sistema estão contidas na camada de modelo (model do MVC), que contém, também, as relações entre as classes bem como a definição das informações que serão persistidas no banco de dados e suas regras.<br>
+&emsp;&emsp;Controller e model estão representadas no <a href="../../modelagem/modelagem-estatica/diagrama-de-pacotes">diagrama de pacotes</a> pelos diretórios <strong>controllers</strong> e <strong>models</strong> que estão dentro do diretório <strong>app</strong>.<br>
+&emsp;&emsp;Ainda no diretório <strong>app</strong>, estão contidos os diretórios <strong>middlewares</strong> e <strong>utils</strong> os quais contém classes que dão auxílio à camada de controle na aplicação das regras de negócios e dos <a href="../../padroes-de-projeto/grasp/">padrões de projeto</a>.<br>
+&emsp;&emsp;Paralelamente ao diretório <strong>app</strong>, estão o diretório <strong>config</strong>, o qual contém definições e variáveis referentes a configurações de ambiente, autenticação e banco de dados, e o diretório <strong>database</strong>, o qual contém as regras de criação e modificação de tabelas no diretório <strong>migrations</strong> e se estabelece a conexão com o banco de dados.<br>
+&emsp;&emsp;Todos os diretórios citados acima são subdiretórios do diretório <strong>src</strong>, o qual agrupa todo o código fonte desenvolvido da aplicação. Esse diretório está em paralelo com o diretório <strong>node_modules</strong>, o qual é composto dos módulos e bibliotecas da ferramenta <a href="https://nodejs.org/en/about/">Node.js</a>.</p>
+<h3 id="diagrama-de-comunicacao">Diagrama de Comunicação</h3>
+<p>&emsp;&emsp;Utilizados para definir e esclarecer funções de objetos e classes, os <a href="../../modelagem/modelagem-dinamica/diagrama-de-comunicacao">diagramas de comunicação</a> mostram as interações entre objetos e/ou partes. Dessa forma, esses diagramas podem ser utilizados para complementar a representação da visão lógica da arquitetura do projeto, visto que sua modelagem se deu forma a abordar um contexto mais macro do sistema mais focado na lógica da aplicação.<br>
+&emsp;&emsp;Tais artefatos podem ser acessados pelo <a href="../../modelagem/modelagem-dinamica/diagrama-de-comunicacao">documento dos diagramas de comunicação</a>.</p>
+<h3 id="diagrama-de-estados">Diagrama de Estados</h3>
+<p>&emsp;&emsp;Esses diagramas visam demonstrar as transições entre os diferentes objetos que compõem o sistema. E, seguindo a mesma linha do que foi citado no tópico acima, também contribui para uma melhor representação da visão lógica da arquitetura.<br>
+&emsp;&emsp;Sendo assim, tais artefatos pode ser acessados pelo <a href="../../modelagem/modelagem-dinamica/diagrama-estados">documento dos diagramas de estados</a>.</p>
+<h2 id="visao-de-processos">Visão de Processos</h2>
+<p>&emsp;&emsp;A visão de Processo evidencia as ações processadas pelo sistema em tempo de execução, além da alocação de objetos e classes para tarefas. É uma visão que permite a visualização das partes dinâmicas do sistema, onde é evidenciado os processos, as threads e as interações entre elas. </p>
+<h3 id="diagrama-de-sequencia">Diagrama de Sequência</h3>
+<p>&emsp;&emsp;O diagrama de sequência é uma solução dinâmica de modelagem em UML bastante utilizada para demonstrar um conjunto de interações entre os componentes de um sistema. Em nossa implementação utilizamos de alguns <a href="../../modelagem/modelagem-dinamica/diagrama-de-sequencia/">diagramas de sequência</a> para mostrar alguns processos de nosso sistema.</p>
+<h4 id="administrador-cadastrando-professor"><a href="../../../base/requisitos/modelagem/lexicos/#lexico-administrador">Administrador</a> cadastrando <a href="../../../base/requisitos/modelagem/lexicos/#lexico-professor">Professor</a></h4>
+<p><img alt="Administrador cadastrando professor" src="../../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-admin-cadastrando-prof.png" />
+<center><a href="../../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-admin-cadastrando-prof.png">Figura 03: Diagrama de sequência do administrador cadastrando professor</a></center></p>
+<h4 id="administrador-cadastrando-evento"><a href="../../../base/requisitos/modelagem/lexicos/#lexico-administrador">Administrador</a> cadastrando <a href="../../../base/requisitos/modelagem/lexicos/#lexico-evento">Evento</a></h4>
+<p><img alt="Administrador cadastrando professor" src="../../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-admin-cadastrando-evento.png" />
+<center><a href="../../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-admin-cadastrando-evento.png">Figura 04: Diagrama de sequência do administrador cadastrando evento</a></center></p>
+<h4 id="responsavel-fazendo-login"><a href="../../../base/requisitos/modelagem/lexicos/#lexico-responsavel">Responsável</a> fazendo Login</h4>
+<p><img alt="Responsável fazendo login" src="../../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-pais-responsaveis-login.png" />
+<center><a href="../../assets/imagens/diagrama-de-sequencia/Diagrama-de-sequencia-pais-responsaveis-login.png">Figura 05: Diagrama de sequência do guardian fazendo login</a></center></p>
+<h3 id="diagrama-de-atividades">Diagrama de Atividades</h3>
+<p>&emsp;&emsp;Se tratam de diagramas de comportamento UML que demonstram os fluxos de controle ou os fluxos de objetos focados na sequência e nas condições de cada um de forma a elucidar o fluxo entre as ações de uma determinada atividade.<br>
+&emsp;&emsp;Para complementar a representação da visão de processos da arquitetura, e tomando uma abordagem com ênfase no fluxo de controle de atividades, podem ser utilizados os <a href="../../modelagem/modelagem-dinamica/diagrama-de-atividades">diagramas de atividades</a> desenvolvidos anteriormente.</p>
+<h2 id="visao-de-implantacao">Visão de Implantação</h2>
+<p>&emsp;&emsp;A visão de implantação aborda a disponibilização da aplicação para uso. Dessa forma o seguinte fluxo elucida como se dá a implantação do projeto curumim:</p>
+<ul>
+<li><strong>Desenvolvimento de funcionalidade:</strong> Etapa na qual os desenvolvedores aplicam as <a href="../../base/metodologia/metodologia/">metodologias</a> de acordo com as <a href="../../politicas/">políticas</a> para criar novas funcionalidades;</li>
+<li><strong>Pull-request para a branch develop:</strong> Um pull-request do código desenvolvido é criado para a branch de desenvolvimento;</li>
+<li><strong>Build do software através de um sistema de integração contínua:</strong> Utilizando o GitHub, é realizado o build da branch da nova funcionalidade para certificar a consistência do código da aplicação na branch de desenvolvimeto da nova funcionalidade;</li>
+<li><strong>Realização de revisão por pares:</strong> Os revisores avaliam se o que foi desenvolvido atendem aos critérios de aceitação e está dentro dos padrões;</li>
+<li><strong>Mesclagem do código na branch develop:</strong> É realizada a mesclagem do código desenvolvido com o da branch de desenvolvimento;</li>
+<li><strong>Deploy do software para o ambiente de homologação:</strong> É realizado o deploy da branch de desenvolvimento para o ambiente de homologação;</li>
+<li><strong>Fechamento de Release:</strong> É criada uma branch release para o fechamento de uma versão da aplicação;</li>
+<li><strong>Mesclagem do código na branch main:</strong> A branch release é mesclada na branch main e, caso tenha ajustes, na de desenvolvimento;</li>
+<li><strong>Deploy do software para o ambiente de produção:</strong> É realizado o deploy da branch main para o ambiente de produção;</li>
+</ul>
+<p>&emsp;&emsp;Para tal implantação, são utilizadas as ferramentas <strong>Docker</strong> para padronização de recursos e empacotamento do software, <strong>GitHub</strong> para controle de versões e realização de rotinas CI/CD e <strong>Heroku</strong> para deploy da aplicação em homologação e produção.</p>
+<h2 id="visao-de-implementacao">Visão de Implementação</h2>
+<p>&emsp;&emsp;A visão de implementação se caracteriza como uma das cinco visões de arquitetura de um sistema e sua finalidade é captar as decisões de arquitetura tomadas para a implementação, buscando descrever como os artefatos de desenvolvimento estão organizados.<br>
+&emsp;&emsp;Geralmente, a visão de implementação possui:</p>
+<ul>
+<li>Uma enumeração de todos os subsistemas no modelo de implementação;</li>
+<li>Diagramas de componentes que ilustram os subsistemas, organizados em camadas e hierarquias;</li>
+<li>Ilustrações de dependências de importação entre subsistemas;</li>
+</ul>
+<p>&emsp;&emsp;Sendo considerado extremamente útil em questões relacionadas a atribuição do trabalho de implementação a indivíduos e equipes, na avaliação da quantidade de código que será excluído, modificado ou desenvolvido e também para discussões a respeito de reutilização em larga escala e estratégias de release.</p>
+<h3 id="padrao-mvc">Padrão MVC</h3>
+<h4 id="camadas">Camadas</h4>
+<ul>
+<li>Model: Essa camada na aplicação Curumim tem a responsabilidade de encapsular estados da aplicação, assim é possível tratar modificações de estado e notificações de estado;</li>
+<li>View: Essa segunda camada tem como objetivo apresentar a interface para o <a href="../../base/requisitos/modelagem/lexicos/#lexico-usuario">usuário</a>, na aplicação Curumim ela é a principal responsável por mostrar informações da Model para a interface do cliente;</li>
+<li>Controller: Essa é camada que faz o intermédio entre as camadas View e Model, assim mapeando as ações do <a href="../../base/requisitos/modelagem/lexicos/#lexico-usuario">usuário</a> na view para possíveis mudanças na Model;</li>
+</ul>
+<h4 id="conclusao">Conclusão</h4>
+<p>&emsp;&emsp;Algumas literaturas ao falar do padrão MVC acabam abordando a aplicabilidade dessa arquitetura principalmente a aplicações web, visto sua facilidade e flexibilidade de interação e visualização de dados, além disso a arquitetura MVC trás alguns padrões já conhecidos como os:</p>
+<ul>
+<li><a href="../../padroes-de-projeto/grasp/">GRASPs(Indireções e Controller)</a></li>
+<li><a href="../../padroes-de-projeto/gofs-estruturais/">GoFs Estruturais (Facade)</a></li>
+<li><a href="../../padroes-de-projeto/gofs-comportamentais/">GoFs Comportamentais (Observer)</a></li>
+</ul>
+<p>&emsp;&emsp; Essa foi a principal arquitetura aplicada no projeto Curumim, visto sua eficiência e simplicidade, e por fim trazendo um código mais manutenível <a href="#bibliografia">[2]</a>. </p>
+<h3 id="api">API</h3>
+<p>&emsp;&emsp;API pode ser definida como um conjunto de protocolos e definições usados na integração e no desenvolvimento de softwares de aplicações, permitindo que uma solução ou serviço se comunique com outros produtos e serviços sem haver a necessidade de saber como eles foram implementados, simplificando assim o desenvolvimento de aplicações.<br>
+&emsp;&emsp;No projeto Curumim o objetivo da divisão em camadas é possibilitar a reutilização da solução para diversas interfaces. Especificamente no <a href="https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim_Back-end">back-end</a> da aplicação a estrutura foi dividida em três componentes principais:<br></p>
+<ul>
+<li>Models: Assim como explicado no item anterior, tem a responsabilidade de encapsular os estados da aplicação;</li>
+<li>Controllers: Que realiza a ponte entre as Model e o cliente que consome a API;</li>
+<li>Middlewares: Que são representados por uma pipeline de processamentos, com funções pré-definidas que são handles, units e filters;</li>
+<li>Utils: Que auxilia a implementação dos padrões de projetos provendo interfaces e classes mais complementares.</li>
+</ul>
+<p>&emsp;&emsp;O <a href="../../modelagem/modelagem-estatica/diagrama-de-componentes">diagrama de componentes</a> ilustra bem as camadas e subcamadas da aplicação. Já para um melhor entendimento de cada subcamada se faz necessário uma análise do <a href="../../modelagem/modelagem-estatica/diagrama-de-classes">diagrama de classes</a> o qual mostra com mais detalhes os métodos e as relações entre as classes contidas nas camadas de Model e Controller.</p>
+<!-- ### Diagrama de camadas
+
+&emsp;&emsp;Para melhor visualização das camadas da aplicação, foi elaborado um diagrama, composto pelas três principais camadas da aplicação:
+
+- Client: Representa o [Front-end](../../base/requisitos/modelagem/lexicos/#front-end) , sendo implementado utilizando o React js;
+- API: Representa o [Back-end](../../base/requisitos/modelagem/lexicos/#back-end), sendo implementado em Node js e utilizando o Express js;
+- Database: Representa o banco de dados, utilizando o Postgresql;
+
+<center>
+![](../assets/imagens/arquitetura-reutilizacao/Diagrama-de-camadas.png)<br>
+[Figura 1 - Diagrama de camadas](../assets/imagens/arquitetura-reutilizacao/Diagrama-de-camadas.png)
+</center>
+ -->
+<h2 id="visao-de-dados">Visão de Dados</h2>
+<p>&emsp;&emsp;Enquanto a <a href="#visao-logica">visão lógica</a> descreve como o sistema é estruturado, a visão de dados vem com o objetivo de se tratar de uma especialização nessa mesma visão lógica. A ideia principal é que essa visão seja utilizada se a persistência for um aspecto realmente significativo do sistema e se a conversão do modelo de design — para o modelo de dados — não for feita automaticamente pelos mecanimos de persistência. É possível considerar diversas visões, mas nem todas são relevantes, e a visão de dados muitas vezes é considerada uma dessas opcionais.</p>
+<p>&emsp;&emsp;Tratamos dessa visão quando o sistema tem camadas de persistência, visto que também ela contém um detalhamento do banco de dados. Um exemplo utilizado pelo projeto <a href="https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim">Curumim</a> é o modelo conceitual (<a href="../../modelagem/modelagem-estatica/MER/">MER</a>), o Modelo de Entidade-Relacionamento. Um outro que podemos utilizar como referência nessa visão de dados, é justamente o <a href="../../modelagem/modelagem-estatica/DER/">DER</a>,  o diagrama de Entidade-Relacionamento, que aborda uma forma de representar graficamente a modelagem do banco de dados. A figura abaixo representa o DER Conceitual.</p>
+<p><img alt="DER" src="../../assets/imagens/DER/der-conceitual-curumim.png" />
+<center><a href="../../assets/imagens/DER/der-conceitual-curumim.png">Figura 06: Diagrama Conceitual - DER</a></center></p>
+<p>&emsp;&emsp;Nota-se também que podemos citar o <a href="../../modelagem/modelagem-estatica/diagrama-logico-bd/">Diagrama Lógico</a> ao entendê-lo como uma descrição de um banco de dados, se diferenciando do <a href="../../modelagem/modelagem-estatica/DER/">DER</a> por ter um nível de abstração menor.</p>
+<p>&emsp;&emsp;Por fim, parte dessa persistência se encaixa no nosso projeto no <a href="https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim_Front-end">Front-End</a> quando o <a href="../../base/requisitos/modelagem/lexicos/#lexico-usuario">usuário</a>, após o login, fica com acesso contínuo às suas funções. Para detalhar mais,
+basicamente um "LocalStorage" é acionado, afim de conseguir identificar um "token", que é uma identificação individual dos <a href="../../base/requisitos/modelagem/lexicos/#lexico-usuario">usuários</a>. Caso esse "token" seja identificado e realmente exista, a aplicação apresentará uma tela ao <a href="../../base/requisitos/modelagem/lexicos/#lexico-usuario">usuário</a>, caso não, o <a href="../../base/requisitos/modelagem/lexicos/#lexico-usuario">usuário</a> é redirecionado para a tela de Login. Nesse caso, a persistência é um aspecto realmente significativo.</p>
+<h2 id="tamanho-e-desempenho">Tamanho e Desempenho</h2>
+<p>&emsp;&emsp;Levando em conta seus repositórios, ambos juntos dão menos que 1GB, sendo que não é necessária a instalação de nenhum outro programa para seu funcionamento.
+&emsp;&emsp;Sobre o desempenho da aplicação, para que seja possível seu funcionamento, é necessário conexão com a internet e por ser uma PWA, a opção de dispositivo é flexível, podendo ser um dispositivo mobile ou um computador. Além disso, a aplicação deve suportar muitas conexões simultâneas, por se tratar de uma plataforma que deve ser usada diariamente por um grupo de pessoas.</p>
+<h2 id="qualidade">Qualidade</h2>
+<p>&emsp;&emsp;A arquitetura adotada pelo grupo para construção da aplicação utiliza o padrão MVC, possibilitando a divisão dos principais componentes do projeto em camadas e subcamadas bem definidas, conferindo uma maior organização ao projeto e facilitando o desenvolvimento pelos diferentes integrantes do grupo. Foram seguidos alguns padrões <a href="../../padroes-de-projeto/grasp/">GRASP</a> como o <a href="../../padroes-de-projeto/grasp/">Controlador</a>, o <a href="../../padroes-de-projeto/grasp/">Invenção pura</a> e o <a href="../../padroes-de-projeto/grasp/">Polimorfismo</a>. Para a manutenção, portabilidade e futuras features foram utilizados padrões criacionais entre eles o <a href="../../padroes-de-projeto/gofs-criacionais/">Factory Method</a>, o <a href="../../padroes-de-projeto/gofs-criacionais/">Abstract Factory</a> e o <a href="../../padroes-de-projeto/gofs-criacionais/">Singleton</a>. Além de serem seguidos alguns padrões comportamentais capazes de trazer confiabilidade tais como o <a href="../../padroes-de-projeto/gofs-comportamentais/">Command</a>, o <a href="../../padroes-de-projeto/gofs-comportamentais/">Iterator</a> e o <a href="../../padroes-de-projeto/gofs-comportamentais/">Observer</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Critérios</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Portabilidade</td>
+<td>Em relação a portabilidade o projeto foi baseado em divisões entre o <a href="../../base/requisitos/modelagem/lexicos/#front-end">Front-end</a> e o <a href="../../base/requisitos/modelagem/lexicos/#Back-end">Back-end</a>, sendo o <a href="../../base/requisitos/modelagem/lexicos/#Back-end">Back-end</a> nossa API, onde se localizar as principais features, pensando nesse modelo, qualquer outra stack pode consumir essa API, assim garantindo a portabilidade para vários <a href="../../base/requisitos/modelagem/lexicos/#front-end">Front-end</a> diferentes.</td>
+</tr>
+<tr>
+<td>Segurança</td>
+<td>Na aplicação da API do Curumim foram adicionados alguns gatilhos que melhoram nossa segurança, principalmente no banco de dados, como a biblioteca bcrypt, além disso usamos um sistema de autenticação que usa token para verificações, usando o JWT.</td>
+</tr>
+<tr>
+<td>Usabilidade</td>
+<td>Para a aplicação Curumim foi escolhido algumas stack bem utilizadas no mercado de trabalho para construção de aplicação web, focamos em uma linguagem de programação que foi o javascript com auxílios de bibliotecas e frameworks.</td>
+</tr>
+<tr>
+<td>Eficiência</td>
+<td>Utilizamos padrões de projeto principalmente na API resolvendo um problema de design existente e a escolha por WebApp permite uma fácil execução por parte dos <a href="../../base/requisitos/modelagem/lexicos/#lexico-usuario">usuários</a>.</td>
+</tr>
+<tr>
+<td>Manutenibilidade</td>
+<td>Foram utilizadas ferramentas populares no mercado o que tanto facilitou no desenvolvimento do projeto quanto poderá facilitar futuras manutenções uma vez que existe uma grande comunidade de desenvolvedores, além de como já citado terem sido empregados padrões de projeto que facilitam por terem caracteristicas como o alto desacoplamento.</td>
+</tr>
+</tbody>
+</table>
+<p>&emsp;&emsp;Para ter uma melhor visão dos principais requisitos não funcionais do projeto tem os documentos <a href="../../base/requisitos/modelagem/nfr-framework">NFR-FRAMEWORK</a> e a <a href="../../base/requisitos/modelagem/especificacao-suplementar">Especificação Suplementar</a>.</p>
+<h2 id="bibliografia">Bibliografia</h2>
+<blockquote>
+<ul>
+<li>[1] Visões Arquiteturais. Disponível em <a href="https://www.inf.ufpr.br/andrey/ci163/VisoesAl.pdf">https://www.inf.ufpr.br/andrey/ci163/VisoesAl.pdf</a>. Acesso em 29 set. 2021.</li>
+<li>[2] O que é MVC?. Disponível em <a href="https://www.treinaweb.com.br/blog/o-que-e-mvc">https://www.treinaweb.com.br/blog/o-que-e-mvc</a>. Acesso em 02 de out. 2021</li>
+<li>[3] UniGrade. Documento de Arquitetura de Software. Disponível em: <a href="https://ads-unigrade-2019-1.github.io/Wiki/dinamica06/DAS/#7-visao-da-implementacao">https://ads-unigrade-2019-1.github.io/Wiki/dinamica06/DAS/#7-visao-da-implementacao</a>. Acesso em 02 de out. 2021</li>
+<li>[4] SERRANO,Milene; SERRANO, Maurício; CAVALCANTE, André Cruz. Arquitetura de Software deReferência para Sistemas de Informação Governamentais. In: XI Brazilian Symposium on Information System, Goiânia, Maio 26-29, 2015. Disponível em: <a href="https://sol.sbc.org.br/index.php/sbsi/article/view/5886/5784">https://sol.sbc.org.br/index.php/sbsi/article/view/5886/5784</a>. Acesso em: 04/10/2021 </li>
+<li>[5] Documento de Arquitetura de Software. Disponível em <a href="https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/guidances/guidelines/software_architecture_document_F4C93435.html">https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/guidances/guidelines/software_architecture_document_F4C93435.html</a>. Acesso em: 04 de out. de 2021.</li>
+<li>[6] Gackenheimer, Cory. Node.Js Recipes: A Problem-Solution Approach. Apress; 1ª edição, 23 out 2013. Disponível em <a href="https://books.google.com.br/books?hl=pt-BR&amp;lr=&amp;id=6VTBAQAAQBAJ&amp;oi=fnd&amp;pg=PP3&amp;dq=whats+this+node+js&amp;ots=oCJUN2cXNE&amp;sig=cTq2dgKCdbDI35etZ6WIbh1uj5U#v=onepage&amp;q=whats%20this%20node%20js&amp;f=false">https://books.google.com.br/books?hl=pt-BR&amp;lr=&amp;id=6VTBAQAAQBAJ&amp;oi=fnd&amp;pg=PP3&amp;dq=whats+this+node+js&amp;ots=oCJUN2cXNE&amp;sig=cTq2dgKCdbDI35etZ6WIbh1uj5U#v=onepage&amp;q=whats%20this%20node%20js&amp;f=false</a>. Acesso em: 14 de out. de 2021.</li>
+<li>[7] BARSOTI, N.; GIBERTONI, D. IMPACTO QUE O SEQUELIZE TRAZ PARA O DESENVOLVIMENTO DE UMA API CONSTRUÍDA EM NODE.JS COM EXPRESS.JS. Revista Interface Tecnológica, [S. l.], v. 17, n. 2, p. 231-243, 2020. DOI: 10.31510/infa.v17i2.964. Disponível em: https://revista.fatectq.edu.br/index.php/interfacetecnologica/article/view/964. Acesso em: 14 out. 2021.</li>
+<li>[8] Milani, André. PostgreSQL: guia do programador. São Paulo. Novatec, 2008. Disponível em: <a href="https://books.google.com.br/books?hl=pt-BR&amp;lr=&amp;id=eb7fXbM70F4C&amp;oi=fnd&amp;pg=PA19&amp;dq=postgresql&amp;ots=FWcgYx_Oo1&amp;sig=8Qv1Kfrdfj9Bzqz7ywREjIgBYZM#v=onepage&amp;q=postgresql&amp;f=false">https://books.google.com.br/books?hl=pt-BR&amp;lr=&amp;id=eb7fXbM70F4C&amp;oi=fnd&amp;pg=PA19&amp;dq=postgresql&amp;ots=FWcgYx_Oo1&amp;sig=8Qv1Kfrdfj9Bzqz7ywREjIgBYZM#v=onepage&amp;q=postgresql&amp;f=false</a> Acesso em: 14/10/2021.</li>
+<li>[9] Sequelize ORG. Documentação do Sequelize. Disponível em: <a href="https://sequelize.org/">https://sequelize.org/</a>. Acesso em: 14/10/2021</li>
+<li>[10] Documento de Arquitetura de Software. Disponível em <a href="https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/guidances/guidelines/software_architecture_document_F4C93435.html">https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/guidances/guidelines/software_architecture_document_F4C93435.html</a>. Acesso em: 04 de out. de 2021.    </li>
+<li>[11] Videoaulas e materiais complementares presentes no moodle da disciplina Arquitetura e Desenho de Software. Disponível em <a href="https://aprender3.unb.br/course/view.php?id=8603">https://aprender3.unb.br/course/view.php?id=8603</a>. Acesso em: 14 de out. 2021.  </li>
+<li>[12] "Diretriz. Visão Arquitetural". Disponível em <a href="https://www.trt9.jus.br/pds/pdstrt9/guidances/guidelines/architectural_view_FF6EDA37.html">https://www.trt9.jus.br/pds/pdstrt9/guidances/guidelines/architectural_view_FF6EDA37.html</a>. Acesso em 14 de out. 2021.</li>
+<li>[13] "Artefato: Documento de Arquitetura de Software". Disponível em <a href="https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/workproducts/rup_software_architecture_document_C367485C.html?nodeId=8d5440e6">https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/workproducts/rup_software_architecture_document_C367485C.html?nodeId=8d5440e6</a>. Acesso em 14 de out. 2021.</li>
+</ul>
+</blockquote>
+<h2 id="versionamento">Versionamento</h2>
+<table>
+<thead>
+<tr>
+<th align="center">Versão</th>
+<th>Data</th>
+<th>Modificação</th>
+<th>Autor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1.0</td>
+<td>29/09/2021</td>
+<td>Abertura do documento e inclusão da introdução</td>
+<td>Daniel Porto</td>
+</tr>
+<tr>
+<td align="center">1.1</td>
+<td>02/10/2021</td>
+<td>Criando tópico de visão de implementação</td>
+<td>Francisco Ferreira e Nilo Mendonça</td>
+</tr>
+<tr>
+<td align="center">1.2</td>
+<td>03/10/2021</td>
+<td>Criação da estrutura Visão Lógica</td>
+<td>Bruno Félix e Edson Soares</td>
+</tr>
+<tr>
+<td align="center">1.3</td>
+<td>04/10/2021</td>
+<td>Adição da Visão de Processos</td>
+<td>João Pedro, Enzo Gabriel</td>
+</tr>
+<tr>
+<td align="center">1.4</td>
+<td>05/10/2021</td>
+<td>Argumentação da Visão Lógica (Intro/backend)</td>
+<td>Bruno Félix e Edson Soares</td>
+</tr>
+<tr>
+<td align="center">1.5</td>
+<td>05/10/2021</td>
+<td>Inserção do tópico Front End da Visão Lógica</td>
+<td>Bruno Félix</td>
+</tr>
+<tr>
+<td align="center">1.6</td>
+<td>05/10/2021</td>
+<td>Adição da visão dos casos de uso</td>
+<td>Mateus O. Patrício e Gabriel Bonifácio</td>
+</tr>
+<tr>
+<td align="center">1.7</td>
+<td>08/10/2021</td>
+<td>Ajustes das visões de casos de uso, lógica, de processos e de implementação</td>
+<td>Daniel Porto</td>
+</tr>
+<tr>
+<td align="center">1.8</td>
+<td>10/10/2021</td>
+<td>Criando tópico de qualidade</td>
+<td>Francisco Ferreira e Nilo Mendonça</td>
+</tr>
+<tr>
+<td align="center">1.9</td>
+<td>14/10/2021</td>
+<td>Representação da arquitetura: Backend, Banco de Dados, Metas e Restrições</td>
+<td>Edson Soares</td>
+</tr>
+<tr>
+<td align="center">2.0</td>
+<td>14/10/2021</td>
+<td>Representação da arquitetura: Frontend</td>
+<td>Bruno Félix</td>
+</tr>
+<tr>
+<td align="center">2.1</td>
+<td>14/10/2021</td>
+<td>Revisão do tópico de qualidade</td>
+<td>Daniel Porto, Mateus O. Patrício e Gabriel Bonifácio</td>
+</tr>
+<tr>
+<td align="center">2.2</td>
+<td>14/10/2021</td>
+<td>Criação do tópico Visão de Dados</td>
+<td>Mateus O. Patrício e Gabriel Bonifácio</td>
+</tr>
+<tr>
+<td align="center">2.3</td>
+<td>14/10/2021</td>
+<td>Adição da visão de implantação e atualização do diagrama de pacotes</td>
+<td>Daniel Porto</td>
+</tr>
+<tr>
+<td align="center">2.4</td>
+<td>15/10/2021</td>
+<td>Criação do tamanho e desempenho</td>
+<td>João Pedro, Enzo Gabriel</td>
+</tr>
+</tbody>
+</table>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Rodapé">
+      
+        
+        <a href="../../apresentacoes/apresentacoes_entrega3/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Apresentação" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              Apresentação
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../reutilizacao/" class="md-footer__link md-footer__link--next" aria-label="Próximo: Reutilização de Software" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Próximo
+              </span>
+              Reutilização de Software
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        
+          Made with
+          <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+            Material for MkDocs
+          </a>
+        
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs"], "translations": {"clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "search.config.lang": "pt", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Buscar", "search.result.placeholder": "Digite para iniciar a busca", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.term.missing": "Ausente", "select.version.title": "Selecione a vers\u00e3o"}, "search": "../../assets/javascripts/workers/search.8397ff9e.min.js", "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.f89c2efe.min.js"></script>
+      
+    
+  </body>
+</html>

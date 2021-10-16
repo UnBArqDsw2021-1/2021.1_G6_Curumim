@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap');
+
+p {
+	text-align: justify;
+}
+
+p img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+body{
+  color: #000000;
+  background-color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container-img {
+    position: relative;
+    width: 50%;
+}
+
+.row {
+    display: flex;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 80%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-radius: 25%;
+    border: 2px solid black;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container-img:hover .image {
+    opacity: 0.3;
+}
+
+.container-img:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    color: black;
+    width: auto; 
+    text-decoration: none;
+}
+
+.rotulo-extra{
+    background-color: #3f6ec6;
+    color:#ffffff;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 20px;
+}
+
+.img-guia-de-estilo{
+    width: 120px;
+    height: auto;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+
+.img-guia-de-estilo-tipografia{
+    width: 270px;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+.img-guia-de-estilo-topo-tela{
+    width: 400px;
+    height: auto;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+
+.img-guia-de-estilo-botao{
+    width: 250px;
+    height: auto;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
