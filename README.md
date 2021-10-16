@@ -135,6 +135,37 @@ Demais diretrizes sobre a organização da wiki constam no Moodle Aprender 3.
 
 <br>
 
+## Vídeos Terceira Entrega: DSW(Modelagem)
+
+- [Vídeo 1 da quarta entrega: Documento de Arquitetura](https://www.youtube.com/watch?v=U9OZuPLXc9k)
+- [Vídeo 2 da quarta entrega: Reutilização de Software](https://www.youtube.com/watch?v=o6Stv2kmE1Q)
+
+## Wiki do Projeto - Quarta Entrega:
+
+- Imagem 11 - Wiki - Documento de Arquitetura:
+
+![Wiki](docs/assets/imagens/sobre/entrega4/img1.png)
+<br>
+[Figura 11: Wiki - Documento de Arquitetura](docs/assets/imagens/sobre/entrega4/img1.png)
+
+<br>
+
+ Imagem 12 - Wiki - Diagrama de Pacotes:
+
+![Wiki](docs/assets/imagens/sobre/entrega4/img2.png)
+<br>
+[Figura 12: Wiki - Diagrama de Pacotes](docs/assets/imagens/sobre/entrega4/img2.png)
+
+<br>
+
+ Imagem 13 - Wiki - Reutilização de Software:
+
+![Wiki](docs/assets/imagens/sobre/entrega4/img3.png)
+<br>
+[Figura 13: Wiki - Reutilização de Software](docs/assets/imagens/sobre/entrega4/img3.png)
+
+<br>
+
 <!-- ## Screenshots Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
 Adicione 2 ou mais screenshots do projeto em termos de artefatos da Terceira Entrega.
 
